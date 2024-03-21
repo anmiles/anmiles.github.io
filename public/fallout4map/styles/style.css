@@ -1,0 +1,515 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body, #map {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@font-face {
+    font-family: icomoon;
+    src: url(../fonts/icomoon.eot);
+    src: url(../fonts/icomoon.eot#iefix) format("embedded-opentype"),
+        url(../fonts/icomoon.ttf) format("truetype"),
+        url(../fonts/icomoon.woff) format("woff"),
+        url(../fonts/icomoon.svg#icomoon) format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input[type="checkbox"] {
+    transform: scale(1.4);
+    cursor: pointer;
+    margin-right: 12px;
+}
+
+input[type="checkbox"]:checked {
+    filter: saturate(0) invert(1) brightness(1.5);
+}
+
+.leaflet-control-container > .leaflet-top.leaflet-left {
+    display: flex;
+    flex-direction: row;
+}
+
+.leaflet-control-container > .leaflet-top.leaflet-right {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.container,
+.leaflet-touch .leaflet-bar {
+    border: 2px solid #333333;
+    background-color: #aaaaaa;
+}
+
+.leaflet-bar a,
+.leaflet-bar a:hover {
+    background-color: transparent;
+    border-bottom: 2px solid #333333;
+}
+
+.leaflet-bar a:last-child,
+.leaflet-bar a:last-child:hover {
+    border-bottom: none;
+}
+
+.container {
+    font: 12px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+}
+
+.control {
+    padding: 0 8px;
+    background-color: #cccccc;
+}
+
+.control.clickable {
+    cursor: pointer;
+    background-color: #aaaaaa;
+}
+
+.control.clickable:hover,
+.leaflet-bar:hover {
+    background-color: #cccccc;
+}
+
+.control > * {
+    display: block;
+    color: #000000 !important;
+    text-decoration: none;
+    line-height: 30px;
+    text-align: center;
+    position: relative;
+    top: 1px;
+}
+
+.control input[type="checkbox"] {
+    top: 0;
+    margin-right: 8px;
+}
+
+.leaflet-location-pane {
+	z-index: 604;
+}
+
+.leaflet-collectible-pane {
+	z-index: 603;
+}
+
+.leaflet-pickup-pane {
+	z-index: 602;
+}
+
+.leaflet-unmarked-pane {
+	z-index: 601;
+}
+
+.leaflet-div-icon {
+    background: none;
+    border: none;
+}
+
+.leaflet-popup-content h3 {
+    font-size: 20px;
+}
+
+.leaflet-popup-content h3 .title {
+    margin-right: 0.5em;
+}
+
+.leaflet-popup-content .permalink {
+    text-decoration: none;
+}
+
+.leaflet-popup-content input[type="text"] {
+    width: 100%;
+}
+
+.leaflet-popup-content .id {
+    color: grey;
+    font-size: 14px;
+    padding-left: 1em;
+}
+
+.leaflet-popup-content .button {
+    display: block;
+    cursor: pointer;
+    padding: 0 8px;
+    margin-right: 4px;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.leaflet-popup-content .button.new {
+    background: darkgreen;
+    color: lime;
+}
+
+.leaflet-popup-content .button.visited {
+    background: gray;
+    color: white;
+    display: none;
+}
+
+.leaflet-popup-content .visited .button.new {
+    display: none;
+}
+
+.leaflet-popup-content .visited .button.visited {
+    display: block;
+}
+
+.leaflet-popup-content .button.clone {
+    background: lightblue;
+}
+
+.leaflet-popup-content .button.delete {
+    background: brown;
+    color: yellow;
+}
+
+.icon.visible {
+    display: block;
+}
+
+.icon.visited {
+    opacity: 0.4;
+}
+
+.icon-marker {
+    position: relative;
+    width: 0;
+    height: 0;
+    display: none;
+}
+
+.icon-marker:before,
+.icon-marker:after {
+    position: absolute;
+    left: -16px;
+    bottom: 0;
+    width: 32px;
+    height: 42px;
+}
+
+.icon-marker:before {
+    content: '';
+    background: url(../images/markers.png) no-repeat;
+}
+
+.icon-bobblehead:before {
+    background-position: center -42px;
+}
+
+.icon-unique:before, 
+.icon-pickup:before {
+    background-position: center -84px;
+}
+
+.icon-location:before {
+    background-position: center -126px;
+}
+
+.icon-unmarked:before {
+    background-position: center -168px;
+}
+
+.icon:after {
+    font-family: icomoon;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    font-size: 20px;
+}
+
+.icon-marker:after {
+    line-height: 34px;
+}
+
+.icon:after{content:"\e919"}
+.icon-bobblehead:after{content:"\e906"}
+.icon-building:after{content:"\e909"}
+.icon-camper:after{content:"\e91b"}
+.icon-cave:after{content:"\e90c"}
+.icon-church:after{content:"\e90a"}
+.icon-encampment:after{content:"\e921"}
+.icon-factory:after{content:"\e90d"}
+.icon-fusion-core:after{content:"\e90f"}
+.icon-holotape:after{content:"\e908"}
+.icon-hospital:after{content:"\e912"}
+.icon-industry:after{content:"\e910"}
+.icon-junkyard:after{content:"\e920"}
+.icon-link:after{content:"\e915"}
+.icon-metro:after{content:"\e916"}
+.icon-military-base:after{content:"\e90e"}
+.icon-mini-nuke:after{content:"\e924"}
+.icon-miscellaneous:after{content:"\e919"}
+.icon-note:after{content:"\e925"}
+.icon-nuka-cherry:after{content:"\e923"}
+.icon-nuka-cola:after{content:"\e922"}
+.icon-unmarked:after{content:"•"}
+.icon-perk-magazine:after{content:"\e907"}
+.icon-police-station:after{content:"\e917"}
+.icon-pond-lake:after{content:"\e911"}
+.icon-power-armor:after{content:"\e904"}
+.icon-primary:after{content:"\e91d"}
+.icon-quarry:after{content:"\e91c"}
+.icon-radio-tower:after{content:"\e914"}
+.icon-radioactive-area:after{content:"\e903"}
+.icon-railroad:after{content:"\e926"}
+.icon-ruins:after{content:"\e90b"}
+.icon-satellite:after{content:"\e913"}
+.icon-school:after{content:"\e918"}
+.icon-settlement:after{content:"\e905"}
+.icon-shipwreck:after{content:"\e91f"}
+.icon-town:after{content:"\e91e"}
+.icon-unique:after{content:"\e91a"}
+.icon-vault:after,.spinner:after{content:"\e901"}
+.icon-weapon:after{content:"\e902"}
+.icon-workbench:after{content:"\e900"}
+
+.icon.type:after{ display: none }
+
+.panel {
+    position: absolute;
+    top: 54px;
+    left: 10px;
+    max-height: calc(100vh - 64px);
+    overflow-y: auto;
+    z-index: 1000;
+}
+
+.panel .section,
+.panel .sections {
+    border-top: 1px solid #606060;
+}
+
+.panel .section {
+    padding: 8px;
+}
+
+.panel .sections {
+    overflow-y: auto;
+    flex-grow: 1;
+}
+
+.panel .sections:empty {
+    display: none;
+}
+
+.panel .section:first-child {
+    border-top: none;
+}
+
+.panel p {
+    font-size: 18px;
+    margin: 0;
+    line-height: 1;
+}
+
+.panel p:first-child {
+    border-top: none;
+}
+
+.panel span.count {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+}
+
+.search .section {
+    cursor: pointer;
+    justify-content: flex-start;
+}
+
+.search .section.selected {
+    background: #bbbbbb;
+    font-weight: bold;
+}
+
+.search .input {
+    height: 48px;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.search input[type="text"] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0 8px;
+    font-size: 14px;
+    outline: none;
+    border: none;
+}
+
+.search .searchFilter {
+    position: absolute;
+}
+
+.search h3 {
+    margin: 0;
+    line-height: 32px;
+    padding-left: 0.5em;
+    font-weight: inherit;
+}
+
+.search .icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.search .icon:after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.search .icon-unmarked:after {
+    margin-top: -2px;
+}
+
+.search .icon-collectible {
+    background: #587799;
+}
+
+.search .icon-bobblehead {
+    background: #f0d100;
+}
+
+.search .icon-pickup {
+    background: #d45243;
+}
+
+.search .icon-location {
+    background: #21bc23;
+}
+
+.search .icon-unmarked {
+    background: #78297f;
+}
+
+.search .input .icon {
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    width: auto;
+    flex-direction: row-reverse;
+    border-radius: 4px;
+    padding: 0 8px;
+}
+
+.search .input .icon:after {
+    position: static;
+    transform: none;
+    margin-right: 8px;
+}
+
+.search .input .icon.filter {
+    background: #a0a0a0;
+}
+
+.search .input .icon.icon-all {
+    display: none;
+}
+
+.filter ul {
+    margin: 1em 0 0 0;
+    padding: 0;
+    list-style-type: none;
+    column-count: 2;
+    font-size: 14px;
+}
+
+.filter ul:empty {
+    display: none;
+}
+
+.filter .type:last-child ul {
+    display: none;
+}
+
+.filter li {
+    white-space: nowrap;
+    justify-content: flex-start;
+}
+
+.filter .icon {
+    width: 16px;
+    margin-right: 8px;
+    text-align: center;
+}
+
+.filter .icon:after {
+    font-size: 16px;
+}
+
+.filter label {
+    cursor: pointer;
+    position: relative;
+    top: 1px;
+}
+
+.filter input[type="checkbox"]:checked {
+    filter: saturate(1) invert(1) brightness(1.5);
+}
+
+.filter input[type="checkbox"]#all:checked {
+    filter: saturate(0) invert(1) brightness(1.5);
+}
+
+.filter input[type="checkbox"]#bobblehead:checked {
+    filter: saturate(1) invert(1) brightness(1.5) hue-rotate(187deg);
+}
+
+.filter .type.collectible {
+    filter: hue-rotate(179deg);
+}
+
+.filter .type.pickup {
+    filter: hue-rotate(301deg);
+}
+
+.filter .type.location {
+    filter: hue-rotate(59deg);
+}
+
+.filter .type.unmarked {
+    filter: hue-rotate(205deg);
+}
+
+.control.clickable.underConstruction {
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: #ffb080;
+    transition: opacity 1s;
+}
+
+.control.clickable.underConstruction.hidden {
+    opacity: 0;
+}

@@ -1,0 +1,85 @@
+﻿<!doctype html>
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+<title>Сколько холодной воды нужно добавить к кипятку, чтобы заварить улун?</title>
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400italic,700,700italic&subset=latin,cyrillic-ext,cyrillic" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="style.css?v1" type="text/css">
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<!--<script src="https://cdn.jsdelivr.net/npm/vue"></script>-->
+</head>
+
+<body>
+
+<table id="app">
+    <tr>
+        <td colspan="2"><h1>Расчёт температуры заваривания улуна</h1></td>
+    </tr>
+    <tr>
+        <td><label for="tHot">Температура кипятка, °C</label></td>
+        <td><input name="tHot" type="number" v-model="tHot" /></td>
+    </tr>
+    <tr>
+        <td><label for="tCold">Температура холодной воды, °C</label></td>
+        <td><input name="tCold" type="number" v-model="tCold" /></td>
+    </tr>
+    <tr>
+        <td><label for="tFinal">Температура финальная, °C</label></td>
+        <td><input name="tFinal" type="number" v-model="tFinal" /></td>
+    </tr>
+    <tr>
+        <td><label for="vFinal">Объём кружки, мл</label></td>
+        <td><input type="number" name="vFinal" v-model="vFinal" value="200" /></td>
+    </tr>
+    <tr>
+        <td><label for="vCold"><b>Объём холодной воды, мл</b></label></td>
+        <td>{{vCold}}</td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <ol id="recipe">
+                <li>Взять ёмкость на {{vFinal}}мл.</li>
+                <li>Влить {{vCold}}мл холодной воды ({{tCold}}°C).</li>
+                <li>Долить доверху кипятком ({{tHot}}°C).</li>
+                <li>В эту смесь ({{tFinal}}°C) всыпать улун.</li>
+                <li>Накрыть крышкой и подождать 5 мин.</li>
+            </ol>
+            <ul>
+                <li><i>Улун, заваренный в 75°C,<br />максимально сочный, но мягкий</i></li>
+                <li><i>Улун, заваренный в 80°C,<br />отлично сочетается с молоком</i></li>
+            </ul>
+        </td>
+    </tr>
+</table>
+
+<script type="text/javascript">
+var app = new Vue({
+    el: '#app',
+    data: {
+        tHot: 90,
+        tCold: 20,
+        tFinal: 75,
+        vFinal: 200
+    },
+    computed: {
+        vCold: function () {
+            return Math.floor(((this.tFinal - this.tHot) / (this.tCold - this.tHot)) * this.vFinal);
+        }
+    }
+});
+</script>
+
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-92540327-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-92540327-1');
+</script>
+
+</body>
+</html>

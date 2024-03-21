@@ -1,0 +1,16 @@
+
+{
+	"name": "Scanner",
+	"id": "scanner",
+	"start_url": ".",
+	"background_color": "#001926",
+	"theme_color": "#00475f",
+	"display": "standalone",
+	"icons": [
+		{
+			"src": "preloader.png",
+			"sizes": "324x324",
+			"type": "image/png"
+		}
+	]
+}

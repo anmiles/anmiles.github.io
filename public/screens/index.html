@@ -1,0 +1,190 @@
+<!doctype html>
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Расчёт размера экрана телефона</title>
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400italic,700,700italic&subset=latin,cyrillic-ext,cyrillic" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="style.css" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+</head>
+
+<body>
+
+<div id="main">
+    <div id="inner">
+        <div id="block">
+            <div id="holder"></div>
+            <div id="canvas"></div>
+            <br clear="all" />
+            <input type="button" value="+" onclick="addPhone();" />
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+
+var json = {};
+
+function addPhone(title, data)
+{
+    data = data || ['', '', '', '', ''];
+    title = title || '';
+    var div = $('<div />');
+    div.append('<div class="line"><form id="form' + Math.random().toString().substring(2) + '">Телефон <div class="input wide"><input type="text" name="pTitle" value="' + title + '" /></div> размером <div class="input"><input type="text" name="pWidth" size="3" value="' + data[0] + '" /></div> на <div class="input"><input type="text" name="pHeight" size="3" value="' + data[1] + '" /></div> мм. с экраном <div class="input"><input type="text" name="sDiagonal" size="2" value="' + data[2] + '" /></div> дюймов и разрешением <div class="input"><input type="text" name="sWidth" size="3" value="' + data[3] + '" /></div> на <div class="input"><input type="text" name="sHeight" size="3" value="' + data[4] + '" /></div> пикселей.&nbsp;<input type="button" name="button" value="Показать" onclick="showPhone(this);"></form></div>');
+    $('#holder').append(div);
+    
+    if (title)
+    {
+        div.find('input[type=button]').click();
+    }
+    else
+    {
+        div.find('input[type=text]').keypress(inputKeyPress).first().focus();
+    }
+}
+
+function checkField(form, name, parser)
+{
+    var input = form.elements[name];
+    var val = parser(input.value);
+    
+    if (isNaN(val))
+    {
+        $(input).animate({'background-color': '#ff8080'}, 100, function(){ $(this).removeAttr('style'); });
+        return null;
+    }
+    
+    return val;
+}
+
+function showPhone()
+{
+    var form = arguments[0].form;
+
+    var pWidth = checkField(form, 'pWidth', parseInt);
+    var pHeight = checkField(form, 'pHeight', parseInt);
+    var sDiagonal = checkField(form, 'sDiagonal', parseFloat);
+    var sWidth = checkField(form, 'sWidth', parseInt);
+    var sHeight = checkField(form, 'sHeight', parseInt);
+    var pTitle = form.elements.pTitle.value;
+    
+    if (!pWidth || !pHeight || !sDiagonal || !sWidth || !sHeight)
+    {
+        return;
+    }
+    
+    json[encodeURI(pTitle)] = [pWidth, pHeight, sDiagonal, sWidth, sHeight];
+    location.hash = JSON.stringify(json).replace(/\"/g, "'");
+    
+    if (form.button.value == 'Скрыть')
+    {
+        form.button.value = 'Показать';
+        hidePhone(form.id);
+    }
+    else
+    {
+        form.button.value = 'Скрыть';
+        buildPhone(form.id, pWidth, pHeight, pTitle, sDiagonal, sWidth, sHeight);
+    }
+}
+
+function buildPhone(id, pWidth, pHeight, pTitle, sDiagonal, sWidth, sHeight)
+{
+    var phone = $('#phone' + id);
+    
+    if (!phone.length)
+    {
+        phone = $('<div />');
+        phone.addClass('phone');
+        phone.attr('id', 'phone' + id);
+        $('#canvas').append(phone);
+    }
+    
+    phone.html('');
+    
+    var inner = $('<div />');
+    inner.addClass('inner');
+    phone.append(inner);
+
+    var title = $('<div />');
+    title.addClass('title');
+    phone.append(title);
+        
+    var diagonal = Math.sqrt(sHeight * sHeight + sWidth * sWidth);
+    var rWidth = sWidth * sDiagonal / diagonal;
+    var rHeight = sHeight * sDiagonal / diagonal;
+    
+    inner.width(rWidth + 'in');
+    inner.height(rHeight + 'in');
+
+    phone.width(pWidth + 'mm');
+    phone.height(pHeight + 'mm');
+    
+    phone.css('padding-left', (phone.width() - inner.width()) / 2);
+    phone.css('padding-right', (phone.width() - inner.width()) / 2);
+    phone.css('padding-top', (phone.height() - inner.height()) / 2);
+    phone.css('padding-bottom', (phone.height() - inner.height()) / 2);
+    phone.css('margin-left', 60 - (phone.width() - inner.width()) / 2);
+    phone.css('margin-top', 60 - (phone.height() - inner.height()) / 2);
+    phone.css('z-index', Math.floor(1000000 / Math.sqrt(pWidth * pHeight)));
+    
+    title.height((phone.height() - inner.height()) / 2);
+    title.css('line-height', ((phone.height() - inner.height()) / 2) + 'px');
+    title.text(pTitle);
+
+    phone.width(inner.width());
+    phone.height(inner.height());
+    phone.animate({'background-color': '#80ff80', 'opacity': 1}, 100, function(){ $(this).animate({'background-color': '#ffffff', 'opacity': 0.5}, 100); });
+}
+
+function hidePhone(id)
+{
+    $('#phone' + id).remove();
+}
+
+try
+{
+    json = JSON.parse(decodeURI(location.hash).replace('#', '').replace(/\'/g, '"'));
+    
+    for (var i in json)
+    {
+        if (decodeURI(i) == i && encodeURI(i) != i)
+        {
+            json[encodeURI(i)] = json[i];
+            delete json[i];
+            i = encodeURI(i);
+        }
+        
+        addPhone(decodeURI(i), json[i]);
+    }
+}
+catch(ex)
+{
+    addPhone();
+}
+
+function inputKeyPress(e)
+{
+    if (e.keyCode == 10 || e.keyCode == 13)
+    {
+        $(this).parent().parent().find('input[type=button]').click();
+    }
+}
+
+$('input[type=text]').keypress(inputKeyPress);
+</script>
+
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-92540327-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-92540327-1');
+</script>
+
+</body>
+</html>

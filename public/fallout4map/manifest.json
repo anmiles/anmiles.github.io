@@ -1,0 +1,16 @@
+
+{
+	"name": "Fallout 4 map",
+	"id": "fallout4map",
+	"start_url": ".",
+	"background_color": "#414141",
+	"theme_color": "#575757",
+	"display": "standalone",
+	"icons": [
+		{
+			"src": "../falloutmap/images/favicon-144x144.png",
+			"sizes": "144x144",
+			"type": "image/png"
+		}
+	]
+}

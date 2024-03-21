@@ -1,0 +1,16 @@
+
+{
+	"name": "Chooser",
+	"id": "chooser",
+	"start_url": ".",
+	"background_color": "#ffe814",
+	"theme_color": "#84c00c",
+	"display": "standalone",
+	"icons": [
+		{
+			"src": "favicon.png",
+			"sizes": "256x256",
+			"type": "image/png"
+		}
+	]
+}

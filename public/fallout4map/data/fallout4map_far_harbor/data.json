@@ -1,0 +1,2126 @@
+{
+	"1": {
+		"id": 1,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A0%D0%B5%D0%B7%D0%B8%D0%B4%D0%B5%D0%BD%D1%86%D0%B8%D1%8F_%D0%9D%D0%B0%D0%BA%D0%B0%D0%BD%D0%BE",
+			"en": "https://fallout.fandom.com/wiki/Nakano_residence"
+		},
+		"titles": {
+			"ru": "Резиденция Накано",
+			"en": "Nakano residence"
+		},
+		"icon": "building",
+		"coordinates": {
+			"lat": 82.8807422293373,
+			"lng": -141.36428965966053
+		}
+	},
+	"2": {
+		"id": 2,
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/Nuka-Cherry_(Fallout_4)",
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F"
+		},
+		"titles": {
+			"en": "Nuka-Cherry",
+			"ru": "Ядер-Вишня"
+		},
+		"icon": "nuka-cherry",
+		"coordinates": {
+			"lat": 82.88710433726371,
+			"lng": -138.3073443281436
+		}
+	},
+	"3": {
+		"id": 3,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%9A%D0%B0%D1%81%D1%83%D0%BC%D0%B8:_%D0%B3%D0%BE%D0%BB%D0%BE%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B8",
+			"en": "https://fallout.fandom.com/wiki/Kasumi%27s_projects"
+		},
+		"titles": {
+			"ru": "Проекты Касуми: голозаписи",
+			"en": "Kasumi's projects"
+		},
+		"icon": "holotape",
+		"coordinates": {
+			"lat": 82.34287994039181,
+			"lng": -144.0053542763329
+		}
+	},
+	"4": {
+		"id": 4,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%9A%D0%B0%D1%81%D1%83%D0%BC%D0%B8:_%D0%BA%D1%83%D1%85%D0%BD%D1%8F",
+			"en": "https://fallout.fandom.com/wiki/Kasumi%27s_projects#Kitchen"
+		},
+		"titles": {
+			"ru": "Проекты Касуми: кухня",
+			"en": "Kasumi's projects"
+		},
+		"icon": "holotape",
+		"coordinates": {
+			"lat": 82.3513788366907,
+			"lng": -141.17637706342944
+		}
+	},
+	"5": {
+		"id": 5,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%9A%D0%B0%D1%81%D1%83%D0%BC%D0%B8:_%D0%BB%D0%B0%D0%BC%D0%BF%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Kasumi%27s_projects#Lamp"
+		},
+		"titles": {
+			"ru": "Проекты Касуми: лампа",
+			"en": "Kasumi's projects"
+		},
+		"icon": "holotape",
+		"coordinates": {
+			"lat": 82.3636322599686,
+			"lng": -138.19153167220082
+		}
+	},
+	"6": {
+		"id": 6,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%9A%D0%B0%D1%81%D1%83%D0%BC%D0%B8:_%D1%80%D0%B0%D1%86%D0%B8%D1%8F",
+			"en": "https://fallout.fandom.com/wiki/Kasumi%27s_projects#Radio"
+		},
+		"titles": {
+			"ru": "Проекты Касуми: рация",
+			"en": "Kasumi's projects"
+		},
+		"icon": "holotape",
+		"coordinates": {
+			"lat": 81.82559295791607,
+			"lng": -144.1825064375078
+		}
+	},
+	"7": {
+		"id": 7,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%9A%D0%B0%D1%81%D1%83%D0%BC%D0%B8:_%D1%81%D0%BD%D1%8B",
+			"en": "https://fallout.fandom.com/wiki/Kasumi%27s_projects#Dreams"
+		},
+		"titles": {
+			"ru": "Проекты Касуми: сны",
+			"en": "Kasumi's projects"
+		},
+		"icon": "holotape",
+		"coordinates": {
+			"lat": 81.84827381221467,
+			"lng": -141.22695881511606
+		}
+	},
+	"8": {
+		"id": 8,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%9A%D0%B0%D1%81%D1%83%D0%BC%D0%B8:_%D1%82%D0%B5%D0%BB%D0%B5%D0%B2%D0%B8%D0%B7%D0%BE%D1%80",
+			"en": "https://fallout.fandom.com/wiki/Kasumi%27s_projects#Television"
+		},
+		"titles": {
+			"ru": "Проекты Касуми: телевизор",
+			"en": "Kasumi's projects"
+		},
+		"icon": "holotape",
+		"coordinates": {
+			"lat": 81.85959059898364,
+			"lng": -138.1915289906902
+		}
+	},
+	"9": {
+		"id": 9,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%9A%D0%B0%D1%81%D1%83%D0%BC%D0%B8:_%D0%BA%D0%B0%D1%87%D0%B5%D0%BB%D0%B8",
+			"en": "https://fallout.fandom.com/wiki/Kasumi%27s_projects#Swings"
+		},
+		"titles": {
+			"ru": "Проекты Касуми: качели",
+			"en": "Kasumi's projects"
+		},
+		"icon": "holotape",
+		"coordinates": {
+			"lat": 83.48298098231945,
+			"lng": -139.86900160319487
+		}
+	},
+	"10": {
+		"id": 10,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9F%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BD%D1%8F%D1%8F_%D0%B3%D0%BE%D0%BB%D0%BE%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D1%8C_%D0%9A%D0%B0%D1%81%D1%83%D0%BC%D0%B8",
+			"en": "https://fallout.fandom.com/wiki/Kasumi%27s_final_holotape"
+		},
+		"titles": {
+			"ru": "Последняя голозапись Касуми",
+			"en": "Kasumi's final holotape"
+		},
+		"icon": "holotape",
+		"coordinates": {
+			"lat": 82.2459969954341,
+			"lng": -133.95789831387947
+		}
+	},
+	"11": {
+		"id": 11,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%93%D0%BE%D0%BB%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5_%D0%BF%D0%B8%D1%81%D1%8C%D0%BC%D0%BE_%D0%9A%D0%B0%D1%81%D1%83%D0%BC%D0%B8",
+			"en": "https://fallout.fandom.com/wiki/Kasumi%27s_holotape_to_grandad"
+		},
+		"titles": {
+			"ru": "Голографическое письмо Касуми",
+			"en": "Kasumi's holotape to grandad"
+		},
+		"icon": "holotape",
+		"coordinates": {
+			"lat": 82.21360333134709,
+			"lng": -148.73565653716798
+		}
+	},
+	"12": {
+		"id": 12,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A4%D0%B0%D1%80-%D0%A5%D0%B0%D1%80%D0%B1%D0%BE%D1%80",
+			"en": "https://fallout.fandom.com/wiki/Far_Harbor_(location)"
+		},
+		"titles": {
+			"ru": "Фар-Харбор",
+			"en": "Far Harbor (location)"
+		},
+		"icon": "town",
+		"coordinates": {
+			"lat": 62.687619142297805,
+			"lng": 112.18025414777964
+		}
+	},
+	"13": {
+		"id": 13,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9F%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BD%D0%B8%D0%B9_%D0%BF%D1%80%D0%B8%D1%8E%D1%82",
+			"en": "https://fallout.fandom.com/wiki/The_Last_Plank"
+		},
+		"titles": {
+			"ru": "Последний приют",
+			"en": "The Last Plank"
+		},
+		"icon": "unmarked",
+		"coordinates": {
+			"lat": 64.8883888608171,
+			"lng": 114.79087946347288
+		}
+	},
+	"14": {
+		"id": 14,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%94%D1%80%D1%83%D0%B3_%D0%B0%D0%B4%D0%BC%D0%B8%D1%80%D0%B0%D0%BB%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Admiral%27s_Friend"
+		},
+		"titles": {
+			"ru": "Друг адмирала",
+			"en": "Admiral's Friend"
+		},
+		"icon": "weapon",
+		"coordinates": {
+			"lat": 63.586919500621335,
+			"lng": 111.71551121954052
+		}
+	},
+	"15": {
+		"id": 15,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9B%D0%BE%D0%B2%D1%83%D1%88%D0%BA%D0%B0_%D0%B4%D0%BB%D1%8F_%D1%80%D1%8B%D0%B1%D1%8B",
+			"en": "https://fallout.fandom.com/wiki/The_Fish_Catcher"
+		},
+		"titles": {
+			"ru": "Ловушка для рыбы",
+			"en": "The Fish Catcher"
+		},
+		"icon": "weapon",
+		"coordinates": {
+			"lat": 63.22286927753058,
+			"lng": 110.55038404104707
+		}
+	},
+	"16": {
+		"id": 16,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%90%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%85_%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B2%D0%B8%D1%82%D1%8F%D0%BD%D0%B8%D0%BD%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Islander%27s_Almanac"
+		},
+		"titles": {
+			"ru": "Альманах островитянина («Путеводитель по Фар-Харбору»)",
+			"en": "Islander's Almanac («Far Harbor Sightseer’s Guide»)"
+		},
+		"icon": "perk-magazine",
+		"coordinates": {
+			"lat": 65.20845635510483,
+			"lng": 113.75244301515639
+		}
+	},
+	"17": {
+		"id": 17,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9D%D0%B0%D0%B6%D0%B8%D0%B2%D0%BA%D0%B0"
+		},
+		"titles": {
+			"ru": "Наживка"
+		},
+		"icon": "unmarked",
+		"coordinates": {
+			"lat": 64.21927281444869,
+			"lng": 113.31310431152164
+		}
+	},
+	"18": {
+		"id": 18,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%91%D0%BE%D1%83%D0%BB%D0%B8%D0%BD%D0%B3_%C2%AB%D0%91%D0%B8%D0%B2%D0%B5%D1%80-%D0%9A%D1%80%D0%B8%D0%BA%C2%BB",
+			"en": "https://fallout.fandom.com/wiki/Beaver_Creek_Lanes"
+		},
+		"titles": {
+			"ru": "Боулинг «Бивер-Крик»",
+			"en": "Beaver Creek Lanes"
+		},
+		"icon": "building",
+		"coordinates": {
+			"lat": 51.49005398448878,
+			"lng": 101.61712702349182
+		}
+	},
+	"19": {
+		"id": 19,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D1%82%D1%80%D0%B0%D0%B9%D0%BA%D0%B5%D1%80",
+			"en": "https://fallout.fandom.com/wiki/The_Striker"
+		},
+		"titles": {
+			"ru": "Страйкер",
+			"en": "The Striker"
+		},
+		"icon": "weapon",
+		"coordinates": {
+			"lat": 53.701010227177804,
+			"lng": 101.68143933901288
+		}
+	},
+	"20": {
+		"id": 20,
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/Fusion_core_(Fallout_4)",
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%B1%D0%BB%D0%BE%D0%BA"
+		},
+		"titles": {
+			"en": "Fusion core",
+			"ru": "Ядерный блок"
+		},
+		"icon": "fusion-core",
+		"coordinates": {
+			"lat": 52.50209239162594,
+			"lng": 99.49241634273058
+		}
+	},
+	"21": {
+		"id": 21,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%93%D0%BE%D0%BB%D0%BE%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D1%8C_%D0%9C%D0%B0%D1%80%D0%BA%D0%B0_%D0%A3%D0%B8%D0%BB%D1%81%D0%BE%D0%BD%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Mark_Wilson%27s_holotape"
+		},
+		"titles": {
+			"ru": "Голозапись Марка Уилсона",
+			"en": "Mark Wilson's holotape"
+		},
+		"icon": "holotape",
+		"coordinates": {
+			"lat": 52.55556497670178,
+			"lng": 103.79058549628232
+		}
+	},
+	"22": {
+		"id": 22,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9B%D0%B0%D0%B3%D0%B5%D1%80%D1%8C_%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BF%D0%B0%D1%80%D0%BA%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/National_Park_campground"
+		},
+		"titles": {
+			"ru": "Лагерь национального парка",
+			"en": "National Park campground"
+		},
+		"icon": "ruins",
+		"coordinates": {
+			"lat": 55.93518988566735,
+			"lng": 54.636382017555256
+		}
+	},
+	"23": {
+		"id": 23,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A8%D1%82%D0%B0%D0%B1_%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BF%D0%B0%D1%80%D0%BA%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/National_Park_HQ"
+		},
+		"titles": {
+			"ru": "Штаб национального парка",
+			"en": "National Park HQ"
+		},
+		"icon": "ruins",
+		"coordinates": {
+			"lat": 64.98413037406898,
+			"lng": 15.145456549153542
+		}
+	},
+	"24": {
+		"id": 24,
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/Mini_nuke",
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%BC%D0%B8%D0%BD%D0%B8%D0%B7%D0%B0%D1%80%D1%8F%D0%B4"
+		},
+		"titles": {
+			"en": "Mini nuke",
+			"ru": "Ядерный минизаряд"
+		},
+		"icon": "mini-nuke",
+		"coordinates": {
+			"lat": 63.722657254675944,
+			"lng": 13.854903174824685
+		}
+	},
+	"25": {
+		"id": 25,
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/Mini_nuke",
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%BC%D0%B8%D0%BD%D0%B8%D0%B7%D0%B0%D1%80%D1%8F%D0%B4"
+		},
+		"titles": {
+			"en": "Mini nuke",
+			"ru": "Ядерный минизаряд"
+		},
+		"icon": "mini-nuke",
+		"coordinates": {
+			"lat": 63.761542331963774,
+			"lng": 16.731031643664668
+		}
+	},
+	"26": {
+		"id": 26,
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/Power_armor",
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D0%B8%D0%BB%D0%BE%D0%B2%D0%B0%D1%8F_%D0%B1%D1%80%D0%BE%D0%BD%D1%8F"
+		},
+		"titles": {
+			"en": "Power armor",
+			"ru": "Силовая броня"
+		},
+		"icon": "power-armor",
+		"coordinates": {
+			"lat": 79.08919419726519,
+			"lng": 39.00993202478124
+		}
+	},
+	"27": {
+		"id": 27,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D0%BF%D0%B0-%D1%81%D0%B0%D0%BB%D0%BE%D0%BD_%C2%AB%D0%9E%D0%BB%D0%B4%D0%B5%D1%80%D1%81%D0%B8%C2%BB",
+			"en": "https://fallout.fandom.com/wiki/Aldersea_Day_Spa"
+		},
+		"titles": {
+			"ru": "Спа-салон «Олдерси»",
+			"en": "Aldersea Day Spa"
+		},
+		"icon": "building",
+		"coordinates": {
+			"lat": 72.42363547599076,
+			"lng": 3.233414718615007
+		}
+	},
+	"28": {
+		"id": 28,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A4%D0%B5%D1%80%D0%BC%D0%B0_%D0%94%D0%B0%D0%BB%D1%82%D0%BE%D0%BD%D0%BE%D0%B2",
+			"en": "https://fallout.fandom.com/wiki/Dalton_farm"
+		},
+		"titles": {
+			"ru": "Ферма Далтонов",
+			"en": "Dalton farm"
+		},
+		"icon": "settlement",
+		"coordinates": {
+			"lat": 81.62543620228573,
+			"lng": -9.728161896370752
+		}
+	},
+	"29": {
+		"id": 29,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9E%D0%BA%D0%B5%D0%B0%D0%BD%D0%B0%D1%80%D0%B8%D1%83%D0%BC",
+			"en": "https://fallout.fandom.com/wiki/Oceanarium"
+		},
+		"titles": {
+			"ru": "Океанариум",
+			"en": "Oceanarium"
+		},
+		"icon": "ruins",
+		"coordinates": {
+			"lat": 76.5596960174381,
+			"lng": -45.266647366799596
+		}
+	},
+	"30": {
+		"id": 30,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%94%D1%83%D0%B1%D0%B8%D0%BB%D1%8C%D0%BD%D1%8F_%C2%AB%D0%98%D0%B3%D0%BB%D1%81-%D0%9A%D0%BE%D1%83%D0%B2%C2%BB",
+			"en": "https://fallout.fandom.com/wiki/Eagle%27s_Cove_Tannery"
+		},
+		"titles": {
+			"ru": "Дубильня «Иглс-Коув»",
+			"en": "Eagle's Cove Tannery"
+		},
+		"icon": "factory",
+		"coordinates": {
+			"lat": 63.42507379630266,
+			"lng": -44.743655382795396
+		}
+	},
+	"31": {
+		"id": 31,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B8%D0%BD%D0%BE%D1%82%D0%B5%D0%B0%D1%82%D1%80_%C2%AB%D0%A0%D0%B0%D0%B9%D1%81%D0%BA%D0%B8%D0%B5_%D0%BA%D1%83%D1%89%D0%B8%C2%BB",
+			"en": "https://fallout.fandom.com/wiki/Eden_Meadows_Cinemas"
+		},
+		"titles": {
+			"ru": "Кинотеатр «Райские кущи»",
+			"en": "Eden Meadows Cinemas"
+		},
+		"icon": "poi",
+		"coordinates": {
+			"lat": 48.346163317046155,
+			"lng": -35.31784514591293
+		}
+	},
+	"32": {
+		"id": 32,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9E%D1%82%D0%B5%D0%BB%D1%8C_%C2%AB%D0%9A%D0%BB%D0%B8%D1%84%D1%84%D1%81_%D0%AD%D0%B4%D0%B6%C2%BB",
+			"en": "https://fallout.fandom.com/wiki/Cliff%27s_Edge_Hotel"
+		},
+		"titles": {
+			"ru": "Отель «Клиффс Эдж»",
+			"en": "Cliff's Edge Hotel"
+		},
+		"icon": "building",
+		"coordinates": {
+			"lat": 66.88166250017127,
+			"lng": 55.73066896338289
+		}
+	},
+	"33": {
+		"id": 33,
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/Nuka-Cherry_(Fallout_4)",
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F"
+		},
+		"titles": {
+			"en": "Nuka-Cherry",
+			"ru": "Ядер-Вишня"
+		},
+		"icon": "nuka-cherry",
+		"coordinates": {
+			"lat": 55.98900855209203,
+			"lng": 57.287291162059354
+		}
+	},
+	"34": {
+		"id": 34,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D1%83%D1%80%D0%B8%D1%81%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D1%86%D0%B5%D0%BD%D1%82%D1%80_%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BF%D0%B0%D1%80%D0%BA%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/National_Park_Visitor%27s_Center"
+		},
+		"titles": {
+			"ru": "Туристический центр национального парка",
+			"en": "National Park visitor's center"
+		},
+		"icon": "settlement",
+		"coordinates": {
+			"lat": 74.15132847846782,
+			"lng": 39.57161344671204
+		}
+	},
+	"35": {
+		"id": 35,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%90%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%85_%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B2%D0%B8%D1%82%D1%8F%D0%BD%D0%B8%D0%BD%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Islander%27s_Almanac"
+		},
+		"titles": {
+			"ru": "Альманах островитянина («Блюда из ила»)",
+			"en": "Islander's Almanac («Recipe Roundup»)"
+		},
+		"icon": "perk-magazine",
+		"coordinates": {
+			"lat": 74.13969693089338,
+			"lng": 43.18222855938111
+		}
+	},
+	"36": {
+		"id": 36,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%90%D0%B7%D0%B0%D0%BB%D0%B8%D1%8F",
+			"en": "https://fallout.fandom.com/wiki/MS_Azalea"
+		},
+		"titles": {
+			"ru": "Азалия",
+			"en": "MS Azalea"
+		},
+		"icon": "shipwreck",
+		"coordinates": {
+			"lat": -24.12902909990788,
+			"lng": 144.66796875000003
+		}
+	},
+	"37": {
+		"id": 37,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9B%D0%B5%D1%81%D0%BE%D0%BF%D0%B8%D0%BB%D0%BA%D0%B0_%D0%BD%D0%B0_%D0%BE%D0%B7%D0%B5%D1%80%D0%B5_%D0%AD%D1%85%D0%BE",
+			"en": "https://fallout.fandom.com/wiki/Echo_Lake_Lumber"
+		},
+		"titles": {
+			"ru": "Лесопилка на озере Эхо",
+			"en": "Echo Lake Lumber"
+		},
+		"icon": "factory",
+		"coordinates": {
+			"lat": 13.258920473979535,
+			"lng": -69.96768996945832
+		}
+	},
+	"38": {
+		"id": 38,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%96%D0%BD%D0%B5%D1%86",
+			"en": "https://fallout.fandom.com/wiki/The_Harvester"
+		},
+		"titles": {
+			"ru": "Жнец",
+			"en": "The Harvester"
+		},
+		"icon": "weapon",
+		"coordinates": {
+			"lat": 13.365259280779878,
+			"lng": -67.11800034422942
+		}
+	},
+	"39": {
+		"id": 39,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%91%D1%83%D0%BD%D0%BA%D0%B5%D1%80_(Far_Harbor)",
+			"en": "https://fallout.fandom.com/wiki/Echo_Lake_Lumber"
+		},
+		"titles": {
+			"ru": "Бункер (Far Harbor)",
+			"en": "Echo Lake Lumber"
+		},
+		"icon": "unmarked",
+		"coordinates": {
+			"lat": 10.705832187512161,
+			"lng": -59.09008037575332
+		}
+	},
+	"40": {
+		"id": 40,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%93%D0%BE%D0%BB%D0%BE%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D1%8C_%D0%9B%D0%B5%D0%B2%D0%B8",
+			"en": "https://fallout.fandom.com/wiki/Levi%27s_holotape"
+		},
+		"titles": {
+			"ru": "Голозапись Леви",
+			"en": "Levi's holotape"
+		},
+		"icon": "holotape",
+		"coordinates": {
+			"lat": 13.34853949666609,
+			"lng": -72.50564645584967
+		}
+	},
+	"41": {
+		"id": 41,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%94%D0%B0%D0%BC%D0%B1%D0%B0_%D0%AD%D0%BC%D0%BC%D0%B5%D1%82%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Emmet%27s_Causeway"
+		},
+		"titles": {
+			"ru": "Дамба Эммета",
+			"en": "Emmet's Causeway"
+		},
+		"icon": "unmarked",
+		"coordinates": {
+			"lat": 7.1418302342728115,
+			"lng": -113.04016001551642
+		}
+	},
+	"42": {
+		"id": 42,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A0%D0%B5%D0%B9%D0%B1%D0%B5%D1%80%D0%BD-%D0%9F%D0%BE%D0%B9%D0%BD%D1%82",
+			"en": "https://fallout.fandom.com/wiki/Rayburn_Point"
+		},
+		"titles": {
+			"ru": "Рейберн-Пойнт",
+			"en": "Rayburn Point"
+		},
+		"icon": "encampment",
+		"coordinates": {
+			"lat": 13.106018894557382,
+			"lng": -136.3918288857079
+		}
+	},
+	"43": {
+		"id": 43,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9E%D1%81%D1%82%D1%80%D0%BE%D0%B2_%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%B9_%D0%A1%D0%BC%D0%B5%D1%80%D1%82%D0%B8",
+			"en": "https://fallout.fandom.com/wiki/Red_Death_Island"
+		},
+		"titles": {
+			"ru": "Остров Красной Смерти",
+			"en": "Red Death Island"
+		},
+		"icon": "unmarked",
+		"coordinates": {
+			"lat": -70.82055685303185,
+			"lng": -141.39358474698673
+		}
+	},
+	"44": {
+		"id": 44,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D0%BD%D0%B0%D1%81%D1%82%D0%B8_%D0%B8_%D0%BD%D0%B0%D0%B6%D0%B8%D0%B2%D0%BA%D0%B8_%D0%91%D1%80%D0%B0%D0%B9%D0%BD%D0%B8",
+			"en": "https://fallout.fandom.com/wiki/Briney%27s_Bait_and_Tackle"
+		},
+		"titles": {
+			"ru": "Снасти и наживки Брайни",
+			"en": "Briney's Bait and Tackle"
+		},
+		"icon": "ruins",
+		"coordinates": {
+			"lat": 27.929111372494187,
+			"lng": -76.6734703674629
+		}
+	},
+	"45": {
+		"id": 45,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9B%D0%B0%D0%B3%D0%B5%D1%80%D1%8C_%C2%AB%D0%97%D0%B5%D1%84%D0%B8%D1%80-%D0%A0%D0%B8%D0%B4%D0%B6%C2%BB",
+			"en": "https://fallout.fandom.com/wiki/Zephyr_Ridge_Camp"
+		},
+		"titles": {
+			"ru": "Лагерь «Зефир-Ридж»",
+			"en": "Zephyr Ridge Camp"
+		},
+		"icon": "encampment",
+		"coordinates": {
+			"lat": -32.67798251806884,
+			"lng": -98.92501707034822
+		}
+	},
+	"46": {
+		"id": 46,
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/Fat_Man",
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D1%8F%D0%BA"
+		},
+		"titles": {
+			"en": "Fat Man",
+			"ru": "Толстяк"
+		},
+		"icon": "weapon",
+		"coordinates": {
+			"lat": -35.14726216306877,
+			"lng": -100.5786878936647
+		}
+	},
+	"47": {
+		"id": 47,
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/Mini_nuke",
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%BC%D0%B8%D0%BD%D0%B8%D0%B7%D0%B0%D1%80%D1%8F%D0%B4"
+		},
+		"titles": {
+			"en": "Mini nuke",
+			"ru": "Ядерный минизаряд"
+		},
+		"icon": "mini-nuke",
+		"coordinates": {
+			"lat": -35.1406937852415,
+			"lng": -97.3509969248247
+		}
+	},
+	"48": {
+		"id": 48,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D0%B2%D0%B5%D1%82%D1%8F%D1%89%D0%B0%D1%8F%D1%81%D1%8F_%D1%80%D0%BE%D1%89%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Glowing_Grove"
+		},
+		"titles": {
+			"ru": "Светящаяся роща",
+			"en": "Glowing Grove"
+		},
+		"icon": "radioactive-area",
+		"coordinates": {
+			"lat": -22.135032617758675,
+			"lng": -74.48090030885668
+		}
+	},
+	"49": {
+		"id": 49,
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/Fusion_core_(Fallout_4)",
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%B1%D0%BB%D0%BE%D0%BA"
+		},
+		"titles": {
+			"en": "Fusion core",
+			"ru": "Ядерный блок"
+		},
+		"icon": "fusion-core",
+		"coordinates": {
+			"lat": -22.07975555722519,
+			"lng": -71.64390770105973
+		}
+	},
+	"50": {
+		"id": 50,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D0%B2%D1%8F%D1%82%D0%B8%D0%BB%D0%B8%D1%89%D0%B5_%D0%A1%D0%B8%D1%8F%D1%8E%D1%89%D0%B5%D0%B9_%D0%B2%D0%B5%D1%80%D1%88%D0%B8%D0%BD%D1%8B",
+			"en": "https://fallout.fandom.com/wiki/Radiant_Crest_Shrine"
+		},
+		"titles": {
+			"ru": "Святилище Сияющей вершины",
+			"en": "Radiant crest shrine"
+		},
+		"icon": "radioactive-area",
+		"coordinates": {
+			"lat": -39.36448342920969,
+			"lng": -57.81177384162504
+		}
+	},
+	"51": {
+		"id": 51,
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/Mini_nuke",
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%BC%D0%B8%D0%BD%D0%B8%D0%B7%D0%B0%D1%80%D1%8F%D0%B4"
+		},
+		"titles": {
+			"en": "Mini nuke",
+			"ru": "Ядерный минизаряд"
+		},
+		"icon": "mini-nuke",
+		"coordinates": {
+			"lat": -37.17009626163195,
+			"lng": -57.21267877845394
+		}
+	},
+	"52": {
+		"id": 52,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A0%D0%B0%D0%B7%D1%80%D1%83%D1%88%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D1%86%D0%B5%D1%80%D0%BA%D0%BE%D0%B2%D1%8C",
+			"en": "https://fallout.fandom.com/wiki/Ruined_church"
+		},
+		"titles": {
+			"ru": "Разрушенная церковь",
+			"en": "Ruined church"
+		},
+		"icon": "church",
+		"coordinates": {
+			"lat": -62.809519027695664,
+			"lng": -53.24535327695119
+		}
+	},
+	"53": {
+		"id": 53,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%94%D0%BE%D0%BA%D0%B8_%D0%A4%D1%80%D0%B8%D0%BD%D0%B4%D0%B6-%D0%9A%D0%BE%D1%83%D0%B2",
+			"en": "https://fallout.fandom.com/wiki/Fringe_Cove_docks"
+		},
+		"titles": {
+			"ru": "Доки Фриндж-Коув",
+			"en": "Fringe Cove docks"
+		},
+		"icon": "pond-lake",
+		"coordinates": {
+			"lat": -75.8801706925904,
+			"lng": -63.21018253350994
+		}
+	},
+	"54": {
+		"id": 54,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9E%D1%80%D1%83%D0%B6%D0%B5%D0%B9%D0%BD%D1%8B%D0%B9_%D0%BF%D0%BE%D0%B4%D0%B2%D0%B0%D0%BB",
+			"en": "https://fallout.fandom.com/wiki/Basement_armory"
+		},
+		"titles": {
+			"ru": "Оружейный подвал",
+			"en": "Basement armory"
+		},
+		"icon": "unmarked",
+		"coordinates": {
+			"lat": -47.228736853262944,
+			"lng": -47.1741476824929
+		}
+	},
+	"55": {
+		"id": 55,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A5%D1%8D%D0%B4%D0%B4%D0%BE%D0%BA-%D0%9A%D0%BE%D1%83%D0%B2",
+			"en": "https://fallout.fandom.com/wiki/Haddock_Cove"
+		},
+		"titles": {
+			"ru": "Хэддок-Коув",
+			"en": "Haddock Cove"
+		},
+		"icon": "pond-lake",
+		"coordinates": {
+			"lat": -60.38223477799015,
+			"lng": -104.40731003054168
+		}
+	},
+	"56": {
+		"id": 56,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D0%B5%D0%BC%D0%B5%D0%B9%D0%BD%D0%BE%D0%B5_%D0%BE%D0%B1%D1%8A%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5",
+			"en": "https://fallout.fandom.com/wiki/Family_announcement"
+		},
+		"titles": {
+			"ru": "Семейное объявление",
+			"en": "Family announcement"
+		},
+		"icon": "holotape",
+		"coordinates": {
+			"lat": -59.80063426102869,
+			"lng": -107.66601562500001
+		}
+	},
+	"57": {
+		"id": 57,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D1%80%D0%B0%D0%B1%D0%BE%D1%82",
+			"en": "https://fallout.fandom.com/wiki/Chores_list"
+		},
+		"titles": {
+			"ru": "Список работ",
+			"en": "Chores list"
+		},
+		"icon": "holotape",
+		"coordinates": {
+			"lat": -57.61463092571733,
+			"lng": -106.69912697253146
+		}
+	},
+	"58": {
+		"id": 58,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%93%D0%BE%D0%BB%D0%BE%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D1%8C_%D1%81%D0%B5%D0%BC%D1%8C%D0%B8_%D0%A5%D0%B0%D1%81%D0%BA%D0%B8",
+			"en": "https://fallout.fandom.com/wiki/Husky_family_holotape"
+		},
+		"titles": {
+			"ru": "Голозапись семьи Хаски",
+			"en": "Husky family holotape"
+		},
+		"icon": "holotape",
+		"coordinates": {
+			"lat": -60.9955331243501,
+			"lng": -106.17971794982725
+		}
+	},
+	"59": {
+		"id": 59,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%93%D0%BE%D0%BB%D0%BE%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D1%8C_(%D1%81%D0%B5%D0%BC%D1%8C%D1%8F_%D0%A5%D0%B0%D1%81%D0%BA%D0%B8)",
+			"en": "https://fallout.fandom.com/wiki/Holotape_(Husky_family)"
+		},
+		"titles": {
+			"ru": "Голозапись (семья Хаски)",
+			"en": "Holotape (Husky family)"
+		},
+		"icon": "holotape",
+		"coordinates": {
+			"lat": -58.85493035126482,
+			"lng": -104.42172189489014
+		}
+	},
+	"60": {
+		"id": 60,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9B%D0%B0%D0%B3%D0%B5%D1%80%D1%8C_%C2%AB%D0%A0%D0%BE%D0%BA-%D0%9F%D0%BE%D0%B9%D0%BD%D1%82%C2%BB",
+			"en": "https://fallout.fandom.com/wiki/Rock_Point_camp"
+		},
+		"titles": {
+			"ru": "Лагерь «Рок-Пойнт»",
+			"en": "Rock Point camp"
+		},
+		"icon": "encampment",
+		"coordinates": {
+			"lat": -46.07779622217991,
+			"lng": -125.0781795641347
+		}
+	},
+	"61": {
+		"id": 61,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%B1%D0%BB%D0%BE%D0%BA",
+			"en": "https://fallout.fandom.com/wiki/Fusion_core_(Fallout_4)"
+		},
+		"titles": {
+			"ru": "Ядерный блок",
+			"en": "Fusion core (Fallout 4)"
+		},
+		"icon": "fusion-core",
+		"coordinates": {
+			"lat": -32.63292650337108,
+			"lng": -131.75556860368732
+		}
+	},
+	"62": {
+		"id": 62,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D0%B2%D1%8F%D1%82%D0%B8%D0%BB%D0%B8%D1%89%D0%B5_%D0%94%D0%B5%D1%82%D0%B5%D0%B9_%D0%90%D1%82%D0%BE%D0%BC%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Children_of_Atom_shrine"
+		},
+		"titles": {
+			"ru": "Святилище Детей Атома",
+			"en": "Children of Atom shrine"
+		},
+		"icon": "poi",
+		"coordinates": {
+			"lat": -50.81213144630477,
+			"lng": -90.57532458862704
+		}
+	},
+	"63": {
+		"id": 63,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B0%D1%80%D1%8C%D0%B5%D1%80_%D0%9D%D0%BE%D1%80%D1%82%D0%B2%D1%83%D0%B4-%D0%A0%D0%B8%D0%B4%D0%B6",
+			"en": "https://fallout.fandom.com/wiki/Northwood_Ridge_Quarry"
+		},
+		"titles": {
+			"ru": "Карьер Нортвуд-Ридж",
+			"en": "Northwood Ridge Quarry"
+		},
+		"icon": "quarry",
+		"coordinates": {
+			"lat": -72.81560802612519,
+			"lng": -16.059535068343763
+		}
+	},
+	"64": {
+		"id": 64,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%B1%D0%BB%D0%BE%D0%BA",
+			"en": "https://fallout.fandom.com/wiki/Fusion_core_(Fallout_4)"
+		},
+		"titles": {
+			"ru": "Ядерный блок",
+			"en": "Fusion core (Fallout 4)"
+		},
+		"icon": "fusion-core",
+		"coordinates": {
+			"lat": -74.60284566431174,
+			"lng": -25.476950756367952
+		}
+	},
+	"65": {
+		"id": 65,
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/Mini_nuke",
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%BC%D0%B8%D0%BD%D0%B8%D0%B7%D0%B0%D1%80%D1%8F%D0%B4"
+		},
+		"titles": {
+			"en": "Mini nuke",
+			"ru": "Ядерный минизаряд"
+		},
+		"icon": "mini-nuke",
+		"coordinates": {
+			"lat": -72.27286063859135,
+			"lng": -16.48719881236895
+		}
+	},
+	"66": {
+		"id": 66,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%90%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%85_%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B2%D0%B8%D1%82%D1%8F%D0%BD%D0%B8%D0%BD%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Islander%27s_Almanac"
+		},
+		"titles": {
+			"ru": "Альманах островитянина («Увернуться от клешни»)",
+			"en": "Islander's Almanac («Pincer Dodge»)"
+		},
+		"icon": "perk-magazine",
+		"coordinates": {
+			"lat": -70.35524867732882,
+			"lng": -11.732618329017349
+		}
+	},
+	"67": {
+		"id": 67,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%B1%D0%BB%D0%BE%D0%BA",
+			"en": "https://fallout.fandom.com/wiki/Fusion_core_(Fallout_4)"
+		},
+		"titles": {
+			"ru": "Ядерный блок",
+			"en": "Fusion core (Fallout 4)"
+		},
+		"icon": "fusion-core",
+		"coordinates": {
+			"lat": -66.4587203758583,
+			"lng": 9.293561707798805
+		}
+	},
+	"68": {
+		"id": 68,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D0%B8%D1%80%D0%BE%D1%82%D1%81%D0%BA%D0%B8%D0%B9_%D0%BF%D1%80%D0%B8%D1%8E%D1%82_%C2%AB%D0%A3%D1%8D%D0%B9%D0%B2%D0%B7-%D0%9A%D1%80%D0%B5%D1%81%D1%82%C2%BB",
+			"en": "https://fallout.fandom.com/wiki/Waves_Crest_Orphanage"
+		},
+		"titles": {
+			"ru": "Сиротский приют «Уэйвз-Крест»",
+			"en": "Waves Crest Orphanage"
+		},
+		"icon": "ruins",
+		"coordinates": {
+			"lat": -77.54357777279941,
+			"lng": 6.639688618647553
+		}
+	},
+	"69": {
+		"id": 69,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9C%D0%B0%D1%8F%D0%BA_%D0%91%D1%80%D1%83%D0%BA%D1%81-%D0%A5%D0%B5%D0%B4",
+			"en": "https://fallout.fandom.com/wiki/Brooke%27s_Head_Lighthouse"
+		},
+		"titles": {
+			"ru": "Маяк Брукс-Хед",
+			"en": "Brooke's Head Lighthouse"
+		},
+		"icon": "encampment",
+		"coordinates": {
+			"lat": -81.13875302227495,
+			"lng": -27.765501431459676
+		}
+	},
+	"70": {
+		"id": 70,
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/Power_armor",
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D0%B8%D0%BB%D0%BE%D0%B2%D0%B0%D1%8F_%D0%B1%D1%80%D0%BE%D0%BD%D1%8F"
+		},
+		"titles": {
+			"en": "Power armor",
+			"ru": "Силовая броня"
+		},
+		"icon": "power-armor",
+		"coordinates": {
+			"lat": -81.35917996790307,
+			"lng": -28.90204719976947
+		}
+	},
+	"71": {
+		"id": 71,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%90%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%85_%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B2%D0%B8%D1%82%D1%8F%D0%BD%D0%B8%D0%BD%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Islander%27s_Almanac"
+		},
+		"titles": {
+			"ru": "Альманах островитянина («Точная охота»)",
+			"en": "Islander's Almanac («Precision Hunting»)"
+		},
+		"icon": "perk-magazine",
+		"coordinates": {
+			"lat": -81.22160612284145,
+			"lng": -28.164954333862717
+		}
+	},
+	"72": {
+		"id": 72,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D1%80%D0%BE%D0%B2%D0%BE%D0%BF%D1%83%D1%81%D0%BA%D0%B0%D1%82%D0%B5%D0%BB%D1%8C_(Far_Harbor)",
+			"en": "https://fallout.fandom.com/wiki/Bloodletter"
+		},
+		"titles": {
+			"ru": "Кровопускатель (Far Harbor)",
+			"en": "Bloodletter"
+		},
+		"icon": "weapon",
+		"coordinates": {
+			"lat": 64.03114301766567,
+			"lng": 115.15720069300838
+		}
+	},
+	"73": {
+		"id": 73,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%B0%D0%B8%D0%BD%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D0%B3%D0%BE%D0%BB%D0%BE%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D1%8C",
+			"en": "https://fallout.fandom.com/wiki/Mysterious_holotape"
+		},
+		"titles": {
+			"ru": "Таинственная голозапись",
+			"en": "Mysterious holotape"
+		},
+		"icon": "holotape",
+		"coordinates": {
+			"lat": -81.13698886765145,
+			"lng": -28.55472806644527
+		}
+	},
+	"74": {
+		"id": 74,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%90%D0%BA%D0%B0%D0%B4%D0%B8%D1%8F_(%D0%BB%D0%BE%D0%BA%D0%B0%D1%86%D0%B8%D1%8F)",
+			"en": "https://fallout.fandom.com/wiki/Acadia_(location)"
+		},
+		"titles": {
+			"ru": "Акадия (локация)",
+			"en": "Acadia (location)"
+		},
+		"icon": "building",
+		"coordinates": {
+			"lat": 15.597462917468349,
+			"lng": 73.98766767366746
+		}
+	},
+	"75": {
+		"id": 75,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%90%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%85_%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B2%D0%B8%D1%82%D1%8F%D0%BD%D0%B8%D0%BD%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Islander%27s_Almanac"
+		},
+		"titles": {
+			"ru": "Альманах островитянина («Информационный бюллетень Детей Атома»)",
+			"en": "Islander's Almanac («Children of Atom Exposé»)"
+		},
+		"icon": "perk-magazine",
+		"coordinates": {
+			"lat": 13.760508433313866,
+			"lng": 76.30502641454922
+		}
+	},
+	"76": {
+		"id": 76,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%B1%D0%BB%D0%BE%D0%BA",
+			"en": "https://fallout.fandom.com/wiki/Fusion_core_(Fallout_4)"
+		},
+		"titles": {
+			"ru": "Ядерный блок",
+			"en": "Fusion core (Fallout 4)"
+		},
+		"icon": "fusion-core",
+		"coordinates": {
+			"lat": 15.824207016976874,
+			"lng": 70.7992968863254
+		}
+	},
+	"78": {
+		"id": 78,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%B1%D0%BB%D0%BE%D0%BA",
+			"en": "https://fallout.fandom.com/wiki/Fusion_core_(Fallout_4)"
+		},
+		"titles": {
+			"ru": "Ядерный блок",
+			"en": "Fusion core (Fallout 4)"
+		},
+		"icon": "fusion-core",
+		"coordinates": {
+			"lat": 12.728319895514728,
+			"lng": 71.99792690220649
+		}
+	},
+	"79": {
+		"id": 79,
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/Mini_nuke",
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%BC%D0%B8%D0%BD%D0%B8%D0%B7%D0%B0%D1%80%D1%8F%D0%B4"
+		},
+		"titles": {
+			"en": "Mini nuke",
+			"ru": "Ядерный минизаряд"
+		},
+		"icon": "mini-nuke",
+		"coordinates": {
+			"lat": 18.797813712257238,
+			"lng": 72.15774155516817
+		}
+	},
+	"80": {
+		"id": 80,
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/Mini_nuke",
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%BC%D0%B8%D0%BD%D0%B8%D0%B7%D0%B0%D1%80%D1%8F%D0%B4"
+		},
+		"titles": {
+			"en": "Mini nuke",
+			"ru": "Ядерный минизаряд"
+		},
+		"icon": "mini-nuke",
+		"coordinates": {
+			"lat": 18.797808635622886,
+			"lng": 77.75136975585923
+		}
+	},
+	"81": {
+		"id": 81,
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/Mini_nuke",
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%BC%D0%B8%D0%BD%D0%B8%D0%B7%D0%B0%D1%80%D1%8F%D0%B4"
+		},
+		"titles": {
+			"en": "Mini nuke",
+			"ru": "Ядерный минизаряд"
+		},
+		"icon": "mini-nuke",
+		"coordinates": {
+			"lat": 18.873408101843168,
+			"lng": 74.95455833800284
+		}
+	},
+	"82": {
+		"id": 82,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A0%D0%B5%D0%B9%D1%81_%C2%AB%D0%93%D0%BE%D1%80%D0%B8%D0%B7%D0%BE%D0%BD%D1%82%C2%BB_1207",
+			"en": "https://fallout.fandom.com/wiki/Horizon_Flight_1207"
+		},
+		"titles": {
+			"ru": "Рейс «Горизонт» 1207",
+			"en": "Horizon Flight 1207"
+		},
+		"icon": "poi",
+		"coordinates": {
+			"lat": 39.39721149224575,
+			"lng": 22.51121490270451
+		}
+	},
+	"83": {
+		"id": 83,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9C%D1%8F%D1%81%D0%BD%D0%B8%D1%86%D0%BA%D0%B8%D0%B9_%D0%BA%D1%80%D1%8E%D0%BA",
+			"en": "https://fallout.fandom.com/wiki/Butcher%27s_Hook"
+		},
+		"titles": {
+			"ru": "Мясницкий крюк",
+			"en": "Butcher's Hook"
+		},
+		"icon": "weapon",
+		"coordinates": {
+			"lat": 39.49784775760171,
+			"lng": 25.2083583233165
+		}
+	},
+	"84": {
+		"id": 84,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9F%D0%B5%D1%80%D0%B5%D0%B2%D0%B0%D0%BB_%D0%9A%D0%B8%D1%82%D1%82%D0%B5%D1%80%D0%B5%D0%B4%D0%B6",
+			"en": "https://fallout.fandom.com/wiki/Kitteredge_Pass"
+		},
+		"titles": {
+			"ru": "Перевал Киттередж",
+			"en": "Kitteredge Pass"
+		},
+		"icon": "cave",
+		"coordinates": {
+			"lat": 25.792667441944165,
+			"lng": 34.732816402442296
+		}
+	},
+	"85": {
+		"id": 85,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D1%82%D0%B0%D1%80%D1%8B%D0%B9_%D0%B4%D0%BE%D0%BC%D0%B8%D0%BA_%D1%83_%D0%BF%D1%80%D1%83%D0%B4%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Old_Pond_House"
+		},
+		"titles": {
+			"ru": "Старый домик у пруда",
+			"en": "Old Pond House"
+		},
+		"icon": "encampment",
+		"coordinates": {
+			"lat": -18.016174819841158,
+			"lng": 52.630353107703066
+		}
+	},
+	"86": {
+		"id": 86,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9F%D0%B5%D1%89%D0%B5%D1%80%D0%B0_%D0%9F%D0%B0%D0%B9%D0%BD-%D0%9A%D1%80%D0%B5%D1%81%D1%82",
+			"en": "https://fallout.fandom.com/wiki/Pine_Crest_Cavern"
+		},
+		"titles": {
+			"ru": "Пещера Пайн-Крест",
+			"en": "Pine Crest Cavern"
+		},
+		"icon": "cave",
+		"coordinates": {
+			"lat": -12.31348661020391,
+			"lng": 30.45696477814282
+		}
+	},
+	"87": {
+		"id": 87,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AE%D0%B3%D0%BE-%D0%B7%D0%B0%D0%BF%D0%B0%D0%B4%D0%BD%D1%8B%D0%B9_%D0%A5%D0%B0%D1%80%D0%B1%D0%BE%D1%80",
+			"en": "https://fallout.fandom.com/wiki/Southwest_Harbor"
+		},
+		"titles": {
+			"ru": "Юго-западный Харбор",
+			"en": "Southwest Harbor"
+		},
+		"icon": "town",
+		"coordinates": {
+			"lat": -49.74365315591139,
+			"lng": 19.100843576496366
+		}
+	},
+	"88": {
+		"id": 88,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D1%80%D0%BE",
+			"en": "https://fallout.fandom.com/wiki/The_Nucleus"
+		},
+		"titles": {
+			"ru": "Ядро",
+			"en": "The Nucleus"
+		},
+		"icon": "radioactive-area",
+		"coordinates": {
+			"lat": -18.074094465392935,
+			"lng": -21.73704846125279
+		}
+	},
+	"89": {
+		"id": 89,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9F%D0%B5%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9_%D0%B0%D0%BF%D0%BF%D0%B0%D1%80%D0%B0%D1%82",
+			"en": "https://fallout.fandom.com/wiki/Radical_Conversion"
+		},
+		"titles": {
+			"ru": "Переделанный аппарат",
+			"en": "Radical Conversion"
+		},
+		"icon": "weapon",
+		"coordinates": {
+			"lat": -14.427850748138994,
+			"lng": -24.555414307559495
+		}
+	},
+	"90": {
+		"id": 90,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A0%D0%B0%D0%B4%D0%B8%D0%B5%D0%B2%D1%8B%D0%B9_%D0%BA%D0%B0%D1%80%D0%B0%D0%B1%D0%B8%D0%BD_%C2%AB%D0%9A%D0%B8%D0%BB%D0%BE%D1%82%D0%BE%D0%BD%D0%BD%D0%B0%C2%BB",
+			"en": "https://fallout.fandom.com/wiki/Kiloton_radium_rifle"
+		},
+		"titles": {
+			"ru": "Радиевый карабин «Килотонна»",
+			"en": "Kiloton radium rifle"
+		},
+		"icon": "weapon",
+		"coordinates": {
+			"lat": -14.39553339072406,
+			"lng": -21.749230651050357
+		}
+	},
+	"91": {
+		"id": 91,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%90%D1%82%D0%BE%D0%BC%D0%BD%D0%BE%D0%B5_%D0%BF%D1%80%D0%B0%D0%B2%D0%BE%D1%81%D1%83%D0%B4%D0%B8%D0%B5",
+			"en": "https://fallout.fandom.com/wiki/Atom%27s_Judgement"
+		},
+		"titles": {
+			"ru": "Атомное правосудие",
+			"en": "Atom's Judgement"
+		},
+		"icon": "weapon",
+		"coordinates": {
+			"lat": -14.47288097215569,
+			"lng": -18.954175040525428
+		}
+	},
+	"92": {
+		"id": 92,
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/Fusion_core_(Fallout_4)",
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%B1%D0%BB%D0%BE%D0%BA"
+		},
+		"titles": {
+			"en": "Fusion core",
+			"ru": "Ядерный блок"
+		},
+		"icon": "fusion-core",
+		"coordinates": {
+			"lat": -21.235362841245426,
+			"lng": -23.533838740982283
+		}
+	},
+	"93": {
+		"id": 93,
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/Fusion_core_(Fallout_4)",
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%B1%D0%BB%D0%BE%D0%BA"
+		},
+		"titles": {
+			"en": "Fusion core",
+			"ru": "Ядерный блок"
+		},
+		"icon": "fusion-core",
+		"coordinates": {
+			"lat": -21.309802999519857,
+			"lng": -20.02002109138326
+		}
+	},
+	"94": {
+		"id": 94,
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)",
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)"
+		},
+		"titles": {
+			"en": "Nuka-Cola Quantum",
+			"ru": "Квантовая Ядер-Кола"
+		},
+		"icon": "nuka-cola",
+		"coordinates": {
+			"lat": -18.075057464093963,
+			"lng": -25.04607772181608
+		}
+	},
+	"95": {
+		"id": 95,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%92%D0%BE%D1%81%D0%BF%D0%BE%D0%BC%D0%B8%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F_%D0%94%D0%B8%D0%9C%D0%90#%D0%92%D0%BE%D1%81%D0%BF%D0%BE%D0%BC%D0%B8%D0%BD%D0%B0%D0%BD%D0%B8%D0%B5_%D0%94%D0%B8%D0%9C%D0%90_#_1",
+			"en": "https://fallout.fandom.com/wiki/DiMA%27s_memory#DiMA's_Memory_#1"
+		},
+		"titles": {
+			"ru": "Воспоминания ДиМА #1",
+			"en": "DiMA's memory #1"
+		},
+		"icon": "holotape",
+		"coordinates": {
+			"lat": -10.653466482398992,
+			"lng": -27.522350902577326
+		}
+	},
+	"96": {
+		"id": 96,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%92%D0%BE%D1%81%D0%BF%D0%BE%D0%BC%D0%B8%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F_%D0%94%D0%B8%D0%9C%D0%90#%D0%92%D0%BE%D1%81%D0%BF%D0%BE%D0%BC%D0%B8%D0%BD%D0%B0%D0%BD%D0%B8%D0%B5_%D0%94%D0%B8%D0%9C%D0%90_#_2",
+			"en": "https://fallout.fandom.com/wiki/DiMA%27s_memory#DiMA's_Memory_#2"
+		},
+		"titles": {
+			"ru": "Воспоминания ДиМА #2",
+			"en": "DiMA's memory #2"
+		},
+		"icon": "holotape",
+		"coordinates": {
+			"lat": -10.731943082571263,
+			"lng": -24.64667743768782
+		}
+	},
+	"97": {
+		"id": 97,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%92%D0%BE%D1%81%D0%BF%D0%BE%D0%BC%D0%B8%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F_%D0%94%D0%B8%D0%9C%D0%90#%D0%92%D0%BE%D1%81%D0%BF%D0%BE%D0%BC%D0%B8%D0%BD%D0%B0%D0%BD%D0%B8%D0%B5_%D0%94%D0%B8%D0%9C%D0%90_#_3",
+			"en": "https://fallout.fandom.com/wiki/DiMA%27s_memory#DiMA's_Memory_#3"
+		},
+		"titles": {
+			"ru": "Воспоминания ДиМА #3",
+			"en": "DiMA's memory #3"
+		},
+		"icon": "holotape",
+		"coordinates": {
+			"lat": -10.731943082571263,
+			"lng": -21.771009335819603
+		}
+	},
+	"98": {
+		"id": 98,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%92%D0%BE%D1%81%D0%BF%D0%BE%D0%BC%D0%B8%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F_%D0%94%D0%B8%D0%9C%D0%90#%D0%92%D0%BE%D1%81%D0%BF%D0%BE%D0%BC%D0%B8%D0%BD%D0%B0%D0%BD%D0%B8%D0%B5_%D0%94%D0%B8%D0%9C%D0%90_#_4",
+			"en": "https://fallout.fandom.com/wiki/DiMA%27s_memory#DiMA's_Memory_#4"
+		},
+		"titles": {
+			"ru": "Воспоминания ДиМА #4",
+			"en": "DiMA's memory #4"
+		},
+		"icon": "holotape",
+		"coordinates": {
+			"lat": -10.653463847554914,
+			"lng": -18.97521270994299
+		}
+	},
+	"99": {
+		"id": 99,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%92%D0%BE%D1%81%D0%BF%D0%BE%D0%BC%D0%B8%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F_%D0%94%D0%B8%D0%9C%D0%90#%D0%92%D0%BE%D1%81%D0%BF%D0%BE%D0%BC%D0%B8%D0%BD%D0%B0%D0%BD%D0%B8%D0%B5_%D0%94%D0%B8%D0%9C%D0%90_#_5",
+			"en": "https://fallout.fandom.com/wiki/DiMA%27s_memory#DiMA's_Memory_#5"
+		},
+		"titles": {
+			"ru": "Воспоминания ДиМА #5",
+			"en": "DiMA's memory #5"
+		},
+		"icon": "holotape",
+		"coordinates": {
+			"lat": -10.731201156952013,
+			"lng": -16.24374341604706
+		}
+	},
+	"100": {
+		"id": 100,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%98%D1%81%D1%82%D0%BE%D1%87%D0%BD%D0%B8%D0%BA_%D0%90%D1%82%D0%BE%D0%BC%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Atom%27s_Spring"
+		},
+		"titles": {
+			"ru": "Источник Атома",
+			"en": "Atom's Spring"
+		},
+		"icon": "radioactive-area",
+		"coordinates": {
+			"lat": -7.657572424371729,
+			"lng": -61.31149802596506
+		}
+	},
+	"101": {
+		"id": 101,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A6%D0%B5%D0%BD%D1%82%D1%80_%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F_%D0%AF%D0%B4%D1%80%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Nucleus_Command_Center"
+		},
+		"titles": {
+			"ru": "Центр управления Ядра",
+			"en": "Nucleus Command Center"
+		},
+		"icon": "unmarked",
+		"coordinates": {
+			"lat": -0.7050429039257597,
+			"lng": -22.00527009322169
+		}
+	},
+	"102": {
+		"id": 102,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D1%83%D0%B4%D0%BD%D0%BE",
+			"en": "https://fallout.fandom.com/wiki/The_Vessel"
+		},
+		"titles": {
+			"ru": "Судно",
+			"en": "The Vessel"
+		},
+		"icon": "unmarked",
+		"coordinates": {
+			"lat": -0.7191526849041301,
+			"lng": -24.80438225718098
+		}
+	},
+	"103": {
+		"id": 103,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%94%D0%BD%D0%B5%D0%B2%D0%BD%D0%B8%D0%BA_%D0%93%D0%B2%D0%B8%D0%BD%D0%B5%D1%82",
+			"en": "https://fallout.fandom.com/wiki/Gwyneth%27s_journal"
+		},
+		"titles": {
+			"ru": "Дневник Гвинет",
+			"en": "Gwyneth's journal"
+		},
+		"icon": "holotape",
+		"coordinates": {
+			"lat": -53.00995528979128,
+			"lng": -69.48990300557654
+		}
+	},
+	"104": {
+		"id": 104,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D1%8F_%D0%9A%D0%B0%D0%B2%D0%B0%D0%BA%D0%B5%D1%82%D0%B0%D0%BA",
+			"en": "https://fallout.fandom.com/wiki/Kawaketak_Station"
+		},
+		"titles": {
+			"ru": "Станция Кавакетак",
+			"en": "Kawaketak Station"
+		},
+		"icon": "unmarked",
+		"coordinates": {
+			"lat": -53.0349994545552,
+			"lng": -72.38525748159753
+		}
+	},
+	"105": {
+		"id": 105,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%93%D0%B0%D1%80%D0%BF%D1%83%D0%BD%D0%BE%D0%BC%D1%91%D1%82_%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D0%BD%D0%B8%D0%BA%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Defender%27s_Harpoon_Gun"
+		},
+		"titles": {
+			"ru": "Гарпуномёт защитника",
+			"en": "Defender's Harpoon Gun"
+		},
+		"icon": "weapon",
+		"coordinates": {
+			"lat": 62.85350900800504,
+			"lng": 109.29977230403739
+		}
+	},
+	"106": {
+		"id": 106,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D1%82_%D0%AD%D1%88",
+			"en": "https://fallout.fandom.com/wiki/Sergeant_Ash"
+		},
+		"titles": {
+			"ru": "Сержант Эш",
+			"en": "Sergeant Ash"
+		},
+		"icon": "weapon",
+		"coordinates": {
+			"lat": 15.695939353427702,
+			"lng": 78.97751365096505
+		}
+	},
+	"107": {
+		"id": 107,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D1%82%D0%B0%D1%80%D1%8B%D0%B9_%D0%B4%D1%80%D1%83%D0%B3",
+			"en": "https://fallout.fandom.com/wiki/Old_Reliable"
+		},
+		"titles": {
+			"ru": "Старый друг",
+			"en": "Old Reliable"
+		},
+		"icon": "weapon",
+		"coordinates": {
+			"lat": 12.130525765947004,
+			"lng": 78.65798484282841
+		}
+	},
+	"108": {
+		"id": 108,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A4%D0%B5%D0%BD%D1%81%D0%B1%D0%B0%D1%81%D1%82%D0%B5%D1%80",
+			"en": "https://fallout.fandom.com/wiki/Fencebuster"
+		},
+		"titles": {
+			"ru": "Фенсбастер",
+			"en": "Fencebuster"
+		},
+		"icon": "weapon",
+		"coordinates": {
+			"lat": 66.2859609730547,
+			"lng": 60.84159809175615
+		}
+	},
+	"109": {
+		"id": 109,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%94%D0%B8%D1%82%D1%8F_%D0%B4%D0%B5%D0%BA%D0%B0%D0%B1%D1%80%D1%8F",
+			"en": "https://fallout.fandom.com/wiki/December%27s_Child"
+		},
+		"titles": {
+			"ru": "Дитя декабря",
+			"en": "December's Child"
+		},
+		"icon": "weapon",
+		"coordinates": {
+			"lat": -58.881746953338144,
+			"lng": -0.2320851425552473
+		}
+	},
+	"110": {
+		"id": 110,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9F%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BD%D0%B8%D0%B9_%D0%BE%D0%BF%D0%BB%D0%BE%D1%82_%D1%88%D0%BA%D0%B8%D0%BF%D0%B5%D1%80%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Skipper%27s_Last_Stand"
+		},
+		"titles": {
+			"ru": "Последний оплот шкипера",
+			"en": "Skipper's Last Stand"
+		},
+		"icon": "weapon",
+		"coordinates": {
+			"lat": 65.45954515606509,
+			"lng": 115.91497317495774
+		}
+	},
+	"111": {
+		"id": 111,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D1%87%D0%B0%D1%81%D1%82%D0%BB%D0%B8%D0%B2%D1%87%D0%B8%D0%BA_%D0%AD%D0%B4%D0%B4%D0%B8",
+			"en": "https://fallout.fandom.com/wiki/Lucky_Eddy"
+		},
+		"titles": {
+			"ru": "Счастливчик Эдди",
+			"en": "Lucky Eddy"
+		},
+		"icon": "weapon",
+		"coordinates": {
+			"lat": 64.06113512637926,
+			"lng": 110.35325945230612
+		}
+	},
+	"112": {
+		"id": 112,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%B0%D0%B9%D0%BD%D0%B8%D0%BA_%D0%94%D0%B8%D0%9C%D0%90",
+			"en": "https://fallout.fandom.com/wiki/DiMA%27s_cache"
+		},
+		"titles": {
+			"ru": "Тайник ДиМА",
+			"en": "DiMA's cache"
+		},
+		"icon": "poi",
+		"coordinates": {
+			"lat": 32.03138850464427,
+			"lng": -161.2812420382099
+		}
+	},
+	"113": {
+		"id": 113,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A4%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B0_%D0%BB%D0%B8%D0%BC%D0%BE%D0%BD%D0%B0%D0%B4%D0%B0_%C2%AB%D0%92%D0%B8%D0%BC!%C2%BB",
+			"en": "https://fallout.fandom.com/wiki/Vim!_Pop_factory"
+		},
+		"titles": {
+			"ru": "Фабрика лимонада «Вим!»",
+			"en": "Vim! Pop factory"
+		},
+		"icon": "factory",
+		"coordinates": {
+			"lat": -58.85822250090548,
+			"lng": -1.7067735991543411
+		}
+	},
+	"114": {
+		"id": 114,
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/Power_armor",
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D0%B8%D0%BB%D0%BE%D0%B2%D0%B0%D1%8F_%D0%B1%D1%80%D0%BE%D0%BD%D1%8F"
+		},
+		"titles": {
+			"en": "Power armor",
+			"ru": "Силовая броня"
+		},
+		"icon": "power-armor",
+		"coordinates": {
+			"lat": -58.87867284894504,
+			"lng": -3.1617713911836147
+		}
+	},
+	"115": {
+		"id": 115,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A7%D1%82%D0%BE_%D1%81%D0%B4%D0%B5%D0%BB%D0%B0%D0%BD%D0%BE,_%D1%82%D0%BE_%D1%81%D0%B4%D0%B5%D0%BB%D0%B0%D0%BD%D0%BE",
+			"en": "https://fallout.fandom.com/wiki/What%27s_Done_is_Done"
+		},
+		"titles": {
+			"ru": "Что сделано, то сделано",
+			"en": "What's Done is Done"
+		},
+		"icon": "holotape",
+		"coordinates": {
+			"lat": -59.714596730448015,
+			"lng": -2.402917286965454
+		}
+	},
+	"116": {
+		"id": 116,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A3%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%BD%D0%B0%D1%81%D0%BE%D1%81%D0%BE%D0%BC",
+			"en": "https://fallout.fandom.com/wiki/Pump_control"
+		},
+		"titles": {
+			"ru": "Управление насосом",
+			"en": "Pump control"
+		},
+		"icon": "unmarked",
+		"coordinates": {
+			"lat": -8.029270820292187,
+			"lng": -95.27721420950769
+		}
+	},
+	"117": {
+		"id": 117,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B0%D0%B7%D0%BD%D1%8C",
+			"en": "https://fallout.fandom.com/wiki/An_Execution"
+		},
+		"titles": {
+			"ru": "Казнь",
+			"en": "An execution"
+		},
+		"icon": "holotape",
+		"coordinates": {
+			"lat": -8.07210576861508,
+			"lng": -96.03755954558947
+		}
+	},
+	"118": {
+		"id": 118,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%B0%D0%BA_%D1%85%D0%BE%D1%87%D0%B5%D1%82_%D0%90%D1%82%D0%BE%D0%BC_(%D0%B3%D0%BE%D0%BB%D0%BE%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D1%8C)",
+			"en": "https://fallout.fandom.com/wiki/What_Atom_Requires_(holotape)"
+		},
+		"titles": {
+			"ru": "Так хочет Атом (голозапись)",
+			"en": "What Atom Requires (holotape)"
+		},
+		"icon": "holotape",
+		"coordinates": {
+			"lat": -8.012794074306042,
+			"lng": -94.55978439363828
+		}
+	},
+	"119": {
+		"id": 119,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9D%D0%BE%D0%B2%D0%B0%D1%8F_%D1%8D%D1%80%D0%B0_%D0%9C%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Martin%27s_New_Age"
+		},
+		"titles": {
+			"ru": "Новая эра Мартина",
+			"en": "Martin's New Age"
+		},
+		"icon": "holotape",
+		"coordinates": {
+			"lat": 10.874658076394322,
+			"lng": 75.01075757477813
+		}
+	},
+	"120": {
+		"id": 120,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A0%D0%B0%D0%B7%D1%80%D1%83%D1%88%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D1%80%D0%B0%D0%B4%D0%B8%D0%BE%D0%B2%D1%8B%D1%88%D0%BA%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Ruined_radio_tower"
+		},
+		"titles": {
+			"ru": "Разрушенная радиовышка",
+			"en": "Ruined radio tower"
+		},
+		"icon": "radio-tower",
+		"coordinates": {
+			"lat": -32.019223056191734,
+			"lng": -25.140384524106228
+		}
+	},
+	"121": {
+		"id": 121,
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)",
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)"
+		},
+		"titles": {
+			"en": "Nuka-Cola Quantum",
+			"ru": "Квантовая Ядер-Кола"
+		},
+		"icon": "nuka-cola",
+		"coordinates": {
+			"lat": -32.068156819771836,
+			"lng": -22.412109375000004
+		}
+	},
+	"122": {
+		"id": 122,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%91%D0%BE%D0%BB%D0%BE%D1%82%D0%BE_%D0%9A%D1%80%D0%B0%D0%BD%D0%B1%D0%B5%D1%80%D1%80%D0%B8-%D0%90%D0%B9%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Cranberry_Island_Bog"
+		},
+		"titles": {
+			"ru": "Болото Кранберри-Айленда",
+			"en": "Cranberry Island Bog"
+		},
+		"icon": "pond-lake",
+		"coordinates": {
+			"lat": -75.87607099658356,
+			"lng": 51.66778875061442
+		}
+	},
+	"123": {
+		"id": 123,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9E%D1%81%D1%82%D1%80%D0%BE%D0%B2_%D0%9E%D1%85%D0%BE%D1%82%D0%BD%D0%B8%D1%86%D1%8B",
+			"en": "https://fallout.fandom.com/wiki/Huntress_Island"
+		},
+		"titles": {
+			"ru": "Остров Охотницы",
+			"en": "Huntress Island"
+		},
+		"icon": "poi",
+		"coordinates": {
+			"lat": -69.94391806415494,
+			"lng": 73.76266578931542
+		}
+	},
+	"124": {
+		"id": 124,
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/Nuka-Cherry_(Fallout_4)",
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F"
+		},
+		"titles": {
+			"en": "Nuka-Cherry",
+			"ru": "Ядер-Вишня"
+		},
+		"icon": "nuka-cherry",
+		"coordinates": {
+			"lat": -69.96860594829717,
+			"lng": 84.90886684042563
+		}
+	},
+	"125": {
+		"id": 125,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%94%D0%BE%D0%BA%D0%B8_%D0%9A%D1%80%D0%B0%D0%BD%D0%B1%D0%B5%D1%80%D1%80%D0%B8-%D0%90%D0%B9%D0%BB%D0%B5%D0%BD%D0%B4",
+			"en": "https://fallout.fandom.com/wiki/Cranberry_Island_docks"
+		},
+		"titles": {
+			"ru": "Доки Кранберри-Айленд",
+			"en": "Cranberry Island Docks"
+		},
+		"icon": "ruins",
+		"coordinates": {
+			"lat": -70.99236222093388,
+			"lng": 38.264582859479724
+		}
+	},
+	"126": {
+		"id": 126,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D0%BA%D0%BB%D0%B0%D0%B4_%D0%BD%D0%B0_%D0%9A%D1%80%D0%B0%D0%BD%D0%B1%D0%B5%D1%80%D1%80%D0%B8-%D0%90%D0%B9%D0%BB%D0%B5%D0%BD%D0%B4%D0%B5",
+			"en": "https://fallout.fandom.com/wiki/Cranberry_Island_supply_shed"
+		},
+		"titles": {
+			"ru": "Склад на Кранберри-Айленде",
+			"en": "Cranberry Island supply shed"
+		},
+		"icon": "poi",
+		"coordinates": {
+			"lat": -78.26661165907126,
+			"lng": 62.881164796586425
+		}
+	},
+	"127": {
+		"id": 127,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%93%D1%80%D0%B0%D0%BD%D0%B4-%D0%BE%D1%82%D0%B5%D0%BB%D1%8C_%C2%AB%D0%A5%D0%B0%D1%80%D0%B1%D0%BE%D1%80%C2%BB",
+			"en": "https://fallout.fandom.com/wiki/Harbor_Grand_Hotel"
+		},
+		"titles": {
+			"ru": "Гранд-отель «Харбор»",
+			"en": "Harbor Grand Hotel"
+		},
+		"icon": "building",
+		"coordinates": {
+			"lat": -48.95846478573028,
+			"lng": 81.7522417291693
+		}
+	},
+	"128": {
+		"id": 128,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%94%D0%BB%D1%8F_%D0%A4%D1%80%D1%8D%D0%BD%D0%BD%D0%B8",
+			"en": "https://fallout.fandom.com/wiki/To_Franny"
+		},
+		"titles": {
+			"ru": "Для Фрэнни",
+			"en": "To Franny"
+		},
+		"icon": "holotape",
+		"coordinates": {
+			"lat": -49.00728487608507,
+			"lng": 84.39468262003791
+		}
+	},
+	"129": {
+		"id": 129,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%97%D0%B0%D0%BF%D0%B8%D1%81%D1%8C_%D0%B8%D0%B7_%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D0%B9_%D0%BA%D0%BE%D0%BC%D0%BD%D0%B0%D1%82%D1%8B",
+			"en": "https://fallout.fandom.com/wiki/Safe_room_security_tape"
+		},
+		"titles": {
+			"ru": "Запись из безопасной комнаты",
+			"en": "Safe room security tape"
+		},
+		"icon": "holotape",
+		"coordinates": {
+			"lat": -49.018059094689356,
+			"lng": 87.15225071126181
+		}
+	},
+	"130": {
+		"id": 130,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%96%D1%83%D1%80%D0%BD%D0%B0%D0%BB_%D1%81%D0%BC%D0%BE%D1%82%D1%80%D0%B8%D1%82%D0%B5%D0%BB%D1%8F_%D0%A3%D0%B1%D0%B5%D0%B6%D0%B8%D1%89%D0%B0_118",
+			"en": "https://fallout.fandom.com/wiki/Vault_118_overseer%27s_log"
+		},
+		"titles": {
+			"ru": "Журнал смотрителя Убежища 118",
+			"en": "Vault 118 overseer's log"
+		},
+		"icon": "holotape",
+		"coordinates": {
+			"lat": 65.05214769642868,
+			"lng": 59.35798745017533
+		}
+	},
+	"131": {
+		"id": 131,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9C%D0%BE%D1%80%D1%81%D0%BA%D0%BE%D0%B9_%D0%BC%D1%83%D0%B7%D0%B5%D0%B9_%D0%B1%D0%B0%D1%80%D0%B0_%C2%AB%D0%A5%D0%B0%D1%80%D0%B1%D0%BE%D1%80%C2%BB"
+		},
+		"titles": {
+			"ru": "Морской музей бара «Харбор»"
+		},
+		"icon": "unmarked",
+		"coordinates": {
+			"lat": 65.23061445706131,
+			"lng": 84.35108110793591
+		}
+	},
+	"132": {
+		"id": 132,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A3%D0%B1%D0%B5%D0%B6%D0%B8%D1%89%D0%B5_118",
+			"en": "https://fallout.fandom.com/wiki/Vault_118"
+		},
+		"titles": {
+			"ru": "Убежище 118",
+			"en": "Vault 118"
+		},
+		"icon": "unmarked",
+		"coordinates": {
+			"lat": 66.29786102676458,
+			"lng": 57.63462007154376
+		}
+	},
+	"133": {
+		"id": 133,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%BE%D0%B5_%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5_%D0%B2%D0%B5%D1%82%D1%80%D0%BE%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D0%B8",
+			"en": "https://fallout.fandom.com/wiki/Wind_Farm_Maintenance"
+		},
+		"titles": {
+			"ru": "Служебное здание ветроэлектростанции",
+			"en": "Wind farm maintenance"
+		},
+		"icon": "factory",
+		"coordinates": {
+			"lat": 15.73851286130167,
+			"lng": 91.07917581737993
+		}
+	},
+	"134": {
+		"id": 134,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A5%D0%B8%D0%B6%D0%B8%D0%BD%D0%B0_%D0%9B%D0%BE%D0%BD%D0%B3%D1%84%D0%B5%D0%BB%D0%BB%D0%BE",
+			"en": "https://fallout.fandom.com/wiki/Longfellow%27s_cabin"
+		},
+		"titles": {
+			"ru": "Хижина Лонгфелло",
+			"en": "Longfellow's cabin"
+		},
+		"icon": "settlement",
+		"coordinates": {
+			"lat": 71.4641428378547,
+			"lng": 112.34173058191018
+		}
+	}
+}
