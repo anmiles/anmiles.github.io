@@ -1,6 +1,6 @@
 {
-  "name": "anmiles.net",
-  "version": "1.0.0",
+  "name": "anmiles.github.io",
+  "version": "0.1.0",
   "description": "anmiles.net public website",
   "private": true,
   "author": "Anatoliy Oblaukhov",
@@ -12,14 +12,11 @@
   },
   "scripts": {
     "build": "npm-run-all build:*",
-    "build:userscripts": "node ./scripts/userscripts.js",
-    "update:versions": "node ./scripts/versions.js"
+    "build:versions": "node ./scripts/versions.js"
   },
   "dependencies": {
     "@anmiles/prototypes": "^10.0.4",
-    "moment": "^2.30.1"
-  },
-  "devDependencies": {
+    "moment": "^2.30.1",
     "npm-run-all": "^4.1.5"
   }
 }
