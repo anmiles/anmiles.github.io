@@ -2,6 +2,10 @@
   "name": "anmiles.github.io",
   "version": "0.1.0",
   "description": "anmiles.net public website",
+  "keywords": [
+    "anmiles",
+    "website"
+  ],
   "private": true,
   "author": "Anatoliy Oblaukhov",
   "homepage": "https://anmiles.net",
