@@ -1,0 +1,99 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body, td, input {
+	font-family: Arial, sans-serif;
+}
+
+body {
+	font-size: 13px;
+}
+
+.book {
+	width: 740px;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px;
+	margin: 0 auto;
+	page-break-after: always;
+}
+
+.page {
+	width: 50%;
+	height: 490px;
+	padding: 10px;
+	margin: -1px -1px 0 0;
+	border: 1px solid lightgrey;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+h1 {
+	text-align: center;
+	max-width: 75%;
+	font-size: 30px;
+	margin: 110px auto;
+}
+
+.actions {
+	display: flex;
+	flex-direction: column;
+	gap: 28px;
+	margin: 2px 14px;
+}
+
+.action {
+	display: flex;
+	gap: 4px;
+	align-items: flex-end;
+	font-weight: bold;
+}
+
+.action .border {
+	border-bottom: 1px dotted black;
+	height: 1px;
+	flex-grow: 1;
+	text-align: right;
+}
+
+.section .title {
+	display: flex;
+	align-items: flex-start;
+	gap: 5px;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.section .title span {
+	line-height: 18px;
+}
+
+.section .title .text {
+	border-bottom: 2px solid black;
+	line-height: 140%;
+}
+
+.steps {
+	list-style-type: none;
+	margin: 8px 0;
+	padding-left: 24px;
+}
+
+.steps li {
+	padding: 2px 0;
+	position: relative;
+}
+
+.steps li:before {
+	content: '-';
+	width: 10px;
+	position: absolute;
+	left: -10px;
+}
