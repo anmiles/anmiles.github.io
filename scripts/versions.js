@@ -7,17 +7,17 @@ const exts = [ '.htm', '.html' ];
 const time = moment().format('yyyy-MM-DD-HH-mm-ss');
 
 fs.recurse(root, { file: (filepath) => {
-    if (exts.filter(ext => filepath.endsWith(ext)).length > 0) {
-        updateVersion(filepath, time);
-    }
+	if (exts.filter(ext => filepath.endsWith(ext)).length > 0) {
+		updateVersion(filepath, time);
+	}
 }});
 
 function updateVersion(filepath, time) {
-    const text = fs.readFileSync(filepath).toString();
-    const updatedText = text.replace(/(?<=\?v=)(\d{4}[\-\.\d]*)?/g, time);
+	const text = fs.readFileSync(filepath).toString();
+	const updatedText = text.replace(/(?<=\?v=)(\d{4}[\-\.\d]*)?/g, time);
 
-    if (text !== updatedText) {
-        console.log(`    ${filepath}`);
-        fs.writeFileSync(filepath, updatedText);
-    }
+	if (text !== updatedText) {
+		console.log(`	${filepath}`);
+		fs.writeFileSync(filepath, updatedText);
+	}
 }

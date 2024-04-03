@@ -90,7 +90,7 @@ const letters = {
 function build(textH, textV){
 	$('canvas').remove();
 	const canvas = $('<canvas></canvas>').appendTo('.result').get(0);
-	canvas.width  = zoomHX * (width * textH.length + space * (textH.length - 1)) + lineWidth;
+	canvas.width = zoomHX * (width * textH.length + space * (textH.length - 1)) + lineWidth;
 	canvas.height = zoomHY * height;
 
 	const ctx = canvas.getContext("2d");

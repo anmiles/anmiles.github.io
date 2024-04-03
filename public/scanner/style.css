@@ -1,50 +1,50 @@
 html, body {
-        margin: 0;
-        padding: 0;
-        width: 540px;
-        height: 960px;
-        overflow: hidden;
-    }
-    
-    body {
-        background: #000000;
-    }
-    
-    .scanner {
-        width: 540px;
-        height: 960px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        background: url(./scanner.png) center center no-repeat;
-        background-size: contain;
-    }
-    
-    .preloader {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        margin-top: -30%;
-        background: url(./preloader1.png) center center no-repeat;
-        background-size: 30%;
-    }
-    
-    .preloader1 {
-        background-image: url(./preloader1.png);
-        animation: rotate 10s linear infinite reverse;
-    }
-    
-    .preloader2 {
-        background-image: url(./preloader2.png);
-        animation: rotate 10s linear infinite;
-    }
-    
-    @keyframes rotate {
-      from {
-        transform: rotate(0deg);
-      }
-      to {
-        transform: rotate(360deg);
-      }
-    }
+	margin: 0;
+	padding: 0;
+	width: 540px;
+	height: 960px;
+	overflow: hidden;
+}
+
+body {
+	background: #000000;
+}
+
+.scanner {
+	width: 540px;
+	height: 960px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: url(./scanner.png) center center no-repeat;
+	background-size: contain;
+}
+
+.preloader {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	margin-top: -30%;
+	background: url(./preloader1.png) center center no-repeat;
+	background-size: 30%;
+}
+
+.preloader1 {
+	background-image: url(./preloader1.png);
+	animation: rotate 10s linear infinite reverse;
+}
+
+.preloader2 {
+	background-image: url(./preloader2.png);
+	animation: rotate 10s linear infinite;
+}
+
+@keyframes rotate {
+	from {
+	transform: rotate(0deg);
+	}
+	to {
+	transform: rotate(360deg);
+	}
+}

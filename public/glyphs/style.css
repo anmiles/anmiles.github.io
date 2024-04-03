@@ -1,48 +1,48 @@
 html, body {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 body
 {
-    font-family: Coda, Verdana;
-    color: #ffffff;
-    background: #252525;
-    font-size: 13px;
+	font-family: Coda, Verdana;
+	color: #ffffff;
+	background: #252525;
+	font-size: 13px;
 }
 
 ul
 {
-    list-style-type: none;
+	list-style-type: none;
 }
 
 ul, li
 {
-    float: left;
-    margin: 0;
-    padding: 0;
+	float: left;
+	margin: 0;
+	padding: 0;
 }
 
 li
 {
-    text-align: center;
-    box-sizing: border-box;
-    width: 160px;
-    height: 200px;
-    padding: 5px;
-    background: url(preloader.gif) center 64px no-repeat;
-    border: 1px solid #414141;
-    position: relative;
+	text-align: center;
+	box-sizing: border-box;
+	width: 160px;
+	height: 200px;
+	padding: 5px;
+	background: url(preloader.gif) center 64px no-repeat;
+	border: 1px solid #414141;
+	position: relative;
 }
 
 li img {
-    border: none;
-    background: #252525;
+	border: none;
+	background: #252525;
 }
 
 li p {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
 }

@@ -1,28 +1,26 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
-
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
-    <title>Decimal clock</title>
-    <link rel="stylesheet" type="text/css" href="style.css?v=2023-09-27-00-44-50" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+	<title>Decimal clock</title>
+	<link rel="stylesheet" type="text/css" href="style.css?v=2023-09-27-00-44-50" />
 </head>
-
 <body>
 
 <div class="settings" data-bind="visible: Settings">
-    <div><input data-bind="textInput: TotalHours" /><span> hours in a day</span></div>
-    <div><input data-bind="textInput: TotalMinutes" /><span> minutes in a hour</span></div>
-    <div><input data-bind="textInput: TotalSeconds" /><span> seconds in a minute</span></div>
-    <div><input type="button" data-bind="click: HideSettings" value="Close" /></div>
+	<div><input data-bind="textInput: TotalHours" /><span> hours in a day</span></div>
+	<div><input data-bind="textInput: TotalMinutes" /><span> minutes in a hour</span></div>
+	<div><input data-bind="textInput: TotalSeconds" /><span> seconds in a minute</span></div>
+	<div><input type="button" data-bind="click: HideSettings" value="Close" /></div>
 </div>
 
 <div class="clock">
-    <div class="item hours" data-bind="text: Hours">&nbsp;&nbsp;</div>
-    <div class="separator"></div>
-    <div class="item minutes" data-bind="text: Minutes">&nbsp;</div>
-    <div class="separator"></div>
-    <div class="item seconds" data-bind="text: Seconds">&nbsp;&nbsp;</div>
+	<div class="item hours" data-bind="text: Hours">&nbsp;&nbsp;</div>
+	<div class="separator"></div>
+	<div class="item minutes" data-bind="text: Minutes">&nbsp;</div>
+	<div class="separator"></div>
+	<div class="item seconds" data-bind="text: Seconds">&nbsp;&nbsp;</div>
 </div>
 
 <script type="text/javascript" src="../externals/knockout-3.5.1.min.js"></script>

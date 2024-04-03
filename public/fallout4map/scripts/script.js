@@ -476,7 +476,7 @@ function showPoint(point, isNew) {
 
 	markers[point.id]
 		.bindPopup($('#popup-template').html())
-		._popup.on('contentupdate', (ev)  => ko.applyBindings(point, ev.target._contentNode));
+		._popup.on('contentupdate', (ev) => ko.applyBindings(point, ev.target._contentNode));
 }
 
 function backup(){
@@ -725,7 +725,7 @@ searchPanel.visible.subscribe((value) => {
 	}
 });
 
-const filterPanel = createPanel({ types:  Object.values(types) }, '.filter');
+const filterPanel = createPanel({ types: Object.values(types) }, '.filter');
 
 map.addControl(new L.Button({text: game.title, click: () => {
 	replaceQueryString('dlc', dlc, dlcs);

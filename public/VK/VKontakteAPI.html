@@ -19,7 +19,7 @@
 	const params = { query: 'anmiles', owners_only: 0 };
 	const commentIds = [];
 
-	const callback = async (item) => { 
+	const callback = async (item) => {
 		if (item.text.toLowerCase().includes(params.query.toLowerCase())) {
 			var uid = /[\&\?]viewer_id=(\d+)/.exec(location.search)[1];
 			console.warn(item.post_type, `https://vk.com/wall${uid}_${item.id}`);
@@ -74,7 +74,6 @@ async function get({ method, params, offset }) {
 </textarea>
 
 <script type="text/javascript" src="VKontakteAPI.js?v=2023-09-27-00-44-50"></script>
-
 
 <!-- Global Site Tag (gtag.js) - Google Analytics -->
 <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>

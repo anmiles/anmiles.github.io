@@ -1,87 +1,87 @@
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
 }
 
 body, input, textarea {
-    font-family: 'Consolas', monospace, sans-serif;
-    font-size: 15px;
+	font-family: 'Consolas', monospace, sans-serif;
+	font-size: 15px;
 }
 
 body {
-    line-height: 150%;
-    background: #1e1e1e;
-    color: #bbbbbb;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 2em;
-    gap: 2em;
+	line-height: 150%;
+	background: #1e1e1e;
+	color: #bbbbbb;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 2em;
+	gap: 2em;
 }
 
 .box {
-    background: #252525;
-    width: 100%;
-    max-width: 960px;
-    padding: 20px;
-    border: 1px solid #414141;
-    border-radius: 4px;
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
+	background: #252525;
+	width: 100%;
+	max-width: 960px;
+	padding: 20px;
+	border: 1px solid #414141;
+	border-radius: 4px;
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
 }
 
 .box > * {
-    margin: 0;
+	margin: 0;
 }
 
 @media screen and (max-width: 800px) {
-    body, input, textarea {
-        font-size: 18px;
-    }
+	body, input, textarea {
+		font-size: 18px;
+	}
 
-    body {
-        padding: 0;
-    }
+	body {
+		padding: 0;
+	}
 
-    .box {
-        border: 0;
-    }
+	.box {
+		border: 0;
+	}
 }
 
 
 a, a:link, a:visited {
-    color: #4a9cb7;
+	color: #4a9cb7;
 }
 
 a:hover, a:focus {
-    color: #4ebafe;
+	color: #4ebafe;
 }
 
 ul {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
 }
 
 hr {
-    border: 1px inset #414141;
-    margin: 2em 0;
+	border: 1px inset #414141;
+	margin: 2em 0;
 }
 
 dl {
-    display: flex;
+	display: flex;
 	justify-content: space-between;
 }
 
 dd {
-    flex-grow: 1;
+	flex-grow: 1;
 }

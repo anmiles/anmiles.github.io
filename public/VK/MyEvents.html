@@ -1,121 +1,118 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-
 <head>
-<meta http-equiv="Content-type" content="text/html; encoding=utf-8" />
-<title></title>
-<base href="//vk.com" />
-<link rel="stylesheet" href="/css/al/common.css" />
-<link rel="stylesheet" href="/css/al/groups.css" />
-<script src="/js/api/xd_connection.js" type="text/javascript"></script>
-<script src="//ajax.aspnetcdn.com/ajax/knockout/knockout-2.2.1.js" type="text/javascript"></script>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<link rel="stylesheet" href="MyEvents.css?v=2023-09-27-00-44-50">
+	<meta http-equiv="Content-type" content="text/html; encoding=utf-8" />
+	<title></title>
+	<base href="//vk.com" />
+	<link rel="stylesheet" href="/css/al/common.css" />
+	<link rel="stylesheet" href="/css/al/groups.css" />
+	<script src="/js/api/xd_connection.js" type="text/javascript"></script>
+	<script src="//ajax.aspnetcdn.com/ajax/knockout/knockout-2.2.1.js" type="text/javascript"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="MyEvents.css?v=2023-09-27-00-44-50">
 </head>
-
 <body class="font_default loading">
 
 <script type="text/html" id="update-template" data-current-version="5">
-    <ul class="listing">
-        <li><b>Приложение переехало на Google Drive.</b><br />
-            <span>Теперь оно доступно всегда на 100% и загружается намного быстрее.<br />
-            Также закончились проблемы с "разнородным контентом" или "смешанным содержимым" в некоторых браузерах.</span>
-            <br /><br /></li>
-    </ul>
-    <div style="padding-left: 40px">
-    Вопросы и пожелания пишите, пожалуйста, в <b><a href="/myeventlist_group" target="_blank">группу приложения</a></b>. Спасибо!
-    <br /><br />
-    Автор надеется, что ваша жизнь в социальных сетях стала чуточку легче.
-    </div>
+	<ul class="listing">
+		<li><b>РџСЂРёР»РѕР¶РµРЅРёРµ РїРµСЂРµРµС…Р°Р»Рѕ РЅР° Google Drive.</b><br />
+			<span>РўРµРїРµСЂСЊ РѕРЅРѕ РґРѕСЃС‚СѓРїРЅРѕ РІСЃРµРіРґР° РЅР° 100% Рё Р·Р°РіСЂСѓР¶Р°РµС‚СЃСЏ РЅР°РјРЅРѕРіРѕ Р±С‹СЃС‚СЂРµРµ.<br />
+			РўР°РєР¶Рµ Р·Р°РєРѕРЅС‡РёР»РёСЃСЊ РїСЂРѕР±Р»РµРјС‹ СЃ "СЂР°Р·РЅРѕСЂРѕРґРЅС‹Рј РєРѕРЅС‚РµРЅС‚РѕРј" РёР»Рё "СЃРјРµС€Р°РЅРЅС‹Рј СЃРѕРґРµСЂР¶РёРјС‹Рј" РІ РЅРµРєРѕС‚РѕСЂС‹С… Р±СЂР°СѓР·РµСЂР°С….</span>
+			<br /><br /></li>
+	</ul>
+	<div style="padding-left: 40px">
+	Р’РѕРїСЂРѕСЃС‹ Рё РїРѕР¶РµР»Р°РЅРёСЏ РїРёС€РёС‚Рµ, РїРѕР¶Р°Р»СѓР№СЃС‚Р°, РІ <b><a href="/myeventlist_group" target="_blank">РіСЂСѓРїРїСѓ РїСЂРёР»РѕР¶РµРЅРёСЏ</a></b>. РЎРїР°СЃРёР±Рѕ!
+	<br /><br />
+	РђРІС‚РѕСЂ РЅР°РґРµРµС‚СЃСЏ, С‡С‚Рѕ РІР°С€Р° Р¶РёР·РЅСЊ РІ СЃРѕС†РёР°Р»СЊРЅС‹С… СЃРµС‚СЏС… СЃС‚Р°Р»Р° С‡СѓС‚РѕС‡РєСѓ Р»РµРіС‡Рµ.
+	</div>
 </script>
 
 <div id="main-container">
-    <div class="clear_fix bar" id="feed_bar">
-        <div style="" class="summary_tabs clear_fix" id="feed_groups_bar">
-            <div class="fl_l summary_tab switch_tab" id="switch_tab_future">
-                <a onclick="if (!checkEvent(event)) {switchSection('future'); return false;}" class="summary_tab2">
-                    <div class="summary_tab3"><nobr data-bind="text: Dictionary.tab_future"></nobr></div>
-                </a>
-            </div>
-            <div class="fl_l summary_tab switch_tab" id="switch_tab_past">
-                <a onclick="if (!checkEvent(event)) {switchSection('past'); return false;}" class="summary_tab2">
-                    <div class="summary_tab3"><nobr data-bind="text: Dictionary.tab_past"></nobr></div>
-                </a>
-            </div>
-            <div class="fl_r summary_tab" id="refresh_tab" >
-                <a class="summary_tab2" onclick="if (!checkEvent(event)) {loadApp(true); return false;}">
-                    <div class="summary_tab3"><nobr data-bind="text: Dictionary.refresh"></nobr></div>
-                </a>
-            </div>
-        </div>
-    </div>
-    
-    <div id="groups_list_search_wrap" class="groups_list_search">
-        <div id="groups_loading"></div>
-        <div id="groups_reset_search" onclick="resetSearch();" onmouseout="this.style.opacity = 0.6;" onmouseover="this.style.opacity = 1;"></div>
-        <input type="text" class="text" id="groups_list_search" onkeydown="if (event.keyCode == 27) resetSearch();" onkeyup="updateSearch();">
-    </div>
-    
-    <script type="text/html" id="event-template">
-        <div class="group_list_row" data-bind="attr: {id: 'gl_admin' + id, 'data-event-name': name.clean()}">
-            <div class="fl_l group_row_photo">
-                <a data-bind="attr: {href: ko_url}" target="_parent">
-                    <img data-bind="attr: {src: photo_medium}" class="groups_row_img">
-                </a>
-            </div>
-            <div class="group_row_info fl_l">
-                <div class="group_row_labeled"><a data-bind="attr: {href: ko_url}" target="_parent"><b data-bind="text: name"></b></a></div>
-                <div class="group_row_labeled"><span data-bind="text: ko_start_date"></span></div>
-                <div class="group_row_labeled"><span data-bind="text: ko_members_count"></span></div>
-                <div class="calendar_add calendar_row" data-bind="attr: {id: 'calendar_add' + id, style: 'opacity: ' + ko_calendar_opacity}">
-                    <a class="calendar_add_google" data-bind="attr: {href: ko_google_calendar_url, title: Dictionary.calendar_add_google}"></a>
-                    <a class="calendar_add_ical" data-bind="attr: {href: ko_ical_calendar_url, title: Dictionary.calendar_add_ical}"></a>
-                    <a class="calendar_add_outlook" data-bind="attr: {href: ko_ical_calendar_url, title: Dictionary.calendar_add_outlook}"></a>
-                </div>
-            </div>
-            <br class="clear">
-        </div>
-    </script>
-        
-    <div id="groups_list_content">
-        <div id="events_list_future" class="events_list" data-bind="template: { name: 'event-template', foreach: FutureEvents }"></div>
-        <div id="events_list_past" class="events_list" data-bind="template: { name: 'event-template', foreach: PastEvents }"></div>
-    </div>
-    
-    <ul id="support-links">
-        <li><a href="javascript:VK.callMethod('showInviteBox')"><span data-bind="text: Dictionary.invite_friends"></span></a></li>
-        <li><a href="/myeventlist_group" target="_parent"><span data-bind="text: Dictionary.feedback"></span></a></li>
-    </ul>
+	<div class="clear_fix bar" id="feed_bar">
+		<div style="" class="summary_tabs clear_fix" id="feed_groups_bar">
+			<div class="fl_l summary_tab switch_tab" id="switch_tab_future">
+				<a onclick="if (!checkEvent(event)) {switchSection('future'); return false;}" class="summary_tab2">
+					<div class="summary_tab3"><nobr data-bind="text: Dictionary.tab_future"></nobr></div>
+				</a>
+			</div>
+			<div class="fl_l summary_tab switch_tab" id="switch_tab_past">
+				<a onclick="if (!checkEvent(event)) {switchSection('past'); return false;}" class="summary_tab2">
+					<div class="summary_tab3"><nobr data-bind="text: Dictionary.tab_past"></nobr></div>
+				</a>
+			</div>
+			<div class="fl_r summary_tab" id="refresh_tab" >
+				<a class="summary_tab2" onclick="if (!checkEvent(event)) {loadApp(true); return false;}">
+					<div class="summary_tab3"><nobr data-bind="text: Dictionary.refresh"></nobr></div>
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<div id="groups_list_search_wrap" class="groups_list_search">
+		<div id="groups_loading"></div>
+		<div id="groups_reset_search" onclick="resetSearch();" onmouseout="this.style.opacity = 0.6;" onmouseover="this.style.opacity = 1;"></div>
+		<input type="text" class="text" id="groups_list_search" onkeydown="if (event.keyCode == 27) resetSearch();" onkeyup="updateSearch();">
+	</div>
+
+	<script type="text/html" id="event-template">
+		<div class="group_list_row" data-bind="attr: {id: 'gl_admin' + id, 'data-event-name': name.clean()}">
+			<div class="fl_l group_row_photo">
+				<a data-bind="attr: {href: ko_url}" target="_parent">
+					<img data-bind="attr: {src: photo_medium}" class="groups_row_img">
+				</a>
+			</div>
+			<div class="group_row_info fl_l">
+				<div class="group_row_labeled"><a data-bind="attr: {href: ko_url}" target="_parent"><b data-bind="text: name"></b></a></div>
+				<div class="group_row_labeled"><span data-bind="text: ko_start_date"></span></div>
+				<div class="group_row_labeled"><span data-bind="text: ko_members_count"></span></div>
+				<div class="calendar_add calendar_row" data-bind="attr: {id: 'calendar_add' + id, style: 'opacity: ' + ko_calendar_opacity}">
+					<a class="calendar_add_google" data-bind="attr: {href: ko_google_calendar_url, title: Dictionary.calendar_add_google}"></a>
+					<a class="calendar_add_ical" data-bind="attr: {href: ko_ical_calendar_url, title: Dictionary.calendar_add_ical}"></a>
+					<a class="calendar_add_outlook" data-bind="attr: {href: ko_ical_calendar_url, title: Dictionary.calendar_add_outlook}"></a>
+				</div>
+			</div>
+			<br class="clear">
+		</div>
+	</script>
+
+	<div id="groups_list_content">
+		<div id="events_list_future" class="events_list" data-bind="template: { name: 'event-template', foreach: FutureEvents }"></div>
+		<div id="events_list_past" class="events_list" data-bind="template: { name: 'event-template', foreach: PastEvents }"></div>
+	</div>
+
+	<ul id="support-links">
+		<li><a href="javascript:VK.callMethod('showInviteBox')"><span data-bind="text: Dictionary.invite_friends"></span></a></li>
+		<li><a href="/myeventlist_group" target="_parent"><span data-bind="text: Dictionary.feedback"></span></a></li>
+	</ul>
 </div>
 
 <div class="fixed" id="box_layer_bg" style="height: 100%; display: none;"></div>
 <div class="scroll_fix_wrap fixed" id="box_layer_wrap" style="height: 100%; display: none;">
-    <div id="box_layer">
-        <div id="box_loader">
-            <div class="loader"></div>
-            <div class="back"></div>
-        </div>
-        <div class="popup_box_container" style="width: 507px; height: auto; margin-top: 50px;">
-            <div class="box_layout">
-                <div class="box_title_wrap">
-                    <div class="box_x_button" onclick="hideUpdateBox()"></div>
-                    <div class="box_title" data-bind="text: Dictionary.box_title"></div>
-                </div>
-                <div class="box_body" data-bind="template: { name: 'update-template'}"></div>
-                <div class="box_controls_wrap">
-                    <div class="box_controls">
-                        <table cellspacing="0" cellpadding="0" class="fl_r"><tbody><tr>
-                            <td><div class="button_blue" onclick="hideUpdateBox()"><button>Закрыть</button></div></td>
-                        </tr></tbody></table>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+	<div id="box_layer">
+		<div id="box_loader">
+			<div class="loader"></div>
+			<div class="back"></div>
+		</div>
+		<div class="popup_box_container" style="width: 507px; height: auto; margin-top: 50px;">
+			<div class="box_layout">
+				<div class="box_title_wrap">
+					<div class="box_x_button" onclick="hideUpdateBox()"></div>
+					<div class="box_title" data-bind="text: Dictionary.box_title"></div>
+				</div>
+				<div class="box_body" data-bind="template: { name: 'update-template'}"></div>
+				<div class="box_controls_wrap">
+					<div class="box_controls">
+						<table cellspacing="0" cellpadding="0" class="fl_r"><tbody><tr>
+							<td><div class="button_blue" onclick="hideUpdateBox()"><button>Р—Р°РєСЂС‹С‚СЊ</button></div></td>
+						</tr></tbody></table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 
 <script type="text/javascript" src="MyEvents.js?v=2023-09-27-00-44-50"></script>
-
 
 <!-- Global Site Tag (gtag.js) - Google Analytics -->
 <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
@@ -129,4 +126,3 @@ gtag('config', 'UA-92540327-1');
 
 </body>
 </html>
-
