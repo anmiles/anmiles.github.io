@@ -1,3 +1,5 @@
+// TODO: migrate to react
+
 var cellSize = 30;
 var cells = {};
 var currentWord = null;

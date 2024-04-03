@@ -1,3 +1,5 @@
+// TODO: migrate to react
+
 $.getJSON('structure.json', function(data)
 {
 	for (var i = 0; i < data.length; i ++)

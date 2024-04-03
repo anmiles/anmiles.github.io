@@ -1,3 +1,5 @@
+// TODO: migrate to react or shut down
+
 var Dictionary =
 	{
 		title: "Мои Встречи",

@@ -1,3 +1,5 @@
+// TODO: migrate to react
+
 Array.prototype.group = function(getKey, getValue) {
 	return this.reduce((obj, item, index, array) => {
 		obj[getKey(item, index, array)] = getValue(item, index, array);

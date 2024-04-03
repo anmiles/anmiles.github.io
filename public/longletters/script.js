@@ -1,3 +1,5 @@
+// TODO: migrate to react
+
 const zoomHX = 2;
 const zoomHY = 80;
 const width = 4;

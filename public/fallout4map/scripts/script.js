@@ -1,3 +1,5 @@
+// TODO: migrate to react
+
 String.prototype.format = function(){
 	if (arguments.length === 0) return this;
 

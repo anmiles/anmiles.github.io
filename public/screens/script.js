@@ -1,3 +1,5 @@
+// TODO: migrate to react
+
 var json = {};
 
 function addPhone(title, data)
