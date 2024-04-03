@@ -15,8 +15,8 @@
 		"node": ">=18.18.0"
 	},
 	"scripts": {
-		"build": "npm-run-all build:*",
-		"build:versions": "node ./scripts/versions.js"
+		"update": "npm-run-all update:*",
+		"update:html": "node ./scripts/updateHTML.js"
 	},
 	"dependencies": {
 		"@anmiles/prototypes": "^10.0.4",
