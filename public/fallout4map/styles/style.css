@@ -11,11 +11,11 @@ html, body, #map {
 
 @font-face {
 	font-family: icomoon;
-	src: url(../fonts/icomoon.eot);
-	src: url(../fonts/icomoon.eot#iefix) format("embedded-opentype"),
-		url(../fonts/icomoon.ttf) format("truetype"),
-		url(../fonts/icomoon.woff) format("woff"),
-		url(../fonts/icomoon.svg#icomoon) format("svg");
+	src: url(/externals/fonts/icomoon.eot);
+	src: url(/externals/fonts/icomoon.eot#iefix) format("embedded-opentype"),
+		url(/externals/fonts/icomoon.ttf) format("truetype"),
+		url(/externals/fonts/icomoon.woff) format("woff"),
+		url(/externals/fonts/icomoon.svg#icomoon) format("svg");
 	font-weight: 400;
 	font-style: normal;
 }
