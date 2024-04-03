@@ -3,9 +3,9 @@
 
 <head>
 <meta http-equiv="Content-type" content="text/html; encoding=utf-8" />
-<link rel="stylesheet" href="//vk.com/css/al/common.css?418?304" />
-<link rel="stylesheet" href="VKontakteAPI.css?v=2023-09-27-00-44-50">
-<script src="//vk.com/js/api/xd_connection.js?2" type="text/javascript"></script>
+<link rel="stylesheet" href="https://vk.com/css/al/common.css?418?304" />
+<link rel="stylesheet" href="VKontakteAPI.css?v={VERSION}">
+<script src="https://vk.com/js/api/xd_connection.js?2" type="text/javascript"></script>
 </head>
 
 <body>
@@ -50,7 +50,7 @@ async function getAll({ method, params, callback }) {
 
 		allItems.push(...response.items);
 		offset += response.items.length;
-	} while (allItems.length < response.count && response.items.length > 0);
+	} while (allItems.length &lt; response.count && response.items.length > 0);
 
 	return allItems;
 };
@@ -73,7 +73,7 @@ async function get({ method, params, offset }) {
 };
 </textarea>
 
-<script type="text/javascript" src="VKontakteAPI.js?v=2023-09-27-00-44-50"></script>
+<script type="text/javascript" src="VKontakteAPI.js?v={VERSION}"></script>
 
 <!-- Global Site Tag (gtag.js) - Google Analytics -->
 <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>

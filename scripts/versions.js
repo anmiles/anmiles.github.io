@@ -14,7 +14,7 @@ fs.recurse(root, { file: (filepath) => {
 
 function updateVersion(filepath, time) {
 	const text = fs.readFileSync(filepath).toString();
-	const updatedText = text.replace(/(?<=\?v=)(\d{4}[\-\.\d]*)?/g, time);
+	const updatedText = text.replace(/\{VERSION\}/g, time);
 
 	if (text !== updatedText) {
 		console.log(`	${filepath}`);
