@@ -50,7 +50,7 @@ function IndexPage({ title }) {
 		<Page>
 			<div>
 				<h1>{ title }</h1>
-				<div class="actions">
+				<div className="actions">
 					<Action />
 					<Action />
 				</div>
@@ -70,14 +70,14 @@ function ContentPage({ sections }) {
 function Item({ section }) {
 	return (
 		<div className="section">
-			<div class="title">
+			<div className="title">
 				<span className="number">{section.id}.</span>
 				<span><span className="text">{ section.title }</span></span>
 			</div>
 			<ul className="steps">
 				{ section.steps.map((step, index) => <li key={ index }>{ step }</li>) }
 			</ul>
-			<div class="actions">
+			<div className="actions">
 				<Action>Делай так:</Action>
 				<Action />
 			</div>
@@ -88,8 +88,8 @@ function Item({ section }) {
 function Action({ children }) {
 	return (
 		<div className="action">
-			{ children && <span class="text">{ children }</span> }
-			<span class="border"></span>
+			{ children && <span className="text">{ children }</span> }
+			<span className="border"></span>
 		</div>
 	);
 }

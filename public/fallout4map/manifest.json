@@ -7,7 +7,7 @@
 	"display": "standalone",
 	"icons": [
 		{
-			"src": "../falloutmap/images/favicon-144x144.png",
+			"src": "images/favicon-144x144.png",
 			"sizes": "144x144",
 			"type": "image/png"
 		}
