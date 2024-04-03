@@ -1,31 +1,14 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
-	<meta http-equiv="Content-type" content="text/html; encoding=utf-8" />
-	<title></title>
-	<link rel="stylesheet" href="https://vk.com/css/al/common.css" />
-	<link rel="stylesheet" href="https://vk.com/css/al/groups.css" />
-	<script src="https://vk.com/js/api/xd_connection.js" type="text/javascript"></script>
-	<!-- TODO: migrate to react or shut down -->
-	<script src="https://ajax.aspnetcdn.com/ajax/knockout/knockout-2.2.1.js" type="text/javascript"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-	<link rel="stylesheet" href="MyEvents.css?v={VERSION}">
+	<title>VK MyEvents app</title>
+	<meta charset="utf-8">
+	<meta name="DC.date" content="2013">
+	<link rel="stylesheet" href="https://vk.com/css/al/common.css" type="text/css">
+	<link rel="stylesheet" href="https://vk.com/css/al/groups.css" type="text/css">
+	<link rel="stylesheet" href="MyEvents.css?v={VERSION}" type="text/css">
 </head>
 <body class="font_default loading">
-
-<script type="text/html" id="update-template" data-current-version="5">
-	<ul class="listing">
-		<li><b>Приложение переехало на Google Drive.</b><br />
-			<span>Теперь оно доступно всегда на 100% и загружается намного быстрее.<br />
-			Также закончились проблемы с "разнородным контентом" или "смешанным содержимым" в некоторых браузерах.</span>
-			<br /><br /></li>
-	</ul>
-	<div style="padding-left: 40px">
-	Вопросы и пожелания пишите, пожалуйста, в <b><a href="https://vk.com/myeventlist_group" target="_blank">группу приложения</a></b>. Спасибо!
-	<br /><br />
-	Автор надеется, что ваша жизнь в социальных сетях стала чуточку легче.
-	</div>
-</script>
 
 <div id="main-container">
 	<div class="clear_fix bar" id="feed_bar">
@@ -53,27 +36,6 @@
 		<div id="groups_reset_search" onclick="resetSearch();" onmouseout="this.style.opacity = 0.6;" onmouseover="this.style.opacity = 1;"></div>
 		<input type="text" class="text" id="groups_list_search" onkeydown="if (event.keyCode == 27) resetSearch();" onkeyup="updateSearch();">
 	</div>
-
-	<script type="text/html" id="event-template">
-		<div class="group_list_row" data-bind="attr: {id: 'gl_admin' + id, 'data-event-name': name.clean()}">
-			<div class="fl_l group_row_photo">
-				<a data-bind="attr: {href: ko_url}" target="_parent">
-					<img data-bind="attr: {src: photo_medium}" class="groups_row_img">
-				</a>
-			</div>
-			<div class="group_row_info fl_l">
-				<div class="group_row_labeled"><a data-bind="attr: {href: ko_url}" target="_parent"><b data-bind="text: name"></b></a></div>
-				<div class="group_row_labeled"><span data-bind="text: ko_start_date"></span></div>
-				<div class="group_row_labeled"><span data-bind="text: ko_members_count"></span></div>
-				<div class="calendar_add calendar_row" data-bind="attr: {id: 'calendar_add' + id, style: 'opacity: ' + ko_calendar_opacity}">
-					<a class="calendar_add_google" data-bind="attr: {href: ko_google_calendar_url, title: Dictionary.calendar_add_google}"></a>
-					<a class="calendar_add_ical" data-bind="attr: {href: ko_ical_calendar_url, title: Dictionary.calendar_add_ical}"></a>
-					<a class="calendar_add_outlook" data-bind="attr: {href: ko_ical_calendar_url, title: Dictionary.calendar_add_outlook}"></a>
-				</div>
-			</div>
-			<br class="clear">
-		</div>
-	</script>
 
 	<div id="groups_list_content">
 		<div id="events_list_future" class="events_list" data-bind="template: { name: 'event-template', foreach: FutureEvents }"></div>
@@ -112,6 +74,45 @@
 	</div>
 </div>
 
+<script type="text/html" id="update-template" data-current-version="5">
+	<ul class="listing">
+		<li><b>Приложение переехало на Google Drive.</b><br />
+			<span>Теперь оно доступно всегда на 100% и загружается намного быстрее.<br />
+			Также закончились проблемы с "разнородным контентом" или "смешанным содержимым" в некоторых браузерах.</span>
+			<br /><br /></li>
+	</ul>
+	<div style="padding-left: 40px">
+	Вопросы и пожелания пишите, пожалуйста, в <b><a href="https://vk.com/myeventlist_group" target="_blank">группу приложения</a></b>. Спасибо!
+	<br /><br />
+	Автор надеется, что ваша жизнь в социальных сетях стала чуточку легче.
+	</div>
+</script>
+
+<script type="text/html" id="event-template">
+	<div class="group_list_row" data-bind="attr: {id: 'gl_admin' + id, 'data-event-name': name.clean()}">
+		<div class="fl_l group_row_photo">
+			<a data-bind="attr: {href: ko_url}" target="_parent">
+				<img data-bind="attr: {src: photo_medium}" class="groups_row_img">
+			</a>
+		</div>
+		<div class="group_row_info fl_l">
+			<div class="group_row_labeled"><a data-bind="attr: {href: ko_url}" target="_parent"><b data-bind="text: name"></b></a></div>
+			<div class="group_row_labeled"><span data-bind="text: ko_start_date"></span></div>
+			<div class="group_row_labeled"><span data-bind="text: ko_members_count"></span></div>
+			<div class="calendar_add calendar_row" data-bind="attr: {id: 'calendar_add' + id, style: 'opacity: ' + ko_calendar_opacity}">
+				<a class="calendar_add_google" data-bind="attr: {href: ko_google_calendar_url, title: Dictionary.calendar_add_google}"></a>
+				<a class="calendar_add_ical" data-bind="attr: {href: ko_ical_calendar_url, title: Dictionary.calendar_add_ical}"></a>
+				<a class="calendar_add_outlook" data-bind="attr: {href: ko_ical_calendar_url, title: Dictionary.calendar_add_outlook}"></a>
+			</div>
+		</div>
+		<br class="clear">
+	</div>
+</script>
+
+<script type="text/javascript" src="https://vk.com/js/api/xd_connection.js"></script>
+<!-- TODO: migrate to react or shut down -->
+<script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/knockout/knockout-2.2.1.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script type="text/javascript" src="MyEvents.js?v={VERSION}"></script>
 
 </body>

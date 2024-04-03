@@ -34,8 +34,8 @@ function updateVersion(text) {
 function insertAnalytics(text) {
 	return text.replace('</body>', `\
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-92540327-1"></script>
-<script>
+<script type="text/javascript" async src="https://www.googletagmanager.com/gtag/js?id=UA-92540327-1"></script>
+<script type="text/javascript">
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
