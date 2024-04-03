@@ -1,0 +1,58 @@
+.load {
+    position: absolute;
+    right: 1em;
+    top: 1em;
+}
+
+.debug {
+    position: absolute;
+    right: 1em;
+    bottom: 1em;
+}
+
+.crossword {
+    position: relative;
+    line-height: 1em;
+}
+
+.crossword [contenteditable] {
+    position: absolute;
+    background: #ffffff;
+    border: 1px solid #252525;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    text-align: center;
+}
+
+.crossword [contenteditable]:focus {
+    background: #ffffcc;
+    outline: none;
+    border-color: #666600;
+}
+
+.crossword i {
+    position: absolute;
+    z-index: 1;
+    pointer-events: none;
+    color: #333333;
+    font-style: normal;
+    font-size: 0.4em;
+    line-height: 1;
+    padding: 2px;
+}
+
+.questions {
+    min-height: 4em;
+    padding: 1em 0;
+}
+
+.history {
+    width: 100%;
+    height: 6em;
+    display: none;
+}

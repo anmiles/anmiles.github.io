@@ -1,0 +1,52 @@
+input {
+	width: 5em;
+}
+
+input[disabled] {
+	background: #aaaaaa;
+}
+
+dt {
+	width: 60px;
+	line-height: 2.4em;
+}
+
+textarea {
+	width: 480px;
+	height: 96px;
+}
+
+#bar {
+	border-radius: inherit;
+	height: 100%;
+}
+
+input, textarea, #progress {
+	border: 1px solid grey;
+	border-radius: 4px;
+	padding: 0.5em;
+	line-height: 1.4em;
+}
+
+#progress {
+	padding: 2px;
+	text-align: right;
+	position: relative;
+	line-height: 2em;
+	height: 2em;
+	color: #ffffff;
+}
+
+#progress #bar::after {
+	content: attr(data-total);
+	position: absolute;
+	left: 0.5em;
+	top: 0;
+}
+
+#progress::after {
+	content: attr(data-remain);
+	position: absolute;
+	right: 0.5em;
+	top: 0;
+}

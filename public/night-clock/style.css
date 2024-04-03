@@ -1,0 +1,22 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #000000;
+	color: #222222;
+	font-size: 36vw;
+	line-height: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: system-ui, sans-serif;
+}
+
+.divider {
+	margin-top: -6%;
+	padding: 0 2%;
+}
