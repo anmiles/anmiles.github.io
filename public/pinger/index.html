@@ -20,6 +20,8 @@
 	}
 </style>
 
+<button>Ping</button>
+
 <textarea readonly></textarea>
 
 <script type="text/javascript">
@@ -35,7 +37,7 @@
 		})
 	}
 
-	(async function(){
+	async function start() {
 		const textarea = document.querySelector('textarea');
 
 		const allUrls = {
@@ -63,6 +65,7 @@
 		};
 
 		const urls = allUrls[location.search.slice(1)];
+		let total = 0;
 
 		if (urls) {
 			const maxKeyLength = Math.max(...Object.keys(urls).map(key => key.length));
@@ -72,13 +75,25 @@
 
 				try {
 					const result = await ping(urls[key]);
+					total += result;
 					textarea.value += `PASS: ${result}ms\n`;
 				} catch (result) {
+					total += result;
 					textarea.value += `FAIL: ${result}ms timeout\n`;
 				}
 			}
+
+			textarea.value += '-'.repeat(maxKeyLength) + '\n';
+			textarea.value += 'TOTAL: ' + total + 'ms';
 		}
-	})();
+	};
+
+	document.querySelector('button').addEventListener('click', (ev) => {
+		ev.preventDefault();
+		ev.target.style.display = 'none';
+		start();
+		return false;
+	})
 </script>
 
 </body>
