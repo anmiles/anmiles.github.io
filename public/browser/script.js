@@ -42,7 +42,6 @@ renderFeatures(enabledFeatures, true);
 
 document.querySelector('#features').innerHTML = featuresHTML.join('<br />\n');
 
-document.querySelector('#copy').focus();
-document.querySelector('#copy').click(function(){
+document.querySelector('#copy').addEventListener('click', function(ev){
 	navigator.clipboard.writeText(featuresReport.join('\n'));
 });
