@@ -1,4 +1,4 @@
-const timeout = 5000;
+const timeout = 3000;
 
 async function ping(url) {
 	return new Promise((resolve, reject) => {
@@ -31,10 +31,14 @@ async function start() {
 			plus_dist_desktop : 'https://raw.githubusercontent.com/anmiles/userscripts/main/dist/sbg.plus.user.js',
 			plus_dist_mobile : 'https://raw.githubusercontent.com/anmiles/userscripts/main/dist/sbg.plus.user.min.js',
 			userscripts: 'https://anmiles.net/userscripts',
-			pages_home: 'https://anmiles.net',
-			pages_origin: 'https://anmiles.github.io',
-			other_home: 'https://react.dev',
-			other_origin: 'https://facebook.github.io/react',
+			gh_anmiles: 'https://anmiles.github.io',
+			gh_chart: 'https://chartjs.github.io',
+			gh_react: 'https://facebook.github.io/react',
+			gh_tensorflow: 'https://tensorflow.github.io/playground',
+			gl_anmiles: 'https://anmiles.gitlab.io/',
+			gl_pages: 'https://pages.gitlab.io/',
+			gl_bold: 'https://boldhearts.gitlab.io/',
+			gl_dat: 'https://datlinux.gitlab.io/',
 		}
 	};
 
