@@ -6,9 +6,18 @@ input[disabled] {
 	background: #aaaaaa;
 }
 
-dt {
-	width: 60px;
+.field {
+	display: flex;
+}
+
+label {
+	width: 80px;
 	line-height: 2.4em;
+}
+
+label + textarea,
+label + #progress {
+	flex-grow: 1;
 }
 
 textarea {
@@ -24,8 +33,7 @@ textarea {
 input, textarea, #progress {
 	border: 1px solid grey;
 	border-radius: 4px;
-	padding: 0.5em;
-	line-height: 1.4em;
+	padding: 0.25em;
 }
 
 #progress {

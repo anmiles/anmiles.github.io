@@ -12,50 +12,55 @@
 <body>
 
 <div class="box">
-	<dl>
-		<dt><label for="sections">Sections:</label></dt>
-		<dd><input data-input="true" type="number" id="sections" value="130" readonly disabled /></dd>
-	</dl>
-	<dl>
-		<dt><label for="radius1">Radius&nbsp;1:</label></dt>
-		<dd><input data-input="true" type="number" id="radius1" /></dd>
-	</dl>
-	<dl>
-		<dt><label for="radius2">Radius&nbsp;2:</label></dt>
-		<dd><input data-input="true" type="number" id="radius2" /></dd>
-	</dl>
-	<dl>
-		<dt><label for="sections">Stroke:</label></dt>
-		<dd><input type="text" id="stroke" value="#ffffff" /></dd>
-	</dl>
-	<dl>
-		<dt><label for="sections">Stops:</label></dt>
-		<dd><textarea data-output="true" id="stops"></textarea></dd>
-	</dl>
-	<dl>
-		<dt><label for="sections">Angles:</label></dt>
-		<dd><textarea data-output="true" id="angles"></textarea></dd>
-	</dl>
-	<dl>
-		<dt><label for="dashes">Dashes:</label></dt>
-		<dd><textarea data-output="true" id="dashes"></textarea></dd>
-	</dl>
-	<dl>
-		<dt><label for="excel">Excel:</label></dt>
-		<dd><textarea id="excel"></textarea></dd>
-	</dl>
-	<dl>
-		<dt><label for="code">Code:</label></dt>
-		<dd><textarea id="code"></textarea></dd>
-	</dl>
-	<dl>
-		<dt>Progress:</dt>
-		<dd><div id="progress"><div id="bar" style="width: 0"></div></div></dd>
-	</dl>
+	<div class="field">
+		<label for="sections">Sections:</label>
+		<input data-input="true" type="number" id="sections" value="130" />
+	</div>
+	<div class="field">
+		<label for="radius1">Radius&nbsp;1:</label>
+		<input data-input="true" type="number" id="radius1" />
+	</div>
+	<div class="field">
+		<label for="radius2">Radius&nbsp;2:</label>
+		<input data-input="true" type="number" id="radius2" />
+	</div>
+	<div class="field">
+		<label for="sections">Stroke:</label>
+		<input type="text" id="stroke" value="#ffffff" />
+	</div>
+	<div class="field">
+		<label for="sections">Stops:</label>
+		<textarea data-output="true" id="stops"></textarea>
+	</div>
+	<div class="field">
+		<label for="sections">Angles:</label>
+		<textarea data-output="true" id="angles"></textarea>
+	</div>
+	<div class="field">
+		<label for="dashes">Dashes:</label>
+		<textarea data-output="true" id="dashes"></textarea>
+	</div>
+	<div class="field">
+		<label for="excel">Excel:</label>
+		<textarea id="excel"></textarea>
+	</div>
+	<div class="field">
+		<label for="code">Code:</label>
+		<textarea id="code"></textarea>
+	</div>
+	<div class="field">
+		<label for="progress">Progress:</label>
+		<div id="progress"><div id="bar" style="width: 0"></div></div>
+	</div>
+	<div class="theme">
+		<svg class="light"><use href="/externals/images/sun.svg#svg"/></svg>
+		<svg class="dark"><use href="/externals/images/moon.svg#svg"/></svg>
+	</div>
 </div>
 
 <!-- TODO: migrate to react -->
 <script type="text/javascript" src="/externals/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="/index.js?v={VERSION}"></script>
 <script type="text/javascript" src="script.js?v={VERSION}"></script>
 
 </body>
