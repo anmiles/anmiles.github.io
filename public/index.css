@@ -85,7 +85,6 @@ ul {
 }
 
 hr {
-	border: 1px inset black;
 	margin: 2em 0;
 }
 
@@ -131,8 +130,7 @@ body:before {
 	background: rgba(255, 255, 255, 0.7);
 }
 
-.box,
-hr {
+.box {
 	border-color: #6d4929;
 }
 
@@ -171,11 +169,11 @@ body[data-theme="dark"] .theme .dark {
 
 body[data-theme="dark"] .box {
 	background: #252525;
+	border-color: #414141;
 }
 
-body[data-theme="dark"] .box,
 body[data-theme="dark"] hr {
-	border-color: #414141;
+	border: 1px inset #414141;
 }
 
 body[data-theme="dark"] a,
