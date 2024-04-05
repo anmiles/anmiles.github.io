@@ -32,6 +32,10 @@ body:before {
 	height: 100vh;
 }
 
+body > * {
+	z-index: 1;
+}
+
 .box {
 	width: 100%;
 	max-width: 960px;

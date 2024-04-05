@@ -1,0 +1,28 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+body {
+	font-family: 'Consolas', monospace, sans-serif;
+	font-size: 15px;
+	display: flex;
+	flex-direction: column;
+}
+
+span {
+	white-space: nowrap;
+}
+
+#features {
+	flex-grow: 1;
+}
+
+button {
+	font-size: 1em;
+	padding: 1em;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+

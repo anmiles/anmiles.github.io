@@ -67,7 +67,7 @@ async function start() {
 	}
 };
 
-document.querySelector('button').addEventListener('click', (ev) => {
+document.querySelector('#ping').addEventListener('click', (ev) => {
 	ev.preventDefault();
 	ev.target.disabled = true;
 	start().then(() => ev.target.disabled = false);
