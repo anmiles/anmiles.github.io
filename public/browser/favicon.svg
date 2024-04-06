@@ -1,0 +1,18 @@
+<svg id="svg" viewBox="0 0 90 90" xmlns="http://www.w3.org/2000/svg"
+	fill="none" stroke="#008000" stroke-width="4">
+
+	<line x1="45" y1="5" x2="45" y2="85" />
+	<line x1="5" y1="45" x2="85" y2="45" />
+
+	<circle cx="45" cy="45" r="40" />
+
+	<circle cx="-25" cy="45" r="90"
+		stroke-dasharray="80 500" transform="rotate(-25 -25 45)" />
+	<circle cx="115" cy="45" r="90"
+		stroke-dasharray="80 500" transform="rotate(155 115 45)" />
+
+	<circle cx="45" cy="-65" r="90"
+		stroke-dasharray="55 500" transform="rotate(76 45 -65)" />
+	<circle cx="45" cy="155" r="90"
+		stroke-dasharray="55 500" transform="rotate(-104 45 155)" />
+</svg>

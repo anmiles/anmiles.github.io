@@ -1,0 +1,13 @@
+<svg id="svg" viewBox="0 0 90 90" xmlns="http://www.w3.org/2000/svg"
+	stroke-width="10" stroke-linecap="round">
+
+	<circle cx="45" cy="45" r="40"
+		stroke="#888800" fill="#cccc00" />
+
+	<circle cx="45" cy="45" r="20"
+		stroke="#605505" fill="none" transform="rotate(-18 45 45)"
+		stroke-dasharray="0 25.2" />
+
+	<circle cx="45" cy="45" r="5"
+		fill="#605505" />
+</svg>

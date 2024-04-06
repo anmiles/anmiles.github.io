@@ -1,0 +1,20 @@
+<svg id="svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
+	stroke-width="15" stroke-linecap="round">
+
+	<path stroke="#ffe814" fill="none" stroke-width="10" d="
+		M 5,25
+			a 20,20,0,0,1,20,-20
+			h 50
+			a 20,20,0,0,1,20,20
+			v 50
+			a 20,20,0,0,1,-20,20
+			h -50
+			a 20,20,0,0,1,-20,-20
+		Z" />
+
+	<line x1="25" y1="55" x2="40" y2="70"
+		stroke="#84c00c" />
+
+	<line x1="40" y1="70" x2="75" y2="35"
+		stroke="#84c00c" />
+</svg>
