@@ -7,9 +7,9 @@
 	"display": "standalone",
 	"icons": [
 		{
-			"src": "favicon.svg",
+			"src": "favicon.png",
 			"sizes": "256x256",
-			"type": "image/svg"
+			"type": "image/png"
 		}
 	]
 }

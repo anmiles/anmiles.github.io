@@ -2,14 +2,14 @@
 	"name": "Chooser",
 	"id": "chooser",
 	"start_url": ".",
-	"background_color": "#ffe814",
-	"theme_color": "#84c00c",
+	"background_color": "#ffffff",
+	"theme_color": "#ffe814",
 	"display": "standalone",
 	"icons": [
 		{
-			"src": "favicon.svg",
+			"src": "favicon.png",
 			"sizes": "256x256",
-			"type": "image/svg"
+			"type": "image/png"
 		}
 	]
 }
