@@ -8,7 +8,7 @@ html, body {
 }
 
 body, input, textarea {
-	font-family: 'Consolas', monospace, sans-serif;
+	font-family: 'Segoe UI', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 15px;
 }
 
