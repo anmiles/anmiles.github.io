@@ -1,4 +1,4 @@
-const timeout = 3000;
+const timeout = 5000;
 
 async function ping(url) {
 	return new Promise((resolve, reject) => {
