@@ -13,47 +13,54 @@ async function ping(url) {
 async function start() {
 	const textarea = document.querySelector('textarea');
 
-	const allUrls = {
-		sbg: {
-			game_app : 'https://sbg-game.ru/app',
-			game_desktop : 'https://sbg-game.ru/app/intel.js',
-			game_mobile : 'https://sbg-game.ru/app/script.js',
-			lib_ol: 'https://cdn.jsdelivr.net/npm/ol@v8.1.0/dist/ol.js',
-			lib_splide: 'https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js',
-			lib_toastify: 'https://cdn.jsdelivr.net/npm/toastify-js',
-			lib_telegram: 'https://telegram.org/js/telegram-widget.js?21',
-			fonts_manrope: 'https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap',
-			fonts_material: 'https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined',
-			scripts_cui : 'https://raw.githubusercontent.com/nicko-v/sbg-cui/main/index.js',
-			scripts_eui : 'https://github.com/egorantonov/sbg-enhanced/releases/latest/download/eui.user.js',
-			plus_desktop : 'https://anmiles.net/userscripts/sbg.plus.user.js',
-			plus_mobile : 'https://anmiles.net/userscripts/sbg.plus.user.min.js',
-			plus_dist_desktop : 'https://raw.githubusercontent.com/anmiles/userscripts/main/dist/sbg.plus.user.js',
-			plus_dist_mobile : 'https://raw.githubusercontent.com/anmiles/userscripts/main/dist/sbg.plus.user.min.js',
-			userscripts: 'https://anmiles.net/userscripts',
-			gh_anmiles: 'https://anmiles.github.io',
-			gh_chart: 'https://chartjs.github.io',
-			gh_react: 'https://facebook.github.io/react',
-			gh_tensorflow: 'https://tensorflow.github.io/playground',
-			gl_anmiles: 'https://anmiles.gitlab.io/',
-			gl_pages: 'https://pages.gitlab.io/',
-			gl_bold: 'https://boldhearts.gitlab.io/',
-			gl_dat: 'https://datlinux.gitlab.io/',
-		}
+	const allUrlsData = {
+		sbg: [
+			{ key: 'home', url: 'https://sbg-game.ru/app' },
+			{ key: 'app', url: 'https://sbg-game.ru/app' },
+			{ key: 'desktop', url: 'https://sbg-game.ru/app/intel.js' },
+			{ key: 'mobile', url: 'https://sbg-game.ru/app/script.js' },
+			{ key: 'ol', url: 'https://cdn.jsdelivr.net/npm/ol@v8.1.0/dist/ol.js' },
+			{ key: 'splide', url: 'https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js' },
+			{ key: 'toastify', url: 'https://cdn.jsdelivr.net/npm/toastify-js' },
+			{ key: 'telegram', url: 'https://telegram.org/js/telegram-widget.js?21' },
+			{ key: 'manrope', url: 'https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap' },
+			{ key: 'material', url: 'https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined' },
+			{ key: 'eui', url: 'https://github.com/egorantonov/sbg-enhanced/releases/latest/download/eui.user.js' },
+			{ key: 'cui', url: 'https://raw.githubusercontent.com/nicko-v/sbg-cui/main/index.js' },
+			{ key: 'plus_desktop', url: 'https://raw.githubusercontent.com/anmiles/userscripts/main/dist/sbg.plus.user.js' },
+			{ key: 'plus_mobile', url: 'https://raw.githubusercontent.com/anmiles/userscripts/main/dist/sbg.plus.user.min.js' },
+			{ key: 'plus_desktop', url: 'https://anmiles.net/userscripts/sbg.plus.user.js' },
+			{ key: 'plus_mobile', url: 'https://anmiles.net/userscripts/sbg.plus.user.min.js' },
+			{ key: 'plus_desktop', url: 'https://anmiles.github.io/userscripts/sbg.plus.user.js' },
+			{ key: 'plus_mobile', url: 'https://anmiles.github.io/userscripts/sbg.plus.user.min.js' },
+			{ key: 'anmiles', url: 'https://anmiles.github.io' },
+			{ key: 'chartjs', url: 'https://chartjs.github.io' },
+			{ key: 'react', url: 'https://facebook.github.io/react' },
+			{ key: 'tensorflow', url: 'https://tensorflow.github.io/playground' },
+			{ key: 'anmiles', url: 'https://anmiles.gitlab.io/' },
+			{ key: 'pages', url: 'https://pages.gitlab.io/' },
+			{ key: 'boldhearts', url: 'https://boldhearts.gitlab.io/' },
+			{ key: 'datlinux', url: 'https://datlinux.gitlab.io/' },
+		]
 	};
 
-	const urls = allUrls[location.search.slice(1)];
+	const urlsData = allUrlsData[location.search.slice(1)];
 	let total = 0;
 
-	if (urls) {
-		const maxKeyLength = Math.max(...Object.keys(urls).map(key => key.length));
+	if (urlsData) {
+		urlsData.map(urlData => {
+			const domain = new URL(urlData.url).host.split('.').slice(-2).join('.');
+			urlData.label = domain + ' @ ' + urlData.key;
+		})
+
+		const maxLabelLength = Math.max(...urlsData.map((item) => item.label.length));
 		textarea.value = '';
 
-		for (const key in urls) {
-			textarea.value += key + ' '.repeat(maxKeyLength - key.length) + ' => ';
+		for (const { url, label } of urlsData) {
+			textarea.value += label + ' '.repeat(maxLabelLength - label.length) + ' => ';
 
 			try {
-				const result = await ping(urls[key]);
+				const result = await ping(url);
 				total += result;
 				textarea.value += `PASS: ${result}ms\n`;
 			} catch (result) {
@@ -62,14 +69,19 @@ async function start() {
 			}
 		}
 
-		textarea.value += '-'.repeat(maxKeyLength) + '\n';
+		textarea.value += '-'.repeat(maxLabelLength) + '\n';
 		textarea.value += 'TOTAL: ' + total + 'ms';
 	}
 };
 
-document.querySelector('#ping').addEventListener('click', (ev) => {
-	ev.preventDefault();
-	ev.target.disabled = true;
-	start().then(() => ev.target.disabled = false);
-	return false;
-});
+if (location.hash === '#start') {
+	document.querySelector('#ping').style.display = 'none';
+	start();
+} else {
+	document.querySelector('#ping').addEventListener('click', (ev) => {
+		ev.preventDefault();
+		ev.target.disabled = true;
+		start().then(() => ev.target.disabled = false);
+		return false;
+	});
+}
