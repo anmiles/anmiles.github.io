@@ -5,15 +5,18 @@ html, body {
 	padding: 0;
 }
 
+body, table, input, select, button, textarea {
+	font-family: "Segoe UI", "Roboto", "Helvetica", sans-serif;
+	font-size: 36vw;
+}
+
 body {
 	background: #000000;
 	color: #222222;
-	font-size: 36vw;
 	line-height: 1;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-family: system-ui, sans-serif;
 }
 
 .divider {

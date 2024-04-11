@@ -6,10 +6,9 @@ html, body
 	padding: 0;
 }
 
-body, input
-{
-	font-family: 'Noto Sans', Arial, Verdana;
-	font-size: 15px;
+body, table, input, select, button, textarea {
+	font-family: "Segoe UI", "Roboto", "Helvetica", sans-serif;
+	font-size: 16px;
 }
 
 #main

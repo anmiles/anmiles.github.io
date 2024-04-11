@@ -4,9 +4,12 @@ html, body {
 	height: 100%;
 }
 
-body {
-	font-family: 'Consolas', monospace, sans-serif;
+body, table, input, select, button, textarea {
+	font-family: "Consolas", "Courier new", monospace;
 	font-size: 15px;
+}
+
+body {
 	display: flex;
 	flex-direction: column;
 }

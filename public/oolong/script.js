@@ -8,7 +8,10 @@ var app = new Vue({
 	},
 	computed: {
 		vCold: function () {
-			return Math.floor(((this.tFinal - this.tHot) / (this.tCold - this.tHot)) * this.vFinal);
+			return Math.round(((this.tFinal - this.tHot) / (this.tCold - this.tHot)) * this.vFinal);
+		},
+		vOolong: function () {
+			return Math.round(this.vFinal / 100) / 2;
 		}
 	}
 });

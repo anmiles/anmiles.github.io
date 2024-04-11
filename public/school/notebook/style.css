@@ -7,11 +7,8 @@ html, body {
 	padding: 0;
 }
 
-body, td, input {
-	font-family: Arial, sans-serif;
-}
-
-body {
+body, table, input, select, button, textarea {
+	font-family: "Arial", sans-serif;
 	font-size: 13px;
 }
 

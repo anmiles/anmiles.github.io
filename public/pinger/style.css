@@ -4,6 +4,16 @@ html, body {
 	height: 100%;
 }
 
+body, table, input, select, button, textarea {
+	font-family: "Segoe UI", "Roboto", "Helvetica", sans-serif;
+	font-size: 16px;
+}
+
+textarea {
+	font-family: "Consolas", "Courier new", monospace;
+	font-size: 13px;
+}
+
 body {
 	display: flex;
 	flex-direction: column;

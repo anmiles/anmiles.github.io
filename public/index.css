@@ -7,8 +7,8 @@ html, body {
 	padding: 0;
 }
 
-body, input, textarea {
-	font-family: 'Segoe UI', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+body, table, input, select, button, textarea {
+	font-family: "Segoe UI", "Roboto", "Helvetica", sans-serif;
 	font-size: 16px;
 }
 
@@ -63,7 +63,7 @@ a.break-word {
 }
 
 @media screen and (max-width: 800px) {
-	body, input, textarea {
+	body, table, input, select, button, textarea {
 		font-size: 18px;
 	}
 

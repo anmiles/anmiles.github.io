@@ -5,19 +5,19 @@ html, body {
 	padding: 0;
 }
 
-body, input, select {
-	font-family: 'Noto Sans', Arial, Verdana;
-	font-size: 14px;
+body, table, input, select, button, textarea {
+	font-family: "Segoe UI", "Roboto", "Helvetica", sans-serif;
+	font-size: 16px;
 }
 
 h1 {
-	font-size: 20px;
+	font-size: 1em;
 }
 
 table {
 	display: table;
 	border-spacing: 10px;
-	max-width: 320px;
+	max-width: 360px;
 	margin: 0 auto;
 }
 

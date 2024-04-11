@@ -6,9 +6,12 @@ html, body
 	padding: 0;
 }
 
-body {
-	font-family: 'Courier New', Courier, monospace;
+body, table, input, select, button, textarea {
+	font-family: "Segoe UI", "Roboto", "Helvetica", sans-serif;
 	font-size: 16px;
+}
+
+body {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -16,7 +19,6 @@ body {
 }
 
 input {
-	font-family: 'Courier New', Courier, monospace;
 	width: 3em;
 	height: 2em;
 	margin: 0.2em 0;

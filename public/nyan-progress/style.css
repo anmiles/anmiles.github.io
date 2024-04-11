@@ -4,7 +4,11 @@ html, body
 	height: 100%;
 	margin: 0;
 	padding: 0;
-	font-family: Arial;
+}
+
+body, table, input, select, button, textarea {
+	font-family: "Segoe UI", "Roboto", "Helvetica", sans-serif;
+	font-size: 16px;
 }
 
 .container

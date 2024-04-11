@@ -16,10 +16,14 @@ html, body
 	overflow: hidden;
 }
 
+body, table, input, select, button, textarea {
+	font-family: "Comic Sans MS", "Segoe UI", "Roboto", "Helvetica", sans-serif;
+	font-size: 16px;
+}
+
 body {
 	background: url(background.jpg) bottom center no-repeat;
 	background-size: cover;
-	font-family: "Comic Sans MS", Arial, sans-serif;
 }
 
 .snow {
@@ -39,7 +43,7 @@ body {
 }
 
 .congratulations {
-	padding-top: 10vh;
+	padding-top: 12vw;
 	text-align: center;
 	color: orange;
 	background: repeating-linear-gradient(to right, red,orange 10px, yellow 20px, orange 30px, red 40px);
@@ -47,7 +51,7 @@ body {
 	-moz-background-clip: text;
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
-	font-size: 7vw;
+	font-size: 8vw;
 	font-weight: bold;
 	text-shadow: -0.1em -0.1em 0.1em rgba(255, 255, 255, 0.5);
 }
@@ -101,26 +105,26 @@ body {
 	text-shadow: -0.2vh -0.3vh 0.6vh currentColor;
 }
 
-@media screen and (max-device-width: 760px), screen and (max-width: 760px) {
+@media screen and (max-aspect-ratio: 1) {
 	.counter .item {
-		width: 18vw;
-		height: 18vw;
-		margin: 1.8vw;
+		width: 15vw;
+		height: 15vw;
+		margin: 1.5vw;
 	}
 
 	.counter .value {
-		font-size: 12vw;
-		line-height: 18vw;
-		border-radius: 4vw;
+		font-size: 10vw;
+		line-height: 15vw;
+		border-radius: 3vw;
 	}
 
 	.counter .value.top {
-		border-radius: 4vw 4vw 0 0;
+		border-radius: 3vw 3vw 0 0;
 	}
 
 	.counter small {
-		bottom: -8vw;
-		font-size: 4vw;
-		line-height: 8vw;
+		bottom: -6vw;
+		font-size: 3vw;
+		line-height: 6vw;
 	}
 }

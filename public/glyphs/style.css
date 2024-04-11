@@ -3,12 +3,15 @@ html, body {
 	padding: 0;
 }
 
+body, table, input, select, button, textarea {
+	font-family: "Coda", "Segoe UI", "Roboto", "Helvetica", sans-serif;
+	font-size: 16px;
+}
+
 body
 {
-	font-family: Coda, Verdana;
 	color: #ffffff;
 	background: #252525;
-	font-size: 13px;
 }
 
 ul

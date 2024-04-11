@@ -18,8 +18,6 @@
 			backgroundColor: "#FEFFEC",
 			textAlign: "center",
 			color: "#BBB",
-			fontSize: "1em",
-			fontFamily: "Arial, sans-serif"
 		},
 
 		droplabel:
