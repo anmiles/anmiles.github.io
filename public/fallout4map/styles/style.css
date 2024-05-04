@@ -10,14 +10,12 @@ html, body, #map {
 }
 
 @font-face {
-	font-family: "icomoon";
-	src: url(/fonts/icomoon.eot);
-	src: url(/fonts/icomoon.eot#iefix) format("embedded-opentype"),
-		url(/fonts/icomoon.ttf) format("truetype"),
-		url(/fonts/icomoon.woff) format("woff"),
-		url(/fonts/icomoon.svg#icomoon) format("svg");
-	font-weight: 400;
+	font-family: "Font Awesome 6 Free";
 	font-style: normal;
+	font-weight: 900;
+	font-display: block;
+	src: url(/fonts/fa-solid-900.woff2) format("woff2"),
+		url(/fonts/fa-solid-900.ttf) format("truetype")
 }
 
 .row {
@@ -198,17 +196,20 @@ input[type="checkbox"]:checked {
 	display: none;
 }
 
-.icon-marker:before,
-.icon-marker:after {
+.fa-solid:before {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.icon-marker:before {
 	position: absolute;
 	left: -16px;
 	bottom: 0;
 	width: 32px;
 	height: 42px;
-}
-
-.icon-marker:before {
 	content: '';
+	text-align: center;
+	line-height: 36px;
 	background: url(../images/markers.png) no-repeat;
 }
 
@@ -228,62 +229,6 @@ input[type="checkbox"]:checked {
 .icon-unmarked:before {
 	background-position: center -168px;
 }
-
-.icon:after {
-	font-family: "icomoon";
-	font-style: normal;
-	font-weight: 400;
-	text-align: center;
-	font-size: 20px;
-}
-
-.icon-marker:after {
-	line-height: 34px;
-}
-
-.icon:after{content:"\e919"}
-.icon-bobblehead:after{content:"\e906"}
-.icon-building:after{content:"\e909"}
-.icon-camper:after{content:"\e91b"}
-.icon-cave:after{content:"\e90c"}
-.icon-church:after{content:"\e90a"}
-.icon-encampment:after{content:"\e921"}
-.icon-factory:after{content:"\e90d"}
-.icon-fusion-core:after{content:"\e90f"}
-.icon-holotape:after{content:"\e908"}
-.icon-hospital:after{content:"\e912"}
-.icon-industry:after{content:"\e910"}
-.icon-junkyard:after{content:"\e920"}
-.icon-link:after{content:"\e915"}
-.icon-metro:after{content:"\e916"}
-.icon-military-base:after{content:"\e90e"}
-.icon-mini-nuke:after{content:"\e924"}
-.icon-miscellaneous:after{content:"\e919"}
-.icon-note:after{content:"\e925"}
-.icon-nuka-cherry:after{content:"\e923"}
-.icon-nuka-cola:after{content:"\e922"}
-.icon-unmarked:after{content:"•"}
-.icon-perk-magazine:after{content:"\e907"}
-.icon-police-station:after{content:"\e917"}
-.icon-pond-lake:after{content:"\e911"}
-.icon-power-armor:after{content:"\e904"}
-.icon-primary:after{content:"\e91d"}
-.icon-quarry:after{content:"\e91c"}
-.icon-radio-tower:after{content:"\e914"}
-.icon-radioactive-area:after{content:"\e903"}
-.icon-railroad:after{content:"\e926"}
-.icon-ruins:after{content:"\e90b"}
-.icon-satellite:after{content:"\e913"}
-.icon-school:after{content:"\e918"}
-.icon-settlement:after{content:"\e905"}
-.icon-shipwreck:after{content:"\e91f"}
-.icon-town:after{content:"\e91e"}
-.icon-unique:after{content:"\e91a"}
-.icon-vault:after,.spinner:after{content:"\e901"}
-.icon-weapon:after{content:"\e902"}
-.icon-workbench:after{content:"\e900"}
-
-.icon.type:after{ display: none }
 
 .panel {
 	position: absolute;
@@ -382,14 +327,14 @@ input[type="checkbox"]:checked {
 	position: relative;
 }
 
-.search .icon:after {
+.search .icon:before {
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
 
-.search .icon-unmarked:after {
+.search .icon-unmarked:before {
 	margin-top: -2px;
 }
 
@@ -419,11 +364,16 @@ input[type="checkbox"]:checked {
 	top: 8px;
 	width: auto;
 	flex-direction: row-reverse;
+	gap: 8px;
 	border-radius: 4px;
 	padding: 0 8px;
 }
 
-.search .input .icon:after {
+.search .input .icon i:empty {
+	display: none;
+}
+
+.search .input .icon:before {
 	position: static;
 	transform: none;
 	margin-right: 8px;
@@ -464,7 +414,7 @@ input[type="checkbox"]:checked {
 	text-align: center;
 }
 
-.filter .icon:after {
+.filter .icon:before {
 	font-size: 16px;
 }
 

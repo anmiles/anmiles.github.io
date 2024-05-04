@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="/libs/leaflet-1.5.1.css" type="text/css">
 	<link rel="stylesheet" href="/libs/leaflet.fullscreen.css" type="text/css">
 	<link rel="stylesheet" href="styles/style.css?v={VERSION}" type="text/css">
+	<link rel="stylesheet" href="/fonts/fontawesome.css?v={VERSION}" type="text/css">
 </head>
 <body>
 
@@ -19,10 +20,14 @@
 	<div class="section input">
 		<input type="text" data-bind="attr: { placeholder: placeholder }, textInput: text, event: { keyup: search }, hasFocus: focused" />
 		<!-- ko with: icon -->
-			<span class="icon row" data-bind="text: title, css: className, click: $root.clearFilter"></span>
+			<span class="icon row" data-bind="css: typeClassName, click: $root.clearFilter">
+				<i data-bind="css: fontClassName"></i><span data-bind="text: title"></span>
+			</span>
 		<!-- /ko -->
 		<!-- ko with: type -->
-			<span class="icon row type" data-bind="text: title, css: className, click: $root.clearFilter"></span>
+			<span class="icon row type" data-bind="css: typeClassName, click: $root.clearFilter">
+				<i data-bind="css: fontClassName"></i><span data-bind="text: title"></span>
+			</span>
 		<!-- /ko -->
 	</div>
 	<div class="sections" data-bind="foreach: results">

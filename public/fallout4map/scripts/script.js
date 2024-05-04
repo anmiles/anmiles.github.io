@@ -90,29 +90,29 @@ Array.prototype.unique = function() {
 const dlcs = {
 	'': {
 		key: '',
-		title: '',
+		title: 'Fallout 4',
 		zoom: 3,
 		background: '#1d1d1d',
 		default: true,
-		ready: 0.98,
+		ready: 0.99,
 	},
 	far_harbor: {
 		key: 'far_harbor',
-		title: '(Far Harbor)',
+		title: 'Far Harbor DLC',
 		background: '#201c20',
 		zoom: 3,
 		ready: 1,
 	},
 	nuka_world: {
 		key: 'nuka_world',
-		title: '(Nuka World)',
+		title: 'Nuka World DLC',
 		background: '#282420',
 		zoom: 3,
-		ready: 0,
+		ready: 0.1,
 	},
 	zone: {
 		key: 'zone',
-		title: '(Zone)',
+		title: 'Zone DLC',
 		background: '#666666',
 		zoom: 3,
 		ready: 1,
@@ -122,7 +122,9 @@ const dlcs = {
 const langs = {
 	ru: {
 		key: 'ru',
-		title: 'Russian',
+		game: 'Игра',
+		lang: 'Язык',
+		title: 'Русский',
 		load: 'Загрузить',
 		save: 'Сохранить',
 		delete: 'Удалить',
@@ -137,6 +139,8 @@ const langs = {
 	},
 	en: {
 		key: 'en',
+		game: 'Game',
+		lang: 'Language',
 		title: 'English',
 		load: 'Load',
 		save: 'Save',
@@ -156,13 +160,13 @@ const dlc = getFromQueryString('dlc', dlcs);
 const lang = getFromQueryString('lang', langs) || langs[['ru', 'uk', 'be', 'kk'].indexOf(navigator.language) === -1 ? 'en' : 'ru'];
 
 const meta = {
-	base: { key: 'fallout4map', title: 'Fallout 4' },
+	base: { key: 'fallout4map' },
 	data: { dlc, lang },
 };
 
 const game = { ...dlc };
 game.key = [ meta.base.key, meta.data.dlc.key ].filter(k => k).join('_');
-game.title = [ meta.base.title, meta.data.dlc.title ].filter(k => k).join(' ');
+game.title = meta.data.dlc.title;
 
 const editable = !!localStorage[meta.base.key + '-editMode'];
 
@@ -200,6 +204,8 @@ const types = [
 	type.points = ko.observableArray([]);
 	type.title = type.titles[lang.key];
 	type.toggle = toggleType;
+	type.typeClassName = type.className;
+	type.fontClassName = null;
 	type.enabled = ko.observable(hidden.types.indexOf(type.name) === -1);
 	type.count = ko.computed(() => type.points().filter(point => point.checked()).length);
 	type.search = () => {
@@ -217,50 +223,54 @@ const typesObject = types.reduce((obj, type) => {
 }, {});
 
 const icons = [
-	{ name: "bobblehead", className: "icon-bobblehead", type: "collectible", titles: { en: "Bobblehead", ru: "Пупс" } },
-	{ name: "building", className: "icon-building", type: "location", titles: { en: "Building", ru: "Здание" } },
-	{ name: "bunker", className: "icon-bunker", type: "location", titles: { en: "Bunker", ru: "Бункер" } },
-	{ name: "camper", className: "icon-camper", type: "location", titles: { en: "Camper", ru: "Трейлерный парк" } },
-	{ name: "cave", className: "icon-cave", type: "location", titles: { en: "Cave", ru: "Пещера" } },
-	{ name: "church", className: "icon-church", type: "location", titles: { en: "Church", ru: "Церковь" } },
-	{ name: "encampment", className: "icon-encampment", type: "location", titles: { en: "Encampment", ru: "Лагерь" } },
-	{ name: "factory", className: "icon-factory", type: "location", titles: { en: "Factory", ru: "Фабрика" } },
-	{ name: "farm", className: "icon-farm", type: "location", titles: { en: "Farm", ru: "Ферма" } },
-	{ name: "filling-station", className: "icon-filling-station", type: "location", titles: { en: "Filling station", ru: "Заправочная станция" } },
-	{ name: "fusion-core", className: "icon-fusion-core", type: "pickup", titles: { en: "Fusion core", ru: "Ядерный блок" } },
-	{ name: "graveyard", className: "icon-graveyard", type: "location", titles: { en: "Graveyard", ru: "Кладбище" } },
-	{ name: "holotape", className: "icon-holotape", type: "collectible", titles: { en: "Holotape", ru: "Голодиск" } },
-	{ name: "hospital", className: "icon-hospital", type: "location", titles: { en: "Hospital", ru: "Больница" } },
-	{ name: "junkyard", className: "icon-junkyard", type: "location", titles: { en: "Junkyard", ru: "Свалка" } },
-	{ name: "metro", className: "icon-metro", type: "location", titles: { en: "Metro", ru: "Метро" } },
-	{ name: "military-base", className: "icon-military-base", type: "location", titles: { en: "Military base", ru: "Военная база" } },
-	{ name: "mini-nuke", className: "icon-mini-nuke", type: "pickup", titles: { en: "Mini nuke", ru: "Ядерный минизаряд" } },
-	{ name: "nuka-cherry", className: "icon-nuka-cherry", type: "pickup", titles: { en: "Nuka cherry", ru: "Ядер-вишня" } },
-	{ name: "nuka-cola", className: "icon-nuka-cola", type: "pickup", titles: { en: "Nuka cola", ru: "Квантовая ядер-кола" } },
-	{ name: "perk-magazine", className: "icon-perk-magazine", type: "collectible", titles: { en: "Perk magazine", ru: "Журнал" } },
-	{ name: "pier", className: "icon-pier", type: "location", titles: { en: "Pier", ru: "Пирс" } },
-	{ name: "poi", className: "icon-poi", type: "location", titles: { en: "Other", ru: "Прочее" } },
-	{ name: "police-station", className: "icon-police-station", type: "location", titles: { en: "Police station", ru: "Полицейский участок" } },
-	{ name: "pond-lake", className: "icon-pond-lake", type: "location", titles: { en: "Pond/lake", ru: "Озеро/пруд" } },
-	{ name: "power-armor", className: "icon-power-armor", type: "pickup", titles: { en: "Power armor", ru: "Силовая броня" } },
-	{ name: "quarry", className: "icon-quarry", type: "location", titles: { en: "Quarry", ru: "Карьер" } },
-	{ name: "radio-tower", className: "icon-radio-tower", type: "location", titles: { en: "Radio tower", ru: "Радиовышка" } },
-	{ name: "radioactive-area", className: "icon-radioactive-area", type: "location", titles: { en: "Radioactive area", ru: "Радиоактивная область" } },
-	{ name: "railroad", className: "icon-railroad", type: "location", titles: { en: "Railroad", ru: "Ж/д станция" } },
-	{ name: "ruins", className: "icon-ruins", type: "location", titles: { en: "Ruins", ru: "Руины" } },
-	{ name: "satellite", className: "icon-satellite", type: "location", titles: { en: "Satellite", ru: "Спутниковая антенна" } },
-	{ name: "school", className: "icon-school", type: "location", titles: { en: "School", ru: "Школа" } },
-	{ name: "settlement", className: "icon-settlement", type: "location", titles: { en: "Settlement", ru: "Поселение" } },
-	{ name: "shipwreck", className: "icon-shipwreck", type: "location", titles: { en: "Ship", ru: "Корабль" } },
-	{ name: "town", className: "icon-town", type: "location", titles: { en: "Town", ru: "Город" } },
-	{ name: "unmarked", className: "icon-unmarked", type: "unmarked", titles: { en: "Unmarked location", ru: "Неотмечаемая локация" } },
-	{ name: "vault", className: "icon-vault", type: "location", titles: { en: "Vault", ru: "Убежище" } },
-	{ name: "weapon", className: "icon-weapon", type: "pickup", titles: { en: "Weapon", ru: "Оружие" } },
+	{ name: "attraction", className: "fa-ticket", type: "location", titles: { en: "Attraction", ru: "Аттракцион" } },
+	{ name: "bobblehead", className: "fa-face-smile", type: "collectible", titles: { en: "Bobblehead", ru: "Пупс" } },
+	{ name: "bridge", className: "fa-bridge", type: "location", titles: { en: "Bridge", ru: "Мост" } },
+	{ name: "building", className: "fa-building", type: "location", titles: { en: "Building", ru: "Здание" } },
+	{ name: "bunker", className: "fa-door-closed", type: "location", titles: { en: "Bunker", ru: "Бункер" } },
+	{ name: "cafe", className: "fa-utensils", type: "location", titles: { en: "Cafe", ru: "Кафе" } },
+	{ name: "camper", className: "fa-caravan", type: "location", titles: { en: "Camper", ru: "Трейлерный парк" } },
+	{ name: "cave", className: "fa-igloo", type: "location", titles: { en: "Cave", ru: "Пещера" } },
+	{ name: "church", className: "fa-church", type: "location", titles: { en: "Church", ru: "Церковь" } },
+	{ name: "city", className: "fa-city", type: "location", titles: { en: "City", ru: "Город" } },
+	{ name: "encampment", className: "fa-campground", type: "location", titles: { en: "Encampment", ru: "Лагерь" } },
+	{ name: "factory", className: "fa-industry", type: "location", titles: { en: "Factory", ru: "Фабрика" } },
+	{ name: "farm", className: "fa-tractor", type: "location", titles: { en: "Farm", ru: "Ферма" } },
+	{ name: "filling-station", className: "fa-gas-pump", type: "location", titles: { en: "Filling station", ru: "Заправочная станция" } },
+	{ name: "forest", className: "fa-tree", type: "location", titles: { en: "Forest", ru: "Лес" } },
+	{ name: "fusion-core", className: "fa-bolt", type: "pickup", titles: { en: "Fusion core", ru: "Ядерный блок" } },
+	{ name: "graveyard", className: "fa-monument", type: "location", titles: { en: "Graveyard", ru: "Кладбище" } },
+	{ name: "holotape", className: "fa-camera-retro", type: "collectible", titles: { en: "Holotape", ru: "Голодиск" } },
+	{ name: "hospital", className: "fa-bed-pulse", type: "location", titles: { en: "Hospital", ru: "Больница" } },
+	{ name: "junkyard", className: "fa-trash", type: "location", titles: { en: "Junkyard", ru: "Свалка" } },
+	{ name: "magazine", className: "fa-book", type: "collectible", titles: { en: "Magazine", ru: "Журнал" } },
+	{ name: "military-base", className: "fa-star", type: "location", titles: { en: "Military base", ru: "Военная база" } },
+	{ name: "mini-nuke", className: "fa-bomb", type: "pickup", titles: { en: "Mini nuke", ru: "Ядерный минизаряд" } },
+	{ name: "pier", className: "fa-pallet", type: "location", titles: { en: "Pier", ru: "Пирс" } },
+	{ name: "plane", className: "fa-plane", type: "location", titles: { en: "Plane", ru: "Самолёт" } },
+	{ name: "police-station", className: "fa-person-military-pointing", type: "location", titles: { en: "Police station", ru: "Полицейский участок" } },
+	{ name: "power-armor", className: "fa-shield-halved", type: "pickup", titles: { en: "Power armor", ru: "Силовая броня" } },
+	{ name: "quarry", className: "fa-hill-rockslide", type: "location", titles: { en: "Quarry", ru: "Карьер" } },
+	{ name: "radiation", className: "fa-radiation", type: "location", titles: { en: "Radiation", ru: "Радиация" } },
+	{ name: "radio-tower", className: "fa-tower-cell", type: "location", titles: { en: "Radio tower", ru: "Радиовышка" } },
+	{ name: "satellite", className: "fa-satellite-dish", type: "location", titles: { en: "Satellite", ru: "Спутниковая антенна" } },
+	{ name: "school", className: "fa-graduation-cap", type: "location", titles: { en: "School", ru: "Школа" } },
+	{ name: "settlement", className: "fa-house", type: "location", titles: { en: "Settlement", ru: "Поселение" } },
+	{ name: "ship", className: "fa-anchor", type: "location", titles: { en: "Ship", ru: "Корабль" } },
+	{ name: "store", className: "fa-store", type: "location", titles: { en: "Store", ru: "Магазин" } },
+	{ name: "subway-station", className: "fa-train-subway", type: "location", titles: { en: "Subway station", ru: "Станция метро" } },
+	{ name: "train-station", className: "fa-train", type: "location", titles: { en: "Train station", ru: "Ж/д станция" } },
+	{ name: "unmarked", className: "fa-map-location", type: "unmarked", titles: { en: "Unmarked location", ru: "Неотмечаемая локация" } },
+	{ name: "vault", className: "fa-gear", type: "location", titles: { en: "Vault", ru: "Убежище" } },
+	{ name: "water", className: "fa-water", type: "location", titles: { en: "Water", ru: "Водоём" } },
+	{ name: "weapon", className: "fa-gun", type: "pickup", titles: { en: "Weapon", ru: "Оружие" } },
 ].map((icon) => {
 	icon.points = ko.observableArray([]);
 	icon.title = icon.titles[lang.key];
 	icon.all = icon.all || false;
-	icon.className = typesObject[icon.type].className + ' ' + icon.className;
+	icon.typeClassName = typesObject[icon.type].className;
+	icon.fontClassName = 'fa-solid ' + icon.className;
+	icon.className = icon.typeClassName + ' ' + icon.fontClassName;
 	icon.toggle = toggleIcon;
 	icon.enabled = ko.observable(hidden.icons.indexOf(icon.name) === -1);
 	icon.count = ko.computed(() => icon.points().filter(point => point.checked()).length);
@@ -319,7 +329,7 @@ progress.update = () => {
 
 progress.text = ko.computed(() => {
 	const value = Math.floor(100 * progress.visited() / progress.total());
-	return value + '%';
+	return isNaN(value) ? '...' : value + '%';
 });
 
 const map = L.map('map', {
@@ -729,11 +739,11 @@ searchPanel.visible.subscribe((value) => {
 
 const filterPanel = createPanel({ types: Object.values(types) }, '.filter');
 
-map.addControl(new L.Button({text: game.title, click: () => {
+map.addControl(new L.Button({ text: `${lang.game}: ${game.title}`, click: () => {
 	replaceQueryString('dlc', dlc, dlcs);
 }}));
 
-map.addControl(new L.Button({text: lang.title, click: () => {
+map.addControl(new L.Button({ text: `${lang.lang}: ${lang.title}`, click: () => {
 	replaceQueryString('lang', lang, langs);
 }}));
 

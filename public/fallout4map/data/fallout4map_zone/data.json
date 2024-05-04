@@ -6,7 +6,7 @@
 			"en": "Minutemen Village",
 			"ru": "Деревня новичков"
 		},
-		"icon": "town",
+		"icon": "city",
 		"coordinates": {
 			"lat": 82.49697515826423,
 			"lng": -77.48411684945906
@@ -45,7 +45,7 @@
 			"en": "Old Mill",
 			"ru": "Элеватор"
 		},
-		"icon": "building",
+		"icon": "factory",
 		"coordinates": {
 			"lat": 80.94048173728801,
 			"lng": -85.8441919406483
@@ -110,7 +110,7 @@
 			"en": "Train Station",
 			"ru": "Депо"
 		},
-		"icon": "railroad",
+		"icon": "train-station",
 		"coordinates": {
 			"lat": 72.56302946380457,
 			"lng": -82.14362822731042
@@ -318,7 +318,7 @@
 			"en": "Ruined Train Station",
 			"ru": "Железнодорожная станция"
 		},
-		"icon": "railroad",
+		"icon": "train-station",
 		"coordinates": {
 			"lat": 62.37109180010085,
 			"lng": -54.10175991121705
@@ -370,7 +370,7 @@
 			"en": "Deserted Village",
 			"ru": "Деревня кровососов"
 		},
-		"icon": "town",
+		"icon": "city",
 		"coordinates": {
 			"lat": 54.5800053879288,
 			"lng": -52.83847187317391
@@ -396,7 +396,7 @@
 			"en": "Dead Forest",
 			"ru": "Мёртвый лес"
 		},
-		"icon": "poi",
+		"icon": "forest",
 		"coordinates": {
 			"lat": 38.37072848080367,
 			"lng": -30.764378955343354
@@ -409,7 +409,7 @@
 			"en": "Radar Station",
 			"ru": "Радар"
 		},
-		"icon": "unmarked",
+		"icon": "satellite",
 		"coordinates": {
 			"lat": 33.57085990313696,
 			"lng": -20.726957805199206
@@ -422,7 +422,7 @@
 			"en": "Lab Z-10",
 			"ru": "Лаборатория Z-10"
 		},
-		"icon": "radio-tower",
+		"icon": "unmarked",
 		"coordinates": {
 			"lat": 31.982399761290434,
 			"lng": -13.471211496823779
@@ -539,7 +539,7 @@
 			"en": "Ghost Town Stadium",
 			"ru": "Стадион «Авангард»"
 		},
-		"icon": "ruins",
+		"icon": "building",
 		"coordinates": {
 			"lat": 30.02547935823374,
 			"lng": -119.74441682067678

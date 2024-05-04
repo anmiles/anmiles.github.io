@@ -15,22 +15,6 @@
 			"lng": -141.36428965966053
 		}
 	},
-	"2": {
-		"id": 2,
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cherry_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F"
-		},
-		"titles": {
-			"en": "Nuka-Cherry",
-			"ru": "Ядер-Вишня"
-		},
-		"icon": "nuka-cherry",
-		"coordinates": {
-			"lat": 82.88710433726371,
-			"lng": -138.3073443281436
-		}
-	},
 	"3": {
 		"id": 3,
 		"links": {
@@ -185,7 +169,7 @@
 			"ru": "Фар-Харбор",
 			"en": "Far Harbor (location)"
 		},
-		"icon": "town",
+		"icon": "city",
 		"coordinates": {
 			"lat": 62.687619142297805,
 			"lng": 112.18025414777964
@@ -249,7 +233,7 @@
 			"ru": "Альманах островитянина («Путеводитель по Фар-Харбору»)",
 			"en": "Islander's Almanac («Far Harbor Sightseer’s Guide»)"
 		},
-		"icon": "perk-magazine",
+		"icon": "magazine",
 		"coordinates": {
 			"lat": 65.20845635510483,
 			"lng": 113.75244301515639
@@ -343,7 +327,7 @@
 			"ru": "Лагерь национального парка",
 			"en": "National Park campground"
 		},
-		"icon": "ruins",
+		"icon": "encampment",
 		"coordinates": {
 			"lat": 55.93518988566735,
 			"lng": 54.636382017555256
@@ -359,7 +343,7 @@
 			"ru": "Штаб национального парка",
 			"en": "National Park HQ"
 		},
-		"icon": "ruins",
+		"icon": "building",
 		"coordinates": {
 			"lat": 64.98413037406898,
 			"lng": 15.145456549153542
@@ -455,7 +439,7 @@
 			"ru": "Океанариум",
 			"en": "Oceanarium"
 		},
-		"icon": "ruins",
+		"icon": "building",
 		"coordinates": {
 			"lat": 76.5596960174381,
 			"lng": -45.266647366799596
@@ -487,7 +471,7 @@
 			"ru": "Кинотеатр «Райские кущи»",
 			"en": "Eden Meadows Cinemas"
 		},
-		"icon": "poi",
+		"icon": "building",
 		"coordinates": {
 			"lat": 48.346163317046155,
 			"lng": -35.31784514591293
@@ -507,22 +491,6 @@
 		"coordinates": {
 			"lat": 66.88166250017127,
 			"lng": 55.73066896338289
-		}
-	},
-	"33": {
-		"id": 33,
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cherry_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F"
-		},
-		"titles": {
-			"en": "Nuka-Cherry",
-			"ru": "Ядер-Вишня"
-		},
-		"icon": "nuka-cherry",
-		"coordinates": {
-			"lat": 55.98900855209203,
-			"lng": 57.287291162059354
 		}
 	},
 	"34": {
@@ -551,7 +519,7 @@
 			"ru": "Альманах островитянина («Блюда из ила»)",
 			"en": "Islander's Almanac («Recipe Roundup»)"
 		},
-		"icon": "perk-magazine",
+		"icon": "magazine",
 		"coordinates": {
 			"lat": 74.13969693089338,
 			"lng": 43.18222855938111
@@ -567,7 +535,7 @@
 			"ru": "Азалия",
 			"en": "MS Azalea"
 		},
-		"icon": "shipwreck",
+		"icon": "ship",
 		"coordinates": {
 			"lat": -24.12902909990788,
 			"lng": 144.66796875000003
@@ -583,7 +551,7 @@
 			"ru": "Лесопилка на озере Эхо",
 			"en": "Echo Lake Lumber"
 		},
-		"icon": "factory",
+		"icon": "settlement",
 		"coordinates": {
 			"lat": 13.258920473979535,
 			"lng": -69.96768996945832
@@ -695,7 +663,7 @@
 			"ru": "Снасти и наживки Брайни",
 			"en": "Briney's Bait and Tackle"
 		},
-		"icon": "ruins",
+		"icon": "store",
 		"coordinates": {
 			"lat": 27.929111372494187,
 			"lng": -76.6734703674629
@@ -711,7 +679,7 @@
 			"ru": "Лагерь «Зефир-Ридж»",
 			"en": "Zephyr Ridge Camp"
 		},
-		"icon": "encampment",
+		"icon": "radio-tower",
 		"coordinates": {
 			"lat": -32.67798251806884,
 			"lng": -98.92501707034822
@@ -720,8 +688,8 @@
 	"46": {
 		"id": 46,
 		"links": {
-			"en": "https://fallout.fandom.com/wiki/Fat_Man",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D1%8F%D0%BA"
+			"en": "https://fallout.fandom.com/wiki/Fat_Man_(Fallout_4)",
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D1%8F%D0%BA_(Fallout_4)"
 		},
 		"titles": {
 			"en": "Fat Man",
@@ -759,7 +727,7 @@
 			"ru": "Светящаяся роща",
 			"en": "Glowing Grove"
 		},
-		"icon": "radioactive-area",
+		"icon": "radiation",
 		"coordinates": {
 			"lat": -22.135032617758675,
 			"lng": -74.48090030885668
@@ -791,7 +759,7 @@
 			"ru": "Святилище Сияющей вершины",
 			"en": "Radiant crest shrine"
 		},
-		"icon": "radioactive-area",
+		"icon": "radiation",
 		"coordinates": {
 			"lat": -39.36448342920969,
 			"lng": -57.81177384162504
@@ -839,7 +807,7 @@
 			"ru": "Доки Фриндж-Коув",
 			"en": "Fringe Cove docks"
 		},
-		"icon": "pond-lake",
+		"icon": "water",
 		"coordinates": {
 			"lat": -75.8801706925904,
 			"lng": -63.21018253350994
@@ -871,7 +839,7 @@
 			"ru": "Хэддок-Коув",
 			"en": "Haddock Cove"
 		},
-		"icon": "pond-lake",
+		"icon": "water",
 		"coordinates": {
 			"lat": -60.38223477799015,
 			"lng": -104.40731003054168
@@ -951,7 +919,7 @@
 			"ru": "Лагерь «Рок-Пойнт»",
 			"en": "Rock Point camp"
 		},
-		"icon": "encampment",
+		"icon": "pier",
 		"coordinates": {
 			"lat": -46.07779622217991,
 			"lng": -125.0781795641347
@@ -965,7 +933,7 @@
 		},
 		"titles": {
 			"ru": "Ядерный блок",
-			"en": "Fusion core (Fallout 4)"
+			"en": "Fusion core"
 		},
 		"icon": "fusion-core",
 		"coordinates": {
@@ -983,7 +951,7 @@
 			"ru": "Святилище Детей Атома",
 			"en": "Children of Atom shrine"
 		},
-		"icon": "poi",
+		"icon": "radiation",
 		"coordinates": {
 			"lat": -50.81213144630477,
 			"lng": -90.57532458862704
@@ -1013,7 +981,7 @@
 		},
 		"titles": {
 			"ru": "Ядерный блок",
-			"en": "Fusion core (Fallout 4)"
+			"en": "Fusion core"
 		},
 		"icon": "fusion-core",
 		"coordinates": {
@@ -1047,7 +1015,7 @@
 			"ru": "Альманах островитянина («Увернуться от клешни»)",
 			"en": "Islander's Almanac («Pincer Dodge»)"
 		},
-		"icon": "perk-magazine",
+		"icon": "magazine",
 		"coordinates": {
 			"lat": -70.35524867732882,
 			"lng": -11.732618329017349
@@ -1061,7 +1029,7 @@
 		},
 		"titles": {
 			"ru": "Ядерный блок",
-			"en": "Fusion core (Fallout 4)"
+			"en": "Fusion core"
 		},
 		"icon": "fusion-core",
 		"coordinates": {
@@ -1079,7 +1047,7 @@
 			"ru": "Сиротский приют «Уэйвз-Крест»",
 			"en": "Waves Crest Orphanage"
 		},
-		"icon": "ruins",
+		"icon": "building",
 		"coordinates": {
 			"lat": -77.54357777279941,
 			"lng": 6.639688618647553
@@ -1095,7 +1063,7 @@
 			"ru": "Маяк Брукс-Хед",
 			"en": "Brooke's Head Lighthouse"
 		},
-		"icon": "encampment",
+		"icon": "pier",
 		"coordinates": {
 			"lat": -81.13875302227495,
 			"lng": -27.765501431459676
@@ -1127,7 +1095,7 @@
 			"ru": "Альманах островитянина («Точная охота»)",
 			"en": "Islander's Almanac («Precision Hunting»)"
 		},
-		"icon": "perk-magazine",
+		"icon": "magazine",
 		"coordinates": {
 			"lat": -81.22160612284145,
 			"lng": -28.164954333862717
@@ -1191,7 +1159,7 @@
 			"ru": "Альманах островитянина («Информационный бюллетень Детей Атома»)",
 			"en": "Islander's Almanac («Children of Atom Exposé»)"
 		},
-		"icon": "perk-magazine",
+		"icon": "magazine",
 		"coordinates": {
 			"lat": 13.760508433313866,
 			"lng": 76.30502641454922
@@ -1205,7 +1173,7 @@
 		},
 		"titles": {
 			"ru": "Ядерный блок",
-			"en": "Fusion core (Fallout 4)"
+			"en": "Fusion core"
 		},
 		"icon": "fusion-core",
 		"coordinates": {
@@ -1221,7 +1189,7 @@
 		},
 		"titles": {
 			"ru": "Ядерный блок",
-			"en": "Fusion core (Fallout 4)"
+			"en": "Fusion core"
 		},
 		"icon": "fusion-core",
 		"coordinates": {
@@ -1287,7 +1255,7 @@
 			"ru": "Рейс «Горизонт» 1207",
 			"en": "Horizon Flight 1207"
 		},
-		"icon": "poi",
+		"icon": "plane",
 		"coordinates": {
 			"lat": 39.39721149224575,
 			"lng": 22.51121490270451
@@ -1335,7 +1303,7 @@
 			"ru": "Старый домик у пруда",
 			"en": "Old Pond House"
 		},
-		"icon": "encampment",
+		"icon": "building",
 		"coordinates": {
 			"lat": -18.016174819841158,
 			"lng": 52.630353107703066
@@ -1367,7 +1335,7 @@
 			"ru": "Юго-западный Харбор",
 			"en": "Southwest Harbor"
 		},
-		"icon": "town",
+		"icon": "city",
 		"coordinates": {
 			"lat": -49.74365315591139,
 			"lng": 19.100843576496366
@@ -1383,7 +1351,7 @@
 			"ru": "Ядро",
 			"en": "The Nucleus"
 		},
-		"icon": "radioactive-area",
+		"icon": "radiation",
 		"coordinates": {
 			"lat": -18.074094465392935,
 			"lng": -21.73704846125279
@@ -1467,22 +1435,6 @@
 		"coordinates": {
 			"lat": -21.309802999519857,
 			"lng": -20.02002109138326
-		}
-	},
-	"94": {
-		"id": 94,
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)"
-		},
-		"titles": {
-			"en": "Nuka-Cola Quantum",
-			"ru": "Квантовая Ядер-Кола"
-		},
-		"icon": "nuka-cola",
-		"coordinates": {
-			"lat": -18.075057464093963,
-			"lng": -25.04607772181608
 		}
 	},
 	"95": {
@@ -1575,7 +1527,7 @@
 			"ru": "Источник Атома",
 			"en": "Atom's Spring"
 		},
-		"icon": "radioactive-area",
+		"icon": "radiation",
 		"coordinates": {
 			"lat": -7.657572424371729,
 			"lng": -61.31149802596506
@@ -1767,7 +1719,7 @@
 			"ru": "Тайник ДиМА",
 			"en": "DiMA's cache"
 		},
-		"icon": "poi",
+		"icon": "water",
 		"coordinates": {
 			"lat": 32.03138850464427,
 			"lng": -161.2812420382099
@@ -1901,22 +1853,6 @@
 			"lng": -25.140384524106228
 		}
 	},
-	"121": {
-		"id": 121,
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)"
-		},
-		"titles": {
-			"en": "Nuka-Cola Quantum",
-			"ru": "Квантовая Ядер-Кола"
-		},
-		"icon": "nuka-cola",
-		"coordinates": {
-			"lat": -32.068156819771836,
-			"lng": -22.412109375000004
-		}
-	},
 	"122": {
 		"id": 122,
 		"links": {
@@ -1927,7 +1863,7 @@
 			"ru": "Болото Кранберри-Айленда",
 			"en": "Cranberry Island Bog"
 		},
-		"icon": "pond-lake",
+		"icon": "water",
 		"coordinates": {
 			"lat": -75.87607099658356,
 			"lng": 51.66778875061442
@@ -1943,26 +1879,10 @@
 			"ru": "Остров Охотницы",
 			"en": "Huntress Island"
 		},
-		"icon": "poi",
+		"icon": "water",
 		"coordinates": {
 			"lat": -69.94391806415494,
 			"lng": 73.76266578931542
-		}
-	},
-	"124": {
-		"id": 124,
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cherry_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F"
-		},
-		"titles": {
-			"en": "Nuka-Cherry",
-			"ru": "Ядер-Вишня"
-		},
-		"icon": "nuka-cherry",
-		"coordinates": {
-			"lat": -69.96860594829717,
-			"lng": 84.90886684042563
 		}
 	},
 	"125": {
@@ -1975,7 +1895,7 @@
 			"ru": "Доки Кранберри-Айленд",
 			"en": "Cranberry Island Docks"
 		},
-		"icon": "ruins",
+		"icon": "pier",
 		"coordinates": {
 			"lat": -70.99236222093388,
 			"lng": 38.264582859479724
@@ -1991,7 +1911,7 @@
 			"ru": "Склад на Кранберри-Айленде",
 			"en": "Cranberry Island supply shed"
 		},
-		"icon": "poi",
+		"icon": "building",
 		"coordinates": {
 			"lat": -78.26661165907126,
 			"lng": 62.881164796586425

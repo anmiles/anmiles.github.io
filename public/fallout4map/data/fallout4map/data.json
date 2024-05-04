@@ -397,7 +397,7 @@
 			"lat": -65.44,
 			"lng": 50.449
 		},
-		"icon": "ruins"
+		"icon": "city"
 	},
 	"26": {
 		"id": 26,
@@ -413,7 +413,7 @@
 			"lat": -14.093957177836224,
 			"lng": -26.542968750000004
 		},
-		"icon": "poi"
+		"icon": "bridge"
 	},
 	"27": {
 		"id": 27,
@@ -429,7 +429,7 @@
 			"lat": -14.26438308756265,
 			"lng": 5.976562500000001
 		},
-		"icon": "poi"
+		"icon": "bridge"
 	},
 	"28": {
 		"id": 28,
@@ -470,8 +470,8 @@
 			"ru": "Толстяк"
 		},
 		"links": {
-			"en": "https://fallout.fandom.com/wiki/Fat_Man",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D1%8F%D0%BA"
+			"en": "https://fallout.fandom.com/wiki/Fat_Man_(Fallout_4)",
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D1%8F%D0%BA_(Fallout_4)"
 		},
 		"coordinates": {
 			"lat": 54.03358633521085,
@@ -758,8 +758,8 @@
 			"ru": "Толстяк"
 		},
 		"links": {
-			"en": "https://fallout.fandom.com/wiki/Fat_Man",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D1%8F%D0%BA"
+			"en": "https://fallout.fandom.com/wiki/Fat_Man_(Fallout_4)",
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D1%8F%D0%BA_(Fallout_4)"
 		},
 		"coordinates": {
 			"lat": 63.87939001720202,
@@ -781,7 +781,7 @@
 			"lat": -64.998,
 			"lng": 94.043
 		},
-		"icon": "shipwreck"
+		"icon": "ship"
 	},
 	"58": {
 		"id": 58,
@@ -797,7 +797,7 @@
 			"lat": -58.631,
 			"lng": -27.598
 		},
-		"icon": "pier"
+		"icon": "water"
 	},
 	"59": {
 		"id": 59,
@@ -925,7 +925,7 @@
 			"lat": 82.15445778242825,
 			"lng": -92.63671875000001
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"67": {
 		"id": 67,
@@ -941,7 +941,7 @@
 			"lat": 83.4,
 			"lng": -58.535
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"68": {
 		"id": 68,
@@ -957,7 +957,7 @@
 			"lat": 82.64259654376445,
 			"lng": -40.03417968750001
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"69": {
 		"id": 69,
@@ -973,7 +973,7 @@
 			"lat": 79.7029066676203,
 			"lng": -47.90039062500001
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"70": {
 		"id": 70,
@@ -989,7 +989,7 @@
 			"lat": 78.00732483005183,
 			"lng": -106.87500000000001
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"71": {
 		"id": 71,
@@ -1005,7 +1005,7 @@
 			"lat": 74.85641315279074,
 			"lng": -103.31542968750001
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"72": {
 		"id": 72,
@@ -1021,7 +1021,7 @@
 			"lat": 76.71517509237202,
 			"lng": -60.82031250000001
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"73": {
 		"id": 73,
@@ -1037,7 +1037,7 @@
 			"lat": 78.15255126151743,
 			"lng": -68.95019531250001
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"74": {
 		"id": 74,
@@ -1053,7 +1053,7 @@
 			"lat": 73.176,
 			"lng": -71.719
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"76": {
 		"id": 76,
@@ -1069,7 +1069,7 @@
 			"lat": 62.34960927573042,
 			"lng": -105.38085937500001
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"77": {
 		"id": 77,
@@ -1197,7 +1197,7 @@
 			"lat": 42.163,
 			"lng": 75.41
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"86": {
 		"id": 86,
@@ -1229,7 +1229,7 @@
 			"lat": 73.9710776393399,
 			"lng": 41.92382812500001
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"88": {
 		"id": 88,
@@ -1245,7 +1245,7 @@
 			"lat": 62.895217544882044,
 			"lng": 84.37500000000001
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"89": {
 		"id": 89,
@@ -1261,7 +1261,7 @@
 			"lat": 22.370396344320053,
 			"lng": -105.22705078125001
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"90": {
 		"id": 90,
@@ -1293,7 +1293,7 @@
 			"lat": 67.81754191591868,
 			"lng": -17.819824218750004
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"92": {
 		"id": 92,
@@ -1357,7 +1357,7 @@
 			"lat": 77.73495097544664,
 			"lng": -65.19287109375001
 		},
-		"icon": "town"
+		"icon": "city"
 	},
 	"96": {
 		"id": 96,
@@ -1373,7 +1373,7 @@
 			"lat": 64.03374392176401,
 			"lng": 34.18945312500001
 		},
-		"icon": "ruins"
+		"icon": "city"
 	},
 	"97": {
 		"id": 97,
@@ -1405,7 +1405,7 @@
 			"lat": 81.20141954209073,
 			"lng": 141.32812500000003
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"99": {
 		"id": 99,
@@ -1421,7 +1421,7 @@
 			"lat": 4.12728532324537,
 			"lng": -69.43359375000001
 		},
-		"icon": "ruins"
+		"icon": "city"
 	},
 	"100": {
 		"id": 100,
@@ -1437,7 +1437,7 @@
 			"lat": -32.399,
 			"lng": -104.063
 		},
-		"icon": "ruins"
+		"icon": "city"
 	},
 	"101": {
 		"id": 101,
@@ -1453,7 +1453,7 @@
 			"lat": -36.173,
 			"lng": -5.273
 		},
-		"icon": "ruins"
+		"icon": "city"
 	},
 	"102": {
 		"id": 102,
@@ -1469,7 +1469,7 @@
 			"lat": -57.704,
 			"lng": 23.027
 		},
-		"icon": "ruins"
+		"icon": "encampment"
 	},
 	"103": {
 		"id": 103,
@@ -1485,7 +1485,7 @@
 			"lat": -58.17070248348609,
 			"lng": 23.950195312500004
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"104": {
 		"id": 104,
@@ -1501,7 +1501,7 @@
 			"lat": 66.68778386116203,
 			"lng": -33.66210937500001
 		},
-		"icon": "building"
+		"icon": "store"
 	},
 	"107": {
 		"id": 107,
@@ -1533,7 +1533,7 @@
 			"lat": 66.72254132270653,
 			"lng": -30.673828125000004
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"109": {
 		"id": 109,
@@ -1549,7 +1549,7 @@
 			"lat": -65.37599365291612,
 			"lng": 94.43847656250001
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"110": {
 		"id": 110,
@@ -1565,7 +1565,7 @@
 			"lat": -48.86471476180278,
 			"lng": 10.283203125000002
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"111": {
 		"id": 111,
@@ -1581,7 +1581,7 @@
 			"lat": -64.59306652139338,
 			"lng": 17.618066101017092
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"112": {
 		"id": 112,
@@ -1597,7 +1597,7 @@
 			"lat": 72.02,
 			"lng": -55.547
 		},
-		"icon": "building"
+		"icon": "cafe"
 	},
 	"113": {
 		"id": 113,
@@ -1725,7 +1725,7 @@
 			"lat": 56.75272287205736,
 			"lng": -105.9521484375
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"121": {
 		"id": 121,
@@ -1773,7 +1773,7 @@
 			"lat": 8.450638800331001,
 			"lng": -121.83837890625
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"124": {
 		"id": 124,
@@ -1901,7 +1901,7 @@
 			"lat": 24.5271348225978,
 			"lng": -106.69921875000001
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"132": {
 		"id": 132,
@@ -1917,7 +1917,7 @@
 			"lat": 24.666986385216273,
 			"lng": -108.03955078125001
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"133": {
 		"id": 133,
@@ -2013,7 +2013,7 @@
 			"lat": 63.97596090918338,
 			"lng": 66.00585937500001
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"142": {
 		"id": 142,
@@ -2061,7 +2061,7 @@
 			"lat": 6.970049417296232,
 			"lng": 116.19140625000001
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"148": {
 		"id": 148,
@@ -2109,7 +2109,7 @@
 			"lat": -28.97744519421265,
 			"lng": 32.56341935181734
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"152": {
 		"id": 152,
@@ -2141,7 +2141,7 @@
 			"lat": -36.457,
 			"lng": -31.904
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"154": {
 		"id": 154,
@@ -2221,7 +2221,7 @@
 			"lat": 58.402,
 			"lng": -32.607
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"159": {
 		"id": 159,
@@ -2253,7 +2253,7 @@
 			"lat": 56.559,
 			"lng": 27.773
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"161": {
 		"id": 161,
@@ -2333,7 +2333,7 @@
 			"lat": 83.36,
 			"lng": 127.617
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"166": {
 		"id": 166,
@@ -2365,7 +2365,7 @@
 			"lat": 74.12806979027259,
 			"lng": 87.31933593750001
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"169": {
 		"id": 169,
@@ -2413,7 +2413,7 @@
 			"lat": 71.553,
 			"lng": 120.762
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"172": {
 		"id": 172,
@@ -2477,7 +2477,7 @@
 			"lat": 48.66194284607008,
 			"lng": -76.025390625
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"176": {
 		"id": 176,
@@ -2621,7 +2621,7 @@
 			"lat": -67.12339779249312,
 			"lng": 70.69599249654063
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"186": {
 		"id": 186,
@@ -2685,7 +2685,7 @@
 			"lat": 77,
 			"lng": 106.787
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"190": {
 		"id": 190,
@@ -2717,7 +2717,7 @@
 			"lat": 81.923,
 			"lng": 72.51
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"192": {
 		"id": 192,
@@ -2781,7 +2781,7 @@
 			"lat": -14.051330743518175,
 			"lng": 3.0761718750000004
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"196": {
 		"id": 196,
@@ -2909,7 +2909,7 @@
 			"lat": 27.916766641249065,
 			"lng": -88.41796875000001
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"205": {
 		"id": 205,
@@ -2957,7 +2957,7 @@
 			"lat": 13.24,
 			"lng": -104.063
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"208": {
 		"id": 208,
@@ -2989,7 +2989,7 @@
 			"lat": 26.51,
 			"lng": -68.027
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"210": {
 		"id": 210,
@@ -3021,7 +3021,7 @@
 			"lat": 34.38,
 			"lng": -43.418
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"212": {
 		"id": 212,
@@ -3101,7 +3101,7 @@
 			"lat": -64.168,
 			"lng": -131.133
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"222": {
 		"id": 222,
@@ -3133,7 +3133,7 @@
 			"lat": -74.59,
 			"lng": -146.074
 		},
-		"icon": "factory"
+		"icon": "radiation"
 	},
 	"224": {
 		"id": 224,
@@ -3245,7 +3245,7 @@
 			"lat": -63.59744766560199,
 			"lng": 51.416015625
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"231": {
 		"id": 231,
@@ -3293,7 +3293,7 @@
 			"lat": -68.943,
 			"lng": 59.941
 		},
-		"icon": "encampment"
+		"icon": "building"
 	},
 	"236": {
 		"id": 236,
@@ -3325,7 +3325,7 @@
 			"lat": 55.826,
 			"lng": 39.99
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"238": {
 		"id": 238,
@@ -3453,7 +3453,7 @@
 			"lat": -28.497660832963472,
 			"lng": 18.588867187500004
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"246": {
 		"id": 246,
@@ -3485,7 +3485,7 @@
 			"lat": -54.978,
 			"lng": 68.291
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"248": {
 		"id": 248,
@@ -3597,7 +3597,7 @@
 			"lat": 73.47848507889992,
 			"lng": 29.24560546875
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"255": {
 		"id": 255,
@@ -3645,7 +3645,7 @@
 			"lat": 71.017,
 			"lng": 43.945
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"258": {
 		"id": 258,
@@ -3677,7 +3677,7 @@
 			"lat": 81.4139332828511,
 			"lng": 84.92431640625001
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"260": {
 		"id": 260,
@@ -3709,7 +3709,7 @@
 			"lat": 79.545,
 			"lng": 138.164
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"262": {
 		"id": 262,
@@ -3757,7 +3757,7 @@
 			"lat": 63.27318217465046,
 			"lng": 93.1201171875
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"265": {
 		"id": 265,
@@ -3805,7 +3805,7 @@
 			"lat": 54.059,
 			"lng": 158.379
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"268": {
 		"id": 268,
@@ -3837,7 +3837,7 @@
 			"lat": 80.445,
 			"lng": 142.383
 		},
-		"icon": "ruins"
+		"icon": "city"
 	},
 	"270": {
 		"id": 270,
@@ -3869,7 +3869,7 @@
 			"lat": 52.429222277955134,
 			"lng": 3.6914062500000004
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"272": {
 		"id": 272,
@@ -3885,7 +3885,7 @@
 			"lat": -46.8,
 			"lng": -4.043
 		},
-		"icon": "building"
+		"icon": "store"
 	},
 	"273": {
 		"id": 273,
@@ -3917,7 +3917,7 @@
 			"lat": -47.338822694822,
 			"lng": -2.1533203125000004
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"275": {
 		"id": 275,
@@ -3933,7 +3933,7 @@
 			"lat": 82.449,
 			"lng": 21.445
 		},
-		"icon": "pond-lake"
+		"icon": "water"
 	},
 	"276": {
 		"id": 276,
@@ -3949,7 +3949,7 @@
 			"lat": 77.842,
 			"lng": 27.422
 		},
-		"icon": "pond-lake"
+		"icon": "water"
 	},
 	"277": {
 		"id": 277,
@@ -3965,7 +3965,7 @@
 			"lat": 76.435,
 			"lng": 43.066
 		},
-		"icon": "pond-lake"
+		"icon": "water"
 	},
 	"278": {
 		"id": 278,
@@ -3981,7 +3981,7 @@
 			"lat": 76.393,
 			"lng": 41.309
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"279": {
 		"id": 279,
@@ -3997,7 +3997,7 @@
 			"lat": 66.089,
 			"lng": -79.453
 		},
-		"icon": "pond-lake"
+		"icon": "water"
 	},
 	"280": {
 		"id": 280,
@@ -4013,7 +4013,7 @@
 			"lat": 66.089,
 			"lng": -77.52
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"281": {
 		"id": 281,
@@ -4029,7 +4029,7 @@
 			"lat": -3.513,
 			"lng": -25.313
 		},
-		"icon": "pond-lake"
+		"icon": "water"
 	},
 	"282": {
 		"id": 282,
@@ -4045,7 +4045,7 @@
 			"lat": -26.116,
 			"lng": -49.57
 		},
-		"icon": "pond-lake"
+		"icon": "water"
 	},
 	"283": {
 		"id": 283,
@@ -4061,7 +4061,7 @@
 			"lat": -26.431,
 			"lng": -52.207
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"284": {
 		"id": 284,
@@ -4077,7 +4077,7 @@
 			"lat": -32.547,
 			"lng": -91.406
 		},
-		"icon": "pond-lake"
+		"icon": "water"
 	},
 	"285": {
 		"id": 285,
@@ -4093,7 +4093,7 @@
 			"lat": -56.604271478695864,
 			"lng": 42.54284055026301
 		},
-		"icon": "pond-lake"
+		"icon": "water"
 	},
 	"286": {
 		"id": 286,
@@ -4269,7 +4269,7 @@
 			"lat": -47.49552999476347,
 			"lng": -31.96803976520529
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"297": {
 		"id": 297,
@@ -4605,7 +4605,7 @@
 			"lat": 16.805,
 			"lng": -12.48
 		},
-		"icon": "shipwreck"
+		"icon": "ship"
 	},
 	"318": {
 		"id": 318,
@@ -4621,7 +4621,7 @@
 			"lat": 15.89981370929213,
 			"lng": -13.807068072207036
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"319": {
 		"id": 319,
@@ -4733,7 +4733,7 @@
 			"lat": 37.579,
 			"lng": 11.689
 		},
-		"icon": "ruins"
+		"icon": "radiation"
 	},
 	"326": {
 		"id": 326,
@@ -4765,7 +4765,7 @@
 			"lat": 58.814,
 			"lng": 15.908
 		},
-		"icon": "poi"
+		"icon": "bridge"
 	},
 	"328": {
 		"id": 328,
@@ -4797,7 +4797,7 @@
 			"lat": 64.77412531292873,
 			"lng": -30.893554687500004
 		},
-		"icon": "ruins"
+		"icon": "city"
 	},
 	"330": {
 		"id": 330,
@@ -4829,7 +4829,7 @@
 			"lat": 78.314,
 			"lng": 112.852
 		},
-		"icon": "radioactive-area"
+		"icon": "radiation"
 	},
 	"332": {
 		"id": 332,
@@ -4861,7 +4861,7 @@
 			"lat": 76.599,
 			"lng": 136.406
 		},
-		"icon": "radioactive-area"
+		"icon": "radiation"
 	},
 	"334": {
 		"id": 334,
@@ -4877,7 +4877,7 @@
 			"lat": 76.68,
 			"lng": 134.297
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"335": {
 		"id": 335,
@@ -4893,7 +4893,7 @@
 			"lat": 46.48205412400798,
 			"lng": 119.05277382641584
 		},
-		"icon": "ruins"
+		"icon": "ship"
 	},
 	"336": {
 		"id": 336,
@@ -4909,7 +4909,7 @@
 			"lat": 57.492213666700756,
 			"lng": 91.7578125
 		},
-		"icon": "metro"
+		"icon": "subway-station"
 	},
 	"337": {
 		"id": 337,
@@ -4925,7 +4925,7 @@
 			"lat": 43.453,
 			"lng": 52.207
 		},
-		"icon": "shipwreck"
+		"icon": "ship"
 	},
 	"338": {
 		"id": 338,
@@ -4941,7 +4941,7 @@
 			"lat": 48.575,
 			"lng": 28.301
 		},
-		"icon": "building"
+		"icon": "police-station"
 	},
 	"339": {
 		"id": 339,
@@ -5037,7 +5037,7 @@
 			"lat": 25.3241665257384,
 			"lng": 42.80273437500001
 		},
-		"icon": "building"
+		"icon": "store"
 	},
 	"345": {
 		"id": 345,
@@ -5053,7 +5053,7 @@
 			"lat": 21.642650250042802,
 			"lng": 41.81224745066646
 		},
-		"icon": "building"
+		"icon": "store"
 	},
 	"346": {
 		"id": 346,
@@ -5117,7 +5117,7 @@
 			"lat": 9.046892587528063,
 			"lng": 49.75399043311118
 		},
-		"icon": "ruins"
+		"icon": "building"
 	},
 	"350": {
 		"id": 350,
@@ -5229,7 +5229,7 @@
 			"lat": 8.755,
 			"lng": 35.156
 		},
-		"icon": "metro"
+		"icon": "subway-station"
 	},
 	"357": {
 		"id": 357,
@@ -5293,7 +5293,7 @@
 			"lat": -1.23,
 			"lng": 32.168
 		},
-		"icon": "poi"
+		"icon": "building"
 	},
 	"361": {
 		"id": 361,
@@ -5341,7 +5341,7 @@
 			"lat": -7.188,
 			"lng": 34.277
 		},
-		"icon": "metro"
+		"icon": "subway-station"
 	},
 	"364": {
 		"id": 364,
@@ -5453,7 +5453,7 @@
 			"lat": -5.834616165610046,
 			"lng": -12.963867187500002
 		},
-		"icon": "poi"
+		"icon": "cave"
 	},
 	"371": {
 		"id": 371,
@@ -5469,7 +5469,7 @@
 			"lat": -16.046,
 			"lng": -18.545
 		},
-		"icon": "ruins"
+		"icon": "building"
 	},
 	"372": {
 		"id": 372,
@@ -5517,7 +5517,7 @@
 			"lat": -26.51,
 			"lng": 42.188
 		},
-		"icon": "metro"
+		"icon": "subway-station"
 	},
 	"375": {
 		"id": 375,
@@ -5629,7 +5629,7 @@
 			"lat": -42.42041822869482,
 			"lng": 45.20015782752529
 		},
-		"icon": "building"
+		"icon": "encampment"
 	},
 	"382": {
 		"id": 382,
@@ -5645,7 +5645,7 @@
 			"lat": -42.109936151862904,
 			"lng": 47.64867819603206
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"384": {
 		"id": 384,
@@ -5757,7 +5757,7 @@
 			"lat": -60.526101970057475,
 			"lng": -6.899471273182652
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"391": {
 		"id": 391,
@@ -5837,7 +5837,7 @@
 			"lat": 73.64635924512918,
 			"lng": 33.53027343750001
 		},
-		"icon": "metro"
+		"icon": "subway-station"
 	},
 	"396": {
 		"id": 396,
@@ -5853,7 +5853,7 @@
 			"lat": 74.1940376892964,
 			"lng": 33.68408203125001
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"397": {
 		"id": 397,
@@ -5885,7 +5885,7 @@
 			"lat": -48.049,
 			"lng": 2.637
 		},
-		"icon": "metro"
+		"icon": "subway-station"
 	},
 	"399": {
 		"id": 399,
@@ -5901,7 +5901,7 @@
 			"lat": -46.92025531537452,
 			"lng": 1.8017578125000002
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"400": {
 		"id": 400,
@@ -5917,7 +5917,7 @@
 			"lat": 32.25,
 			"lng": -24.609
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"401": {
 		"id": 401,
@@ -5933,7 +5933,7 @@
 			"lat": 83.36,
 			"lng": 4.57
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"402": {
 		"id": 402,
@@ -5949,7 +5949,7 @@
 			"lat": 0,
 			"lng": 15.469
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"403": {
 		"id": 403,
@@ -5965,7 +5965,7 @@
 			"lat": 3.25,
 			"lng": 23.027
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"404": {
 		"id": 404,
@@ -5981,7 +5981,7 @@
 			"lat": 32.54181233676586,
 			"lng": -8.942871093750002
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"405": {
 		"id": 405,
@@ -5997,7 +5997,7 @@
 			"lat": 29.922278814059887,
 			"lng": 57.69990925908681
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"406": {
 		"id": 406,
@@ -6013,7 +6013,7 @@
 			"lat": 5.309766171943691,
 			"lng": 34.47509765625001
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"407": {
 		"id": 407,
@@ -6029,7 +6029,7 @@
 			"lat": -3.5572827265412794,
 			"lng": -36.80419921875001
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"408": {
 		"id": 408,
@@ -6045,7 +6045,7 @@
 			"lat": 10.401,
 			"lng": -1.406
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"409": {
 		"id": 409,
@@ -6061,7 +6061,7 @@
 			"lat": 66.87834504307976,
 			"lng": -47.54882812500001
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"410": {
 		"id": 410,
@@ -6077,7 +6077,7 @@
 			"lat": 46.106668868331106,
 			"lng": 123.6132444800948
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"411": {
 		"id": 411,
@@ -6093,7 +6093,7 @@
 			"lat": 43.453,
 			"lng": 54.141
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"412": {
 		"id": 412,
@@ -6109,7 +6109,7 @@
 			"lat": 41.112,
 			"lng": -27.246
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"413": {
 		"id": 413,
@@ -6125,7 +6125,7 @@
 			"lat": 48.951366470947725,
 			"lng": 27.377929687500004
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"414": {
 		"id": 414,
@@ -6141,7 +6141,7 @@
 			"lat": -31.278550858946517,
 			"lng": 79.45312500000001
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"415": {
 		"id": 415,
@@ -6157,7 +6157,7 @@
 			"lat": -12.64033830684679,
 			"lng": 58.53515625000001
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"416": {
 		"id": 416,
@@ -6173,7 +6173,7 @@
 			"lat": -27.048349849551837,
 			"lng": 55.94650144534821
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"417": {
 		"id": 417,
@@ -6189,7 +6189,7 @@
 			"lat": 58.401711667608,
 			"lng": 92.68066406250001
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"418": {
 		"id": 418,
@@ -6205,7 +6205,7 @@
 			"lat": -41.669863862830546,
 			"lng": -39.21512586721001
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"419": {
 		"id": 419,
@@ -6221,7 +6221,7 @@
 			"lat": 44.37098696297173,
 			"lng": 38.29833984375
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"420": {
 		"id": 420,
@@ -6237,7 +6237,7 @@
 			"lat": 25.878994400196202,
 			"lng": -22.719726562500004
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"421": {
 		"id": 421,
@@ -6253,7 +6253,7 @@
 			"lat": 31.297327991404266,
 			"lng": 10.766601562500002
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"422": {
 		"id": 422,
@@ -6269,7 +6269,7 @@
 			"lat": -1.67,
 			"lng": 9.229
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"423": {
 		"id": 423,
@@ -6285,7 +6285,7 @@
 			"lat": 31.878,
 			"lng": 38.848
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"424": {
 		"id": 424,
@@ -6301,7 +6301,7 @@
 			"lat": 12.211,
 			"lng": 21.797
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"425": {
 		"id": 425,
@@ -6317,7 +6317,7 @@
 			"lat": 19.973,
 			"lng": 39.727
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"426": {
 		"id": 426,
@@ -6333,7 +6333,7 @@
 			"lat": -19.228,
 			"lng": 66.797
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"427": {
 		"id": 427,
@@ -6349,7 +6349,7 @@
 			"lat": 43.58,
 			"lng": 88.066
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"428": {
 		"id": 428,
@@ -6365,7 +6365,7 @@
 			"lat": -5.4082109285908295,
 			"lng": -12.48046875
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"429": {
 		"id": 429,
@@ -6397,7 +6397,7 @@
 			"lat": -11.953,
 			"lng": 32.52
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"431": {
 		"id": 431,
@@ -6413,7 +6413,7 @@
 			"lat": 3.162,
 			"lng": 20.918
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"433": {
 		"id": 433,
@@ -6429,7 +6429,7 @@
 			"lat": 6.577303118123887,
 			"lng": 32.03613281250001
 		},
-		"icon": "ruins"
+		"icon": "city"
 	},
 	"434": {
 		"id": 434,
@@ -6461,7 +6461,7 @@
 			"lat": 22.106,
 			"lng": 50.449
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"436": {
 		"id": 436,
@@ -6477,7 +6477,7 @@
 			"lat": 14.32825967774278,
 			"lng": 42.5830078125
 		},
-		"icon": "town"
+		"icon": "city"
 	},
 	"437": {
 		"id": 437,
@@ -6493,7 +6493,7 @@
 			"lat": -4.740675384778361,
 			"lng": -35.96923828125001
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"438": {
 		"id": 438,
@@ -6509,7 +6509,7 @@
 			"lat": 8.385431015567708,
 			"lng": 60.22705078125001
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"439": {
 		"id": 439,
@@ -6541,7 +6541,7 @@
 			"lat": 75.231,
 			"lng": -1.055
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"441": {
 		"id": 441,
@@ -6589,7 +6589,7 @@
 			"lat": -39.775,
 			"lng": -81.914
 		},
-		"icon": "radioactive-area"
+		"icon": "radiation"
 	},
 	"444": {
 		"id": 444,
@@ -6605,7 +6605,7 @@
 			"lat": -76.435,
 			"lng": -116.719
 		},
-		"icon": "radioactive-area"
+		"icon": "radiation"
 	},
 	"445": {
 		"id": 445,
@@ -6621,7 +6621,7 @@
 			"lat": -76.393,
 			"lng": -114.609
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"446": {
 		"id": 446,
@@ -6701,7 +6701,7 @@
 			"lat": -83.216,
 			"lng": -91.582
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"452": {
 		"id": 452,
@@ -6765,7 +6765,7 @@
 			"lat": -82.402,
 			"lng": -142.559
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"456": {
 		"id": 456,
@@ -6781,7 +6781,7 @@
 			"lat": 77.039,
 			"lng": -25.84
 		},
-		"icon": "railroad"
+		"icon": "train-station"
 	},
 	"457": {
 		"id": 457,
@@ -6797,7 +6797,7 @@
 			"lat": 73.2076662319815,
 			"lng": 36.95800781250001
 		},
-		"icon": "ruins"
+		"icon": "building"
 	},
 	"458": {
 		"id": 458,
@@ -6813,7 +6813,7 @@
 			"lat": 46.195,
 			"lng": -27.598
 		},
-		"icon": "ruins"
+		"icon": "building"
 	},
 	"459": {
 		"id": 459,
@@ -6829,7 +6829,7 @@
 			"lat": 48.777912755501845,
 			"lng": -27.5537109375
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"460": {
 		"id": 460,
@@ -6845,7 +6845,7 @@
 			"lat": 47.577,
 			"lng": -27.51
 		},
-		"icon": "metro"
+		"icon": "subway-station"
 	},
 	"461": {
 		"id": 461,
@@ -6877,7 +6877,7 @@
 			"lat": 78.75065903068668,
 			"lng": 127.17773437500001
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"463": {
 		"id": 463,
@@ -6893,7 +6893,7 @@
 			"lat": 79.874,
 			"lng": 4.131
 		},
-		"icon": "poi"
+		"icon": "plane"
 	},
 	"464": {
 		"id": 464,
@@ -6909,7 +6909,7 @@
 			"lat": 79.5764597208422,
 			"lng": 6.855468750000001
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"468": {
 		"id": 468,
@@ -6941,7 +6941,7 @@
 			"lat": -2.5809138477251743,
 			"lng": -4.493408203125001
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"470": {
 		"id": 470,
@@ -6957,7 +6957,7 @@
 			"lat": -51.949237355794665,
 			"lng": -54.02080571921471
 		},
-		"icon": "poi"
+		"icon": "water"
 	},
 	"471": {
 		"id": 471,
@@ -7005,7 +7005,7 @@
 			"lat": 16.720385051694,
 			"lng": 88.37402343750001
 		},
-		"icon": "shipwreck"
+		"icon": "ship"
 	},
 	"474": {
 		"id": 474,
@@ -7085,7 +7085,7 @@
 			"lat": -61.565,
 			"lng": -59.766
 		},
-		"icon": "poi"
+		"icon": "radiation"
 	},
 	"484": {
 		"id": 484,
@@ -7094,8 +7094,8 @@
 			"ru": "Толстяк"
 		},
 		"links": {
-			"en": "https://fallout.fandom.com/wiki/Fat_Man",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D1%8F%D0%BA"
+			"en": "https://fallout.fandom.com/wiki/Fat_Man_(Fallout_4)",
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D1%8F%D0%BA_(Fallout_4)"
 		},
 		"coordinates": {
 			"lat": -56.13664591500753,
@@ -7133,7 +7133,7 @@
 			"lat": -16.488764934242077,
 			"lng": -80.77148437500001
 		},
-		"icon": "poi"
+		"icon": "bridge"
 	},
 	"489": {
 		"id": 489,
@@ -7165,7 +7165,7 @@
 			"lat": 6.533645130567532,
 			"lng": 30.124511718750004
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"492": {
 		"id": 492,
@@ -7357,7 +7357,7 @@
 			"lat": -6.446317749457633,
 			"lng": -6.525878906250001
 		},
-		"icon": "poi"
+		"icon": "store"
 	},
 	"508": {
 		"id": 508,
@@ -7366,8 +7366,8 @@
 			"ru": "Толстяк"
 		},
 		"links": {
-			"en": "https://fallout.fandom.com/wiki/Fat_Man",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D1%8F%D0%BA"
+			"en": "https://fallout.fandom.com/wiki/Fat_Man_(Fallout_4)",
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D1%8F%D0%BA_(Fallout_4)"
 		},
 		"coordinates": {
 			"lat": -4.247812286342593,
@@ -7469,7 +7469,7 @@
 			"lat": 29.064670019120825,
 			"lng": 57.463074825418936
 		},
-		"icon": "poi"
+		"icon": "cave"
 	},
 	"516": {
 		"id": 516,
@@ -7574,8 +7574,8 @@
 			"ru": "Толстяк"
 		},
 		"links": {
-			"en": "https://fallout.fandom.com/wiki/Fat_Man",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D1%8F%D0%BA"
+			"en": "https://fallout.fandom.com/wiki/Fat_Man_(Fallout_4)",
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D1%8F%D0%BA_(Fallout_4)"
 		},
 		"coordinates": {
 			"lat": 83.272558965094,
@@ -7613,7 +7613,7 @@
 			"lat": 33.33970700424029,
 			"lng": 49.02099609375
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"539": {
 		"id": 539,
@@ -7645,7 +7645,7 @@
 			"lat": 18.2397859708389,
 			"lng": 43.165283203125
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"541": {
 		"id": 541,
@@ -7661,7 +7661,7 @@
 			"lat": 15.866241564066629,
 			"lng": 43.63769531250001
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"542": {
 		"id": 542,
@@ -7677,7 +7677,7 @@
 			"lat": -4.280680030820496,
 			"lng": -7.327880859375001
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"543": {
 		"id": 543,
@@ -7693,7 +7693,7 @@
 			"lat": -19.580493479202527,
 			"lng": -78.99169921875001
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"544": {
 		"id": 544,
@@ -7709,7 +7709,7 @@
 			"lat": -22.973160992506436,
 			"lng": 43.226279712412286
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"545": {
 		"id": 545,
@@ -7725,7 +7725,7 @@
 			"lat": 18.312810846425457,
 			"lng": 44.57153320312501
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"546": {
 		"id": 546,
@@ -7773,7 +7773,7 @@
 			"lat": -79.465,
 			"lng": -73.125
 		},
-		"icon": "poi"
+		"icon": "plane"
 	},
 	"549": {
 		"id": 549,
@@ -7798,8 +7798,8 @@
 			"ru": "Толстяк"
 		},
 		"links": {
-			"en": "https://fallout.fandom.com/wiki/Fat_Man",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D1%8F%D0%BA"
+			"en": "https://fallout.fandom.com/wiki/Fat_Man_(Fallout_4)",
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D1%8F%D0%BA_(Fallout_4)"
 		},
 		"coordinates": {
 			"lat": -11.695,
@@ -8079,54 +8079,6 @@
 		},
 		"icon": "fusion-core"
 	},
-	"570": {
-		"id": 570,
-		"titles": {
-			"en": "Nuka-Cherry",
-			"ru": "Ядер-Вишня"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cherry_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F"
-		},
-		"coordinates": {
-			"lat": -27.235094607795478,
-			"lng": 41.92382812500001
-		},
-		"icon": "nuka-cherry"
-	},
-	"571": {
-		"id": 571,
-		"titles": {
-			"en": "Nuka-Cherry",
-			"ru": "Ядер-Вишня"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cherry_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F"
-		},
-		"coordinates": {
-			"lat": -27.117812842321225,
-			"lng": 42.62695312500001
-		},
-		"icon": "nuka-cherry"
-	},
-	"574": {
-		"id": 574,
-		"titles": {
-			"en": "Nuka-Cherry",
-			"ru": "Ядер-Вишня"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cherry_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F"
-		},
-		"coordinates": {
-			"lat": 31.80289258670676,
-			"lng": 40.53955078125001
-		},
-		"icon": "nuka-cherry"
-	},
 	"575": {
 		"id": 575,
 		"titles": {
@@ -8134,254 +8086,14 @@
 			"ru": "Толстяк"
 		},
 		"links": {
-			"en": "https://fallout.fandom.com/wiki/Fat_Man",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D1%8F%D0%BA"
+			"en": "https://fallout.fandom.com/wiki/Fat_Man_(Fallout_4)",
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D1%8F%D0%BA_(Fallout_4)"
 		},
 		"coordinates": {
 			"lat": 31.429,
 			"lng": 41.396
 		},
 		"icon": "weapon"
-	},
-	"576": {
-		"id": 576,
-		"titles": {
-			"en": "Nuka-Cherry",
-			"ru": "Ядер-Вишня"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cherry_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F"
-		},
-		"coordinates": {
-			"lat": -35.96,
-			"lng": -33.574
-		},
-		"icon": "nuka-cherry"
-	},
-	"577": {
-		"id": 577,
-		"titles": {
-			"en": "Nuka-Cherry",
-			"ru": "Ядер-Вишня"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cherry_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F"
-		},
-		"coordinates": {
-			"lat": 81.414,
-			"lng": 109.512
-		},
-		"icon": "nuka-cherry"
-	},
-	"578": {
-		"id": 578,
-		"titles": {
-			"en": "Nuka-Cherry",
-			"ru": "Ядер-Вишня"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cherry_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F"
-		},
-		"coordinates": {
-			"lat": 48.225,
-			"lng": -28.74
-		},
-		"icon": "nuka-cherry"
-	},
-	"579": {
-		"id": 579,
-		"titles": {
-			"en": "Nuka-Cherry",
-			"ru": "Ядер-Вишня"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cherry_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F"
-		},
-		"coordinates": {
-			"lat": -1.406,
-			"lng": 31.729
-		},
-		"icon": "nuka-cherry"
-	},
-	"580": {
-		"id": 580,
-		"titles": {
-			"en": "Nuka-Cherry",
-			"ru": "Ядер-Вишня"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cherry_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F"
-		},
-		"coordinates": {
-			"lat": 58.031,
-			"lng": -33.926
-		},
-		"icon": "nuka-cherry"
-	},
-	"582": {
-		"id": 582,
-		"titles": {
-			"en": "Nuka-Cherry",
-			"ru": "Ядер-Вишня"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cherry_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F"
-		},
-		"coordinates": {
-			"lat": 55.85064987433714,
-			"lng": -106.43554687500001
-		},
-		"icon": "nuka-cherry"
-	},
-	"584": {
-		"id": 584,
-		"titles": {
-			"en": "Nuka-Cherry",
-			"ru": "Ядер-Вишня"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cherry_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F"
-		},
-		"coordinates": {
-			"lat": -58.904645703019995,
-			"lng": -109.33593750000001
-		},
-		"icon": "nuka-cherry"
-	},
-	"585": {
-		"id": 585,
-		"titles": {
-			"en": "Nuka-Cherry",
-			"ru": "Ядер-Вишня"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cherry_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F"
-		},
-		"coordinates": {
-			"lat": -18.979,
-			"lng": 63.984
-		},
-		"icon": "nuka-cherry"
-	},
-	"586": {
-		"id": 586,
-		"titles": {
-			"en": "Nuka-Cherry",
-			"ru": "Ядер-Вишня"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cherry_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F"
-		},
-		"coordinates": {
-			"lat": 32.175612478499346,
-			"lng": 11.4697265625
-		},
-		"icon": "nuka-cherry"
-	},
-	"587": {
-		"id": 587,
-		"titles": {
-			"en": "Nuka-Cherry",
-			"ru": "Ядер-Вишня"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cherry_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F"
-		},
-		"coordinates": {
-			"lat": -60.49146772772234,
-			"lng": -5.4475599083543935
-		},
-		"icon": "nuka-cherry"
-	},
-	"590": {
-		"id": 590,
-		"titles": {
-			"en": "Nuka-Cherry",
-			"ru": "Ядер-Вишня"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cherry_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F"
-		},
-		"coordinates": {
-			"lat": 72.16835148220001,
-			"lng": 119.57519531250001
-		},
-		"icon": "nuka-cherry"
-	},
-	"593": {
-		"id": 593,
-		"titles": {
-			"en": "Nuka-Cherry",
-			"ru": "Ядер-Вишня"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cherry_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F"
-		},
-		"coordinates": {
-			"lat": 73.94679115710252,
-			"lng": 32.43164062500001
-		},
-		"icon": "nuka-cherry"
-	},
-	"599": {
-		"id": 599,
-		"titles": {
-			"en": "Nuka-Cherry",
-			"ru": "Ядер-Вишня"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cherry_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F"
-		},
-		"coordinates": {
-			"lat": 58.37867853932655,
-			"lng": 91.62597656250001
-		},
-		"icon": "nuka-cherry"
-	},
-	"600": {
-		"id": 600,
-		"titles": {
-			"en": "Nuka-Cherry",
-			"ru": "Ядер-Вишня"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cherry_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F"
-		},
-		"coordinates": {
-			"lat": 57.326521225217064,
-			"lng": 92.76855468750001
-		},
-		"icon": "nuka-cherry"
-	},
-	"601": {
-		"id": 601,
-		"titles": {
-			"en": "Nuka-Cherry",
-			"ru": "Ядер-Вишня"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cherry_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F"
-		},
-		"coordinates": {
-			"lat": 73.9102942398827,
-			"lng": -37.96875000000001
-		},
-		"icon": "nuka-cherry"
 	},
 	"602": {
 		"id": 602,
@@ -8430,470 +8142,6 @@
 			"lng": -29.179687500000004
 		},
 		"icon": "fusion-core"
-	},
-	"605": {
-		"id": 605,
-		"titles": {
-			"en": "Nuka-Cherry",
-			"ru": "Ядер-Вишня"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cherry_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F"
-		},
-		"coordinates": {
-			"lat": 66.12496236487968,
-			"lng": -32.56347656250001
-		},
-		"icon": "nuka-cherry"
-	},
-	"606": {
-		"id": 606,
-		"titles": {
-			"en": "Nuka-Cherry",
-			"ru": "Ядер-Вишня"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cherry_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F"
-		},
-		"coordinates": {
-			"lat": 67.32292427995345,
-			"lng": -31.640625000000004
-		},
-		"icon": "nuka-cherry"
-	},
-	"607": {
-		"id": 607,
-		"titles": {
-			"en": "Nuka-Cherry",
-			"ru": "Ядер-Вишня"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cherry_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F"
-		},
-		"coordinates": {
-			"lat": 66.75724984139227,
-			"lng": -29.399414062500004
-		},
-		"icon": "nuka-cherry"
-	},
-	"608": {
-		"id": 608,
-		"titles": {
-			"en": "Nuka-Cherry",
-			"ru": "Ядер-Вишня"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cherry_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F"
-		},
-		"coordinates": {
-			"lat": 31.394567559646255,
-			"lng": -10.964355468750002
-		},
-		"icon": "nuka-cherry"
-	},
-	"609": {
-		"id": 609,
-		"titles": {
-			"en": "Nuka-Cherry",
-			"ru": "Ядер-Вишня"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cherry_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F"
-		},
-		"coordinates": {
-			"lat": -3.4037578795775887,
-			"lng": -39.77050781250001
-		},
-		"icon": "nuka-cherry"
-	},
-	"610": {
-		"id": 610,
-		"titles": {
-			"en": "Nuka-Cherry",
-			"ru": "Ядер-Вишня"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cherry_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F"
-		},
-		"coordinates": {
-			"lat": -3.6669277409287235,
-			"lng": -38.78173828125001
-		},
-		"icon": "nuka-cherry"
-	},
-	"611": {
-		"id": 611,
-		"titles": {
-			"en": "Nuka-Cherry",
-			"ru": "Ядер-Вишня"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cherry_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F"
-		},
-		"coordinates": {
-			"lat": -4.083452772038619,
-			"lng": -40.51757812500001
-		},
-		"icon": "nuka-cherry"
-	},
-	"613": {
-		"id": 613,
-		"titles": {
-			"en": "Nuka-Cola Quantum",
-			"ru": "Квантовая Ядер-Кола"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)"
-		},
-		"coordinates": {
-			"lat": 24.84656534821976,
-			"lng": -22.8076171875
-		},
-		"icon": "nuka-cola"
-	},
-	"614": {
-		"id": 614,
-		"titles": {
-			"en": "Nuka-Cola Quantum",
-			"ru": "Квантовая Ядер-Кола"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)"
-		},
-		"coordinates": {
-			"lat": -0.4833927027896987,
-			"lng": -21.884765625
-		},
-		"icon": "nuka-cola"
-	},
-	"615": {
-		"id": 615,
-		"titles": {
-			"en": "Nuka-Cola Quantum",
-			"ru": "Квантовая Ядер-Кола"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)"
-		},
-		"coordinates": {
-			"lat": -47.95230535454764,
-			"lng": -31.16100461276298
-		},
-		"icon": "nuka-cola"
-	},
-	"616": {
-		"id": 616,
-		"titles": {
-			"en": "Nuka-Cola Quantum",
-			"ru": "Квантовая Ядер-Кола"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)"
-		},
-		"coordinates": {
-			"lat": 56.607885465009254,
-			"lng": -107.35839843750001
-		},
-		"icon": "nuka-cola"
-	},
-	"617": {
-		"id": 617,
-		"titles": {
-			"en": "Nuka-Cola Quantum",
-			"ru": "Квантовая Ядер-Кола"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)"
-		},
-		"coordinates": {
-			"lat": 56.022948079627454,
-			"lng": -104.01855468750001
-		},
-		"icon": "nuka-cola"
-	},
-	"618": {
-		"id": 618,
-		"titles": {
-			"en": "Nuka-Cola Quantum",
-			"ru": "Квантовая Ядер-Кола"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)"
-		},
-		"coordinates": {
-			"lat": 24.00632619875113,
-			"lng": -107.40234375000001
-		},
-		"icon": "nuka-cola"
-	},
-	"619": {
-		"id": 619,
-		"titles": {
-			"en": "Nuka-Cola Quantum",
-			"ru": "Квантовая Ядер-Кола"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)"
-		},
-		"coordinates": {
-			"lat": -12.082295837363578,
-			"lng": 59.19433593750001
-		},
-		"icon": "nuka-cola"
-	},
-	"620": {
-		"id": 620,
-		"titles": {
-			"en": "Nuka-Cola Quantum",
-			"ru": "Квантовая Ядер-Кола"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)"
-		},
-		"coordinates": {
-			"lat": 32.324,
-			"lng": -21.533
-		},
-		"icon": "nuka-cola"
-	},
-	"623": {
-		"id": 623,
-		"titles": {
-			"en": "Nuka-Cola Quantum",
-			"ru": "Квантовая Ядер-Кола"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)"
-		},
-		"coordinates": {
-			"lat": -61.02840049461945,
-			"lng": -7.014654343465299
-		},
-		"icon": "nuka-cola"
-	},
-	"624": {
-		"id": 624,
-		"titles": {
-			"en": "Nuka-Cola Quantum",
-			"ru": "Квантовая Ядер-Кола"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)"
-		},
-		"coordinates": {
-			"lat": 10.92,
-			"lng": 20.566
-		},
-		"icon": "nuka-cola"
-	},
-	"625": {
-		"id": 625,
-		"titles": {
-			"en": "Nuka-Cola Quantum",
-			"ru": "Квантовая Ядер-Кола"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)"
-		},
-		"coordinates": {
-			"lat": 83.55478564554016,
-			"lng": 126.82617187500001
-		},
-		"icon": "nuka-cola"
-	},
-	"626": {
-		"id": 626,
-		"titles": {
-			"en": "Nuka-Cola Quantum",
-			"ru": "Квантовая Ядер-Кола"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)"
-		},
-		"coordinates": {
-			"lat": 73.55952150503711,
-			"lng": 28.1689453125
-		},
-		"icon": "nuka-cola"
-	},
-	"627": {
-		"id": 627,
-		"titles": {
-			"en": "Nuka-Cola Quantum",
-			"ru": "Квантовая Ядер-Кола"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)"
-		},
-		"coordinates": {
-			"lat": -7.275,
-			"lng": 35.068
-		},
-		"icon": "nuka-cola"
-	},
-	"628": {
-		"id": 628,
-		"titles": {
-			"en": "Nuka-Cola Quantum",
-			"ru": "Квантовая Ядер-Кола"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)"
-		},
-		"coordinates": {
-			"lat": -7.275,
-			"lng": 32.432
-		},
-		"icon": "nuka-cola"
-	},
-	"630": {
-		"id": 630,
-		"titles": {
-			"en": "Nuka-Cola Quantum",
-			"ru": "Квантовая Ядер-Кола"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)"
-		},
-		"coordinates": {
-			"lat": 21.642650250042802,
-			"lng": 42.51943521358731
-		},
-		"icon": "nuka-cola"
-	},
-	"631": {
-		"id": 631,
-		"titles": {
-			"en": "Nuka-Cola Quantum",
-			"ru": "Квантовая Ядер-Кола"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)"
-		},
-		"coordinates": {
-			"lat": -69.131,
-			"lng": 60.645
-		},
-		"icon": "nuka-cola"
-	},
-	"633": {
-		"id": 633,
-		"titles": {
-			"en": "Nuka-Cola Quantum",
-			"ru": "Квантовая Ядер-Кола"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)"
-		},
-		"coordinates": {
-			"lat": 33.32134852669881,
-			"lng": 49.5703125
-		},
-		"icon": "nuka-cola"
-	},
-	"634": {
-		"id": 634,
-		"titles": {
-			"en": "Nuka-Cola Quantum",
-			"ru": "Квантовая Ядер-Кола"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)"
-		},
-		"coordinates": {
-			"lat": 14.221788628397572,
-			"lng": 86.9677734375
-		},
-		"icon": "nuka-cola"
-	},
-	"635": {
-		"id": 635,
-		"titles": {
-			"en": "Nuka-Cola Quantum",
-			"ru": "Квантовая Ядер-Кола"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)"
-		},
-		"coordinates": {
-			"lat": 72.3424643905499,
-			"lng": -42.97851562500001
-		},
-		"icon": "nuka-cola"
-	},
-	"636": {
-		"id": 636,
-		"titles": {
-			"en": "Nuka-Cola Quantum",
-			"ru": "Квантовая Ядер-Кола"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)"
-		},
-		"coordinates": {
-			"lat": 66.53076810915228,
-			"lng": -31.860351562500004
-		},
-		"icon": "nuka-cola"
-	},
-	"638": {
-		"id": 638,
-		"titles": {
-			"en": "Nuka-Cola Quantum",
-			"ru": "Квантовая Ядер-Кола"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)"
-		},
-		"coordinates": {
-			"lat": 65.96437717203098,
-			"lng": -31.333007812500004
-		},
-		"icon": "nuka-cola"
-	},
-	"639": {
-		"id": 639,
-		"titles": {
-			"en": "Nuka-Cola Quantum",
-			"ru": "Квантовая Ядер-Кола"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)"
-		},
-		"coordinates": {
-			"lat": 31.390797193305186,
-			"lng": -10.285663988806851
-		},
-		"icon": "nuka-cola"
 	},
 	"640": {
 		"id": 640,
@@ -8998,8 +8246,8 @@
 			"ru": "Толстяк"
 		},
 		"links": {
-			"en": "https://fallout.fandom.com/wiki/Fat_Man",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D1%8F%D0%BA"
+			"en": "https://fallout.fandom.com/wiki/Fat_Man_(Fallout_4)",
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D1%8F%D0%BA_(Fallout_4)"
 		},
 		"coordinates": {
 			"lat": 9.795677582829743,
@@ -9222,8 +8470,8 @@
 			"ru": "Толстяк"
 		},
 		"links": {
-			"en": "https://fallout.fandom.com/wiki/Fat_Man",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D1%8F%D0%BA"
+			"en": "https://fallout.fandom.com/wiki/Fat_Man_(Fallout_4)",
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D1%8F%D0%BA_(Fallout_4)"
 		},
 		"coordinates": {
 			"lat": 24.467150664739002,
@@ -9302,8 +8550,8 @@
 			"ru": "Толстяк"
 		},
 		"links": {
-			"en": "https://fallout.fandom.com/wiki/Fat_Man",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D1%8F%D0%BA"
+			"en": "https://fallout.fandom.com/wiki/Fat_Man_(Fallout_4)",
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D1%8F%D0%BA_(Fallout_4)"
 		},
 		"coordinates": {
 			"lat": 32.194208672875384,
@@ -9414,8 +8662,8 @@
 			"ru": "Толстяк"
 		},
 		"links": {
-			"en": "https://fallout.fandom.com/wiki/Fat_Man",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D1%8F%D0%BA"
+			"en": "https://fallout.fandom.com/wiki/Fat_Man_(Fallout_4)",
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D1%8F%D0%BA_(Fallout_4)"
 		},
 		"coordinates": {
 			"lat": 74.16408546675687,
@@ -9654,8 +8902,8 @@
 			"ru": "Толстяк"
 		},
 		"links": {
-			"en": "https://fallout.fandom.com/wiki/Fat_Man",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D1%8F%D0%BA"
+			"en": "https://fallout.fandom.com/wiki/Fat_Man_(Fallout_4)",
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D1%8F%D0%BA_(Fallout_4)"
 		},
 		"coordinates": {
 			"lat": -28.60324851457461,
@@ -9702,8 +8950,8 @@
 			"ru": "Толстяк"
 		},
 		"links": {
-			"en": "https://fallout.fandom.com/wiki/Fat_Man",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D1%8F%D0%BA"
+			"en": "https://fallout.fandom.com/wiki/Fat_Man_(Fallout_4)",
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D1%8F%D0%BA_(Fallout_4)"
 		},
 		"coordinates": {
 			"lat": -30.637912028341123,
@@ -9837,7 +9085,7 @@
 			"lat": -16.678293098288513,
 			"lng": -17.314453125000004
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"703": {
 		"id": 703,
@@ -9853,7 +9101,7 @@
 			"lat": -1.582,
 			"lng": 33.047
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"704": {
 		"id": 704,
@@ -10109,7 +9357,7 @@
 			"lat": -44.024,
 			"lng": -1.758
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"727": {
 		"id": 727,
@@ -10125,7 +9373,7 @@
 			"lat": 42.261049162113856,
 			"lng": 45.70312500000001
 		},
-		"icon": "perk-magazine"
+		"icon": "magazine"
 	},
 	"728": {
 		"id": 728,
@@ -10141,23 +9389,7 @@
 			"lat": 32.62087018318113,
 			"lng": 19.248046875000004
 		},
-		"icon": "perk-magazine"
-	},
-	"729": {
-		"id": 729,
-		"titles": {
-			"en": "Nuka-Cola Quantum",
-			"ru": "Квантовая Ядер-Кола"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)"
-		},
-		"coordinates": {
-			"lat": 41.73852846935917,
-			"lng": 46.14257812500001
-		},
-		"icon": "nuka-cola"
+		"icon": "magazine"
 	},
 	"730": {
 		"id": 730,
@@ -10174,54 +9406,6 @@
 			"lng": 62.842
 		},
 		"icon": "farm"
-	},
-	"731": {
-		"id": 731,
-		"titles": {
-			"en": "Nuka-Cola Quantum",
-			"ru": "Квантовая Ядер-Кола"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)"
-		},
-		"coordinates": {
-			"lat": 80.08835244160122,
-			"lng": 64.16015625000001
-		},
-		"icon": "nuka-cola"
-	},
-	"732": {
-		"id": 732,
-		"titles": {
-			"en": "Nuka-Cola Quantum",
-			"ru": "Квантовая Ядер-Кола"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)"
-		},
-		"coordinates": {
-			"lat": 59.675696735039274,
-			"lng": -45.5831899570941
-		},
-		"icon": "nuka-cola"
-	},
-	"734": {
-		"id": 734,
-		"titles": {
-			"en": "Nuka-Cherry",
-			"ru": "Ядер-Вишня"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cherry_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F"
-		},
-		"coordinates": {
-			"lat": 57.961503094284794,
-			"lng": 146.25000000000003
-		},
-		"icon": "nuka-cherry"
 	},
 	"735": {
 		"id": 735,
@@ -10335,22 +9519,6 @@
 		},
 		"icon": "weapon"
 	},
-	"744": {
-		"id": 744,
-		"titles": {
-			"en": "Nuka-Cola Quantum",
-			"ru": "Квантовая Ядер-Кола"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)"
-		},
-		"coordinates": {
-			"lat": 62.87518837993309,
-			"lng": -52.3388671875
-		},
-		"icon": "nuka-cola"
-	},
 	"746": {
 		"id": 746,
 		"titles": {
@@ -10382,38 +9550,6 @@
 			"lng": 5.098
 		},
 		"icon": "holotape"
-	},
-	"748": {
-		"id": 748,
-		"titles": {
-			"en": "Nuka-Cherry",
-			"ru": "Ядер-Вишня"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cherry_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F"
-		},
-		"coordinates": {
-			"lat": -9.362,
-			"lng": 23.555
-		},
-		"icon": "nuka-cherry"
-	},
-	"749": {
-		"id": 749,
-		"titles": {
-			"en": "Nuka-Cola Quantum",
-			"ru": "Квантовая Ядер-Кола"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)"
-		},
-		"coordinates": {
-			"lat": -10.315,
-			"lng": 22.676
-		},
-		"icon": "nuka-cola"
 	},
 	"750": {
 		"id": 750,
@@ -10463,54 +9599,6 @@
 		},
 		"icon": "graveyard"
 	},
-	"753": {
-		"id": 753,
-		"titles": {
-			"en": "Nuka-Cherry",
-			"ru": "Ядер-Вишня"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cherry_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F"
-		},
-		"coordinates": {
-			"lat": 6.708253968671543,
-			"lng": 59.67773437500001
-		},
-		"icon": "nuka-cherry"
-	},
-	"754": {
-		"id": 754,
-		"titles": {
-			"en": "Nuka-Cola Quantum",
-			"ru": "Квантовая Ядер-Кола"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)"
-		},
-		"coordinates": {
-			"lat": 6.227933930268672,
-			"lng": 58.71093750000001
-		},
-		"icon": "nuka-cola"
-	},
-	"755": {
-		"id": 755,
-		"titles": {
-			"en": "Nuka-Cola Quantum",
-			"ru": "Квантовая Ядер-Кола"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)"
-		},
-		"coordinates": {
-			"lat": 6.118707747190845,
-			"lng": 57.81005859375001
-		},
-		"icon": "nuka-cola"
-	},
 	"757": {
 		"id": 757,
 		"titles": {
@@ -10543,22 +9631,6 @@
 		},
 		"icon": "fusion-core"
 	},
-	"760": {
-		"id": 760,
-		"titles": {
-			"en": "Nuka-Cherry",
-			"ru": "Ядер-Вишня"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cherry_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F"
-		},
-		"coordinates": {
-			"lat": 19.56,
-			"lng": 40.518
-		},
-		"icon": "nuka-cherry"
-	},
 	"761": {
 		"id": 761,
 		"titles": {
@@ -10589,7 +9661,7 @@
 			"lat": -1.494,
 			"lng": 71.279
 		},
-		"icon": "poi"
+		"icon": "ship"
 	},
 	"763": {
 		"id": 763,
@@ -10623,54 +9695,6 @@
 		},
 		"icon": "fusion-core"
 	},
-	"765": {
-		"id": 765,
-		"titles": {
-			"en": "Nuka-Cherry",
-			"ru": "Ядер-Вишня"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cherry_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F"
-		},
-		"coordinates": {
-			"lat": -1.055,
-			"lng": 69.961
-		},
-		"icon": "nuka-cherry"
-	},
-	"766": {
-		"id": 766,
-		"titles": {
-			"en": "Nuka-Cola Quantum",
-			"ru": "Квантовая Ядер-Кола"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)"
-		},
-		"coordinates": {
-			"lat": -2.987,
-			"lng": 69.873
-		},
-		"icon": "nuka-cola"
-	},
-	"768": {
-		"id": 768,
-		"titles": {
-			"en": "Nuka-Cherry",
-			"ru": "Ядер-Вишня"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cherry_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F"
-		},
-		"coordinates": {
-			"lat": -29.96529596924636,
-			"lng": 57.21679687500001
-		},
-		"icon": "nuka-cherry"
-	},
 	"770": {
 		"id": 770,
 		"titles": {
@@ -10694,8 +9718,8 @@
 			"ru": "Толстяк"
 		},
 		"links": {
-			"en": "https://fallout.fandom.com/wiki/Fat_Man",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D1%8F%D0%BA"
+			"en": "https://fallout.fandom.com/wiki/Fat_Man_(Fallout_4)",
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D1%8F%D0%BA_(Fallout_4)"
 		},
 		"coordinates": {
 			"lat": 49.31079887964633,
@@ -10799,22 +9823,6 @@
 		},
 		"icon": "holotape"
 	},
-	"779": {
-		"id": 779,
-		"titles": {
-			"en": "Nuka-Cola Quantum",
-			"ru": "Квантовая Ядер-Кола"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)"
-		},
-		"coordinates": {
-			"lat": 43.83452678223684,
-			"lng": 49.46044921875001
-		},
-		"icon": "nuka-cola"
-	},
 	"780": {
 		"id": 780,
 		"titles": {
@@ -10854,46 +9862,14 @@
 			"ru": "Толстяк"
 		},
 		"links": {
-			"en": "https://fallout.fandom.com/wiki/Fat_Man",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D1%8F%D0%BA"
+			"en": "https://fallout.fandom.com/wiki/Fat_Man_(Fallout_4)",
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D1%8F%D0%BA_(Fallout_4)"
 		},
 		"coordinates": {
 			"lat": 34.994003757575776,
 			"lng": 19.379882812500004
 		},
 		"icon": "weapon"
-	},
-	"785": {
-		"id": 785,
-		"titles": {
-			"en": "Nuka-Cola Quantum",
-			"ru": "Квантовая Ядер-Кола"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)"
-		},
-		"coordinates": {
-			"lat": 35.0659731379842,
-			"lng": 20.917968750000004
-		},
-		"icon": "nuka-cola"
-	},
-	"786": {
-		"id": 786,
-		"titles": {
-			"en": "Nuka-Cola Quantum",
-			"ru": "Квантовая Ядер-Кола"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)"
-		},
-		"coordinates": {
-			"lat": 33.50475906922609,
-			"lng": 21.972656250000004
-		},
-		"icon": "nuka-cola"
 	},
 	"788": {
 		"id": 788,
@@ -10958,166 +9934,6 @@
 			"lng": 32.47558593750001
 		},
 		"icon": "fusion-core"
-	},
-	"793": {
-		"id": 793,
-		"titles": {
-			"en": "Nuka-Cola Quantum",
-			"ru": "Квантовая Ядер-Кола"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)"
-		},
-		"coordinates": {
-			"lat": -8.385431015567708,
-			"lng": -5.855712890625
-		},
-		"icon": "nuka-cola"
-	},
-	"794": {
-		"id": 794,
-		"titles": {
-			"en": "Nuka-Cola Quantum",
-			"ru": "Квантовая Ядер-Кола"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)"
-		},
-		"coordinates": {
-			"lat": -7.612997502224091,
-			"lng": -4.801025390625001
-		},
-		"icon": "nuka-cola"
-	},
-	"795": {
-		"id": 795,
-		"titles": {
-			"en": "Nuka-Cola Quantum",
-			"ru": "Квантовая Ядер-Кола"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)"
-		},
-		"coordinates": {
-			"lat": -4.324501493019203,
-			"lng": 0.087890625
-		},
-		"icon": "nuka-cola"
-	},
-	"796": {
-		"id": 796,
-		"titles": {
-			"en": "Nuka-Cola Quantum",
-			"ru": "Квантовая Ядер-Кола"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)"
-		},
-		"coordinates": {
-			"lat": -5.572249801113899,
-			"lng": -5.526123046875001
-		},
-		"icon": "nuka-cola"
-	},
-	"797": {
-		"id": 797,
-		"titles": {
-			"en": "Nuka-Cola Quantum",
-			"ru": "Квантовая Ядер-Кола"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)"
-		},
-		"coordinates": {
-			"lat": -6.0968598188879355,
-			"lng": -5.328369140625001
-		},
-		"icon": "nuka-cola"
-	},
-	"798": {
-		"id": 798,
-		"titles": {
-			"en": "Nuka-Cola Quantum",
-			"ru": "Квантовая Ядер-Кола"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)"
-		},
-		"coordinates": {
-			"lat": -8.819938928283147,
-			"lng": -5.372314453125001
-		},
-		"icon": "nuka-cola"
-	},
-	"799": {
-		"id": 799,
-		"titles": {
-			"en": "Nuka-Cherry",
-			"ru": "Ядер-Вишня"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cherry_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F"
-		},
-		"coordinates": {
-			"lat": -3.8313699273994,
-			"lng": -4.031982421875001
-		},
-		"icon": "nuka-cherry"
-	},
-	"800": {
-		"id": 800,
-		"titles": {
-			"en": "Nuka-Cherry",
-			"ru": "Ядер-Вишня"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cherry_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F"
-		},
-		"coordinates": {
-			"lat": -7.536764322084078,
-			"lng": -4.471435546875001
-		},
-		"icon": "nuka-cherry"
-	},
-	"802": {
-		"id": 802,
-		"titles": {
-			"en": "Nuka-Cherry",
-			"ru": "Ядер-Вишня"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cherry_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F"
-		},
-		"coordinates": {
-			"lat": -7.906911616469297,
-			"lng": -4.592285156250001
-		},
-		"icon": "nuka-cherry"
-	},
-	"803": {
-		"id": 803,
-		"titles": {
-			"en": "Nuka-Cherry",
-			"ru": "Ядер-Вишня"
-		},
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cherry_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F"
-		},
-		"coordinates": {
-			"lat": -6.282538526926375,
-			"lng": -2.83447265625
-		},
-		"icon": "nuka-cherry"
 	},
 	"805": {
 		"id": 805,
@@ -11213,7 +10029,7 @@
 			"lat": 38.754,
 			"lng": 20.479
 		},
-		"icon": "ruins"
+		"icon": "building"
 	},
 	"811": {
 		"id": 811,
@@ -11637,54 +10453,6 @@
 			"lng": -60.55664062500001
 		}
 	},
-	"839": {
-		"id": 839,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F",
-			"en": "https://fallout.fandom.com/wiki/Nuka_Cherry"
-		},
-		"titles": {
-			"ru": "Ядер-Вишня",
-			"en": "Nuka-Cherry (Fallout 4)"
-		},
-		"icon": "nuka-cherry",
-		"coordinates": {
-			"lat": 81.66605710511882,
-			"lng": -99.49218750000001
-		}
-	},
-	"840": {
-		"id": 840,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F",
-			"en": "https://fallout.fandom.com/wiki/Nuka_Cherry"
-		},
-		"titles": {
-			"ru": "Ядер-Вишня",
-			"en": "Nuka-Cherry (Fallout 4)"
-		},
-		"icon": "nuka-cherry",
-		"coordinates": {
-			"lat": 79.48061790228995,
-			"lng": -115.53222656250001
-		}
-	},
-	"841": {
-		"id": 841,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F",
-			"en": "https://fallout.fandom.com/wiki/Nuka_Cherry"
-		},
-		"titles": {
-			"ru": "Ядер-Вишня",
-			"en": "Nuka-Cherry (Fallout 4)"
-		},
-		"icon": "nuka-cherry",
-		"coordinates": {
-			"lat": 84.07074698172724,
-			"lng": -76.640625
-		}
-	},
 	"842": {
 		"id": 842,
 		"links": {
@@ -11872,8 +10640,8 @@
 			"en": "https://fallout.fandom.com/wiki/Railway_rifle_(Fallout_4)"
 		},
 		"titles": {
-			"ru": "Гвоздемёт (Fallout 4)",
-			"en": "Railway rifle (Fallout 4)"
+			"ru": "Гвоздемёт",
+			"en": "Railway rifle"
 		},
 		"icon": "weapon",
 		"coordinates": {
@@ -11895,22 +10663,6 @@
 		"coordinates": {
 			"lat": 76.82079252543741,
 			"lng": -64.02832031250001
-		}
-	},
-	"856": {
-		"id": 856,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)",
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)"
-		},
-		"titles": {
-			"ru": "Квантовая Ядер-Кола (Fallout 4)",
-			"en": "Nuka-Cola Quantum (Fallout 4)"
-		},
-		"icon": "nuka-cola",
-		"coordinates": {
-			"lat": 11.178401873711785,
-			"lng": 8.217773437500002
 		}
 	},
 	"857": {
@@ -11985,28 +10737,12 @@
 		},
 		"titles": {
 			"ru": "Ядерный блок",
-			"en": "Fusion core (Fallout 4)"
+			"en": "Fusion core"
 		},
 		"icon": "fusion-core",
 		"coordinates": {
 			"lat": -29.496987596535757,
 			"lng": 76.50878906250001
-		}
-	},
-	"862": {
-		"id": 862,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)",
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)"
-		},
-		"titles": {
-			"ru": "Квантовая Ядер-Кола (Fallout 4)",
-			"en": "Nuka-Cola Quantum (Fallout 4)"
-		},
-		"icon": "nuka-cola",
-		"coordinates": {
-			"lat": 69.93030017617484,
-			"lng": -56.73339843750001
 		}
 	},
 	"863": {
@@ -12125,22 +10861,6 @@
 			"lng": 22.9833984375
 		}
 	},
-	"871": {
-		"id": 871,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F",
-			"en": "https://fallout.fandom.com/wiki/Nuka_Cherry"
-		},
-		"titles": {
-			"ru": "Ядер-Вишня",
-			"en": "Nuka-Cherry (Fallout 4)"
-		},
-		"icon": "nuka-cherry",
-		"coordinates": {
-			"lat": 80.82390147194303,
-			"lng": 23.994140625000004
-		}
-	},
 	"872": {
 		"id": 872,
 		"links": {
@@ -12205,38 +10925,6 @@
 			"lng": 87.97851562500001
 		}
 	},
-	"876": {
-		"id": 876,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F",
-			"en": "https://fallout.fandom.com/wiki/Nuka_Cherry"
-		},
-		"titles": {
-			"ru": "Ядер-Вишня",
-			"en": "Nuka-Cherry (Fallout 4)"
-		},
-		"icon": "nuka-cherry",
-		"coordinates": {
-			"lat": 64.86760781632728,
-			"lng": 99.66796875000001
-		}
-	},
-	"877": {
-		"id": 877,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)",
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)"
-		},
-		"titles": {
-			"ru": "Квантовая Ядер-Кола (Fallout 4)",
-			"en": "Nuka-Cola Quantum (Fallout 4)"
-		},
-		"icon": "nuka-cola",
-		"coordinates": {
-			"lat": 64.88626540914477,
-			"lng": 100.67871093750001
-		}
-	},
 	"878": {
 		"id": 878,
 		"links": {
@@ -12263,7 +10951,7 @@
 			"ru": "Даймонд-сити",
 			"en": "Diamond City"
 		},
-		"icon": "town",
+		"icon": "city",
 		"coordinates": {
 			"lat": -10.271681232946728,
 			"lng": -7.031250000000001
@@ -12674,7 +11362,7 @@
 			"en": "https://fallout.fandom.com/wiki/Schoolhouse"
 		},
 		"titles": {
-			"ru": "Школа (Fallout 4)",
+			"ru": "Школа",
 			"en": "Schoolhouse"
 		},
 		"icon": "unmarked",
@@ -12707,7 +11395,7 @@
 		},
 		"titles": {
 			"ru": "Теплица (Даймонд-сити)",
-			"en": "Greenhouse (Fallout 4)"
+			"en": "Greenhouse"
 		},
 		"icon": "unmarked",
 		"coordinates": {
@@ -12881,7 +11569,7 @@
 		},
 		"titles": {
 			"ru": "Ядерный минизаряд",
-			"en": "Mini nuke (Fallout 4)"
+			"en": "Mini nuke"
 		},
 		"icon": "mini-nuke",
 		"coordinates": {
@@ -12969,22 +11657,6 @@
 			"lng": -63.85253906250001
 		}
 	},
-	"928": {
-		"id": 928,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)",
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)"
-		},
-		"titles": {
-			"ru": "Квантовая Ядер-Кола (Fallout 4)",
-			"en": "Nuka-Cola Quantum (Fallout 4)"
-		},
-		"icon": "nuka-cola",
-		"coordinates": {
-			"lat": -14.944784875088372,
-			"lng": -25.488281250000004
-		}
-	},
 	"929": {
 		"id": 929,
 		"links": {
@@ -13033,22 +11705,6 @@
 			"lng": 4.350585937500001
 		}
 	},
-	"932": {
-		"id": 932,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)",
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)"
-		},
-		"titles": {
-			"ru": "Квантовая Ядер-Кола (Fallout 4)",
-			"en": "Nuka-Cola Quantum (Fallout 4)"
-		},
-		"icon": "nuka-cola",
-		"coordinates": {
-			"lat": 7.993957436359008,
-			"lng": 34.78271484375001
-		}
-	},
 	"933": {
 		"id": 933,
 		"links": {
@@ -13071,7 +11727,7 @@
 		},
 		"titles": {
 			"ru": "Ядерный блок",
-			"en": "Fusion core (Fallout 4)"
+			"en": "Fusion core"
 		},
 		"icon": "fusion-core",
 		"coordinates": {
@@ -13119,7 +11775,7 @@
 		},
 		"titles": {
 			"ru": "Ядерный минизаряд",
-			"en": "Mini nuke (Fallout 4)"
+			"en": "Mini nuke"
 		},
 		"icon": "mini-nuke",
 		"coordinates": {
@@ -13221,38 +11877,6 @@
 		"coordinates": {
 			"lat": 15.728813770533979,
 			"lng": 44.36279296875
-		}
-	},
-	"944": {
-		"id": 944,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F",
-			"en": "https://fallout.fandom.com/wiki/Nuka_Cherry"
-		},
-		"titles": {
-			"ru": "Ядер-Вишня",
-			"en": "Nuka-Cherry (Fallout 4)"
-		},
-		"icon": "nuka-cherry",
-		"coordinates": {
-			"lat": 16.024695711685315,
-			"lng": 44.066162109375
-		}
-	},
-	"945": {
-		"id": 945,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)",
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)"
-		},
-		"titles": {
-			"ru": "Квантовая Ядер-Кола (Fallout 4)",
-			"en": "Nuka-Cola Quantum (Fallout 4)"
-		},
-		"icon": "nuka-cola",
-		"coordinates": {
-			"lat": 15.538375926292062,
-			"lng": 43.95629882812501
 		}
 	},
 	"946": {
@@ -13361,26 +11985,10 @@
 			"ru": "Станция «Масс Пайк»",
 			"en": "Mass Pike Interchange"
 		},
-		"icon": "poi",
+		"icon": "bridge",
 		"coordinates": {
 			"lat": -2.767477951092084,
 			"lng": -82.83691406250001
-		}
-	},
-	"953": {
-		"id": 953,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)",
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)"
-		},
-		"titles": {
-			"ru": "Квантовая Ядер-Кола (Fallout 4)",
-			"en": "Nuka-Cola Quantum (Fallout 4)"
-		},
-		"icon": "nuka-cola",
-		"coordinates": {
-			"lat": 71.46213966619457,
-			"lng": 43.43994140625
 		}
 	},
 	"954": {
@@ -13399,38 +12007,6 @@
 			"lng": 48.3837890625
 		}
 	},
-	"955": {
-		"id": 955,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)",
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)"
-		},
-		"titles": {
-			"ru": "Квантовая Ядер-Кола (Fallout 4)",
-			"en": "Nuka-Cola Quantum (Fallout 4)"
-		},
-		"icon": "nuka-cola",
-		"coordinates": {
-			"lat": 4.19302960536076,
-			"lng": 21.42333984375
-		}
-	},
-	"956": {
-		"id": 956,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F",
-			"en": "https://fallout.fandom.com/wiki/Nuka_Cherry"
-		},
-		"titles": {
-			"ru": "Ядер-Вишня",
-			"en": "Nuka-Cherry (Fallout 4)"
-		},
-		"icon": "nuka-cherry",
-		"coordinates": {
-			"lat": -67.7760253890732,
-			"lng": -54.40429687500001
-		}
-	},
 	"958": {
 		"id": 958,
 		"links": {
@@ -13439,7 +12015,7 @@
 		},
 		"titles": {
 			"ru": "Ядерный блок",
-			"en": "Fusion core (Fallout 4)"
+			"en": "Fusion core"
 		},
 		"icon": "fusion-core",
 		"coordinates": {
@@ -13461,52 +12037,20 @@
 			"lng": -83.89160156250001
 		}
 	},
-	"960": {
-		"id": 960,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)",
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)"
-		},
-		"titles": {
-			"ru": "Квантовая Ядер-Кола (Fallout 4)",
-			"en": "Nuka-Cola Quantum (Fallout 4)"
-		},
-		"icon": "nuka-cola",
-		"coordinates": {
-			"lat": 50.3734961443035,
-			"lng": -77.60742187500001
-		}
-	},
 	"961": {
 		"id": 961,
 		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D1%8F%D0%BA_(Fallout_4)",
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D1%8F%D0%BA_(Fallout_4)_(Fallout_4)",
 			"en": "https://fallout.fandom.com/wiki/Fat_Man_(Fallout_4)"
 		},
 		"titles": {
-			"ru": "Толстяк (Fallout 4)",
-			"en": "Fat Man (Fallout 4)"
+			"ru": "Толстяк",
+			"en": "Fat Man"
 		},
 		"icon": "weapon",
 		"coordinates": {
 			"lat": 48.80686346108519,
 			"lng": -78.13476562500001
-		}
-	},
-	"962": {
-		"id": 962,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)",
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)"
-		},
-		"titles": {
-			"ru": "Квантовая Ядер-Кола (Fallout 4)",
-			"en": "Nuka-Cola Quantum (Fallout 4)"
-		},
-		"icon": "nuka-cola",
-		"coordinates": {
-			"lat": 47.39834920035926,
-			"lng": -29.750976562500004
 		}
 	},
 	"963": {
@@ -13517,7 +12061,7 @@
 		},
 		"titles": {
 			"ru": "Ядерный блок",
-			"en": "Fusion core (Fallout 4)"
+			"en": "Fusion core"
 		},
 		"icon": "fusion-core",
 		"coordinates": {
@@ -13565,22 +12109,6 @@
 		"coordinates": {
 			"lat": 5.834616165610059,
 			"lng": 117.94921875000001
-		}
-	},
-	"967": {
-		"id": 967,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F",
-			"en": "https://fallout.fandom.com/wiki/Nuka_Cherry"
-		},
-		"titles": {
-			"ru": "Ядер-Вишня",
-			"en": "Nuka-Cherry (Fallout 4)"
-		},
-		"icon": "nuka-cherry",
-		"coordinates": {
-			"lat": 7.493196470122287,
-			"lng": 117.50976562500001
 		}
 	},
 	"968": {
@@ -13631,22 +12159,6 @@
 			"lng": 44.58251953125001
 		}
 	},
-	"971": {
-		"id": 971,
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)"
-		},
-		"titles": {
-			"en": "Nuka-Cola Quantum",
-			"ru": "Квантовая Ядер-Кола"
-		},
-		"icon": "nuka-cola",
-		"coordinates": {
-			"lat": 11.135287077054238,
-			"lng": 43.48388671875
-		}
-	},
 	"972": {
 		"id": 972,
 		"links": {
@@ -13663,22 +12175,6 @@
 			"lng": 42.890625
 		}
 	},
-	"973": {
-		"id": 973,
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)"
-		},
-		"titles": {
-			"en": "Nuka-Cola Quantum",
-			"ru": "Квантовая Ядер-Кола"
-		},
-		"icon": "nuka-cola",
-		"coordinates": {
-			"lat": 10.746969318460001,
-			"lng": 42.29736328125
-		}
-	},
 	"974": {
 		"id": 974,
 		"links": {
@@ -13689,7 +12185,7 @@
 			"ru": "Склад NH&M",
 			"en": "NH&M Freight Depot"
 		},
-		"icon": "poi",
+		"icon": "building",
 		"coordinates": {
 			"lat": -22.998851594142923,
 			"lng": 4.218750000000001
@@ -13743,22 +12239,6 @@
 			"lng": 46.314297952834465
 		}
 	},
-	"978": {
-		"id": 978,
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)"
-		},
-		"titles": {
-			"en": "Nuka-Cola Quantum",
-			"ru": "Квантовая Ядер-Кола"
-		},
-		"icon": "nuka-cola",
-		"coordinates": {
-			"lat": -43.739352079154706,
-			"lng": 5.844726562500001
-		}
-	},
 	"979": {
 		"id": 979,
 		"links": {
@@ -13773,22 +12253,6 @@
 		"coordinates": {
 			"lat": -13.88074584202559,
 			"lng": 57.98583984375001
-		}
-	},
-	"980": {
-		"id": 980,
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)"
-		},
-		"titles": {
-			"en": "Nuka-Cola Quantum",
-			"ru": "Квантовая Ядер-Кола"
-		},
-		"icon": "nuka-cola",
-		"coordinates": {
-			"lat": -63.59744766560199,
-			"lng": 50.71289062500001
 		}
 	},
 	"981": {
@@ -14379,22 +12843,6 @@
 			"lng": -48.86718750000001
 		}
 	},
-	"1020": {
-		"id": 1020,
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cherry_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F"
-		},
-		"titles": {
-			"en": "Nuka-Cherry",
-			"ru": "Ядер-Вишня"
-		},
-		"icon": "nuka-cherry",
-		"coordinates": {
-			"lat": 28.55215730937015,
-			"lng": 58.069554625219176
-		}
-	},
 	"1021": {
 		"id": 1021,
 		"links": {
@@ -14418,29 +12866,13 @@
 			"en": "https://fallout.fandom.com/wiki/Vitale_pumphouse"
 		},
 		"titles": {
-			"ru": "Насосная станция (Fallout 4)",
+			"ru": "Насосная станция",
 			"en": "Vitale pumphouse"
 		},
 		"icon": "unmarked",
 		"coordinates": {
 			"lat": 69.83962194067463,
 			"lng": 98.34960937500001
-		}
-	},
-	"1023": {
-		"id": 1023,
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cherry_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F"
-		},
-		"titles": {
-			"en": "Nuka-Cherry",
-			"ru": "Ядер-Вишня"
-		},
-		"icon": "nuka-cherry",
-		"coordinates": {
-			"lat": 69.73333439033593,
-			"lng": 108.63281250000001
 		}
 	},
 	"1024": {
@@ -14453,7 +12885,7 @@
 			"ru": "Книжка SPECIAL!",
 			"en": "You're SPECIAL!"
 		},
-		"icon": "perk-magazine",
+		"icon": "magazine",
 		"coordinates": {
 			"lat": 81.8720881166164,
 			"lng": -95.240478515625
@@ -14610,7 +13042,7 @@
 			"en": "https://fallout.fandom.com/wiki/Compound"
 		},
 		"titles": {
-			"ru": "Коллектор (Fallout 4)",
+			"ru": "Коллектор",
 			"en": "Compound"
 		},
 		"icon": "unmarked",
@@ -15138,7 +13570,7 @@
 			"en": "https://fallout.fandom.com/wiki/Abandoned_house_(Charlestown)"
 		},
 		"titles": {
-			"ru": "Заброшенный дом (Fallout 4)",
+			"ru": "Заброшенный дом",
 			"en": "Abandoned house (Charlestown)"
 		},
 		"icon": "unmarked",
@@ -15611,22 +14043,6 @@
 			"lng": 8.964843750000002
 		}
 	},
-	"1098": {
-		"id": 1098,
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cherry_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F"
-		},
-		"titles": {
-			"en": "Nuka-Cherry",
-			"ru": "Ядер-Вишня"
-		},
-		"icon": "nuka-cherry",
-		"coordinates": {
-			"lat": 79.87429692631282,
-			"lng": 63.23730468750001
-		}
-	},
 	"1099": {
 		"id": 1099,
 		"links": {
@@ -15796,8 +14212,8 @@
 	"1110": {
 		"id": 1110,
 		"links": {
-			"en": "https://fallout.fandom.com/wiki/Fat_Man",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D1%8F%D0%BA"
+			"en": "https://fallout.fandom.com/wiki/Fat_Man_(Fallout_4)",
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D1%8F%D0%BA_(Fallout_4)"
 		},
 		"titles": {
 			"en": "Fat Man",
@@ -15835,22 +14251,6 @@
 		"coordinates": {
 			"lat": 16.762467717941604,
 			"lng": 89.56054687500001
-		}
-	},
-	"1113": {
-		"id": 1113,
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)"
-		},
-		"titles": {
-			"en": "Nuka-Cola Quantum",
-			"ru": "Квантовая Ядер-Кола"
-		},
-		"icon": "nuka-cola",
-		"coordinates": {
-			"lat": 17.497389400663835,
-			"lng": 85.78125
 		}
 	},
 	"1114": {
@@ -15955,7 +14355,7 @@
 			"ru": "Рухнувший переход",
 			"en": "Fallen skybridge"
 		},
-		"icon": "poi",
+		"icon": "bridge",
 		"coordinates": {
 			"lat": 7.928674801364048,
 			"lng": 43.1982421875
@@ -16031,7 +14431,7 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%93%D0%B0%D1%80%D0%B0%D0%B6_(Fallout_4)"
 		},
 		"titles": {
-			"ru": "Гараж (Fallout 4)"
+			"ru": "Гараж"
 		},
 		"icon": "unmarked",
 		"coordinates": {
@@ -16156,7 +14556,7 @@
 			"en": "https://fallout.fandom.com/wiki/Lexington_Pharmacy"
 		},
 		"titles": {
-			"ru": "Аптека (Fallout 4)",
+			"ru": "Аптека",
 			"en": "Lexington Pharmacy"
 		},
 		"icon": "unmarked",
@@ -16179,22 +14579,6 @@
 		"coordinates": {
 			"lat": 19.16592425362802,
 			"lng": 49.83398437500001
-		}
-	},
-	"1135": {
-		"id": 1135,
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cherry_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F"
-		},
-		"titles": {
-			"en": "Nuka-Cherry",
-			"ru": "Ядер-Вишня"
-		},
-		"icon": "nuka-cherry",
-		"coordinates": {
-			"lat": 19.993998469485504,
-			"lng": 49.81201171875001
 		}
 	},
 	"1136": {
@@ -16423,7 +14807,7 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A3%D0%BA%D1%80%D1%8B%D1%82%D0%B8%D0%B5_(Fallout_4)"
 		},
 		"titles": {
-			"ru": "Укрытие (Fallout 4)"
+			"ru": "Укрытие"
 		},
 		"icon": "unmarked",
 		"coordinates": {
@@ -16443,22 +14827,6 @@
 		"coordinates": {
 			"lat": -47.27922900257082,
 			"lng": -81.91406250000001
-		}
-	},
-	"1153": {
-		"id": 1153,
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cherry_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F"
-		},
-		"titles": {
-			"en": "Nuka-Cherry",
-			"ru": "Ядер-Вишня"
-		},
-		"icon": "nuka-cherry",
-		"coordinates": {
-			"lat": -32.99023555965107,
-			"lng": -105.3369140625
 		}
 	},
 	"1154": {
@@ -16575,28 +14943,12 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D0%BA%D0%BB%D0%B0%D0%B4_(Fallout_4)"
 		},
 		"titles": {
-			"ru": "Склад (Fallout 4)"
+			"ru": "Склад"
 		},
 		"icon": "unmarked",
 		"coordinates": {
 			"lat": 17.22475820662464,
 			"lng": 68.95019531250001
-		}
-	},
-	"1162": {
-		"id": 1162,
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cherry_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F"
-		},
-		"titles": {
-			"en": "Nuka-Cherry",
-			"ru": "Ядер-Вишня"
-		},
-		"icon": "nuka-cherry",
-		"coordinates": {
-			"lat": 2.064982495867117,
-			"lng": 57.96386718750001
 		}
 	},
 	"1163": {
@@ -16691,38 +15043,6 @@
 			"lng": 30.717773437500004
 		}
 	},
-	"1170": {
-		"id": 1170,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)",
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)"
-		},
-		"titles": {
-			"ru": "Квантовая Ядер-Кола (Fallout 4)",
-			"en": "Nuka-Cola Quantum (Fallout 4)"
-		},
-		"icon": "nuka-cola",
-		"coordinates": {
-			"lat": 62.95522304515911,
-			"lng": 29.399414062500004
-		}
-	},
-	"1171": {
-		"id": 1171,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)",
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)"
-		},
-		"titles": {
-			"ru": "Квантовая Ядер-Кола (Fallout 4)",
-			"en": "Nuka-Cola Quantum (Fallout 4)"
-		},
-		"icon": "nuka-cola",
-		"coordinates": {
-			"lat": 62.34960927573042,
-			"lng": 30.673828125000004
-		}
-	},
 	"1172": {
 		"id": 1172,
 		"links": {
@@ -16730,45 +15050,13 @@
 			"en": "https://fallout.fandom.com/wiki/Western_Bell_vessel"
 		},
 		"titles": {
-			"ru": "Рыбацкая хижина (Fallout 4)",
+			"ru": "Рыбацкая хижина",
 			"en": "Western Bell vessel"
 		},
 		"icon": "unmarked",
 		"coordinates": {
 			"lat": 80.64882003281596,
 			"lng": 57.62329101562501
-		}
-	},
-	"1173": {
-		"id": 1173,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)",
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)"
-		},
-		"titles": {
-			"ru": "Квантовая Ядер-Кола (Fallout 4)",
-			"en": "Nuka-Cola Quantum (Fallout 4)"
-		},
-		"icon": "nuka-cola",
-		"coordinates": {
-			"lat": 55.178867663282006,
-			"lng": 39.11132812500001
-		}
-	},
-	"1174": {
-		"id": 1174,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)",
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)"
-		},
-		"titles": {
-			"ru": "Квантовая Ядер-Кола (Fallout 4)",
-			"en": "Nuka-Cola Quantum (Fallout 4)"
-		},
-		"icon": "nuka-cola",
-		"coordinates": {
-			"lat": 54.597527852113885,
-			"lng": 38.05664062500001
 		}
 	},
 	"1175": {
@@ -16852,8 +15140,8 @@
 	"1180": {
 		"id": 1180,
 		"links": {
-			"en": "https://fallout.fandom.com/wiki/Fat_Man",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D1%8F%D0%BA"
+			"en": "https://fallout.fandom.com/wiki/Fat_Man_(Fallout_4)",
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D1%8F%D0%BA_(Fallout_4)"
 		},
 		"titles": {
 			"en": "Fat Man",
@@ -16895,22 +15183,6 @@
 		"coordinates": {
 			"lat": -18.62542454070125,
 			"lng": 65.98388671875001
-		}
-	},
-	"1183": {
-		"id": 1183,
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)"
-		},
-		"titles": {
-			"en": "Nuka-Cola Quantum",
-			"ru": "Квантовая Ядер-Кола"
-		},
-		"icon": "nuka-cola",
-		"coordinates": {
-			"lat": 55.27911529201564,
-			"lng": -103.09570312500001
 		}
 	},
 	"1184": {
@@ -17011,44 +15283,12 @@
 		},
 		"titles": {
 			"ru": "Ядерный блок",
-			"en": "Fusion core (Fallout 4)"
+			"en": "Fusion core"
 		},
 		"icon": "fusion-core",
 		"coordinates": {
 			"lat": 28.033197847676377,
 			"lng": -119.53125000000001
-		}
-	},
-	"1191": {
-		"id": 1191,
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)"
-		},
-		"titles": {
-			"en": "Nuka-Cola Quantum",
-			"ru": "Квантовая Ядер-Кола"
-		},
-		"icon": "nuka-cola",
-		"coordinates": {
-			"lat": 28.8831596093235,
-			"lng": -118.95996093750001
-		}
-	},
-	"1192": {
-		"id": 1192,
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cherry_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F"
-		},
-		"titles": {
-			"en": "Nuka-Cherry",
-			"ru": "Ядер-Вишня"
-		},
-		"icon": "nuka-cherry",
-		"coordinates": {
-			"lat": 29.55434512574829,
-			"lng": -119.31152343750001
 		}
 	},
 	"1193": {
@@ -17070,8 +15310,8 @@
 	"1194": {
 		"id": 1194,
 		"links": {
-			"en": "https://fallout.fandom.com/wiki/Fat_Man",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D1%8F%D0%BA"
+			"en": "https://fallout.fandom.com/wiki/Fat_Man_(Fallout_4)",
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D1%8F%D0%BA_(Fallout_4)"
 		},
 		"titles": {
 			"en": "Fat Man",
@@ -17131,38 +15371,6 @@
 			"lng": 71.05957031250001
 		}
 	},
-	"1198": {
-		"id": 1198,
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)"
-		},
-		"titles": {
-			"en": "Nuka-Cola Quantum",
-			"ru": "Квантовая Ядер-Кола"
-		},
-		"icon": "nuka-cola",
-		"coordinates": {
-			"lat": 44.15068115978094,
-			"lng": 71.23535156250001
-		}
-	},
-	"1199": {
-		"id": 1199,
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)"
-		},
-		"titles": {
-			"en": "Nuka-Cola Quantum",
-			"ru": "Квантовая Ядер-Кола"
-		},
-		"icon": "nuka-cola",
-		"coordinates": {
-			"lat": 43.26120612479979,
-			"lng": 70.26855468750001
-		}
-	},
 	"1200": {
 		"id": 1200,
 		"links": {
@@ -17211,38 +15419,6 @@
 			"lng": 39.63867187500001
 		}
 	},
-	"1203": {
-		"id": 1203,
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)"
-		},
-		"titles": {
-			"en": "Nuka-Cola Quantum",
-			"ru": "Квантовая Ядер-Кола"
-		},
-		"icon": "nuka-cola",
-		"coordinates": {
-			"lat": 81.21820846612177,
-			"lng": 125.15625000000001
-		}
-	},
-	"1204": {
-		"id": 1204,
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cherry_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F"
-		},
-		"titles": {
-			"en": "Nuka-Cherry",
-			"ru": "Ядер-Вишня"
-		},
-		"icon": "nuka-cherry",
-		"coordinates": {
-			"lat": 81.21820846612177,
-			"lng": 125.88134765625001
-		}
-	},
 	"1205": {
 		"id": 1205,
 		"links": {
@@ -17250,7 +15426,7 @@
 			"en": "https://fallout.fandom.com/wiki/Coastal_hideout"
 		},
 		"titles": {
-			"ru": "Логово (Fallout 4)",
+			"ru": "Логово",
 			"en": "Coastal hideout"
 		},
 		"icon": "unmarked",
@@ -17347,7 +15523,7 @@
 			"ru": "Пруд Лебедя",
 			"en": "Swan's Pond"
 		},
-		"icon": "pond-lake",
+		"icon": "water",
 		"coordinates": {
 			"lat": 5.922044619883305,
 			"lng": 30.102539062500004
@@ -17587,22 +15763,6 @@
 			"lng": 11.909179687500002
 		}
 	},
-	"1227": {
-		"id": 1227,
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cherry_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F"
-		},
-		"titles": {
-			"en": "Nuka-Cherry",
-			"ru": "Ядер-Вишня"
-		},
-		"icon": "nuka-cherry",
-		"coordinates": {
-			"lat": 42.68243539838623,
-			"lng": 7.602539062500001
-		}
-	},
 	"1228": {
 		"id": 1228,
 		"links": {
@@ -17701,7 +15861,7 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A5%D0%B8%D0%B6%D0%B8%D0%BD%D0%B0_%D1%81%D0%B0%D0%BC%D0%BE%D0%B3%D0%BE%D0%BD%D1%89%D0%B8%D0%BA%D0%B0_(Fallout_4)"
 		},
 		"titles": {
-			"ru": "Хижина самогонщика (Fallout 4)"
+			"ru": "Хижина самогонщика"
 		},
 		"icon": "unmarked",
 		"coordinates": {
@@ -17719,7 +15879,7 @@
 			"ru": "Федеральный центр наблюдения K-21B",
 			"en": "Federal Surveillance Center K-21B"
 		},
-		"icon": "poi",
+		"icon": "bunker",
 		"coordinates": {
 			"lat": -62.92599378795568,
 			"lng": -128.5762021132541
@@ -17739,38 +15899,6 @@
 			"lng": -44.95948947366714
 		}
 	},
-	"1237": {
-		"id": 1237,
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)"
-		},
-		"titles": {
-			"en": "Nuka-Cola Quantum",
-			"ru": "Квантовая Ядер-Кола"
-		},
-		"icon": "nuka-cola",
-		"coordinates": {
-			"lat": -63.37664631085789,
-			"lng": -26.565627934441718
-		}
-	},
-	"1238": {
-		"id": 1238,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%92%D0%B8%D1%88%D0%BD%D1%8F",
-			"en": "https://fallout.fandom.com/wiki/Nuka_Cherry"
-		},
-		"titles": {
-			"ru": "Ядер-Вишня",
-			"en": "Nuka-Cherry (Fallout 4)"
-		},
-		"icon": "nuka-cherry",
-		"coordinates": {
-			"lat": -63.41243684602505,
-			"lng": -23.92959303112282
-		}
-	},
 	"1239": {
 		"id": 1239,
 		"links": {
@@ -17788,8 +15916,8 @@
 	"1240": {
 		"id": 1240,
 		"links": {
-			"en": "https://fallout.fandom.com/wiki/Fat_Man",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D1%8F%D0%BA"
+			"en": "https://fallout.fandom.com/wiki/Fat_Man_(Fallout_4)",
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D1%8F%D0%BA_(Fallout_4)"
 		},
 		"titles": {
 			"en": "Fat Man",
@@ -17856,8 +15984,8 @@
 			"en": "https://fallout.fandom.com/wiki/Factory_(Fallout_4)"
 		},
 		"titles": {
-			"ru": "Завод (Fallout 4)",
-			"en": "Factory (Fallout 4)"
+			"ru": "Завод",
+			"en": "Factory"
 		},
 		"icon": "unmarked",
 		"coordinates": {
@@ -17951,7 +16079,7 @@
 		},
 		"titles": {
 			"ru": "Сэндвичи Джо (Почтовая площадь)",
-			"en": "Joe's Spuckies (Fallout 4)"
+			"en": "Joe's Spuckies"
 		},
 		"icon": "unmarked",
 		"coordinates": {
@@ -18587,22 +16715,6 @@
 			"lng": 48.9705268863712
 		}
 	},
-	"1291": {
-		"id": 1291,
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Quantum_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0_(Fallout_4)"
-		},
-		"titles": {
-			"en": "Nuka-Cola Quantum",
-			"ru": "Квантовая Ядер-Кола"
-		},
-		"icon": "nuka-cola",
-		"coordinates": {
-			"lat": -26.46507292702275,
-			"lng": 56.71943688572647
-		}
-	},
 	"1292": {
 		"id": 1292,
 		"links": {
@@ -18629,7 +16741,7 @@
 			"ru": "Руины бостонского аэропорта",
 			"en": "Boston Airport ruins"
 		},
-		"icon": "ruins",
+		"icon": "building",
 		"coordinates": {
 			"lat": 21.508831428468877,
 			"lng": 79.39373092612881
@@ -18645,7 +16757,7 @@
 			"ru": "Обломки винтокрыла",
 			"en": "Vertibird wreckage"
 		},
-		"icon": "poi",
+		"icon": "plane",
 		"coordinates": {
 			"lat": -75.59679496953818,
 			"lng": -72.25547791085991
@@ -18654,8 +16766,8 @@
 	"1295": {
 		"id": 1295,
 		"links": {
-			"en": "https://fallout.fandom.com/wiki/Fat_Man",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D1%8F%D0%BA"
+			"en": "https://fallout.fandom.com/wiki/Fat_Man_(Fallout_4)",
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D1%8F%D0%BA_(Fallout_4)"
 		},
 		"titles": {
 			"en": "Fat Man",
@@ -18665,6 +16777,38 @@
 		"coordinates": {
 			"lat": 46.15564927291131,
 			"lng": 122.1314613625458
+		}
+	},
+	"1296": {
+		"id": 1296,
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D1%80%D0%B0%D0%BD%D0%B7%D0%B8%D1%82%D0%BD%D1%8B%D0%B9_%D1%86%D0%B5%D0%BD%D1%82%D1%80_%C2%AB%D0%AF%D0%B4%D0%B5%D1%80-%D0%9C%D0%B8%D1%80%C2%BB",
+			"en": "https://fallout.fandom.com/wiki/Nuka-World_transit_center"
+		},
+		"titles": {
+			"ru": "Транзитный центр «Ядер-Мир»",
+			"en": "Nuka-World transit center"
+		},
+		"icon": "train-station",
+		"coordinates": {
+			"lat": 51.24183217077302,
+			"lng": -136.39777852855175
+		}
+	},
+	"1297": {
+		"id": 1297,
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/Fusion_core_(Fallout_4)",
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%B1%D0%BB%D0%BE%D0%BA"
+		},
+		"titles": {
+			"en": "Fusion core",
+			"ru": "Ядерный блок"
+		},
+		"icon": "fusion-core",
+		"coordinates": {
+			"lat": 49.98219309777874,
+			"lng": -136.9539661160424
 		}
 	}
 }
