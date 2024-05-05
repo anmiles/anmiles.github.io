@@ -1,4 +1,4 @@
-﻿{
+{
 	"1": {
 		"id": 1,
 		"links": {},
@@ -19,7 +19,8 @@
 			"en": "Underground Shelter",
 			"ru": "Бункер Сидоровича"
 		},
-		"icon": "unmarked",
+		"icon": "bunker",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 82.33243239116977,
 			"lng": -74.27396607088554
@@ -136,7 +137,8 @@
 			"en": "Factory Building",
 			"ru": "Здание НИИ «Агропром»"
 		},
-		"icon": "unmarked",
+		"icon": "factory",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 72.94833113398235,
 			"lng": -56.507692151983974
@@ -149,7 +151,8 @@
 			"en": "Maintenance Tunnel",
 			"ru": "Подземелье «Агропрома»"
 		},
-		"icon": "unmarked",
+		"icon": "dungeon",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 72.9014297162553,
 			"lng": -52.57361436978009
@@ -175,7 +178,8 @@
 			"en": "Research Institute Building",
 			"ru": "Здание института «Агропром»"
 		},
-		"icon": "unmarked",
+		"icon": "factory",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 75.15971000556048,
 			"lng": -47.3847191950146
@@ -214,7 +218,8 @@
 			"en": "Building",
 			"ru": "Здание предприятия"
 		},
-		"icon": "unmarked",
+		"icon": "factory",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 72.2561828767904,
 			"lng": -130.52650406409666
@@ -227,7 +232,8 @@
 			"en": "Basement",
 			"ru": "Подвал заброшенной стройки"
 		},
-		"icon": "unmarked",
+		"icon": "dungeon",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 72.1723302874141,
 			"lng": -132.21166945234174
@@ -253,7 +259,8 @@
 			"en": "Old HalluciGen Factory",
 			"ru": "Здание старой фабрики"
 		},
-		"icon": "unmarked",
+		"icon": "factory",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 74.45059261563767,
 			"lng": -136.27228538177283
@@ -266,7 +273,8 @@
 			"en": "Lab Z-18",
 			"ru": "Лаборатория Z-18"
 		},
-		"icon": "unmarked",
+		"icon": "factory",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 74.35807721265752,
 			"lng": -136.62587366279456
@@ -357,7 +365,8 @@
 			"en": "Lab Z-16",
 			"ru": "Лаборатория Z-16"
 		},
-		"icon": "unmarked",
+		"icon": "factory",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 68.2777832006117,
 			"lng": -29.244919172597317
@@ -422,7 +431,8 @@
 			"en": "Lab Z-10",
 			"ru": "Лаборатория Z-10"
 		},
-		"icon": "unmarked",
+		"icon": "factory",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 31.982399761290434,
 			"lng": -13.471211496823779
@@ -461,7 +471,8 @@
 			"en": "Ghost Town Warehouse",
 			"ru": "Хозмаг в Припяти"
 		},
-		"icon": "unmarked",
+		"icon": "store",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 25.942598925789174,
 			"lng": -93.77131760021449
@@ -474,7 +485,8 @@
 			"en": "Ghost Town Bus Station",
 			"ru": "Автостанция в Припяти"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 26.00282603715266,
 			"lng": -99.66741808518873
@@ -526,7 +538,8 @@
 			"en": "Basement",
 			"ru": "Подвал ДК «Энергетик»"
 		},
-		"icon": "unmarked",
+		"icon": "dungeon",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 29.227017166083552,
 			"lng": -111.23411855958591
@@ -565,7 +578,8 @@
 			"en": "Mass Fusion NPP Entrance",
 			"ru": "Вход в здание ЧАЭС"
 		},
-		"icon": "unmarked",
+		"icon": "factory",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 10.289851547491502,
 			"lng": -170.02331273287746

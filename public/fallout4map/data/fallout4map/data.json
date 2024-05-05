@@ -1,4 +1,4 @@
-﻿{
+{
 	"1": {
 		"id": 1,
 		"titles": {
@@ -1026,7 +1026,7 @@
 	"73": {
 		"id": 73,
 		"titles": {
-			"en": "Taboo Tattoos («Eagle’s Nest»)",
+			"en": "Taboo Tattoos («Eagle's Nest»)",
 			"ru": "Табуированные татуировки («Орёл»)"
 		},
 		"links": {
@@ -1453,7 +1453,7 @@
 			"lat": -36.173,
 			"lng": -5.273
 		},
-		"icon": "city"
+		"icon": "square"
 	},
 	"102": {
 		"id": 102,
@@ -1597,7 +1597,7 @@
 			"lat": 72.02,
 			"lng": -55.547
 		},
-		"icon": "cafe"
+		"icon": "building"
 	},
 	"113": {
 		"id": 113,
@@ -1661,7 +1661,7 @@
 			"lat": 70.021,
 			"lng": 107.578
 		},
-		"icon": "building"
+		"icon": "parking"
 	},
 	"117": {
 		"id": 117,
@@ -2322,7 +2322,7 @@
 	"165": {
 		"id": 165,
 		"titles": {
-			"en": "Tesla Science («Tomorrow’s technology for today’s Super Soldiers»)",
+			"en": "Tesla Science («Tomorrow's technology for today's Super Soldiers»)",
 			"ru": "Наука Теслы («Технологии завтрашнего дня для суперсолдат современности»)"
 		},
 		"links": {
@@ -2531,7 +2531,7 @@
 		"id": 180,
 		"titles": {
 			"en": "O'Neill Family Manufacturing",
-			"ru": "Семейная фабрика О’Нила"
+			"ru": "Семейная фабрика О'Нила"
 		},
 		"links": {
 			"en": "https://fallout.fandom.com/wiki/O%27Neill_Family_Manufacturing",
@@ -3090,7 +3090,7 @@
 	"221": {
 		"id": 221,
 		"titles": {
-			"en": "U.S. Covert Operations Manual («Not the Soldiers You’re Looking For»)",
+			"en": "U.S. Covert Operations Manual («Not the Soldiers You're Looking For»)",
 			"ru": "Руководство по тайным операциям США («Это не те солдаты, которых вы ищете»)"
 		},
 		"links": {
@@ -3133,7 +3133,7 @@
 			"lat": -74.59,
 			"lng": -146.074
 		},
-		"icon": "radiation"
+		"icon": "radioactive-area"
 	},
 	"224": {
 		"id": 224,
@@ -3666,7 +3666,7 @@
 	"259": {
 		"id": 259,
 		"titles": {
-			"en": "Massachusetts Surgical Journal («Let’s Play Doctor!»)",
+			"en": "Massachusetts Surgical Journal («Let's Play Doctor!»)",
 			"ru": "Массачусетский хирургический журнал («Поиграем в доктора!»)"
 		},
 		"links": {
@@ -3821,7 +3821,7 @@
 			"lat": 80.20117601422328,
 			"lng": 21.665039062500004
 		},
-		"icon": "building"
+		"icon": "square"
 	},
 	"269": {
 		"id": 269,
@@ -4733,7 +4733,7 @@
 			"lat": 37.579,
 			"lng": 11.689
 		},
-		"icon": "radiation"
+		"icon": "radioactive-area"
 	},
 	"326": {
 		"id": 326,
@@ -4829,7 +4829,7 @@
 			"lat": 78.314,
 			"lng": 112.852
 		},
-		"icon": "radiation"
+		"icon": "radioactive-area"
 	},
 	"332": {
 		"id": 332,
@@ -4861,7 +4861,7 @@
 			"lat": 76.599,
 			"lng": 136.406
 		},
-		"icon": "radiation"
+		"icon": "radioactive-area"
 	},
 	"334": {
 		"id": 334,
@@ -5117,7 +5117,7 @@
 			"lat": 9.046892587528063,
 			"lng": 49.75399043311118
 		},
-		"icon": "building"
+		"icon": "square"
 	},
 	"350": {
 		"id": 350,
@@ -5453,7 +5453,7 @@
 			"lat": -5.834616165610046,
 			"lng": -12.963867187500002
 		},
-		"icon": "cave"
+		"icon": "dungeon"
 	},
 	"371": {
 		"id": 371,
@@ -5629,7 +5629,7 @@
 			"lat": -42.42041822869482,
 			"lng": 45.20015782752529
 		},
-		"icon": "encampment"
+		"icon": "square"
 	},
 	"382": {
 		"id": 382,
@@ -6429,7 +6429,7 @@
 			"lat": 6.577303118123887,
 			"lng": 32.03613281250001
 		},
-		"icon": "city"
+		"icon": "square"
 	},
 	"434": {
 		"id": 434,
@@ -6589,7 +6589,7 @@
 			"lat": -39.775,
 			"lng": -81.914
 		},
-		"icon": "radiation"
+		"icon": "radioactive-area"
 	},
 	"444": {
 		"id": 444,
@@ -6605,7 +6605,7 @@
 			"lat": -76.435,
 			"lng": -116.719
 		},
-		"icon": "radiation"
+		"icon": "radioactive-area"
 	},
 	"445": {
 		"id": 445,
@@ -6637,7 +6637,7 @@
 			"lat": -76.9169966028347,
 			"lng": -83.91151088005994
 		},
-		"icon": "cave"
+		"icon": "dungeon"
 	},
 	"448": {
 		"id": 448,
@@ -6669,7 +6669,7 @@
 			"lat": -67.475,
 			"lng": -88.418
 		},
-		"icon": "cave"
+		"icon": "dungeon"
 	},
 	"450": {
 		"id": 450,
@@ -6685,7 +6685,7 @@
 			"lat": -83.236,
 			"lng": -94.922
 		},
-		"icon": "cave"
+		"icon": "bunker"
 	},
 	"451": {
 		"id": 451,
@@ -6749,7 +6749,7 @@
 			"lat": -82.518,
 			"lng": -144.141
 		},
-		"icon": "cave"
+		"icon": "dungeon"
 	},
 	"455": {
 		"id": 455,
@@ -6813,7 +6813,7 @@
 			"lat": 46.195,
 			"lng": -27.598
 		},
-		"icon": "building"
+		"icon": "square"
 	},
 	"459": {
 		"id": 459,
@@ -6925,7 +6925,8 @@
 			"lat": -2.4272521703917294,
 			"lng": -5.020751953125
 		},
-		"icon": "unmarked"
+		"icon": "building",
+		"unmarked": true
 	},
 	"469": {
 		"id": 469,
@@ -7085,7 +7086,7 @@
 			"lat": -61.565,
 			"lng": -59.766
 		},
-		"icon": "radiation"
+		"icon": "radioactive-area"
 	},
 	"484": {
 		"id": 484,
@@ -7469,7 +7470,7 @@
 			"lat": 29.064670019120825,
 			"lng": 57.463074825418936
 		},
-		"icon": "cave"
+		"icon": "dungeon"
 	},
 	"516": {
 		"id": 516,
@@ -7602,7 +7603,7 @@
 	"538": {
 		"id": 538,
 		"titles": {
-			"en": "Astoundingly Awesome Tales («The Mad Russian’s Revenge»)",
+			"en": "Astoundingly Awesome Tales («The Mad Russian's Revenge»)",
 			"ru": "Потрясающие крутые истории («Месть безумного русского»)"
 		},
 		"links": {
@@ -9362,7 +9363,7 @@
 	"727": {
 		"id": 727,
 		"titles": {
-			"en": "La Coiffe («The Hornet’s Nest»)",
+			"en": "La Coiffe («The Hornet's Nest»)",
 			"ru": "Ля куафф («Гнездо шершня»)"
 		},
 		"links": {
@@ -10329,7 +10330,8 @@
 			"ru": "Дом завтрашнего дня",
 			"en": "The House of Tomorrow"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 82.28533149704582,
 			"lng": -94.74609375000001
@@ -10345,7 +10347,8 @@
 			"ru": "Подвал (Сэнкчуари)",
 			"en": "Root cellar"
 		},
-		"icon": "unmarked",
+		"icon": "dungeon",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 82.69865866056999,
 			"lng": -89.86816406250001
@@ -10357,9 +10360,11 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%B0%D0%B9%D0%BD%D0%B8%D0%BA_%D0%B2_%D0%B7%D0%B0%D1%82%D0%BE%D0%BD%D1%83%D0%B2%D1%88%D0%B5%D0%B9_%D0%BB%D0%BE%D0%B4%D0%BA%D0%B5"
 		},
 		"titles": {
-			"ru": "Тайник в затонувшей лодке"
+			"ru": "Тайник в затонувшей лодке",
+			"en": "Sunken rowboat stash"
 		},
-		"icon": "unmarked",
+		"icon": "stash",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 82.96728053227663,
 			"lng": -73.12500000000001
@@ -10375,7 +10380,8 @@
 			"ru": "Тайник с крышками в системе фильтрации воды",
 			"en": "Water filtration caps stash"
 		},
-		"icon": "unmarked",
+		"icon": "stash",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 81.64054024275907,
 			"lng": -68.99414062500001
@@ -10387,9 +10393,11 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9B%D0%B0%D1%87%D1%83%D0%B3%D0%B0_%D1%82%D0%BE%D1%80%D0%B3%D0%BE%D0%B2%D1%86%D0%B0"
 		},
 		"titles": {
-			"ru": "Лачуга торговца"
+			"ru": "Лачуга торговца",
+			"en": "Trader's Shack"
 		},
-		"icon": "unmarked",
+		"icon": "encampment",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 77.23507365492472,
 			"lng": -124.80468750000001
@@ -10401,9 +10409,11 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A0%D0%B5%D0%B9%D0%B4%D0%B5%D1%80%D1%81%D0%BA%D0%B0%D1%8F_%D0%BB%D0%B0%D1%87%D1%83%D0%B3%D0%B0"
 		},
 		"titles": {
-			"ru": "Рейдерская лачуга"
+			"ru": "Рейдерская лачуга",
+			"en": "Raider shack"
 		},
-		"icon": "unmarked",
+		"icon": "encampment",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 84.11596993257695,
 			"lng": -91.49414062500001
@@ -10415,9 +10425,11 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D1%82%D0%B0%D1%80%D0%BE%D0%B5_%D1%81%D1%82%D1%80%D0%B5%D0%BB%D1%8C%D0%B1%D0%B8%D1%89%D0%B5"
 		},
 		"titles": {
-			"ru": "Старое стрельбище"
+			"ru": "Старое стрельбище",
+			"en": "Old firing range"
 		},
-		"icon": "unmarked",
+		"icon": "forest",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 84.17870520167152,
 			"lng": -76.37695312500001
@@ -10433,7 +10445,8 @@
 			"ru": "Логово кротокрыса",
 			"en": "Mole rat den"
 		},
-		"icon": "unmarked",
+		"icon": "dungeon",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 79.18783445964633,
 			"lng": -80.37597656250001
@@ -10445,9 +10458,11 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9B%D0%BE%D0%B3%D0%BE%D0%B2%D0%BE_%D1%80%D0%B5%D0%B9%D0%B4%D0%B5%D1%80%D0%B0_%D0%BD%D0%B0_%D0%B2%D0%B5%D1%80%D1%88%D0%B8%D0%BD%D0%B5_%D1%85%D0%BE%D0%BB%D0%BC%D0%B0"
 		},
 		"titles": {
-			"ru": "Логово рейдера на вершине холма"
+			"ru": "Логово рейдера на вершине холма",
+			"en": "Raider hilltop den"
 		},
-		"icon": "unmarked",
+		"icon": "encampment",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 82.7376491461695,
 			"lng": -60.55664062500001
@@ -10463,7 +10478,8 @@
 			"ru": "Конкорд — служебный вход",
 			"en": "Concord Civic Access"
 		},
-		"icon": "unmarked",
+		"icon": "dungeon",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 78.45542534118533,
 			"lng": -68.42285156250001
@@ -10479,7 +10495,8 @@
 			"ru": "Конкорд — служебный вход",
 			"en": "Concord Civic Access"
 		},
-		"icon": "unmarked",
+		"icon": "dungeon",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 77.63654163009747,
 			"lng": -68.48876953125001
@@ -10495,7 +10512,8 @@
 			"ru": "Конкорд — служебный вход",
 			"en": "Concord Civic Access"
 		},
-		"icon": "unmarked",
+		"icon": "dungeon",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 77.97990023317647,
 			"lng": -61.41357421875001
@@ -10511,7 +10529,8 @@
 			"ru": "Бар в Конкорде",
 			"en": "Concord Speakeasy"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 78.08922921093165,
 			"lng": -66.46728515625001
@@ -10527,7 +10546,8 @@
 			"ru": "Мануфактура",
 			"en": "Workhouse"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 79.0049621603135,
 			"lng": -66.59912109375001
@@ -10539,9 +10559,11 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D1%82%D0%BE%D1%8F%D0%BD%D0%BA%D0%B0_%D0%B2_%D0%9A%D0%BE%D0%BD%D0%BA%D0%BE%D1%80%D0%B4%D0%B5"
 		},
 		"titles": {
-			"ru": "Стоянка в Конкорде"
+			"ru": "Стоянка в Конкорде",
+			"en": "Concord Campfire"
 		},
-		"icon": "unmarked",
+		"icon": "square",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 78.18858618658851,
 			"lng": -54.93164062500001
@@ -10553,9 +10575,11 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9B%D0%B0%D1%87%D1%83%D0%B3%D0%B0_%D0%BC%D1%83%D1%81%D0%BE%D1%80%D1%89%D0%B8%D0%BA%D0%B0"
 		},
 		"titles": {
-			"ru": "Лачуга мусорщика"
+			"ru": "Лачуга мусорщика",
+			"en": "Scavenger's shack"
 		},
-		"icon": "unmarked",
+		"icon": "encampment",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 84.29345033920028,
 			"lng": -37.26562500000001
@@ -10567,9 +10591,11 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9F%D0%BE%D0%B4%D0%B2%D0%B0%D0%BB_(%D1%85%D0%B8%D0%B6%D0%B8%D0%BD%D0%B0_%D0%93%D0%BE%D1%80%D1%81%D0%BA%D0%B8)"
 		},
 		"titles": {
-			"ru": "Подвал (хижина Горски)"
+			"ru": "Подвал (хижина Горски)",
+			"en": "Root cellar (Gorski cabin)"
 		},
-		"icon": "unmarked",
+		"icon": "dungeon",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 73.64017137216688,
 			"lng": -71.45507812500001
@@ -10577,13 +10603,13 @@
 	},
 	"850": {
 		"id": 850,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A0%D0%B5%D0%B9%D0%B4%D0%B5%D1%80%D1%81%D0%BA%D0%B0%D1%8F_%D1%85%D0%B8%D0%B6%D0%B8%D0%BD%D0%B0-%D1%85%D0%B8%D0%BC%D0%BB%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%B8%D1%8F"
-		},
+		"links": {},
 		"titles": {
-			"ru": "Рейдерская хижина-химлаборатория"
+			"ru": "Рейдерская хижина-химлаборатория",
+			"en": "Raider hut - chemical laboratory"
 		},
-		"icon": "unmarked",
+		"icon": "encampment",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 69.33383491964828,
 			"lng": -74.09179687500001
@@ -10595,9 +10621,11 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9F%D0%B0%D0%BB%D0%B0%D1%82%D0%BA%D0%B0_%D0%BF%D0%BE%D1%81%D0%B5%D0%BB%D0%B5%D0%BD%D1%86%D0%B5%D0%B2"
 		},
 		"titles": {
-			"ru": "Палатка поселенцев"
+			"ru": "Палатка поселенцев",
+			"en": "Settlers Tent"
 		},
-		"icon": "unmarked",
+		"icon": "encampment",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 64.14895190024562,
 			"lng": -82.30957031250001
@@ -10609,9 +10637,11 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9C%D0%B0%D0%BB%D0%B5%D0%BD%D1%8C%D0%BA%D0%B0%D1%8F_%D1%82%D0%BE%D1%80%D0%B3%D0%BE%D0%B2%D0%B0%D1%8F_%D1%85%D0%B8%D0%B6%D0%B8%D0%BD%D0%B0"
 		},
 		"titles": {
-			"ru": "Маленькая торговая хижина"
+			"ru": "Маленькая торговая хижина",
+			"en": "Small Trading Shack"
 		},
-		"icon": "unmarked",
+		"icon": "encampment",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 64.58618480339979,
 			"lng": -71.89453125000001
@@ -10627,7 +10657,8 @@
 			"ru": "Ферма Грейгарденов",
 			"en": "Graygarden homestead"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 46.31658418182218,
 			"lng": -59.76562500000001
@@ -10659,7 +10690,8 @@
 			"ru": "Церковь Конкорда",
 			"en": "Concord Church"
 		},
-		"icon": "unmarked",
+		"icon": "church",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 76.82079252543741,
 			"lng": -64.02832031250001
@@ -10675,7 +10707,8 @@
 			"ru": "Вагон",
 			"en": "Train car"
 		},
-		"icon": "unmarked",
+		"icon": "dungeon",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 7.231698708367139,
 			"lng": -51.89941406250001
@@ -10684,14 +10717,14 @@
 	"858": {
 		"id": 858,
 		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9F%D0%B5%D1%80%D0%B5%D0%B2%D0%B0%D0%BB%D0%BE%D1%87%D0%BD%D1%8B%D0%B9_%D0%BF%D1%83%D0%BD%D0%BA%D1%82",
-			"en": "https://fallout.fandom.com/wiki/Train_car"
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9F%D0%B5%D1%80%D0%B5%D0%B2%D0%B0%D0%BB%D0%BE%D1%87%D0%BD%D1%8B%D0%B9_%D0%BF%D1%83%D0%BD%D0%BA%D1%82"
 		},
 		"titles": {
 			"ru": "Перевалочный пункт",
-			"en": "Train car"
+			"en": "Waystation"
 		},
-		"icon": "unmarked",
+		"icon": "train-station",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 2.064982495867117,
 			"lng": -49.48242187500001
@@ -10707,7 +10740,8 @@
 			"ru": "Место падения НЛО",
 			"en": "UFO crash site"
 		},
-		"icon": "unmarked",
+		"icon": "ship",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 21.4121622297254,
 			"lng": -40.166015625
@@ -10723,7 +10757,8 @@
 			"ru": "Пещера (место падения НЛО)",
 			"en": "UFO crash site"
 		},
-		"icon": "unmarked",
+		"icon": "dungeon",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 24.367113562651276,
 			"lng": -39.11132812500001
@@ -10748,12 +10783,15 @@
 	"863": {
 		"id": 863,
 		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%91%D0%BE%D0%BA%D1%81%D1%91%D1%80%D1%81%D0%BA%D0%B8%D0%B9_%D0%B7%D0%B0%D0%BB_(%D0%93%D0%B0%D0%BB%D0%BB%D0%B5%D1%80%D0%B8%D0%B0)"
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%91%D0%BE%D0%BA%D1%81%D1%91%D1%80%D1%81%D0%BA%D0%B8%D0%B9_%D0%B7%D0%B0%D0%BB_(%D0%93%D0%B0%D0%BB%D0%BB%D0%B5%D1%80%D0%B8%D0%B0)",
+			"en": "https://fallout.fandom.com/wiki/Madden%27s_gym"
 		},
 		"titles": {
-			"ru": "Боксёрский зал (Галлериа)"
+			"ru": "Боксёрский зал (Галлериа)",
+			"en": "Madden's gym"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 80.36435385900815,
 			"lng": 20.698242187500004
@@ -10762,12 +10800,15 @@
 	"864": {
 		"id": 864,
 		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%94%D0%B6%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D0%BB_%D0%90%D1%82%D0%BE%D0%BC%D0%B8%D0%BA%D1%81_%E2%80%94_%D1%81%D0%B0%D0%BB%D0%BE%D0%BD_%D0%B4%D0%B5%D0%BC%D0%BE-%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B5%D0%B9"
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%94%D0%B6%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D0%BB_%D0%90%D1%82%D0%BE%D0%BC%D0%B8%D0%BA%D1%81_%E2%80%94_%D1%81%D0%B0%D0%BB%D0%BE%D0%BD_%D0%B4%D0%B5%D0%BC%D0%BE-%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B5%D0%B9",
+			"en": "https://fallout.fandom.com/wiki/General_Atomics_outlet"
 		},
 		"titles": {
-			"ru": "Дженерал Атомикс — салон демо-моделей"
+			"ru": "Дженерал Атомикс — салон демо-моделей",
+			"en": "General Atomics Outlet"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 80.65417386286543,
 			"lng": 20.654296875000004
@@ -10779,9 +10820,11 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B0%D1%84%D0%B5_%C2%AB%D0%94%D0%B6%D0%BE_%D0%A1%D0%BB%D0%BE%D0%BA%D0%B0%D0%BC%C2%BB_(%D0%93%D0%B0%D0%BB%D0%BB%D0%B5%D1%80%D0%B8%D0%B0)"
 		},
 		"titles": {
-			"ru": "Кафе «Джо Слокам» (Галлериа)"
+			"ru": "Кафе «Джо Слокам» (Галлериа)",
+			"en": "Slocum's Joe (Galleria)"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 80.83790672822796,
 			"lng": 30.102539062500004
@@ -10790,12 +10833,15 @@
 	"866": {
 		"id": 866,
 		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A0%D0%B5%D1%81%D1%82%D0%BE%D1%80%D0%B0%D0%BD_%C2%AB%D0%A3_%D0%9F%D0%BE%D0%BC%D0%BE%D1%89%D0%BD%D0%B8%D0%BA%D0%B0%C2%BB"
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A0%D0%B5%D1%81%D1%82%D0%BE%D1%80%D0%B0%D0%BD_%C2%AB%D0%A3_%D0%9F%D0%BE%D0%BC%D0%BE%D1%89%D0%BD%D0%B8%D0%BA%D0%B0%C2%BB",
+			"en": "https://fallout.fandom.com/wiki/Handy_Eats"
 		},
 		"titles": {
-			"ru": "Ресторан «У Помощника»"
+			"ru": "Ресторан «У Помощника»",
+			"en": "Handy Eats"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 80.82390147194303,
 			"lng": 21.796875000000004
@@ -10811,7 +10857,8 @@
 			"ru": "Кегельбан",
 			"en": "Back Alley Bowling"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 80.7464923258734,
 			"lng": 23.159179687500004
@@ -10820,12 +10867,15 @@
 	"868": {
 		"id": 868,
 		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D0%BC%D0%B0%D0%B3_%C2%AB%D0%A4%D1%8D%D0%BB%D0%BB%D0%BE%D0%BD%D1%81%C2%BB_(%D0%93%D0%B0%D0%BB%D0%BB%D0%B5%D1%80%D0%B8%D0%B0)"
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D0%BC%D0%B0%D0%B3_%C2%AB%D0%A4%D1%8D%D0%BB%D0%BB%D0%BE%D0%BD%D1%81%C2%BB_(%D0%93%D0%B0%D0%BB%D0%BB%D0%B5%D1%80%D0%B8%D0%B0)",
+			"en": "https://fallout.fandom.com/wiki/Fallon%27s_(General_Atomics_Galleria)"
 		},
 		"titles": {
-			"ru": "Универмаг «Фэллонс» (Галлериа)"
+			"ru": "Универмаг «Фэллонс» (Галлериа)",
+			"en": "Fallon's (General Atomics Galleria)"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 80.55373295014529,
 			"lng": 24.565429687500004
@@ -10841,7 +10891,8 @@
 			"ru": "Пекарня Пинелли",
 			"en": "Pinelli's Bakery"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 80.35699541661764,
 			"lng": 24.0380859375
@@ -10853,9 +10904,11 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B0%D1%84%D0%B5_%C2%AB%D0%94%D0%B6%D0%BE_%D0%A1%D0%BB%D0%BE%D0%BA%D0%B0%D0%BC%C2%BB_(%D0%93%D0%B0%D0%BB%D0%BB%D0%B5%D1%80%D0%B8%D0%B0)"
 		},
 		"titles": {
-			"ru": "Кафе «Джо Слокам» (Галлериа)"
+			"ru": "Кафе «Джо Слокам» (Галлериа)",
+			"en": "Slocum's Joe (Galleria)"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 80.2756842792911,
 			"lng": 22.9833984375
@@ -10871,7 +10924,8 @@
 			"ru": "Вербовочный пункт Национальной гвардии",
 			"en": "National Guard recruitment office"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 62.59334083012024,
 			"lng": 67.76367187500001
@@ -10887,7 +10941,8 @@
 			"ru": "Оружейный склад Национальной гвардии",
 			"en": "National Guard armory"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 64.30182213914463,
 			"lng": 65.21484375000001
@@ -10903,7 +10958,8 @@
 			"ru": "Казармы Национальной гвардии",
 			"en": "National Guard barracks"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 63.6267446447533,
 			"lng": 67.01660156250001
@@ -10919,7 +10975,8 @@
 			"ru": "Домна «Согаса»",
 			"en": "Saugus Ironworks"
 		},
-		"icon": "unmarked",
+		"icon": "factory",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 74.33110825221169,
 			"lng": 87.97851562500001
@@ -10935,7 +10992,8 @@
 			"ru": "Общественные события",
 			"en": "Publick Occurrences (location)"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -6.206090498573885,
 			"lng": -7.404785156250001
@@ -10967,7 +11025,8 @@
 			"ru": "Церковь Всех Верований",
 			"en": "All Faiths Chapel"
 		},
-		"icon": "unmarked",
+		"icon": "church",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -7.449624260197816,
 			"lng": -7.075195312500001
@@ -10983,7 +11042,8 @@
 			"ru": "Суперсалон Кэти и Джона",
 			"en": "Kathy & John's Super Salon"
 		},
-		"icon": "unmarked",
+		"icon": "store",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -5.55038056899795,
 			"lng": -6.921386718750001
@@ -10999,7 +11059,8 @@
 			"ru": "Подвал Фэллон",
 			"en": "Fallon's Basement"
 		},
-		"icon": "unmarked",
+		"icon": "dungeon",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -4.806364708499998,
 			"lng": -6.481933593750001
@@ -11015,7 +11076,8 @@
 			"ru": "Энергичная лапша",
 			"en": "Power Noodles"
 		},
-		"icon": "unmarked",
+		"icon": "store",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -6.03131070712581,
 			"lng": -5.756835937500001
@@ -11031,7 +11093,8 @@
 			"ru": "Офис охраны",
 			"en": "Security office"
 		},
-		"icon": "unmarked",
+		"icon": "police-station",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -4.36832042087623,
 			"lng": -8.701171875000002
@@ -11047,7 +11110,8 @@
 			"ru": "Дом Келлога",
 			"en": "Kellogg's house"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -6.402648405963884,
 			"lng": -9.492187500000002
@@ -11063,7 +11127,8 @@
 			"ru": "Мухобои",
 			"en": "Swatters"
 		},
-		"icon": "unmarked",
+		"icon": "store",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -4.784468966579362,
 			"lng": -5.866699218750001
@@ -11079,7 +11144,8 @@
 			"ru": "Оружие Содружества",
 			"en": "Commonwealth Weaponry"
 		},
-		"icon": "unmarked",
+		"icon": "store",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -4.762572524280269,
 			"lng": -5.251464843750001
@@ -11095,7 +11161,8 @@
 			"ru": "Товары Даймонд-сити",
 			"en": "Diamond City Surplus"
 		},
-		"icon": "unmarked",
+		"icon": "store",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -4.981505049328246,
 			"lng": -4.636230468750001
@@ -11111,7 +11178,8 @@
 			"ru": "Дом Мирны",
 			"en": "Diamond City Surplus"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -4.258768357307995,
 			"lng": -4.262695312500001
@@ -11127,7 +11195,8 @@
 			"ru": "Дом Артуро",
 			"en": "Commonwealth Weaponry"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -3.118576216781991,
 			"lng": -5.251464843750001
@@ -11143,7 +11212,8 @@
 			"ru": "Центр «Мега-хирургия»",
 			"en": "Mega surgery center"
 		},
-		"icon": "unmarked",
+		"icon": "hospital",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -7.1663003819031825,
 			"lng": -5.910644531250001
@@ -11159,7 +11229,8 @@
 			"ru": "Химзабота",
 			"en": "Chem-I-Care"
 		},
-		"icon": "unmarked",
+		"icon": "store",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -7.144498849647323,
 			"lng": -5.251464843750001
@@ -11175,7 +11246,8 @@
 			"ru": "Дом Соломона",
 			"en": "Chem-I-Care"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -7.079088026071719,
 			"lng": -4.570312500000001
@@ -11191,7 +11263,8 @@
 			"ru": "Отборные отбивные",
 			"en": "Choice Chops"
 		},
-		"icon": "unmarked",
+		"icon": "store",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -8.015715997869059,
 			"lng": -6.174316406250001
@@ -11207,7 +11280,8 @@
 			"ru": "Дом Полли",
 			"en": "Choice Chops"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -8.015715997869059,
 			"lng": -5.73486328125
@@ -11223,7 +11297,8 @@
 			"ru": "Скамья запасных",
 			"en": "Dugout Inn"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -8.03747339584114,
 			"lng": -4.899902343750001
@@ -11239,7 +11314,8 @@
 			"ru": "Дом Эрла Стерлинга",
 			"en": "Earl Sterling's house"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -7.972197714386866,
 			"lng": -3.9331054687500004
@@ -11255,7 +11331,8 @@
 			"ru": "Дом доктора Суна",
 			"en": "Doctor Sun's house"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -7.362466865535738,
 			"lng": -3.27392578125
@@ -11271,7 +11348,8 @@
 			"ru": "Дом дока Крокера",
 			"en": "Doc Crocker's house"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -6.293458760393985,
 			"lng": -3.1860351562500004
@@ -11287,7 +11365,8 @@
 			"ru": "Центр «Наука!»",
 			"en": "Science! Center"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -5.0909441750333855,
 			"lng": -3.1860351562500004
@@ -11303,7 +11382,8 @@
 			"ru": "Дом Шена Кавольски",
 			"en": "Sheng Kawolski's house"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -4.34641127533318,
 			"lng": -0.39550781250000006
@@ -11319,7 +11399,8 @@
 			"ru": "Дом Эббота",
 			"en": "Abbot's house"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -2.3943223575350774,
 			"lng": -0.37353515625000006
@@ -11335,7 +11416,8 @@
 			"ru": "Радиостанция Даймонд-сити (локация)",
 			"en": "Diamond City Radio (location)"
 		},
-		"icon": "unmarked",
+		"icon": "radio-tower",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -2.4162756547063857,
 			"lng": -2.0874023437500004
@@ -11344,12 +11426,15 @@
 	"906": {
 		"id": 906,
 		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D1%82%D0%B5%D0%BD%D0%B0_(%D0%94%D0%B0%D0%B9%D0%BC%D0%BE%D0%BD%D0%B4-%D1%81%D0%B8%D1%82%D0%B8)"
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D1%82%D0%B5%D0%BD%D0%B0_(%D0%94%D0%B0%D0%B9%D0%BC%D0%BE%D0%BD%D0%B4-%D1%81%D0%B8%D1%82%D0%B8)",
+			"en": "https://fallout.fandom.com/wiki/The_Wall"
 		},
 		"titles": {
-			"ru": "Стена (Даймонд-сити)"
+			"ru": "Стена (Даймонд-сити)",
+			"en": "The Wall"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 1.4280747713669428,
 			"lng": -4.855957031250001
@@ -11365,7 +11450,8 @@
 			"ru": "Школа",
 			"en": "Schoolhouse"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -4.565473550710278,
 			"lng": -7.053222656250001
@@ -11381,7 +11467,8 @@
 			"ru": "Дом Пемброуков",
 			"en": "Pembroke residence"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -3.118576216781991,
 			"lng": -7.009277343750001
@@ -11397,7 +11484,8 @@
 			"ru": "Теплица (Даймонд-сити)",
 			"en": "Greenhouse"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -2.5699386165358837,
 			"lng": -6.459960937500001
@@ -11413,7 +11501,8 @@
 			"ru": "Дом Мо Кронина",
 			"en": "Swatters"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -3.074695072369682,
 			"lng": -5.954589843750001
@@ -11425,9 +11514,11 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D0%BA%D0%BB%D0%B0%D0%B4_(%D0%94%D0%B0%D0%B9%D0%BC%D0%BE%D0%BD%D0%B4-%D1%81%D0%B8%D1%82%D0%B8)"
 		},
 		"titles": {
-			"ru": "Склад (Даймонд-сити)"
+			"ru": "Склад (Даймонд-сити)",
+			"en": "Warehouse"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -8.167993177231883,
 			"lng": -3.2958984375000004
@@ -11443,7 +11534,8 @@
 			"ru": "Колониальный бар",
 			"en": "Colonial Taphouse"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -8.77651071605234,
 			"lng": -4.899902343750001
@@ -11459,7 +11551,8 @@
 			"ru": "Дом Кодманов",
 			"en": "Codman residence"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -8.754794702435618,
 			"lng": -3.9550781250000004
@@ -11475,7 +11568,8 @@
 			"ru": "Дом Латимера",
 			"en": "Latimer residence"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -8.515835561202218,
 			"lng": -4.416503906250001
@@ -11491,7 +11585,8 @@
 			"ru": "Дом Хоторна",
 			"en": "Hawthorne residence"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -8.798225459016345,
 			"lng": -6.5478515625
@@ -11507,7 +11602,8 @@
 			"ru": "Офис мэра",
 			"en": "Mayor McDonough's office"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -11.070602913977806,
 			"lng": -8.261718750000002
@@ -11523,7 +11619,8 @@
 			"ru": "Мясохранилище",
 			"en": "Choice Chops"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -7.950436835029361,
 			"lng": -5.405273437500001
@@ -11539,7 +11636,8 @@
 			"ru": "Дом Джона и Кэти",
 			"en": "Kathy & John's Super Salon"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -5.156598738411155,
 			"lng": -7.053222656250001
@@ -11635,7 +11733,8 @@
 			"ru": "Дом Кука",
 			"en": "Cooke residence"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -8.439771599521729,
 			"lng": -5.262451171875001
@@ -11651,7 +11750,8 @@
 			"ru": "Операции",
 			"en": "Boston City Works Beacon"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 14.136575651477944,
 			"lng": -63.85253906250001
@@ -11667,7 +11767,8 @@
 			"ru": "Тоннель «Масс Пайк»",
 			"en": "Mass Pike Tunnel"
 		},
-		"icon": "unmarked",
+		"icon": "bridge",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -12.382928338487396,
 			"lng": -23.686523437500004
@@ -11683,7 +11784,8 @@
 			"ru": "Тоннель «Масс Пайк»",
 			"en": "Mass Pike Tunnel"
 		},
-		"icon": "unmarked",
+		"icon": "bridge",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -20.632784250388028,
 			"lng": 2.0654296875000004
@@ -11699,7 +11801,8 @@
 			"ru": "Тоннель «Масс Пайк»",
 			"en": "Mass Pike Tunnel"
 		},
-		"icon": "unmarked",
+		"icon": "bridge",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -14.647368383896618,
 			"lng": 4.350585937500001
@@ -11708,12 +11811,14 @@
 	"933": {
 		"id": 933,
 		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BD%D1%8B%D0%B9_%D1%86%D0%B5%D0%BD%D1%82%D1%80_%D0%B1%D0%B0%D0%B7%D1%8B_%D0%A4%D0%BE%D1%80%D1%82-%D0%A5%D0%B0%D0%B3%D0%B5%D0%BD"
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A4%D0%BE%D1%80%D1%82-%D0%A5%D0%B0%D0%B3%D0%B5%D0%BD#%D0%9A%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BD%D1%8B%D0%B9_%D1%86%D0%B5%D0%BD%D1%82%D1%80_%D0%B1%D0%B0%D0%B7%D1%8B",
+			"en": "https://fallout.fandom.com/wiki/Fort_Hagen_Command_Center"
 		},
 		"titles": {
-			"ru": "Командный центр базы Форт-Хаген"
+			"ru": "Командный центр базы Форт-Хаген",
+			"en": "Fort Hagen Command Center"
 		},
-		"icon": "unmarked",
+		"icon": "military-base",
 		"coordinates": {
 			"lat": 23.200960808078566,
 			"lng": -105.86425781250001
@@ -11745,7 +11850,8 @@
 			"ru": "Дом Бобби",
 			"en": "Bobbi's place"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 12.983147716796578,
 			"lng": 44.93408203125001
@@ -11761,7 +11867,8 @@
 			"ru": "Раскопки (локация)",
 			"en": "The Dig"
 		},
-		"icon": "unmarked",
+		"icon": "dungeon",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 12.576009912063801,
 			"lng": 45.615234375
@@ -11793,7 +11900,8 @@
 			"ru": "Склад (Добрососедство)",
 			"en": "Warehouse (Goodneighbor)"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 14.774882506516272,
 			"lng": 44.75830078125001
@@ -11809,7 +11917,8 @@
 			"ru": "Склад (Добрососедство)",
 			"en": "Warehouse (Goodneighbor)"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 14.753635331540442,
 			"lng": 44.36279296875
@@ -11825,7 +11934,8 @@
 			"ru": "Лавка Дэйзи",
 			"en": "Daisy's Discounts"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 13.132979019087484,
 			"lng": 43.61572265625001
@@ -11841,7 +11951,8 @@
 			"ru": "Круши-Кромсай",
 			"en": "Kill or Be Killed"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 13.838079936422476,
 			"lng": 43.65966796875001
@@ -11857,7 +11968,8 @@
 			"ru": "Старый Капитолий",
 			"en": "Old State House"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 14.753635331540442,
 			"lng": 43.65966796875001
@@ -11873,7 +11985,8 @@
 			"ru": "Третий Рельс",
 			"en": "The Third Rail"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 15.728813770533979,
 			"lng": 44.36279296875
@@ -11889,7 +12002,8 @@
 			"ru": "Дом воспоминаний",
 			"en": "Memory Den"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 17.685895196738677,
 			"lng": 44.56054687500001
@@ -11905,7 +12019,8 @@
 			"ru": "Склад (Добрососедство)",
 			"en": "Warehouse (Goodneighbor)"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 17.727758609852284,
 			"lng": 45.59326171875
@@ -11921,7 +12036,8 @@
 			"ru": "Отель «Рексфорд»",
 			"en": "Hotel Rexford"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 17.685895196738677,
 			"lng": 43.154296875
@@ -11937,7 +12053,8 @@
 			"ru": "Старый Капитолий",
 			"en": "Old State House"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 16.341225619207496,
 			"lng": 43.154296875
@@ -12001,7 +12118,8 @@
 			"ru": "Церковь Квинси",
 			"en": "Quincy church"
 		},
-		"icon": "unmarked",
+		"icon": "church",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -65.38514722188856,
 			"lng": 48.3837890625
@@ -12029,9 +12147,11 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%90%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5_%D0%BE%D0%B1%D0%BB%D0%BE%D0%BC%D0%BA%D0%B8"
 		},
 		"titles": {
-			"ru": "Автомобильные обломки"
+			"ru": "Автомобильные обломки",
+			"en": "Car wreckage"
 		},
-		"icon": "unmarked",
+		"icon": "junkyard",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 61.10078883158897,
 			"lng": -83.89160156250001
@@ -12040,7 +12160,7 @@
 	"961": {
 		"id": 961,
 		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D1%8F%D0%BA_(Fallout_4)_(Fallout_4)",
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D1%8F%D0%BA_(Fallout_4)",
 			"en": "https://fallout.fandom.com/wiki/Fat_Man_(Fallout_4)"
 		},
 		"titles": {
@@ -12072,12 +12192,15 @@
 	"964": {
 		"id": 964,
 		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9C%D0%BE%D1%81%D1%82%D0%B8%D0%BA_%C2%AB%D0%9F%D1%80%D0%B8%D0%B4%D0%B2%D0%B5%D0%BD%D0%B0%C2%BB"
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9F%D1%80%D0%B8%D0%B4%D0%B2%D0%B5%D0%BD#%D0%9C%D0%BE%D1%81%D1%82%D0%B8%D0%BA_%C2%AB%D0%9F%D1%80%D0%B8%D0%B4%D0%B2%D0%B5%D0%BD%D0%B0%C2%BB",
+			"en": "https://fallout.fandom.com/wiki/The_Prydwen#Command_deck"
 		},
 		"titles": {
-			"ru": "Мостик «Придвена»"
+			"ru": "Мостик «Придвена»",
+			"en": "The Prydwen - Command deck"
 		},
-		"icon": "unmarked",
+		"icon": "ship",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 16.762467717941604,
 			"lng": 86.66015625000001
@@ -12086,12 +12209,15 @@
 	"965": {
 		"id": 965,
 		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%93%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D0%BF%D0%B0%D0%BB%D1%83%D0%B1%D0%B0_%C2%AB%D0%9F%D1%80%D0%B8%D0%B4%D0%B2%D0%B5%D0%BD%D0%B0%C2%BB"
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9F%D1%80%D0%B8%D0%B4%D0%B2%D0%B5%D0%BD#%D0%93%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D0%BF%D0%B0%D0%BB%D1%83%D0%B1%D0%B0_%C2%AB%D0%9F%D1%80%D0%B8%D0%B4%D0%B2%D0%B5%D0%BD%D0%B0%C2%BB",
+			"en": "https://fallout.fandom.com/wiki/The_Prydwen#Main_deck"
 		},
 		"titles": {
-			"ru": "Главная палуба «Придвена»"
+			"ru": "Главная палуба «Придвена»",
+			"en": "The Prydwen - Main deck"
 		},
-		"icon": "unmarked",
+		"icon": "ship",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 16.762467717941604,
 			"lng": 85.693359375
@@ -12100,12 +12226,15 @@
 	"966": {
 		"id": 966,
 		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%90%D1%80%D1%81%D0%B5%D0%BD%D0%B0%D0%BB_%D0%B1%D0%B0%D0%B7%D1%8B_%D0%A4%D0%BE%D1%80%D1%82-%D0%A1%D1%82%D1%80%D0%BE%D0%BD%D0%B3"
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A4%D0%BE%D1%80%D1%82-%D0%A1%D1%82%D1%80%D0%BE%D0%BD%D0%B3#%D0%90%D1%80%D1%81%D0%B5%D0%BD%D0%B0%D0%BB_%D0%B1%D0%B0%D0%B7%D1%8B_%D0%A4%D0%BE%D1%80%D1%82-%D0%A1%D1%82%D1%80%D0%BE%D0%BD%D0%B3",
+			"en": "https://fallout.fandom.com/wiki/Fort_Strong#Armory"
 		},
 		"titles": {
-			"ru": "Арсенал базы Форт-Стронг"
+			"ru": "Арсенал базы Форт-Стронг",
+			"en": "Fort Strong Armory"
 		},
-		"icon": "unmarked",
+		"icon": "military-base",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 5.834616165610059,
 			"lng": 117.94921875000001
@@ -12137,7 +12266,8 @@
 			"ru": "Жилой дом «Уотер-стрит»",
 			"en": "Water Street apartments"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 9.882275493429953,
 			"lng": 43.33007812500001
@@ -12217,7 +12347,8 @@
 			"ru": "Боксёрский зал",
 			"en": "Boxing gym"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 31.344254455668054,
 			"lng": 50.37231445312501
@@ -12233,7 +12364,8 @@
 			"ru": "Крутые печеньки",
 			"en": "Mean Pastries"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 31.131892290750937,
 			"lng": 46.314297952834465
@@ -12249,7 +12381,8 @@
 			"ru": "Химическая лаборатория Маровски",
 			"en": "Marowski's chem lab"
 		},
-		"icon": "unmarked",
+		"icon": "factory",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -13.88074584202559,
 			"lng": 57.98583984375001
@@ -12273,13 +12406,13 @@
 	},
 	"982": {
 		"id": 982,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D1%8E%D1%80%D1%8C%D0%BC%D0%B0_%D0%B2_%D0%9A%D0%B2%D0%B8%D0%BD%D1%81%D0%B8"
-		},
+		"links": {},
 		"titles": {
-			"ru": "Тюрьма в Квинси"
+			"ru": "Тюрьма в Квинси",
+			"en": "Quincy Prison"
 		},
-		"icon": "unmarked",
+		"icon": "police-station",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -66.67908684186773,
 			"lng": 54.71191406250001
@@ -12295,7 +12428,8 @@
 			"ru": "Закусочная Квинси",
 			"en": "Quincy Diner"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -65.80277639340238,
 			"lng": 49.50439453125001
@@ -12311,7 +12445,8 @@
 			"ru": "Апартаменты Квинси",
 			"en": "Quincy Apartments"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -66.00908582293678,
 			"lng": 50.07568359375001
@@ -12327,7 +12462,8 @@
 			"ru": "Аптека Квинси",
 			"en": "Quincy Pharmacy"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -66.34632215978135,
 			"lng": 51.92138671875001
@@ -12343,7 +12479,8 @@
 			"ru": "Оружейный магазин Квинси",
 			"en": "Guns Guns Guns"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -65.37599365291612,
 			"lng": 51.70166015625001
@@ -12359,7 +12496,8 @@
 			"ru": "Вино-водочный магазин",
 			"en": "Quincy Liquors"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -65.75770636196388,
 			"lng": 52.40478515625001
@@ -12375,7 +12513,8 @@
 			"ru": "Продукты питания Фентона",
 			"en": "Fentons Food Stuffs"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -65.07213008560697,
 			"lng": 52.31689453125001
@@ -12391,7 +12530,8 @@
 			"ru": "«Красная ракета» — Руины Квинси",
 			"en": "Red Rocket (Quincy)"
 		},
-		"icon": "unmarked",
+		"icon": "filling-station",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -64.5389958071547,
 			"lng": 41.92382812500001
@@ -12815,13 +12955,12 @@
 	},
 	"1018": {
 		"id": 1018,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%90%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D1%8F_%D0%B1%D0%BE%D0%BB%D1%8C%D0%BD%D0%B8%D1%86%D1%8B_%C2%AB%D0%9F%D0%B0%D1%80%D1%81%D0%BE%D0%BD%D1%81%C2%BB"
-		},
+		"links": {},
 		"titles": {
-			"ru": "Администрация больницы «Парсонс»"
+			"ru": "Администрация больницы «Парсонс»",
+			"en": "Parsons Administration Building"
 		},
-		"icon": "unmarked",
+		"icon": "building",
 		"coordinates": {
 			"lat": 81.11020759735952,
 			"lng": 85.14404296875
@@ -12837,7 +12976,8 @@
 			"ru": "Коммутатор",
 			"en": "The Switchboard"
 		},
-		"icon": "unmarked",
+		"icon": "dungeon",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 67.05030412177986,
 			"lng": -48.86718750000001
@@ -12869,7 +13009,8 @@
 			"ru": "Насосная станция",
 			"en": "Vitale pumphouse"
 		},
-		"icon": "unmarked",
+		"icon": "bunker",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 69.83962194067463,
 			"lng": 98.34960937500001
@@ -12917,7 +13058,8 @@
 			"ru": "Поместье Хоторнов",
 			"en": "Hawthorne Estate"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -34.99431113483564,
 			"lng": 45.522195324864185
@@ -12933,7 +13075,8 @@
 			"ru": "Квартира",
 			"en": "Hoarder's apartment"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 33.358061612778876,
 			"lng": 42.8466796875
@@ -13026,7 +13169,7 @@
 			"en": "https://fallout.fandom.com/wiki/4n1m4L%27s_test_logs"
 		},
 		"titles": {
-			"ru": "4n1m4L’s test logs",
+			"ru": "4n1m4L's test logs",
 			"en": "4n1m4L's test logs"
 		},
 		"icon": "holotape",
@@ -13045,7 +13188,8 @@
 			"ru": "Коллектор",
 			"en": "Compound"
 		},
-		"icon": "unmarked",
+		"icon": "dungeon",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 67.941650035336,
 			"lng": -11.337890625
@@ -13573,7 +13717,8 @@
 			"ru": "Заброшенный дом",
 			"en": "Abandoned house (Charlestown)"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 41.1455697310095,
 			"lng": 40.18798828125001
@@ -13653,7 +13798,8 @@
 			"ru": "Канализация Мальдена",
 			"en": "Malden drainage"
 		},
-		"icon": "unmarked",
+		"icon": "dungeon",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 70.58341752317065,
 			"lng": 23.906250000000004
@@ -14037,7 +14183,8 @@
 			"ru": "Станция «Копли»",
 			"en": "Copley station"
 		},
-		"icon": "unmarked",
+		"icon": "subway-station",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 0.3076157096439005,
 			"lng": 8.964843750000002
@@ -14069,7 +14216,8 @@
 			"ru": "Подвал мэрии Джамейка-Плейн",
 			"en": "Jamaica Plain Town Hall basement"
 		},
-		"icon": "unmarked",
+		"icon": "dungeon",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -48.806863461085186,
 			"lng": 23.950195312500004
@@ -14081,9 +14229,11 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9E%D1%84%D0%B8%D1%81%D0%BD%D0%BE%D0%B5_%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5"
 		},
 		"titles": {
-			"ru": "Офисное здание"
+			"ru": "Офисное здание",
+			"en": "Office Building"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 29.726222319395504,
 			"lng": 0.087890625
@@ -14099,7 +14249,8 @@
 			"ru": "Лагерь рейдеров в восточной части Института",
 			"en": "East C.I.T. raider camp"
 		},
-		"icon": "unmarked",
+		"icon": "encampment",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 29.649868677972304,
 			"lng": -1.2304687500000002
@@ -14127,9 +14278,11 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%91%D0%B0%D1%80%D0%B6%D0%B0_%D0%BD%D0%B0_%D1%80%D0%B0%D0%B7%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B5"
 		},
 		"titles": {
-			"ru": "Баржа на разгрузке"
+			"ru": "Баржа на разгрузке",
+			"en": "Unloading Barge"
 		},
-		"icon": "unmarked",
+		"icon": "ship",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 62.77483725887553,
 			"lng": 121.37695312500001
@@ -14138,12 +14291,15 @@
 	"1105": {
 		"id": 1105,
 		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%C2%AB%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%B0%D1%8F_%D1%80%D0%B0%D0%BA%D0%B5%D1%82%D0%B0%C2%BB_%E2%80%94_%D0%9D%D0%B0%D1%85%D0%B0%D0%BD%D1%82"
+			"ru": "https://fallout.fandom.com/ru/wiki/%C2%AB%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%B0%D1%8F_%D1%80%D0%B0%D0%BA%D0%B5%D1%82%D0%B0%C2%BB_%E2%80%94_%D0%9D%D0%B0%D1%85%D0%B0%D0%BD%D1%82",
+			"en": "https://fallout.fandom.com/wiki/Red_Rocket_(Nahant)"
 		},
 		"titles": {
-			"ru": "«Красная ракета» — Нахант"
+			"ru": "«Красная ракета» — Нахант",
+			"en": "Red Rocket (Nahant)"
 		},
-		"icon": "unmarked",
+		"icon": "filling-station",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 60.37042901631508,
 			"lng": 126.82617187500001
@@ -14155,9 +14311,11 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9F%D0%BE%D0%B4%D0%B2%D0%B0%D0%BB_%D0%BE%D1%81%D0%BE%D0%B1%D0%BD%D1%8F%D0%BA%D0%B0_%D0%9A%D1%80%D1%83%D0%BF%D0%BE%D0%B2"
 		},
 		"titles": {
-			"ru": "Подвал особняка Крупов"
+			"ru": "Подвал особняка Крупов",
+			"en": "Croup Manor Basement"
 		},
-		"icon": "unmarked",
+		"icon": "dungeon",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 62.734600877063585,
 			"lng": 136.14257812500003
@@ -14173,7 +14331,8 @@
 			"ru": "Ресторан на пирсе Наханта",
 			"en": "Nahant Bar and Restaurant"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 58.722598828043395,
 			"lng": 146.90917968750003
@@ -14181,13 +14340,13 @@
 	},
 	"1108": {
 		"id": 1108,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9E%D0%BA%D0%B5%D0%B0%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D0%BB%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%B8%D1%8F_%D0%9D%D0%B0%D1%85%D0%B0%D0%BD%D1%82%D0%B0"
-		},
+		"links": {},
 		"titles": {
-			"ru": "Океанологическая лаборатория Наханта"
+			"ru": "Океанологическая лаборатория Наханта",
+			"en": "Nahant Oceanological research lab"
 		},
-		"icon": "unmarked",
+		"icon": "water",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 53.72271667491848,
 			"lng": 155.12695312500003
@@ -14228,12 +14387,15 @@
 	"1111": {
 		"id": 1111,
 		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9D%D0%BE%D1%81%D0%BE%D0%B2%D0%B0%D1%8F_%D0%BF%D0%B0%D0%BB%D1%83%D0%B1%D0%B0_%C2%AB%D0%9F%D1%80%D0%B8%D0%B4%D0%B2%D0%B5%D0%BD%D0%B0%C2%BB"
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9F%D1%80%D0%B8%D0%B4%D0%B2%D0%B5%D0%BD#%D0%9D%D0%BE%D1%81%D0%BE%D0%B2%D0%B0%D1%8F_%D0%BF%D0%B0%D0%BB%D1%83%D0%B1%D0%B0_%C2%AB%D0%9F%D1%80%D0%B8%D0%B4%D0%B2%D0%B5%D0%BD%D0%B0%C2%BB",
+			"en": "https://fallout.fandom.com/wiki/The_Prydwen#Forecastle"
 		},
 		"titles": {
-			"ru": "Носовая палуба «Придвена»"
+			"ru": "Носовая палуба «Придвена»",
+			"en": "The Prydwen - Forecastle"
 		},
-		"icon": "unmarked",
+		"icon": "ship",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 16.804541076383455,
 			"lng": 84.28710937500001
@@ -14242,12 +14404,15 @@
 	"1112": {
 		"id": 1112,
 		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9B%D1%91%D1%82%D0%BD%D0%B0%D1%8F_%D0%BF%D0%B0%D0%BB%D1%83%D0%B1%D0%B0_%C2%AB%D0%9F%D1%80%D0%B8%D0%B4%D0%B2%D0%B5%D0%BD%D0%B0%C2%BB"
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9F%D1%80%D0%B8%D0%B4%D0%B2%D0%B5%D0%BD#%D0%9B%D1%91%D1%82%D0%BD%D0%B0%D1%8F_%D0%BF%D0%B0%D0%BB%D1%83%D0%B1%D0%B0_%C2%AB%D0%9F%D1%80%D0%B8%D0%B4%D0%B2%D0%B5%D0%BD%D0%B0%C2%BB",
+			"en": "https://fallout.fandom.com/wiki/The_Prydwen#Flight_deck"
 		},
 		"titles": {
-			"ru": "Лётная палуба «Придвена»"
+			"ru": "Лётная палуба «Придвена»",
+			"en": "The Prydwen - Flight deck"
 		},
-		"icon": "unmarked",
+		"icon": "ship",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 16.762467717941604,
 			"lng": 89.56054687500001
@@ -14263,7 +14428,8 @@
 			"ru": "Жилой дом (Фенс)",
 			"en": "Fens Cafe"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -2.284550660236957,
 			"lng": -16.611328125000004
@@ -14279,7 +14445,8 @@
 			"ru": "Бар «Парквью»",
 			"en": "Parkview Apartments"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -6.817352822622144,
 			"lng": -15.996093750000002
@@ -14287,13 +14454,13 @@
 	},
 	"1116": {
 		"id": 1116,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%97%D0%B0%D0%BF%D1%80%D0%B0%D0%B2%D0%BA%D0%B0_%C2%AB%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%B0%D1%8F_%D1%80%D0%B0%D0%BA%D0%B5%D1%82%D0%B0%C2%BB_(%D0%9A%D0%B5%D0%BC%D0%B1%D1%80%D0%B8%D0%B4%D0%B6)"
-		},
+		"links": {},
 		"titles": {
-			"ru": "Заправка «Красная ракета» (Кембридж)"
+			"ru": "Заправка «Красная ракета» (Кембридж)",
+			"en": "Red Rocket filling station (Cambridge)"
 		},
-		"icon": "unmarked",
+		"icon": "filling-station",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 49.296471602658094,
 			"lng": -18.764648437500004
@@ -14305,9 +14472,11 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9E%D1%84%D0%B8%D1%81_%D0%94%D0%B6%D0%BE_%D0%A1%D0%BB%D0%BE%D0%BA%D0%B0%D0%BC%D0%B0"
 		},
 		"titles": {
-			"ru": "Офис Джо Слокама"
+			"ru": "Офис Джо Слокама",
+			"en": "Slocum's Joe Office"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 73.08663301263717,
 			"lng": 37.55126953125001
@@ -14323,7 +14492,8 @@
 			"ru": "Кембриджская база рейдеров",
 			"en": "Cambridge raider base"
 		},
-		"icon": "unmarked",
+		"icon": "encampment",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 44.653024159812,
 			"lng": -2.6367187500000004
@@ -14339,7 +14509,8 @@
 			"ru": "Хаб 360",
 			"en": "Hub 360"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 4.214943141390651,
 			"lng": 45.6591796875
@@ -14371,7 +14542,8 @@
 			"ru": "Разрушенный небоскрёб",
 			"en": "Pinnacle Highrise"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 8.015715997869071,
 			"lng": 44.51660156250001
@@ -14387,7 +14559,8 @@
 			"ru": "Многоэтажка «Вершина»",
 			"en": "Pinnacle Highrise"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 8.015715997869071,
 			"lng": 45.87890625
@@ -14403,7 +14576,8 @@
 			"ru": "Полицейский участок Мальдена",
 			"en": "Malden police station"
 		},
-		"icon": "unmarked",
+		"icon": "police-station",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 72.97118902284588,
 			"lng": 34.93652343750001
@@ -14431,9 +14605,11 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%93%D0%B0%D1%80%D0%B0%D0%B6_(Fallout_4)"
 		},
 		"titles": {
-			"ru": "Гараж"
+			"ru": "Гараж",
+			"en": "Parking Garage"
 		},
-		"icon": "unmarked",
+		"icon": "parking",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 66.08936427047088,
 			"lng": -38.0126953125
@@ -14442,12 +14618,15 @@
 	"1126": {
 		"id": 1126,
 		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%C2%AB%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%B0%D1%8F_%D1%80%D0%B0%D0%BA%D0%B5%D1%82%D0%B0%C2%BB_%E2%80%94_%D0%9B%D0%B5%D0%BA%D1%81%D0%B8%D0%BD%D0%B3%D1%82%D0%BE%D0%BD"
+			"ru": "https://fallout.fandom.com/ru/wiki/%C2%AB%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%B0%D1%8F_%D1%80%D0%B0%D0%BA%D0%B5%D1%82%D0%B0%C2%BB_%E2%80%94_%D0%9B%D0%B5%D0%BA%D1%81%D0%B8%D0%BD%D0%B3%D1%82%D0%BE%D0%BD",
+			"en": "https://fallout.fandom.com/wiki/Red_Rocket_(Lexington)"
 		},
 		"titles": {
-			"ru": "«Красная ракета» — Лексингтон"
+			"ru": "«Красная ракета» — Лексингтон",
+			"en": "Red Rocket (Lexington)"
 		},
-		"icon": "unmarked",
+		"icon": "filling-station",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 64.66151739623564,
 			"lng": -38.89160156250001
@@ -14463,7 +14642,8 @@
 			"ru": "Прачечная",
 			"en": "Faded Glory laundromat"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 64.66151739623564,
 			"lng": -37.61718750000001
@@ -14479,7 +14659,8 @@
 			"ru": "Кафе «Слокам Джо»",
 			"en": "Slocum's Joe #38"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 65.36683689226321,
 			"lng": -38.3203125
@@ -14495,7 +14676,8 @@
 			"ru": "Подвал Джо Слокама",
 			"en": "The Switchboard"
 		},
-		"icon": "unmarked",
+		"icon": "dungeon",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 65.4034447883078,
 			"lng": -37.08984375000001
@@ -14511,7 +14693,8 @@
 			"ru": "Коммутатор",
 			"en": "The Switchboard"
 		},
-		"icon": "unmarked",
+		"icon": "dungeon",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 65.49474141843486,
 			"lng": -35.77148437500001
@@ -14527,7 +14710,8 @@
 			"ru": "Банк Лексингтона",
 			"en": "Lexington Bank"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 65.36683689226321,
 			"lng": -32.56347656250001
@@ -14559,7 +14743,8 @@
 			"ru": "Аптека",
 			"en": "Lexington Pharmacy"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 61.58549218152364,
 			"lng": -25.927734375000004
@@ -14575,7 +14760,8 @@
 			"ru": "Банк Содружества",
 			"en": "Commonwealth Bank"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 19.16592425362802,
 			"lng": 49.83398437500001
@@ -14587,9 +14773,11 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A0%D0%B0%D0%B4%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D1%86%D0%B5%D0%BD%D1%82%D1%80_%D0%9C%D0%B0%D1%81%D1%81%D0%B0%D1%87%D1%83%D1%81%D0%B5%D1%82%D1%81-%D0%91%D1%8D%D0%B9"
 		},
 		"titles": {
-			"ru": "Радиологический центр Массачусетс-Бэй"
+			"ru": "Радиологический центр Массачусетс-Бэй",
+			"en": "Mass Bay Medical Radiology"
 		},
-		"icon": "unmarked",
+		"icon": "hospital",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -4.149200693099276,
 			"lng": 39.08935546875001
@@ -14605,7 +14793,8 @@
 			"ru": "Бар «Лента новостей»",
 			"en": "Ticker Tape Lounge"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -3.5572827265412794,
 			"lng": 44.23095703125001
@@ -14617,9 +14806,11 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D0%B5%D0%B2%D0%B5%D1%80_%D1%81%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D0%B8_%C2%AB%D0%9C%D0%B5%D0%B4%D1%86%D0%B5%D0%BD%D1%82%D1%80%C2%BB"
 		},
 		"titles": {
-			"ru": "Север станции «Медцентр»"
+			"ru": "Север станции «Медцентр»",
+			"en": "North of Medcenter station"
 		},
-		"icon": "unmarked",
+		"icon": "subway-station",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -4.8282597468669755,
 			"lng": 38.45214843750001
@@ -14635,7 +14826,8 @@
 			"ru": "Лагерь в Кендалле",
 			"en": "Camp Kendall"
 		},
-		"icon": "unmarked",
+		"icon": "encampment",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 26.667095801104814,
 			"lng": 17.666015625000004
@@ -14651,7 +14843,8 @@
 			"ru": "Кембриджская стройплощадка",
 			"en": "Cambridge construction site"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 41.541477666790286,
 			"lng": 27.817382812500004
@@ -14667,7 +14860,8 @@
 			"ru": "Гараж на «Конгресс-стрит»",
 			"en": "Congress Street garage"
 		},
-		"icon": "unmarked",
+		"icon": "parking",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 21.861498734372567,
 			"lng": 46.45019531250001
@@ -14683,7 +14877,8 @@
 			"ru": "Склад на стройплощадке",
 			"en": "Cambridge construction site"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 44.87144275016589,
 			"lng": 24.697265625000004
@@ -14699,7 +14894,8 @@
 			"ru": "Масс Кемикел",
 			"en": "Mass Chemical"
 		},
-		"icon": "unmarked",
+		"icon": "factory",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 44.74673324024681,
 			"lng": 22.67578125
@@ -14803,13 +14999,12 @@
 	},
 	"1150": {
 		"id": 1150,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A3%D0%BA%D1%80%D1%8B%D1%82%D0%B8%D0%B5_(Fallout_4)"
-		},
+		"links": {},
 		"titles": {
-			"ru": "Укрытие"
+			"ru": "Укрытие",
+			"en": "Bunker"
 		},
-		"icon": "unmarked",
+		"icon": "bunker",
 		"coordinates": {
 			"lat": -30.67571540416773,
 			"lng": 19.819335937500004
@@ -14817,13 +15012,12 @@
 	},
 	"1151": {
 		"id": 1151,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A0%D1%8B%D0%B1%D0%B0%D1%86%D0%BA%D0%B8%D0%B9_%D0%B4%D0%BE%D0%BC%D0%B8%D0%BA"
-		},
+		"links": {},
 		"titles": {
-			"ru": "Рыбацкий домик"
+			"ru": "Рыбацкий домик",
+			"en": "Fisherman's shack"
 		},
-		"icon": "unmarked",
+		"icon": "encampment",
 		"coordinates": {
 			"lat": -47.27922900257082,
 			"lng": -81.91406250000001
@@ -14848,12 +15042,13 @@
 	"1155": {
 		"id": 1155,
 		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D1%82%D0%BE%D1%8F%D0%BD%D0%BA%D0%B0_(%D0%BE%D0%BA%D1%80%D0%B5%D1%81%D1%82%D0%BD%D0%BE%D1%81%D1%82%D0%B8_%D0%9D%D0%B0%D1%82%D0%B8%D0%BA%D0%B0)"
+			"en": "https://fallout.fandom.com/wiki/Settler_campsite"
 		},
 		"titles": {
-			"ru": "Стоянка (окрестности Натика)"
+			"ru": "Стоянка",
+			"en": "Settler campsite"
 		},
-		"icon": "unmarked",
+		"icon": "parking",
 		"coordinates": {
 			"lat": -36.24427318493909,
 			"lng": -114.38964843750001
@@ -14862,12 +15057,14 @@
 	"1156": {
 		"id": 1156,
 		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%94%D0%BE%D0%BC_%D0%BD%D0%B0_%D1%85%D0%BE%D0%BB%D0%BC%D0%B0%D1%85_(%D0%9D%D0%B0%D1%82%D0%B8%D0%BA)"
+			"en": "https://fallout.fandom.com/wiki/Hillside_home"
 		},
 		"titles": {
-			"ru": "Дом на холмах (Натик)"
+			"ru": "Дом на холмах",
+			"en": "Hillside home"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -25.324166525738384,
 			"lng": -117.20214843750001
@@ -14883,7 +15080,8 @@
 			"ru": "Конгрегация священной миссии",
 			"en": "Holy Mission Congregation"
 		},
-		"icon": "unmarked",
+		"icon": "church",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 7.057282352971582,
 			"lng": 5.976562500000001
@@ -14915,7 +15113,8 @@
 			"ru": "Магазин «Сэндвичи Джо»",
 			"en": "Joe's Spuckies sandwich shop"
 		},
-		"icon": "unmarked",
+		"icon": "store",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -22.004174972902003,
 			"lng": 46.23046875
@@ -14931,7 +15130,8 @@
 			"ru": "Длинный причал",
 			"en": "Long Wharf"
 		},
-		"icon": "unmarked",
+		"icon": "pier",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 16.594081412718474,
 			"lng": 67.45605468750001
@@ -14943,9 +15143,11 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D0%BA%D0%BB%D0%B0%D0%B4_(Fallout_4)"
 		},
 		"titles": {
-			"ru": "Склад"
+			"ru": "Склад",
+			"en": "Warehouse"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 17.22475820662464,
 			"lng": 68.95019531250001
@@ -14961,7 +15163,8 @@
 			"ru": "Инвестиционный фонд Уэзерби",
 			"en": "Baxter building"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 23.966175871265044,
 			"lng": 52.3828125
@@ -14993,7 +15196,8 @@
 			"ru": "Бункер (радиосигнал Гринбрайара)",
 			"en": "Greenbriar radio signal"
 		},
-		"icon": "unmarked",
+		"icon": "bunker",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 82.02137801950887,
 			"lng": 46.66992187500001
@@ -15009,7 +15213,8 @@
 			"ru": "Лагерь у авто-дерева",
 			"en": "Car tree camp"
 		},
-		"icon": "unmarked",
+		"icon": "encampment",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 83.34933999069602,
 			"lng": 47.24121093750001
@@ -15021,9 +15226,11 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A0%D0%B5%D0%B0%D0%BA%D1%82%D0%BE%D1%80_(%D1%81%D0%BA%D0%BB%D0%B0%D0%B4_%C2%AB%D0%9C%D0%B0%D1%81%D1%81_%D1%84%D1%8C%D1%8E%D0%B6%D0%BD%C2%BB)"
 		},
 		"titles": {
-			"ru": "Реактор (склад «Масс фьюжн»)"
+			"ru": "Реактор (склад «Масс фьюжн»)",
+			"en": "Reactor level"
 		},
-		"icon": "unmarked",
+		"icon": "radioactive-area",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 78.77634845965974,
 			"lng": 40.20996093750001
@@ -15032,12 +15239,14 @@
 	"1169": {
 		"id": 1169,
 		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%91%D1%83%D0%BD%D0%BA%D0%B5%D1%80_%D0%BD%D0%B0_%D0%B7%D0%B0%D0%B4%D0%BD%D0%B5%D0%BC_%D0%B4%D0%B2%D0%BE%D1%80%D0%B5"
+			"en": "https://fallout.fandom.com/wiki/Backyard_bunker"
 		},
 		"titles": {
-			"ru": "Бункер на заднем дворе"
+			"ru": "Бункер на заднем дворе",
+			"en": "Backyard bunker"
 		},
-		"icon": "unmarked",
+		"icon": "bunker",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 63.074865690586634,
 			"lng": 30.717773437500004
@@ -15053,7 +15262,8 @@
 			"ru": "Рыбацкая хижина",
 			"en": "Western Bell vessel"
 		},
-		"icon": "unmarked",
+		"icon": "ship",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 80.64882003281596,
 			"lng": 57.62329101562501
@@ -15069,7 +15279,8 @@
 			"ru": "Подвал (стандартный радиосигнал)",
 			"en": "Default radio signal"
 		},
-		"icon": "unmarked",
+		"icon": "dungeon",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 68.72044056989829,
 			"lng": 60.29296875000001
@@ -15078,12 +15289,15 @@
 	"1176": {
 		"id": 1176,
 		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%B0%D0%B9%D0%BD%D0%BE%D0%B5_%D0%A3%D0%B1%D0%B5%D0%B6%D0%B8%D1%89%D0%B5_81"
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%B0%D0%B9%D0%BD%D0%BE%D0%B5_%D0%A3%D0%B1%D0%B5%D0%B6%D0%B8%D1%89%D0%B5_81",
+			"en": "https://fallout.fandom.com/wiki/Vault_81#Secret_vault"
 		},
 		"titles": {
-			"ru": "Тайное Убежище 81"
+			"ru": "Тайное Убежище 81",
+			"en": "Secret Vault 81"
 		},
-		"icon": "unmarked",
+		"icon": "vault",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -4.959615024698014,
 			"lng": -38.6279296875
@@ -15187,13 +15401,13 @@
 	},
 	"1184": {
 		"id": 1184,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A5%D0%B8%D0%B6%D0%B8%D0%BD%D0%B0_%D0%91%D0%B5%D1%82%D0%B0%D0%BD%D0%B8"
-		},
+		"links": {},
 		"titles": {
-			"ru": "Хижина Бетани"
+			"ru": "Хижина Бетани",
+			"en": "Bethany hut"
 		},
-		"icon": "unmarked",
+		"icon": "encampment",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 52.64306343665892,
 			"lng": -87.67089843750001
@@ -15205,9 +15419,11 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B0%D1%80%D0%B0%D0%B2%D0%B0%D0%BD_%D0%94%D0%B6%D0%B5%D0%BA%D1%81%D0%BE%D0%BD%D0%B0"
 		},
 		"titles": {
-			"ru": "Караван Джексона"
+			"ru": "Караван Джексона",
+			"en": "Jackson's Caravan"
 		},
-		"icon": "unmarked",
+		"icon": "encampment",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 52.908902047770255,
 			"lng": 9.140625000000002
@@ -15216,14 +15432,14 @@
 	"1186": {
 		"id": 1186,
 		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%91%D1%83%D0%BD%D0%BA%D0%B5%D1%80_(%D1%80%D0%B0%D0%B4%D0%B8%D0%BE%D1%81%D0%B8%D0%B3%D0%BD%D0%B0%D0%BB_%D1%80%D0%B5%D0%B9%D0%B4%D0%B5%D1%80%D0%B0)",
-			"en": "https://fallout.fandom.com/wiki/Relay_tower_0BB-915"
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%91%D1%83%D0%BD%D0%BA%D0%B5%D1%80_(%D1%80%D0%B0%D0%B4%D0%B8%D0%BE%D1%81%D0%B8%D0%B3%D0%BD%D0%B0%D0%BB_%D1%80%D0%B5%D0%B9%D0%B4%D0%B5%D1%80%D0%B0)"
 		},
 		"titles": {
 			"ru": "Бункер (радиосигнал рейдера)",
-			"en": "Relay tower 0BB-915"
+			"en": "Bunker (raider radio signal)"
 		},
-		"icon": "unmarked",
+		"icon": "bunker",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 42.48830197960227,
 			"lng": -121.77246093750001
@@ -15231,13 +15447,13 @@
 	},
 	"1187": {
 		"id": 1187,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%90%D1%80%D0%BC%D0%B5%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D0%B1%D1%83%D0%BD%D0%BA%D0%B5%D1%80"
-		},
+		"links": {},
 		"titles": {
-			"ru": "Армейский бункер"
+			"ru": "Армейский бункер",
+			"en": "Military bunker"
 		},
-		"icon": "unmarked",
+		"icon": "bunker",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 25.62171595984575,
 			"lng": -124.25537109375001
@@ -15253,7 +15469,8 @@
 			"ru": "Ангар базы Форт-Хаген",
 			"en": "Fort Hagen hangar"
 		},
-		"icon": "unmarked",
+		"icon": "military-base",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 27.01998400798257,
 			"lng": -122.14599609375001
@@ -15429,7 +15646,8 @@
 			"ru": "Логово",
 			"en": "Coastal hideout"
 		},
-		"icon": "unmarked",
+		"icon": "bunker",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 82.64540978981347,
 			"lng": 115.31250000000001
@@ -15477,7 +15695,8 @@
 			"ru": "Гора на шоссе",
 			"en": "Freeway pileup"
 		},
-		"icon": "unmarked",
+		"icon": "bridge",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -14.902321826141808,
 			"lng": 29.333496093750004
@@ -15489,9 +15708,11 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%96%D0%B8%D0%BB%D0%BE%D0%B9_%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B0%D0%BB_%C2%AB%D0%9E%D1%83%D0%BA%D0%B2%D1%83%D0%B4%C2%BB"
 		},
 		"titles": {
-			"ru": "Жилой квартал «Оуквуд»"
+			"ru": "Жилой квартал «Оуквуд»",
+			"en": "Oakwood Residences"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 2.0210651187669897,
 			"lng": 37.66113281250001
@@ -15507,7 +15728,8 @@
 			"ru": "Жилой квартал Пирвуд",
 			"en": "Pearwood Residences"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 1.537901237431487,
 			"lng": 36.21093750000001
@@ -15535,9 +15757,11 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9E%D1%81%D1%82%D0%BE%D0%B2_%D0%BE%D1%82%D0%B5%D0%BB%D1%8F_%D1%81%D1%83%D0%BF%D0%B5%D1%80%D0%BC%D1%83%D1%82%D0%B0%D0%BD%D1%82%D0%BE%D0%B2"
 		},
 		"titles": {
-			"ru": "Остов отеля супермутантов"
+			"ru": "Остов отеля супермутантов",
+			"en": "Super mutant hotel shell"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 16.636191878397664,
 			"lng": 36.84814453125001
@@ -15553,7 +15777,8 @@
 			"ru": "Детская площадка «Маленький рыцарь»",
 			"en": "Lil' Gentry playground"
 		},
-		"icon": "unmarked",
+		"icon": "square",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 22.350075806124867,
 			"lng": 34.45312500000001
@@ -15569,7 +15794,8 @@
 			"ru": "Тауэр апартментс",
 			"en": "Beacon Hill apartments"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 23.98625259984181,
 			"lng": 29.069824218750004
@@ -15585,7 +15811,8 @@
 			"ru": "Церковь Юнионс-Хоуп",
 			"en": "Union's Hope Cathedral"
 		},
-		"icon": "unmarked",
+		"icon": "church",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 42.261049162113856,
 			"lng": -12.744140625000002
@@ -15601,7 +15828,8 @@
 			"ru": "Кладбище Кембриджа",
 			"en": "Union's Hope Cathedral"
 		},
-		"icon": "unmarked",
+		"icon": "graveyard",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 43.29320031385285,
 			"lng": -9.667968750000002
@@ -15617,7 +15845,8 @@
 			"ru": "Академический центр Кембриджа",
 			"en": "Cambridge Academic Center"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 40.94671366508002,
 			"lng": -19.291992187500004
@@ -15633,7 +15862,8 @@
 			"ru": "Кембриджский хозмаг",
 			"en": "Cambridge hardware store"
 		},
-		"icon": "unmarked",
+		"icon": "store",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 48.60385760823255,
 			"lng": -7.338867187500001
@@ -15649,7 +15879,8 @@
 			"ru": "Секрет сантехника",
 			"en": "Plumber's Secret"
 		},
-		"icon": "unmarked",
+		"icon": "store",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 48.1367666796927,
 			"lng": -3.9111328125000004
@@ -15665,7 +15896,8 @@
 			"ru": "Кембриджское бейсбольное поле",
 			"en": "Cambridge baseball diamond"
 		},
-		"icon": "unmarked",
+		"icon": "square",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 40.68063802521456,
 			"lng": 2.9443359375
@@ -15681,7 +15913,8 @@
 			"ru": "Крупный перекрёсток",
 			"en": "Raider platforms (Cambridge)"
 		},
-		"icon": "unmarked",
+		"icon": "square",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 34.56085936708384,
 			"lng": -2.3291015625000004
@@ -15697,7 +15930,8 @@
 			"ru": "Парковка в Кендалле",
 			"en": "Kendall Parking"
 		},
-		"icon": "unmarked",
+		"icon": "parking",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 31.31610138349565,
 			"lng": 13.3154296875
@@ -15709,9 +15943,11 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D0%B7%D0%BE%D0%BD%D0%B0"
 		},
 		"titles": {
-			"ru": "Техническая зона"
+			"ru": "Техническая зона",
+			"en": "Public Works Maintenence Area"
 		},
-		"icon": "unmarked",
+		"icon": "dungeon",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 28.536274512989916,
 			"lng": 21.1376953125
@@ -15736,14 +15972,15 @@
 	"1225": {
 		"id": 1225,
 		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D1%83%D0%B2%D0%B5%D0%BD%D0%B8%D1%80%D0%BD%D1%8B%D0%B9_%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD_%D0%BD%D0%B0%D1%83%D1%87%D0%BD%D0%BE%D0%B3%D0%BE_%D1%86%D0%B5%D0%BD%D1%82%D1%80%D0%B0?file=FO4_%25D0%25A1%25D1%2583%25D0%25B2%25D0%25B5%25D0%25BD%25D0%25B8%25D1%2580%25D0%25BD%25D1%258B%25D0%25B9_%25D0%25BC%25D0%25B0%25D0%25B3%25D0%25B0%25D0%25B7%25D0%25B8%25D0%25BD_%25D0%25BD%25D0%25B0%25D1%2583%25D1%2587%25D0%25BD%25D0%25BE%25D0%25B3%25D0%25BE_%25D1%2586%25D0%25B5%25D0%25BD%25D1%2582%25D1%2580%25D0%25B0_%2528%25D0%25BA%25D0%25B0%25D1%2580%25D1%2582%25D0%25B0_%25D0%25BC%25D0%25B8%25D1%2580%25D0%25B0%2529.png",
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D1%83%D0%B2%D0%B5%D0%BD%D0%B8%D1%80%D0%BD%D1%8B%D0%B9_%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD_%D0%BD%D0%B0%D1%83%D1%87%D0%BD%D0%BE%D0%B3%D0%BE_%D1%86%D0%B5%D0%BD%D1%82%D1%80%D0%B0",
 			"en": "https://fallout.fandom.com/wiki/Science_Center_gift_shop"
 		},
 		"titles": {
 			"ru": "Сувенирный магазин научного центра",
 			"en": "Science Center gift shop"
 		},
-		"icon": "unmarked",
+		"icon": "store",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 36.03133177633189,
 			"lng": 25.224609375000004
@@ -15752,12 +15989,15 @@
 	"1226": {
 		"id": 1226,
 		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9F%D1%80%D0%BE%D1%81%D0%BF%D0%B5%D0%BA%D1%82-%D0%A5%D0%B8%D0%BB%D0%BB?file=FO4_%25D0%259F%25D1%2580%25D0%25BE%25D1%2581%25D0%25BF%25D0%25B5%25D0%25BA%25D1%2582-%25D0%25A5%25D0%25B8%25D0%25BB%25D0%25BB_%2528%25D0%25BA%25D0%25B0%25D1%2580%25D1%2582%25D0%25B0_%25D0%25BC%25D0%25B8%25D1%2580%25D0%25B0%2529.png"
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9F%D1%80%D0%BE%D1%81%D0%BF%D0%B5%D0%BA%D1%82-%D0%A5%D0%B8%D0%BB%D0%BB",
+			"en": "https://fallout.fandom.com/wiki/Prospect_Hill"
 		},
 		"titles": {
-			"ru": "Проспект-Хилл"
+			"ru": "Проспект-Хилл",
+			"en": "Prospect Hill"
 		},
-		"icon": "unmarked",
+		"icon": "square",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 43.929549935614595,
 			"lng": 11.909179687500002
@@ -15773,7 +16013,8 @@
 			"ru": "Кембриджская церковь",
 			"en": "Cambridge church"
 		},
-		"icon": "unmarked",
+		"icon": "church",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 48.25394114463434,
 			"lng": 17.402343750000004
@@ -15789,7 +16030,8 @@
 			"ru": "Прачечная Чарльзтауна",
 			"en": "Charlestown laundry"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 41.57436130598913,
 			"lng": 45.46142578125001
@@ -15801,9 +16043,11 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D1%83%D0%B4%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%B7%D0%B0%D0%B2%D0%BE%D0%B4"
 		},
 		"titles": {
-			"ru": "Судостроительный завод"
+			"ru": "Судостроительный завод",
+			"en": "Navy Yard"
 		},
-		"icon": "unmarked",
+		"icon": "factory",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 41.09591205639546,
 			"lng": 44.6484375
@@ -15819,7 +16063,8 @@
 			"ru": "Наркопритон",
 			"en": "Drug den"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 47.69497434186282,
 			"lng": 47.96630859375001
@@ -15831,9 +16076,11 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9F%D0%BE%D0%B4%D1%8A%D1%91%D0%BC_%D1%80%D0%B5%D0%B9%D1%81%D0%B0_%C2%AB%D0%A1%D0%BA%D0%B0%D0%B9%D0%BB%D0%B5%D0%B9%D0%BD%D1%81%C2%BB"
 		},
 		"titles": {
-			"ru": "Подъём рейса «Скайлейнс»"
+			"ru": "Подъём рейса «Скайлейнс»",
+			"en": "Skylines flight salvage"
 		},
-		"icon": "unmarked",
+		"icon": "plane",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -59.977005492196,
 			"lng": 141.93065484933828
@@ -15849,7 +16096,8 @@
 			"ru": "Укрытие снайпера",
 			"en": "Sniper's hideout"
 		},
-		"icon": "unmarked",
+		"icon": "encampment",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -70.19039682154532,
 			"lng": -19.225846984925806
@@ -15861,9 +16109,11 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A5%D0%B8%D0%B6%D0%B8%D0%BD%D0%B0_%D1%81%D0%B0%D0%BC%D0%BE%D0%B3%D0%BE%D0%BD%D1%89%D0%B8%D0%BA%D0%B0_(Fallout_4)"
 		},
 		"titles": {
-			"ru": "Хижина самогонщика"
+			"ru": "Хижина самогонщика",
+			"en": "Moonshiner's Cabin"
 		},
-		"icon": "unmarked",
+		"icon": "encampment",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -55.55133184679767,
 			"lng": 4.062997851946505
@@ -15887,13 +16137,13 @@
 	},
 	"1236": {
 		"id": 1236,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A0%D0%B0%D0%B7%D0%B2%D0%B0%D0%BB%D0%B8%D0%BD%D1%8B_%D0%BA%D0%B8%D1%80%D0%BF%D0%B8%D1%87%D0%BD%D0%BE%D0%B3%D0%BE_%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%D0%B0"
-		},
+		"links": {},
 		"titles": {
-			"ru": "Развалины кирпичного склада"
+			"ru": "Развалины кирпичного склада",
+			"en": "Ruins of the brick warehouse"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 60.403870932413895,
 			"lng": -44.95948947366714
@@ -15902,12 +16152,15 @@
 	"1239": {
 		"id": 1239,
 		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A0%D0%B0%D1%81%D0%BA%D0%BE%D0%BB%D0%BE%D1%82%D0%B0%D1%8F_%D1%81%D1%82%D0%B0%D1%82%D1%83%D1%8F"
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A0%D0%B0%D1%81%D0%BA%D0%BE%D0%BB%D0%BE%D1%82%D0%B0%D1%8F_%D1%81%D1%82%D0%B0%D1%82%D1%83%D1%8F",
+			"en": "https://fallout.fandom.com/wiki/Splintered_statue"
 		},
 		"titles": {
-			"ru": "Расколотая статуя"
+			"ru": "Расколотая статуя",
+			"en": "Splintered statue"
 		},
-		"icon": "unmarked",
+		"icon": "square",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -64.87236817304004,
 			"lng": -30.145340965800322
@@ -15939,7 +16192,8 @@
 			"ru": "Автобус и разрушенный дом",
 			"en": "Bus and apartment wreckage"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -22.257523356520796,
 			"lng": 44.31243952349182
@@ -15955,7 +16209,8 @@
 			"ru": "Айвенс",
 			"en": "Sullivan's"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -27.86030710782232,
 			"lng": 70.97923310651531
@@ -15971,7 +16226,8 @@
 			"ru": "Баня на Эл-стрит",
 			"en": "L Street bathhouse"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -38.03093346696399,
 			"lng": 57.87631982659587
@@ -15987,7 +16243,8 @@
 			"ru": "Завод",
 			"en": "Factory"
 		},
-		"icon": "unmarked",
+		"icon": "factory",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -18.63131340984232,
 			"lng": 51.20029327398295
@@ -15999,9 +16256,11 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%BB%D0%B0%D0%B4%D0%B1%D0%B8%D1%89%D0%B5_%D0%B2_%D1%8E%D0%B6%D0%BD%D0%BE%D0%BC_%D0%91%D0%BE%D1%81%D1%82%D0%BE%D0%BD%D0%B5"
 		},
 		"titles": {
-			"ru": "Кладбище в южном Бостоне"
+			"ru": "Кладбище в южном Бостоне",
+			"en": "The South Boston Graveyard"
 		},
-		"icon": "unmarked",
+		"icon": "graveyard",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -32.526886113373344,
 			"lng": 64.15580877442123
@@ -16017,7 +16276,8 @@
 			"ru": "Круг сторонника Союза",
 			"en": "Union Man's Circle"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -33.07791614179954,
 			"lng": 47.24853551378478
@@ -16033,7 +16293,8 @@
 			"ru": "Монумент Дорчестер-Хайтс",
 			"en": "Dorchester Height monument"
 		},
-		"icon": "unmarked",
+		"icon": "square",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -32.61919185366828,
 			"lng": 54.07230310997472
@@ -16049,7 +16310,8 @@
 			"ru": "Церковь Южного Бостона",
 			"en": "South Boston Church"
 		},
-		"icon": "unmarked",
+		"icon": "church",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -32.53337003785424,
 			"lng": 62.82165603319885
@@ -16065,7 +16327,8 @@
 			"ru": "Парк Христофора Колумба",
 			"en": "Columbus Park"
 		},
-		"icon": "unmarked",
+		"icon": "square",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 23.505637264599045,
 			"lng": 59.13848838965059
@@ -16081,7 +16344,8 @@
 			"ru": "Сэндвичи Джо (Почтовая площадь)",
 			"en": "Joe's Spuckies"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 10.562281978822183,
 			"lng": 50.60897779104706
@@ -16097,7 +16361,8 @@
 			"ru": "Главный реактор «Масс фьюжн»",
 			"en": "Mass Fusion building"
 		},
-		"icon": "unmarked",
+		"icon": "radioactive-area",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 20.894549909436925,
 			"lng": 38.21674386867163
@@ -16113,7 +16378,8 @@
 			"ru": "Кабинет руководителя «Масс фьюжн»",
 			"en": "Mass Fusion executive suite"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 20.987845578131456,
 			"lng": 39.05548151567931
@@ -16129,7 +16395,8 @@
 			"ru": "35 Корт",
 			"en": "35 Court"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 12.823307101647133,
 			"lng": 53.800448498450315
@@ -16145,7 +16412,8 @@
 			"ru": "Бар «За ваше здоровье!»",
 			"en": "Prost bar"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 8.600544524451012,
 			"lng": 26.15146514898291
@@ -16161,7 +16429,8 @@
 			"ru": "Башня Джимбо",
 			"en": "Jimbo's Tower"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -2.680061417016784,
 			"lng": 25.75572849375235
@@ -16177,7 +16446,8 @@
 			"ru": "Театр Уоррена",
 			"en": "Warren Theater"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -5.110516722190733,
 			"lng": 28.248827514534188
@@ -16193,7 +16463,8 @@
 			"ru": "Устричный бар Шенли",
 			"en": "Shenley's Oyster Bar"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 6.334922517821805,
 			"lng": 19.699287813984125
@@ -16209,7 +16480,8 @@
 			"ru": "Дом Пола Ревира",
 			"en": "Paul Revere House"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 27.52081278625571,
 			"lng": 56.15821824412706
@@ -16225,7 +16497,8 @@
 			"ru": "Коттедж",
 			"en": "Wharfside cottage"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 34.22117312719984,
 			"lng": 55.640258386835896
@@ -16241,7 +16514,8 @@
 			"ru": "Пиццерия",
 			"en": "Pizza parlor"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 35.53068041410852,
 			"lng": 52.96354266589152
@@ -16257,7 +16531,8 @@
 			"ru": "Станция метро (Норт-Энд)",
 			"en": "Valenti station"
 		},
-		"icon": "unmarked",
+		"icon": "subway-station",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 25.472197305582228,
 			"lng": 53.86276273049591
@@ -16273,7 +16548,8 @@
 			"ru": "Статуя Пола Ревира",
 			"en": "Paul Revere Monument"
 		},
-		"icon": "unmarked",
+		"icon": "square",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 29.55769058962501,
 			"lng": 55.630532570786535
@@ -16289,7 +16565,8 @@
 			"ru": "Дом Марльборо",
 			"en": "Marlborough house"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 10.57814097534446,
 			"lng": 17.5455111567783
@@ -16305,7 +16582,8 @@
 			"ru": "Лагерь у моста",
 			"en": "Footbridge (Esplanade)"
 		},
-		"icon": "unmarked",
+		"icon": "bridge",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 12.40674797231431,
 			"lng": 12.627869210991813
@@ -16321,7 +16599,8 @@
 			"ru": "Пост рейдеров в переулке",
 			"en": "Barricade and rooftops"
 		},
-		"icon": "unmarked",
+		"icon": "encampment",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 9.113720576297878,
 			"lng": 8.605041302792966
@@ -16337,7 +16616,8 @@
 			"ru": "Бриджуэй Траст",
 			"en": "Bridgeway Trust"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 7.302971840764169,
 			"lng": 0.03227326063648839
@@ -16353,7 +16633,8 @@
 			"ru": "Бруклайн-билдинг",
 			"en": "Brookline building"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 1.1420348235848463,
 			"lng": -13.080024180142908
@@ -16369,7 +16650,8 @@
 			"ru": "Кафе «У Анны»",
 			"en": "Anna's Cafe"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 4.465279736985547,
 			"lng": -5.4889310082865075
@@ -16381,9 +16663,11 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9C%D0%B5%D1%81%D1%82%D0%BE_%D0%BE%D1%82%D0%B4%D1%8B%D1%85%D0%B0_%D0%BC%D1%83%D1%81%D0%BE%D1%80%D1%89%D0%B8%D0%BA%D0%B0_(%D0%A4%D0%B5%D0%BD%D1%81)"
 		},
 		"titles": {
-			"ru": "Место отдыха мусорщика (Фенс)"
+			"ru": "Место отдыха мусорщика (Фенс)",
+			"en": "Scavenger's rest (The Fens)"
 		},
-		"icon": "unmarked",
+		"icon": "encampment",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -9.894428648118037,
 			"lng": 5.668830891134697
@@ -16395,9 +16679,11 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9E%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0_%D0%BF%D0%BE%D1%81%D0%B5%D0%BB%D0%B5%D0%BD%D1%86%D0%B0_(%D0%A4%D0%B5%D0%BD%D1%81)"
 		},
 		"titles": {
-			"ru": "Остановка поселенца (Фенс)"
+			"ru": "Остановка поселенца (Фенс)",
+			"en": "Settler's stop"
 		},
-		"icon": "unmarked",
+		"icon": "encampment",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -2.4724111191192693,
 			"lng": -13.119850859794719
@@ -16413,7 +16699,8 @@
 			"ru": "Рейдерский лагерь в глухом переулке (Фенс)",
 			"en": "Raider back-alley camp"
 		},
-		"icon": "unmarked",
+		"icon": "encampment",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 5.190018687793159,
 			"lng": -0.6591796875000001
@@ -16429,7 +16716,8 @@
 			"ru": "Саут-Фенс-тауэр",
 			"en": "South Fens Tower"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -12.909145737256127,
 			"lng": -3.279650067327127
@@ -16445,7 +16733,8 @@
 			"ru": "Станция метро (Фенс)",
 			"en": "Fens Way station"
 		},
-		"icon": "unmarked",
+		"icon": "subway-station",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 2.7115429677249945,
 			"lng": -20.63484122063526
@@ -16461,7 +16750,8 @@
 			"ru": "Тоннель в Кувшин",
 			"en": "Flagon Tunnel"
 		},
-		"icon": "unmarked",
+		"icon": "bridge",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 3.5965082335157152,
 			"lng": -17.831497343217798
@@ -16477,7 +16767,8 @@
 			"ru": "Треугольник основателя",
 			"en": "Founder's Triangle"
 		},
-		"icon": "unmarked",
+		"icon": "square",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -5.003674681333187,
 			"lng": -15.021517294764749
@@ -16493,7 +16784,8 @@
 			"ru": "Тупик Эванс-Уэй",
 			"en": "Evans Way Cul-de-Sac"
 		},
-		"icon": "unmarked",
+		"icon": "square",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -16.766645450495243,
 			"lng": -4.223555161039927
@@ -16525,7 +16817,8 @@
 			"ru": "Бюро Робоконтроля",
 			"en": "Synth Retention Bureau"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 30.19481771239969,
 			"lng": -10.292358174978277
@@ -16541,7 +16834,8 @@
 			"ru": "Олд-роботикс",
 			"en": "Old Robotics"
 		},
-		"icon": "unmarked",
+		"icon": "dungeon",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 32.513044490605076,
 			"lng": -6.056672204009422
@@ -16550,12 +16844,15 @@
 	"1280": {
 		"id": 1280,
 		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%98%D0%BD%D1%81%D1%82%D0%B8%D1%82%D1%83%D1%82_%E2%80%94_%D0%BE%D1%82%D0%B4%D0%B5%D0%BB_%D0%B1%D0%B8%D0%BE%D0%BD%D0%B0%D1%83%D0%BA"
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%98%D0%BD%D1%81%D1%82%D0%B8%D1%82%D1%83%D1%82_%E2%80%94_%D0%BE%D1%82%D0%B4%D0%B5%D0%BB_%D0%B1%D0%B8%D0%BE%D0%BD%D0%B0%D1%83%D0%BA",
+			"en": "https://fallout.fandom.com/wiki/Institute_BioScience"
 		},
 		"titles": {
-			"ru": "Институт — отдел бионаук"
+			"ru": "Институт — отдел бионаук",
+			"en": "Institute BioScience"
 		},
-		"icon": "unmarked",
+		"icon": "dungeon",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 32.52660845357461,
 			"lng": -7.651119244747321
@@ -16571,7 +16868,8 @@
 			"ru": "Лаборатория ВРЭ",
 			"en": "The Institute (location)"
 		},
-		"icon": "unmarked",
+		"icon": "dungeon",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 33.81073681121372,
 			"lng": -7.716350685305586
@@ -16580,12 +16878,15 @@
 	"1282": {
 		"id": 1282,
 		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%98%D0%BD%D1%81%D1%82%D0%B8%D1%82%D1%83%D1%82_%E2%80%94_%D0%BE%D1%82%D0%B4%D0%B5%D0%BB_%D0%B2%D1%8B%D1%81%D1%88%D0%B8%D1%85_%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC"
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%98%D0%BD%D1%81%D1%82%D0%B8%D1%82%D1%83%D1%82_%E2%80%94_%D0%BE%D1%82%D0%B4%D0%B5%D0%BB_%D0%B2%D1%8B%D1%81%D1%88%D0%B8%D1%85_%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC",
+			"en": "https://fallout.fandom.com/wiki/Institute_Advanced_Systems"
 		},
 		"titles": {
-			"ru": "Институт — отдел высших систем"
+			"ru": "Институт — отдел высших систем",
+			"en": "Institute Advanced Systems"
 		},
-		"icon": "unmarked",
+		"icon": "dungeon",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 32.57713106598278,
 			"lng": -10.284861966645588
@@ -16601,7 +16902,8 @@
 			"ru": "Реактор Института",
 			"en": "Institute reactor"
 		},
-		"icon": "unmarked",
+		"icon": "dungeon",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 33.8279206267038,
 			"lng": -11.477907690118018
@@ -16617,7 +16919,8 @@
 			"ru": "Институт — отдел роботехники",
 			"en": "Institute Robotics"
 		},
-		"icon": "unmarked",
+		"icon": "dungeon",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 30.195182552560397,
 			"lng": -7.597617066735219
@@ -16626,12 +16929,15 @@
 	"1285": {
 		"id": 1285,
 		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9F%D0%BE%D0%B4%D1%83%D1%80%D0%BE%D0%B2%D0%B5%D0%BD%D1%8C_%D0%98%D0%BD%D1%81%D1%82%D0%B8%D1%82%D1%83%D1%82%D0%B0_21-D"
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9F%D0%BE%D0%B4%D1%83%D1%80%D0%BE%D0%B2%D0%B5%D0%BD%D1%8C_%D0%98%D0%BD%D1%81%D1%82%D0%B8%D1%82%D1%83%D1%82%D0%B0_21-D",
+			"en": "https://fallout.fandom.com/wiki/Institute_sublevel_21-D"
 		},
 		"titles": {
-			"ru": "Подуровень Института 21-D"
+			"ru": "Подуровень Института 21-D",
+			"en": "Institute sublevel 21-D"
 		},
-		"icon": "unmarked",
+		"icon": "dungeon",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 30.157395310185567,
 			"lng": -8.924903989738237
@@ -16643,9 +16949,11 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_%D1%80%D1%83%D0%B1%D0%BA%D0%B0"
 		},
 		"titles": {
-			"ru": "Капитанская рубка"
+			"ru": "Капитанская рубка",
+			"en": "Captain's Cabin"
 		},
-		"icon": "unmarked",
+		"icon": "ship",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 45.34530518746865,
 			"lng": 124.70443829494477
@@ -16661,7 +16969,8 @@
 			"ru": "Кредитный союз университета",
 			"en": "University Credit Union"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -43.002474790742205,
 			"lng": 41.84331821436312
@@ -16677,7 +16986,8 @@
 			"ru": "Седжвик-холл",
 			"en": "Sedgwick Hall"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -42.78291846823408,
 			"lng": 47.23520327952031

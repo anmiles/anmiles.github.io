@@ -9,6 +9,11 @@ html, body, #map {
 	height: 100%;
 }
 
+body, table, input, select, button, textarea, .leaflet-container, .icon-with-text span {
+	font-family: "Segoe UI", "Roboto", "Helvetica", sans-serif;
+	font-size: 14px;
+}
+
 @font-face {
 	font-family: "Font Awesome 6 Free";
 	font-style: normal;
@@ -48,7 +53,7 @@ input[type="checkbox"]:checked {
 .container,
 .leaflet-touch .leaflet-bar {
 	border: 2px solid #333333;
-	background-color: #aaaaaa;
+	background-color: #bbbbbb;
 }
 
 .leaflet-bar a,
@@ -63,18 +68,22 @@ input[type="checkbox"]:checked {
 }
 
 .container {
-	font: 12px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
 	border-radius: 4px;
 }
 
 .control {
-	padding: 0 8px;
+	padding: 4px 8px;
+	height: 36px;
 	background-color: #cccccc;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
 }
 
 .control.clickable {
 	cursor: pointer;
-	background-color: #aaaaaa;
+	background-color: #bbbbbb;
 }
 
 .control.clickable:hover,
@@ -82,14 +91,23 @@ input[type="checkbox"]:checked {
 	background-color: #cccccc;
 }
 
+.control.clickable.active,
+.control.clickable.active:after {
+	background: #e5e5e5;
+}
+
+.control.clickable.active:after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 14px;
+	top: calc(100% - 2px);
+	z-index: 7;
+}
 .control > * {
-	display: block;
 	color: #000000 !important;
 	text-decoration: none;
-	line-height: 30px;
-	text-align: center;
-	position: relative;
-	top: 1px;
+	line-height: 1;
 }
 
 .control input[type="checkbox"] {
@@ -172,6 +190,18 @@ input[type="checkbox"]:checked {
 	display: block;
 }
 
+.leaflet-popup-content .button.mark {
+	display: none;
+}
+
+.leaflet-popup-content .unmarked .button.mark {
+	display: block;
+}
+
+.leaflet-popup-content .unmarked .button.unmark {
+	display: none;
+}
+
 .leaflet-popup-content .button.clone {
 	background: lightblue;
 }
@@ -181,53 +211,42 @@ input[type="checkbox"]:checked {
 	color: yellow;
 }
 
-.icon.visible {
-	display: block;
+.icon {
+	font-size: 20px;
+	line-height: 32px;
+	width: 32px;
+	height: 32px;
+	border-style: none;
+	border-radius: 50%;
+	position: relative;
+}
+
+.icon.fa-solid {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.icon-marker.fa-solid {
+	left: -16px;
+	top: -16px;
+	display: none;
+}
+
+.icon.visible.fa-solid {
+	display: flex;
 }
 
 .icon.visited {
 	opacity: 0.4;
 }
 
-.icon-marker {
-	position: relative;
-	width: 0;
-	height: 0;
-	display: none;
-}
-
-.fa-solid:before {
-	font-size: 16px;
-	line-height: 24px;
-}
-
-.icon-marker:before {
-	position: absolute;
-	left: -16px;
-	bottom: 0;
-	width: 32px;
-	height: 42px;
-	content: '';
-	text-align: center;
-	line-height: 36px;
-	background: url(../images/markers.png) no-repeat;
-}
-
-.icon-bobblehead:before {
-	background-position: center -42px;
-}
-
-.icon-unique:before,
-.icon-pickup:before {
-	background-position: center -84px;
-}
-
-.icon-location:before {
-	background-position: center -126px;
-}
-
-.icon-unmarked:before {
-	background-position: center -168px;
+.icon-with-text {
+	width: auto;
+	gap: 8px;
+	border-radius: 8px;
+	padding: 0 8px;
+	cursor: pointer;
 }
 
 .panel {
@@ -236,16 +255,22 @@ input[type="checkbox"]:checked {
 	left: 10px;
 	max-height: calc(100vh - 64px);
 	overflow-y: auto;
-	z-index: 1000;
+	z-index: 999;
 }
 
 .panel .section,
 .panel .sections {
-	border-top: 1px solid #606060;
+	border-bottom: 1px solid #606060;
 }
 
 .panel .section {
 	padding: 8px;
+	gap: 8px;
+}
+
+.panel .section:empty {
+	padding: 6px;
+	background: #e5e5e5;
 }
 
 .panel .sections {
@@ -257,8 +282,8 @@ input[type="checkbox"]:checked {
 	display: none;
 }
 
-.panel .section:first-child {
-	border-top: none;
+.panel .section:last-child {
+	border-bottom: none;
 }
 
 .panel p {
@@ -272,8 +297,17 @@ input[type="checkbox"]:checked {
 }
 
 .panel span.count {
-	text-decoration: underline;
+	background: #c5c5c5;
+	border: 1px solid #808080;
+	border-radius: 4px;
+	padding: 0 0.4em;
+	min-width: 21px;
+	text-align: center;
 	cursor: pointer;
+}
+
+.panel span.count:hover {
+	background: #dddddd;
 }
 
 .search {
@@ -304,7 +338,6 @@ input[type="checkbox"]:checked {
 	width: 100%;
 	height: 100%;
 	padding: 0 8px;
-	font-size: 14px;
 	outline: none;
 	border: none;
 }
@@ -315,72 +348,45 @@ input[type="checkbox"]:checked {
 
 .search h3 {
 	margin: 0;
-	line-height: 32px;
+	font-size: 1em;
+	line-height: 2em;
 	padding-left: 0.5em;
 	font-weight: inherit;
 }
 
-.search .icon {
-	width: 32px;
-	height: 32px;
-	border-radius: 50%;
-	position: relative;
-}
-
-.search .icon:before {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
-
-.search .icon-unmarked:before {
-	margin-top: -2px;
-}
-
-.search .icon-collectible {
+.icon-collectible {
 	background: #587799;
+	border-color: #587799;
 }
 
-.search .icon-bobblehead {
+.icon-bobblehead {
 	background: #f0d100;
+	border-color: #f0d100;
 }
 
-.search .icon-pickup {
+.icon-pickup {
 	background: #d45243;
+	border-color: #d45243;
 }
 
-.search .icon-location {
+.icon-location {
 	background: #21bc23;
+	border-color: #21bc23;
 }
 
-.search .icon-unmarked {
+.icon.unmarked {
 	background: #78297f;
+	border-color: #78297f;
 }
 
 .search .input .icon {
 	position: absolute;
 	right: 8px;
 	top: 8px;
-	width: auto;
-	flex-direction: row-reverse;
-	gap: 8px;
-	border-radius: 4px;
-	padding: 0 8px;
 }
 
 .search .input .icon i:empty {
 	display: none;
-}
-
-.search .input .icon:before {
-	position: static;
-	transform: none;
-	margin-right: 8px;
-}
-
-.search .input .icon.filter {
-	background: #a0a0a0;
 }
 
 .search .input .icon.icon-all {
@@ -399,29 +405,25 @@ input[type="checkbox"]:checked {
 	display: none;
 }
 
-.filter .type:last-child ul {
-	display: none;
-}
-
 .filter li {
 	white-space: nowrap;
 	justify-content: flex-start;
-}
-
-.filter .icon {
-	width: 16px;
-	margin-right: 8px;
-	text-align: center;
-}
-
-.filter .icon:before {
-	font-size: 16px;
+	padding: 2px 0;
 }
 
 .filter label {
-	cursor: pointer;
-	position: relative;
-	top: 1px;
+	gap: 4px;
+}
+
+.filter .icon {
+	width: auto;
+	height: auto;
+	text-align: center;
+	background: none;
+}
+
+.filter .icon:before {
+	width: 26px;
 }
 
 .filter input[type="checkbox"]:checked {
@@ -462,4 +464,20 @@ input[type="checkbox"]:checked {
 
 .control.clickable.underConstruction.hidden {
 	opacity: 0;
+}
+
+.addForm {
+	width: 100%;
+	max-width: 480px;
+}
+
+.addForm form {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.addForm label {
+	display: flex;
+	align-items: center;
 }

@@ -25,7 +25,8 @@
 			"ru": "Технические тоннели «Ядер-Мира»",
 			"en": "Nuka-World access tunnels"
 		},
-		"icon": "unmarked",
+		"icon": "dungeon",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -73.2914099381465,
 			"lng": 23.54004371045176
@@ -313,7 +314,8 @@
 			"ru": "Арьерсцена «Ядер-Тауна»",
 			"en": "Nuka-Town backstage"
 		},
-		"icon": "unmarked",
+		"icon": "encampment",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -58.54603312002475,
 			"lng": 10.705033214537307
@@ -377,7 +379,8 @@
 			"ru": "Кафе Мистера Крышки",
 			"en": "Cappy's Cafe"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -55.68615753206006,
 			"lng": 21.24916210177041
@@ -409,7 +412,7 @@
 			"ru": "Салон",
 			"en": "The Parlor"
 		},
-		"icon": "building",
+		"icon": "encampment",
 		"coordinates": {
 			"lat": -51.163662703571646,
 			"lng": 25.15594475718098
@@ -427,8 +430,8 @@
 		},
 		"icon": "holotape",
 		"coordinates": {
-			"lat": -49.8090450921047,
-			"lng": 23.67073060757975
+			"lat": -48.6909603909255,
+			"lng": 22.236328125000004
 		}
 	},
 	"28": {
@@ -443,8 +446,8 @@
 		},
 		"icon": "holotape",
 		"coordinates": {
-			"lat": -49.83480552943136,
-			"lng": 25.1085673400245
+			"lat": -48.6909603909255,
+			"lng": 25.048828125000004
 		}
 	},
 	"29": {
@@ -459,8 +462,8 @@
 		},
 		"icon": "holotape",
 		"coordinates": {
-			"lat": -49.83480552943136,
-			"lng": 26.586342491975692
+			"lat": -48.63290858589534,
+			"lng": 27.773437500000004
 		}
 	},
 	"31": {
@@ -473,7 +476,8 @@
 			"ru": "Кабинет Брэдбертона",
 			"en": "Bradberton's office"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -52.889518365504756,
 			"lng": 24.56131105465179
@@ -667,8 +671,8 @@
 		},
 		"icon": "magazine",
 		"coordinates": {
-			"lat": -37.17464449400773,
-			"lng": -31.39274649122238
+			"lat": -37.30027528134431,
+			"lng": -31.816406250000004
 		}
 	}
 }

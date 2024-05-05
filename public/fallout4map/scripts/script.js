@@ -87,6 +87,11 @@ Array.prototype.unique = function() {
 	};
 })(Array.prototype.sort);
 
+function error(msg) {
+	alert(msg);
+	throw new Error(msg);
+}
+
 const dlcs = {
 	'': {
 		key: '',
@@ -135,6 +140,8 @@ const langs = {
 		filter: 'Фильтр',
 		visited: 'Посещённые',
 		unvisited: 'Непосещённые',
+		visitedCount: 'Посещено',
+		unmarked: 'Неотмечаемые',
 		underConstruction: 'Карта находится в разработке ({0}% готово)'
 	},
 	en: {
@@ -152,6 +159,8 @@ const langs = {
 		filter: 'Filter',
 		visited: 'Visited',
 		unvisited: 'Unvisited',
+		visitedCount: 'Visited',
+		unmarked: 'Unmarked',
 		underConstruction: 'The map is under construction ({0}% finished)'
 	},
 };
@@ -186,55 +195,101 @@ let hasHidden = false;
 const model = {
 	showVisited: ko.observable(true),
 	showUnvisited: ko.observable(true),
+	showUnmarked: ko.observable(true),
 };
 
 model.showVisited.subscribe(() => searchPanel.search());
 model.showUnvisited.subscribe(() => searchPanel.search());
+model.showUnmarked.subscribe(() => searchPanel.search());
 
 const hidden = JSON.parse(localStorage[game.key + '-hidden'] || '{ "types": [], "icons": [] }');
 
-const types = [
+class Lookup extends Map {
+	constructor(name) {
+		super();
+		this.name = name;
+	}
+
+	find(key) {
+		if (this.has(key)) {
+			return this.get(key);
+		} else {
+			error(`Cannot find ${key} in ${this.name}`);
+		}
+	}
+}
+
+class Types extends Lookup {
+	constructor(data) {
+		super('types');
+
+		data.forEach(type => {
+			type.icons = [];
+			type.points = ko.observableArray([]);
+			type.title = type.titles[lang.key];
+			type.toggle = toggleType;
+			type.enabled = ko.observable(hidden.types.indexOf(type.name) === -1);
+			type.count = ko.computed(() => type.points().filter(point => point.checked()).length);
+			type.search = () => {
+				searchPanel.visible(true);
+				searchPanel.text('');
+				searchPanel.type(type);
+				searchPanel.search();
+			};
+
+			this.set(type.name, type);
+		});
+	}
+}
+
+class Icons extends Lookup {
+	constructor(data) {
+		super('icons');
+
+		data
+			.map(icon => {
+				icon.points = ko.observableArray([]);
+				icon.title = icon.titles[lang.key];
+				icon.all = icon.all || false;
+				icon.className = types.find(icon.type).className + ' ' + 'icon-' + icon.name + ' fa-solid ' + icon.className;
+				icon.toggle = toggleIcon;
+				icon.enabled = ko.observable(hidden.icons.indexOf(icon.name) === -1);
+				icon.count = ko.computed(() => icon.points().filter(point => point.checked()).length);
+				icon.search = function(){
+					searchPanel.visible(true);
+					searchPanel.text('');
+					searchPanel.icon(icon);
+					searchPanel.search();
+				};
+				return icon;
+			})
+			.sort({ title: true, ignoreCase: true })
+			.forEach(icon => {
+				this.set(icon.name, icon);
+				types.find(icon.type).icons.push(icon);
+			});
+	}
+}
+
+const types = new Types([
 	{ name: "all", className: "icon-all", titles: { en: "All", ru: "Все" }},
 	{ name: "collectible", className: "icon-collectible", titles: { en: "Collectibles", ru: "Коллекции" }},
 	{ name: "pickup", className: "icon-pickup", titles: { en: "Pickups", ru: "Предметы" }},
 	{ name: "location", className: "icon-location", titles: { en: "Locations", ru: "Локации" }},
-	{ name: "unmarked", className: "icon-unmarked", titles: { en: "Unmarked locations", ru: "Неотмечаемые локации" }},
-].map(type => {
-	type.icons = [];
-	type.points = ko.observableArray([]);
-	type.title = type.titles[lang.key];
-	type.toggle = toggleType;
-	type.typeClassName = type.className;
-	type.fontClassName = null;
-	type.enabled = ko.observable(hidden.types.indexOf(type.name) === -1);
-	type.count = ko.computed(() => type.points().filter(point => point.checked()).length);
-	type.search = () => {
-		searchPanel.visible(true);
-		searchPanel.text('');
-		searchPanel.type(type);
-		searchPanel.search();
-	};
-	return type;
-});
+]);
 
-const typesObject = types.reduce((obj, type) => {
-	obj[type.name] = type;
-	return obj;
-}, {});
-
-const icons = [
+const icons = new Icons([
 	{ name: "attraction", className: "fa-ticket", type: "location", titles: { en: "Attraction", ru: "Аттракцион" } },
 	{ name: "bobblehead", className: "fa-face-smile", type: "collectible", titles: { en: "Bobblehead", ru: "Пупс" } },
 	{ name: "bridge", className: "fa-bridge", type: "location", titles: { en: "Bridge", ru: "Мост" } },
 	{ name: "building", className: "fa-building", type: "location", titles: { en: "Building", ru: "Здание" } },
 	{ name: "bunker", className: "fa-door-closed", type: "location", titles: { en: "Bunker", ru: "Бункер" } },
-	{ name: "cafe", className: "fa-utensils", type: "location", titles: { en: "Cafe", ru: "Кафе" } },
 	{ name: "camper", className: "fa-caravan", type: "location", titles: { en: "Camper", ru: "Трейлерный парк" } },
-	{ name: "cave", className: "fa-igloo", type: "location", titles: { en: "Cave", ru: "Пещера" } },
 	{ name: "church", className: "fa-church", type: "location", titles: { en: "Church", ru: "Церковь" } },
 	{ name: "city", className: "fa-city", type: "location", titles: { en: "City", ru: "Город" } },
+	{ name: "dungeon", className: "fa-igloo", type: "location", titles: { en: "Dungeon", ru: "Подземелье" } },
 	{ name: "encampment", className: "fa-campground", type: "location", titles: { en: "Encampment", ru: "Лагерь" } },
-	{ name: "factory", className: "fa-industry", type: "location", titles: { en: "Factory", ru: "Фабрика" } },
+	{ name: "factory", className: "fa-industry", type: "location", titles: { en: "Factory", ru: "Завод" } },
 	{ name: "farm", className: "fa-tractor", type: "location", titles: { en: "Farm", ru: "Ферма" } },
 	{ name: "filling-station", className: "fa-gas-pump", type: "location", titles: { en: "Filling station", ru: "Заправочная станция" } },
 	{ name: "forest", className: "fa-tree", type: "location", titles: { en: "Forest", ru: "Лес" } },
@@ -243,53 +298,34 @@ const icons = [
 	{ name: "holotape", className: "fa-camera-retro", type: "collectible", titles: { en: "Holotape", ru: "Голодиск" } },
 	{ name: "hospital", className: "fa-bed-pulse", type: "location", titles: { en: "Hospital", ru: "Больница" } },
 	{ name: "junkyard", className: "fa-trash", type: "location", titles: { en: "Junkyard", ru: "Свалка" } },
-	{ name: "magazine", className: "fa-book", type: "collectible", titles: { en: "Magazine", ru: "Журнал" } },
+	{ name: "magazine", className: "fa-book-open-reader", type: "collectible", titles: { en: "Magazine", ru: "Журнал" } },
 	{ name: "military-base", className: "fa-star", type: "location", titles: { en: "Military base", ru: "Военная база" } },
 	{ name: "mini-nuke", className: "fa-bomb", type: "pickup", titles: { en: "Mini nuke", ru: "Ядерный минизаряд" } },
-	{ name: "pier", className: "fa-pallet", type: "location", titles: { en: "Pier", ru: "Пирс" } },
+	{ name: "parking", className: "fa-warehouse", type: "location", titles: { en: "Parking", ru: "Парковка" } },
+	{ name: "pier", className: "fa-water-ladder", type: "location", titles: { en: "Pier", ru: "Пирс" } },
 	{ name: "plane", className: "fa-plane", type: "location", titles: { en: "Plane", ru: "Самолёт" } },
 	{ name: "police-station", className: "fa-person-military-pointing", type: "location", titles: { en: "Police station", ru: "Полицейский участок" } },
 	{ name: "power-armor", className: "fa-shield-halved", type: "pickup", titles: { en: "Power armor", ru: "Силовая броня" } },
 	{ name: "quarry", className: "fa-hill-rockslide", type: "location", titles: { en: "Quarry", ru: "Карьер" } },
-	{ name: "radiation", className: "fa-radiation", type: "location", titles: { en: "Radiation", ru: "Радиация" } },
+	{ name: "radioactive-area", className: "fa-radiation", type: "location", titles: { en: "Radioactive area", ru: "Радиоактивная зона" } },
 	{ name: "radio-tower", className: "fa-tower-cell", type: "location", titles: { en: "Radio tower", ru: "Радиовышка" } },
 	{ name: "satellite", className: "fa-satellite-dish", type: "location", titles: { en: "Satellite", ru: "Спутниковая антенна" } },
 	{ name: "school", className: "fa-graduation-cap", type: "location", titles: { en: "School", ru: "Школа" } },
 	{ name: "settlement", className: "fa-house", type: "location", titles: { en: "Settlement", ru: "Поселение" } },
 	{ name: "ship", className: "fa-anchor", type: "location", titles: { en: "Ship", ru: "Корабль" } },
+	{ name: "square", className: "fa-vector-square", type: "location", titles: { en: "Square", ru: "Площадь" } },
+	{ name: "stash", className: "fa-box", type: "location", titles: { en: "Stash", ru: "Тайник" } },
 	{ name: "store", className: "fa-store", type: "location", titles: { en: "Store", ru: "Магазин" } },
 	{ name: "subway-station", className: "fa-train-subway", type: "location", titles: { en: "Subway station", ru: "Станция метро" } },
 	{ name: "train-station", className: "fa-train", type: "location", titles: { en: "Train station", ru: "Ж/д станция" } },
-	{ name: "unmarked", className: "fa-map-location", type: "unmarked", titles: { en: "Unmarked location", ru: "Неотмечаемая локация" } },
 	{ name: "vault", className: "fa-gear", type: "location", titles: { en: "Vault", ru: "Убежище" } },
 	{ name: "water", className: "fa-water", type: "location", titles: { en: "Water", ru: "Водоём" } },
 	{ name: "weapon", className: "fa-gun", type: "pickup", titles: { en: "Weapon", ru: "Оружие" } },
-].map((icon) => {
-	icon.points = ko.observableArray([]);
-	icon.title = icon.titles[lang.key];
-	icon.all = icon.all || false;
-	icon.typeClassName = typesObject[icon.type].className;
-	icon.fontClassName = 'fa-solid ' + icon.className;
-	icon.className = icon.typeClassName + ' ' + icon.fontClassName;
-	icon.toggle = toggleIcon;
-	icon.enabled = ko.observable(hidden.icons.indexOf(icon.name) === -1);
-	icon.count = ko.computed(() => icon.points().filter(point => point.checked()).length);
-	icon.search = function(){
-		searchPanel.visible(true);
-		searchPanel.text('');
-		searchPanel.icon(icon);
-		searchPanel.search();
-	};
-	typesObject[icon.type].icons.push(icon);
-	return icon;
-}).sort({ title: true, ignoreCase: true });
-
-const iconsObject = icons.reduce((obj, icon) => {
-	obj[icon.name] = icon;
-	return obj;
-}, {});
+]);
 
 types.forEach(type => type.icons = type.icons.sort({ title: true, ignoreCase: true }));
+
+ko.applyBindings({ types: Array.from(types.values()) }, document.querySelector('.addForm'));
 
 function toggleType(type, ev, save) {
 	if (type.name === 'all') {
@@ -329,7 +365,7 @@ progress.update = () => {
 
 progress.text = ko.computed(() => {
 	const value = Math.floor(100 * progress.visited() / progress.total());
-	return isNaN(value) ? '...' : value + '%';
+	return `${lang.visitedCount}: ${isNaN(value) ? '...' : value + '%'}`;
 });
 
 const map = L.map('map', {
@@ -396,17 +432,18 @@ $.getJSON(`data/${game.key}/data.json`, data => {
 	progress.update();
 	onMapReady();
 	bindPanels();
-	$('.search').css({ 'min-width': $('.filter').width() });
+	$('.search').css({ 'min-width': $('.filter').outerWidth() });
 	if (hasHidden) filterPanel.visible(true);
 });
 
 function showPoint(point, isNew) {
 	point.visited = ko.observable(false);
-	point.enabled = ko.observable(iconsObject[point.icon].enabled());
-	point.checked = ko.computed(() => point.visited() ? model.showVisited() : model.showUnvisited());
+	point.enabled = ko.observable(icons.find(point.icon).enabled());
+	point.checked = ko.computed(() => (point.visited() ? model.showVisited() : model.showUnvisited()) && (!point.unmarked || model.showUnmarked()));
 	point.visible = ko.computed(() => point.enabled() && point.checked());
 
 	if (!point.visible()) hasHidden = true;
+	point.unmarked ||= false;
 
 	point.navigate = function(){
 		searchPanel.visible(false);
@@ -428,9 +465,9 @@ function showPoint(point, isNew) {
 		if (!confirm(lang.delete + ' "' + point.title() + '"?')) return;
 		map.removeLayer(markers[point.id]);
 		delete points[point.id];
-		iconsObject[point.icon].points.splice(point, 1);
-		typesObject[iconsObject[point.icon].type].points.splice(point, 1);
-		types[0].points.splice(point, 1);
+		icons.find(point.icon).points.splice(point, 1);
+		types.find(icons.find(point.icon).type).points.splice(point, 1);
+		types.find('all').points.splice(point, 1);
 		delete mappings[json.titles.en];
 		saveAll();
 	};
@@ -450,18 +487,23 @@ function showPoint(point, isNew) {
 	point.title = ko.observable(point.titles[lang.key]);
 	point.link = ko.observable(point.links[lang.key]);
 
-	point.className = ko.observable(iconsObject[point.icon].className);
-	point.searchTitle = ko.observable(iconsObject[point.icon].title);
+	point.className = icons.find(point.icon).className;
 
-	if (!point.title()) {
+	if (point.unmarked) {
+		point.className += " unmarked";
+	}
+
+	point.searchTitle = ko.observable(icons.find(point.icon).title);
+
+	if (!checkPoint(point)) {
 		delete points[point.id];
 		markersCount++;
 		return;
 	}
 
-	iconsObject[point.icon].points.push(point);
-	typesObject[iconsObject[point.icon].type].points.push(point);
-	types[0].points.push(point);
+	icons.find(point.icon).points.push(point);
+	types.find(icons.find(point.icon).type).points.push(point);
+	types.find('all').points.push(point);
 
 	markers[point.id] = L.marker(point.coordinates, {
 		title: point.title(),
@@ -470,7 +512,7 @@ function showPoint(point, isNew) {
 			iconSize: [0, 0]
 		}),
 		draggable: editable,
-		pane: iconsObject[point.icon].type
+		pane: icons.find(point.icon).type
 	}).on('add', (ev) => {
 		ko.applyBindings(point, ev.target._icon);
 		markersCount++;
@@ -489,6 +531,22 @@ function showPoint(point, isNew) {
 	markers[point.id]
 		.bindPopup($('#popup-template').html())
 		._popup.on('contentupdate', (ev) => ko.applyBindings(point, ev.target._contentNode));
+}
+
+function checkPoint(point) {
+	if (!point.titles) {
+		error(`Cannot get point.titles`);
+		return false;
+	}
+
+	for (const lang of Object.keys(langs)) {
+		if (!point.titles[lang]) {
+			error(`Unknown title[${lang}] for point #${point.id}`);
+			return false;
+		}
+	}
+
+	return true;
 }
 
 function backup(){
@@ -535,8 +593,8 @@ function saveAll(){
 	localStorage[game.key] = backup();
 	localStorage[game.key + '-mappings'] = JSON.stringify(mappings, null, '	');
 	localStorage[game.key + '-hidden'] = JSON.stringify({
-		types: types.filter(type => !type.enabled()).map(type => type.name),
-		icons: icons.filter(icon => !icon.enabled()).map(icon => icon.name)
+		types: Array.from(types.values()).filter(type => !type.enabled()).map(type => type.name),
+		icons: Array.from(icons.values()).filter(icon => !icon.enabled()).map(icon => icon.name)
 	}, null, '	');
 	progress.update();
 }
@@ -562,23 +620,23 @@ function save(){
 	$('<a></a>').attr('download', game.key + '.json').attr('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text)).get(0).click();
 }
 
-function addPoint(json){
+async function addPoint(json){
 	const ids = Object.keys(points);
 	const id = ids.length === 0 ? 1 : parseInt(ids[ids.length - 1]) + 1;
 
-	if (!json) json = JSON.parse(prompt('JSON'));
+	if (!json) json = await inputJSON();
 	if (!json) return;
 
 	mappings = JSON.parse(localStorage[game.key + '-mappings'] || '{}');
-	const recentIcon = localStorage[game.key + '-recentIcon'] || 'unmarked';
+	const recentIcon = localStorage[game.key + '-recentIcon'] || '';
 	let icon = json.icon || mappings[json.titles.en];
 
 	if (!icon) {
 		icon = recentIcon;
 
 		do {
-			icon = prompt('Icon (one of {0})'.format(icons.map(icon => icon.name).join(', ')), icon);
-		} while (!iconsObject[icon]);
+			icon = prompt('Icon (one of {0})'.format(icons.values().map(icon => icon.name).join(', ')), icon);
+		} while (!icons.has(icon));
 
 		localStorage[game.key + '-recentIcon'] = icon;
 		mappings[json.titles.en] = icon;
@@ -591,10 +649,52 @@ function addPoint(json){
 		icon: icon
 	};
 
+	if (json.unmarked) {
+		point.unmarked = true;
+	}
+
 	points[id] = point;
 
 	showPoint(points[id], true);
 	saveAll();
+}
+
+async function inputJSON() {
+	return new Promise((resolve) => {
+		const dialog = $('.addForm');
+
+		dialog.find('form').on('submit', (ev) => {
+			ev.stopPropagation();
+			ev.preventDefault();
+			const data = ev.originalEvent.target.elements;
+
+			if (!data.icon.value) {
+				alert(`Please select icon`);
+				return;
+			}
+
+			let json;
+
+			try {
+				json = JSON.parse(data.json.value);
+			} catch (ex) {
+				error(`Invalid JSON: ${ex}`);
+				return;
+			}
+
+			if (!checkPoint(json)) {
+				return;
+			}
+
+			json.icon = data.icon.value;
+			if (data.unmarked.checked) json.unmarked = true;
+
+			dialog.get(0).close();
+			resolve(json);
+		});
+
+		dialog.get(0).showModal();
+	});
 }
 
 function copyPoints(){
@@ -651,6 +751,19 @@ L.Bound = extendControl('bound-template', 'bottomleft');
 L.Button = extendControl('button-template', 'topright');
 L.CheckButton = extendControl('checkButton-template', 'topleft');
 
+L.PanelButton = L.Button.extend({
+	onAdd: function(){
+		const panel = this.options.panel;
+		panel.button = this;
+
+		this.options.click = function() {
+			panel.visible(!panel.visible());
+		};
+
+		return L.Button.prototype.onAdd.call(this);
+	}
+})
+
 const panels = [];
 
 function createPanel(panel, selector) {
@@ -663,6 +776,10 @@ function createPanel(panel, selector) {
 				if (otherPanel.selector === panel.selector) return;
 				otherPanel.visible(false);
 			});
+		}
+
+		if (panel.button) {
+			$(panel.button._container).toggleClass('active', value);
 		}
 	});
 
@@ -717,7 +834,7 @@ const searchPanel = createPanel({
 					if (point.checked() && point.titles[i]
 						&& (!searchPanel.text() || cleanup(point.titles[i]).indexOf(cleanup(searchPanel.text())) !== -1)
 						&& (!searchPanel.icon() || point.icon === searchPanel.icon().name)
-						&& (!searchPanel.type() || searchPanel.type().name === 'all' || iconsObject[point.icon].type === searchPanel.type().name)
+						&& (!searchPanel.type() || searchPanel.type().name === 'all' || icons.find(point.icon).type === searchPanel.type().name)
 					) return true;
 				}
 			}).sort({ title: true, ignoreCase: true }));
@@ -737,7 +854,7 @@ searchPanel.visible.subscribe((value) => {
 	}
 });
 
-const filterPanel = createPanel({ types: Object.values(types) }, '.filter');
+const filterPanel = createPanel({ types: Array.from(types.values()) }, '.filter');
 
 map.addControl(new L.Button({ text: `${lang.game}: ${game.title}`, click: () => {
 	replaceQueryString('dlc', dlc, dlcs);
@@ -765,17 +882,15 @@ if (editable) {
 	}}));
 }
 
-map.addControl(new L.Button({text: lang.search, position: 'topleft', hotkey: 'F3', click: () => {
-	searchPanel.visible(!searchPanel.visible());
-}}));
+map.addControl(new L.PanelButton({ text: lang.search, position: 'topleft', hotkey: 'F3', panel: searchPanel }));
 
-map.addControl(new L.Button({text: lang.filter, position: 'topleft', hotkey: 'F4', click: () => {
-	filterPanel.visible(!filterPanel.visible());
-}}));
+map.addControl(new L.PanelButton({ text: lang.filter, position: 'topleft', hotkey: 'F4', panel: filterPanel }));
 
 map.addControl(new L.CheckButton({ text: lang.visited, position: 'topleft', hotkey: 'F7', checked: model.showVisited }));
 
 map.addControl(new L.CheckButton({ text: lang.unvisited, position: 'topleft', hotkey: 'F8', checked: model.showUnvisited }));
+
+map.addControl(new L.CheckButton({ text: lang.unmarked, position: 'topleft', hotkey: 'F11', checked: model.showUnmarked }));
 
 map.addControl(new L.Bound(progress));
 

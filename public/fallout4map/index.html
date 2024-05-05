@@ -17,44 +17,46 @@
 <div id="map"></div>
 
 <div class="search panel container" data-bind="visible: visible" style="display: none">
-	<div class="section input">
+	<div class="section"></div>
+	<div class="input">
 		<input type="text" data-bind="attr: { placeholder: placeholder }, textInput: text, event: { keyup: search }, hasFocus: focused" />
 		<!-- ko with: icon -->
-			<span class="icon row" data-bind="css: typeClassName, click: $root.clearFilter">
-				<i data-bind="css: fontClassName"></i><span data-bind="text: title"></span>
+			<span class="icon icon-with-text row" data-bind="css: className, click: $root.clearFilter">
+				<span data-bind="text: title"></span>
 			</span>
 		<!-- /ko -->
 		<!-- ko with: type -->
-			<span class="icon row type" data-bind="css: typeClassName, click: $root.clearFilter">
-				<i data-bind="css: fontClassName"></i><span data-bind="text: title"></span>
+			<span class="icon icon-with-text row type" data-bind="css: className, click: $root.clearFilter">
+				<span data-bind="text: title"></span>
 			</span>
 		<!-- /ko -->
 	</div>
 	<div class="sections" data-bind="foreach: results">
 		<div class="section row" data-bind="click: navigate, css: { selected: $index() === $parent.selectedIndex() }">
 			<span class="icon" data-bind="css: { visited: visited, visible: true }, class: className, attr: { title: searchTitle }"></span>
-			<h3 data-bind="text: title"></h3>
+			<span data-bind="text: title"></span>
 		</div>
 	</div>
 </div>
 
 <div class="filter panel container" data-bind="visible: visible" style="display: none">
+	<div class="section"></div>
 	<!-- ko foreach: types -->
 		<div class="section type" data-bind="css: name">
 			<p>
 				<input type="checkbox" data-bind="attr: { id: name }, checked: enabled, click: toggle"
 				/><span class="title" data-bind="attr: { for: name }, text: title"></span
-				>&nbsp;(<span class="count" data-bind="text: count, click: search"></span
-				>)
+				>&nbsp;<span class="count" data-bind="text: count, click: search"></span
+				>
 			</p>
 			<ul data-bind="foreach: icons">
 				<li class="row">
 					<input type="checkbox" data-bind="attr: { id: name }, checked: enabled, click: toggle"
-						/><label class="row" data-bind="attr: { for: name }"
-							><i class="icon" data-bind="css: className"></i
-							><span data-bind="text: title"></span
-							>&nbsp;(<span class="count" data-bind="text: count, click: search"></span
-						>)</label>
+					/><label class="row" data-bind="attr: { for: name }"
+						><span class="icon" data-bind="css: className"></span
+						><span data-bind="text: title"></span
+						><span class="count" data-bind="text: count, click: search"></span
+					></label>
 				</li>
 			</ul>
 		</div>
@@ -67,14 +69,36 @@
 	</div>
 </div>
 
+<dialog class="addForm" class="control container">
+	<form>
+		<input type="text" name="json" placeholder="{ json }">
+		<select name="icon">
+			<option selected></option>
+			<!-- ko foreach: types -->
+				<!-- ko if: name !== 'all' -->
+				<optgroup data-bind="attr: { label: titles[lang.key] }, foreach: icons">
+					<option data-bind="text: titles[lang.key], attr: { value: name }"></option>
+				</optgroup>
+				<!-- /ko -->
+			<!-- /ko -->
+		</select>
+		<label for="unmarked"><input type="checkbox" id="unmarked" name="unmarked">unmarked</label>
+		<input type="submit" />
+	</form>
+</dialog>
+
+<dialog class="editForm" class="control container">
+	<!-- TODO: -->
+</dialog>
+
 <script type="text/template" id="marker-template">
-	<div class="icon icon-marker" data-bind="css: { visited: visited, visible: visible }, class: className"></div>
+	<div class="icon icon-marker" data-bind="css: { visited: visited, visible: visible, unmarked: unmarked }, class: className"></div>
 </script>
 
 <script type="text/template" id="popup-template">
 	<h3 class="row">
 		<span class="title" data-bind="text: title, event: { dblclick: editTitle }"></span>
-		<!-- ko if:link -->
+		<!-- ko if: link -->
 		<a class="permalink icon icon-link" target="_blank" data-bind="attr: { href: link }"></a>
 		<!-- /ko -->
 	</h3>
@@ -98,13 +122,13 @@
 </script>
 
 <script type="text/template" id="button-template">
-	<div class="control container clickable">
-		<a href="#" data-bind="text: text, click: click"></div>
+	<div class="control container clickable" data-bind="click: click">
+		<a href="#" data-bind="text: text"></div>
 	</div>
 </script>
 
 <script type="text/template" id="checkButton-template">
-	<div class="control container row clickable">
+	<div class="control container clickable">
 		<input type="checkbox" data-bind="checked: checked" />
 		<label data-bind="text: text"></label>
 	</div>

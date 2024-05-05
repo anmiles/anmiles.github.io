@@ -185,7 +185,8 @@
 			"ru": "Последний приют",
 			"en": "The Last Plank"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 64.8883888608171,
 			"lng": 114.79087946347288
@@ -231,7 +232,7 @@
 		},
 		"titles": {
 			"ru": "Альманах островитянина («Путеводитель по Фар-Харбору»)",
-			"en": "Islander's Almanac («Far Harbor Sightseer’s Guide»)"
+			"en": "Islander's Almanac («Far Harbor Sightseer's Guide»)"
 		},
 		"icon": "magazine",
 		"coordinates": {
@@ -242,12 +243,15 @@
 	"17": {
 		"id": 17,
 		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9D%D0%B0%D0%B6%D0%B8%D0%B2%D0%BA%D0%B0"
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9D%D0%B0%D0%B6%D0%B8%D0%B2%D0%BA%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Far_Harbor_(location)"
 		},
 		"titles": {
-			"ru": "Наживка"
+			"ru": "Наживка",
+			"en": "Bait Shop"
 		},
-		"icon": "unmarked",
+		"icon": "store",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 64.21927281444869,
 			"lng": 113.31310431152164
@@ -583,7 +587,8 @@
 			"ru": "Бункер (Far Harbor)",
 			"en": "Echo Lake Lumber"
 		},
-		"icon": "unmarked",
+		"icon": "bunker",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 10.705832187512161,
 			"lng": -59.09008037575332
@@ -615,7 +620,8 @@
 			"ru": "Дамба Эммета",
 			"en": "Emmet's Causeway"
 		},
-		"icon": "unmarked",
+		"icon": "water",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 7.1418302342728115,
 			"lng": -113.04016001551642
@@ -647,7 +653,8 @@
 			"ru": "Остров Красной Смерти",
 			"en": "Red Death Island"
 		},
-		"icon": "unmarked",
+		"icon": "water",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -70.82055685303185,
 			"lng": -141.39358474698673
@@ -727,7 +734,7 @@
 			"ru": "Светящаяся роща",
 			"en": "Glowing Grove"
 		},
-		"icon": "radiation",
+		"icon": "radioactive-area",
 		"coordinates": {
 			"lat": -22.135032617758675,
 			"lng": -74.48090030885668
@@ -759,7 +766,7 @@
 			"ru": "Святилище Сияющей вершины",
 			"en": "Radiant crest shrine"
 		},
-		"icon": "radiation",
+		"icon": "radioactive-area",
 		"coordinates": {
 			"lat": -39.36448342920969,
 			"lng": -57.81177384162504
@@ -823,7 +830,8 @@
 			"ru": "Оружейный подвал",
 			"en": "Basement armory"
 		},
-		"icon": "unmarked",
+		"icon": "dungeon",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -47.228736853262944,
 			"lng": -47.1741476824929
@@ -951,7 +959,7 @@
 			"ru": "Святилище Детей Атома",
 			"en": "Children of Atom shrine"
 		},
-		"icon": "radiation",
+		"icon": "radioactive-area",
 		"coordinates": {
 			"lat": -50.81213144630477,
 			"lng": -90.57532458862704
@@ -1287,7 +1295,7 @@
 			"ru": "Перевал Киттередж",
 			"en": "Kitteredge Pass"
 		},
-		"icon": "cave",
+		"icon": "dungeon",
 		"coordinates": {
 			"lat": 25.792667441944165,
 			"lng": 34.732816402442296
@@ -1319,7 +1327,7 @@
 			"ru": "Пещера Пайн-Крест",
 			"en": "Pine Crest Cavern"
 		},
-		"icon": "cave",
+		"icon": "dungeon",
 		"coordinates": {
 			"lat": -12.31348661020391,
 			"lng": 30.45696477814282
@@ -1351,7 +1359,7 @@
 			"ru": "Ядро",
 			"en": "The Nucleus"
 		},
-		"icon": "radiation",
+		"icon": "radioactive-area",
 		"coordinates": {
 			"lat": -18.074094465392935,
 			"lng": -21.73704846125279
@@ -1527,7 +1535,7 @@
 			"ru": "Источник Атома",
 			"en": "Atom's Spring"
 		},
-		"icon": "radiation",
+		"icon": "radioactive-area",
 		"coordinates": {
 			"lat": -7.657572424371729,
 			"lng": -61.31149802596506
@@ -1543,7 +1551,8 @@
 			"ru": "Центр управления Ядра",
 			"en": "Nucleus Command Center"
 		},
-		"icon": "unmarked",
+		"icon": "radioactive-area",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -0.7050429039257597,
 			"lng": -22.00527009322169
@@ -1559,7 +1568,8 @@
 			"ru": "Судно",
 			"en": "The Vessel"
 		},
-		"icon": "unmarked",
+		"icon": "ship",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -0.7191526849041301,
 			"lng": -24.80438225718098
@@ -1591,7 +1601,8 @@
 			"ru": "Станция Кавакетак",
 			"en": "Kawaketak Station"
 		},
-		"icon": "unmarked",
+		"icon": "encampment",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -53.0349994545552,
 			"lng": -72.38525748159753
@@ -1719,7 +1730,7 @@
 			"ru": "Тайник ДиМА",
 			"en": "DiMA's cache"
 		},
-		"icon": "water",
+		"icon": "stash",
 		"coordinates": {
 			"lat": 32.03138850464427,
 			"lng": -161.2812420382099
@@ -1783,7 +1794,8 @@
 			"ru": "Управление насосом",
 			"en": "Pump control"
 		},
-		"icon": "unmarked",
+		"icon": "dungeon",
+		"unmarked": true,
 		"coordinates": {
 			"lat": -8.029270820292187,
 			"lng": -95.27721420950769
@@ -1984,12 +1996,15 @@
 	"131": {
 		"id": 131,
 		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9C%D0%BE%D1%80%D1%81%D0%BA%D0%BE%D0%B9_%D0%BC%D1%83%D0%B7%D0%B5%D0%B9_%D0%B1%D0%B0%D1%80%D0%B0_%C2%AB%D0%A5%D0%B0%D1%80%D0%B1%D0%BE%D1%80%C2%BB"
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9C%D0%BE%D1%80%D1%81%D0%BA%D0%BE%D0%B9_%D0%BC%D1%83%D0%B7%D0%B5%D0%B9_%D0%B1%D0%B0%D1%80%D0%B0_%C2%AB%D0%A5%D0%B0%D1%80%D0%B1%D0%BE%D1%80%C2%BB",
+			"en": "https://fallout.fandom.com/wiki/Far_Harbor_(location)"
 		},
 		"titles": {
-			"ru": "Морской музей бара «Харбор»"
+			"ru": "Морской музей бара «Харбор»",
+			"en": "Bar Harbour Maritime Museum"
 		},
-		"icon": "unmarked",
+		"icon": "building",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 65.23061445706131,
 			"lng": 84.35108110793591
@@ -2005,7 +2020,8 @@
 			"ru": "Убежище 118",
 			"en": "Vault 118"
 		},
-		"icon": "unmarked",
+		"icon": "vault",
+		"unmarked": true,
 		"coordinates": {
 			"lat": 66.29786102676458,
 			"lng": 57.63462007154376
