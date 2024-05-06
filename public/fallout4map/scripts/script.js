@@ -892,8 +892,6 @@ map.addControl(new L.CheckButton({ text: lang.unvisited, position: 'topleft', ho
 
 map.addControl(new L.CheckButton({ text: lang.unmarked, position: 'topleft', hotkey: 'F11', checked: model.showUnmarked }));
 
-/* */ map.addControl(new L.CheckButton({ text: 'EXACT', position: 'topleft', hotkey: 'F12', checked: model.showExact }));
-
 map.addControl(new L.Bound(progress));
 
 if (game.ready !== 1) {
