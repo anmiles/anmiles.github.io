@@ -148,7 +148,6 @@ const langs = {
 		unvisited: 'Непосещённые',
 		visitedCount: 'Посещено',
 		unmarked: 'Неотмечаемые',
-		exact: 'Точные',
 		underConstruction: 'Карта находится в разработке ({0}% готово)'
 	},
 	en: {
@@ -168,7 +167,6 @@ const langs = {
 		unvisited: 'Unvisited',
 		visitedCount: 'Visited',
 		unmarked: 'Unmarked',
-		exact: 'Exact',
 		underConstruction: 'The map is under construction ({0}% finished)'
 	},
 };
@@ -204,13 +202,11 @@ const model = {
 	showVisited: ko.observable(true),
 	showUnvisited: ko.observable(true),
 	showUnmarked: ko.observable(true),
-	showExact: ko.observable(true),
 };
 
 model.showVisited.subscribe(() => searchPanel.search());
 model.showUnvisited.subscribe(() => searchPanel.search());
 model.showUnmarked.subscribe(() => searchPanel.search());
-model.showExact.subscribe(() => searchPanel.search());
 
 const hidden = JSON.parse(localStorage[game.key + '-hidden'] || '{ "types": [], "icons": [] }');
 
@@ -449,8 +445,7 @@ $.getJSON(`data/${game.key}/data.json`, data => {
 function showPoint(point, isNew) {
 	point.visited = ko.observable(false);
 	point.enabled = ko.observable(icons.find(point.icon).enabled());
-	/* */ point.exact = ko.observable((Math.round(1000 * point.coordinates.lat) / 1000).toString() !== point.coordinates.lat.toString());
-	point.checked = ko.computed(() => (point.visited() ? model.showVisited() : model.showUnvisited()) && (!point.unmarked || model.showUnmarked()) && (!point.exact() || model.showExact()));
+	point.checked = ko.computed(() => (point.visited() ? model.showVisited() : model.showUnvisited()) && (!point.unmarked || model.showUnmarked()));
 	point.visible = ko.computed(() => point.enabled() && point.checked());
 
 	if (!point.visible()) hasHidden = true;
