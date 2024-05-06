@@ -118,7 +118,7 @@ const dlcs = {
 		tileZoom: 3,
 		background: '#282420',
 		startId: 35,
-		ready: 0.1,
+		ready: 0.2,
 	},
 	zone: {
 		key: 'zone',
