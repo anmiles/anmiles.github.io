@@ -445,8 +445,6 @@ function showPoint(point, isNew) {
 	if (!point.visible()) hasHidden = true;
 	point.unmarked ||= false;
 
-	point.category = icons.find(point.icon).titles[lang.key];
-
 	point.filter = function() {
 		searchPanel.visible(true);
 		searchPanel.text('');
@@ -482,6 +480,7 @@ function showPoint(point, isNew) {
 	};
 
 	point.editable = ko.observable(editable);
+	point.className = ko.observable(icons.find(point.icon).className + (point.unmarked ? " unmarked" : ""));
 
 	if (isNew) {
 		point.coordinates = map.getCenter();
@@ -489,13 +488,6 @@ function showPoint(point, isNew) {
 
 	point.title = ko.observable(point.titles[lang.key]);
 	point.link = ko.observable(point.links[lang.key]);
-
-	point.className = icons.find(point.icon).className;
-
-	if (point.unmarked) {
-		point.className += " unmarked";
-	}
-
 	point.searchTitle = ko.observable(icons.find(point.icon).title);
 
 	if (!checkPoint(point)) {
@@ -647,8 +639,8 @@ async function addPoint(json){
 
 	const point = {
 		id: id,
-		links: json.links,
 		titles: json.titles,
+		links: json.links,
 		icon: icon
 	};
 

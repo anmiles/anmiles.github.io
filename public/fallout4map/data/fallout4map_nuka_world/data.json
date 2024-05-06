@@ -1,15 +1,16 @@
 {
 	"1": {
 		"id": 1,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D1%8F_%C2%AB%D0%AF%D0%B4%D0%B5%D1%80-%D0%9C%D0%B8%D1%80%C2%BB",
-			"en": "https://fallout.fandom.com/wiki/Nuka-station"
-		},
 		"titles": {
 			"ru": "Станция «Ядер-Мир»",
 			"en": "Nuka-station"
 		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D1%8F_%C2%AB%D0%AF%D0%B4%D0%B5%D1%80-%D0%9C%D0%B8%D1%80%C2%BB",
+			"en": "https://fallout.fandom.com/wiki/Nuka-station"
+		},
 		"icon": "train-station",
+		"unmarked": false,
 		"coordinates": {
 			"lat": -75.85582907727735,
 			"lng": 32.246930218090625
@@ -17,13 +18,13 @@
 	},
 	"2": {
 		"id": 2,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5_%D1%82%D0%BE%D0%BD%D0%BD%D0%B5%D0%BB%D0%B8_%C2%AB%D0%AF%D0%B4%D0%B5%D1%80-%D0%9C%D0%B8%D1%80%D0%B0%C2%BB",
-			"en": "https://fallout.fandom.com/wiki/Nuka-World_access_tunnels"
-		},
 		"titles": {
 			"ru": "Технические тоннели «Ядер-Мира»",
 			"en": "Nuka-World access tunnels"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5_%D1%82%D0%BE%D0%BD%D0%BD%D0%B5%D0%BB%D0%B8_%C2%AB%D0%AF%D0%B4%D0%B5%D1%80-%D0%9C%D0%B8%D1%80%D0%B0%C2%BB",
+			"en": "https://fallout.fandom.com/wiki/Nuka-World_access_tunnels"
 		},
 		"icon": "dungeon",
 		"unmarked": true,
@@ -34,15 +35,16 @@
 	},
 	"3": {
 		"id": 3,
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Fusion_core_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%B1%D0%BB%D0%BE%D0%BA"
-		},
 		"titles": {
-			"en": "Fusion core",
-			"ru": "Ядерный блок"
+			"ru": "Ядерный блок",
+			"en": "Fusion core"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%B1%D0%BB%D0%BE%D0%BA",
+			"en": "https://fallout.fandom.com/wiki/Fusion_core_(Fallout_4)"
 		},
 		"icon": "fusion-core",
+		"unmarked": false,
 		"coordinates": {
 			"lat": -73.31146964936647,
 			"lng": 20.727767190161057
@@ -50,15 +52,16 @@
 	},
 	"4": {
 		"id": 4,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%94%D0%BD%D0%B5%D0%B2%D0%BD%D0%B8%D0%BA_%D1%81_%D1%80%D0%B0%D0%B7%D0%B2%D0%B5%D0%B4%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D0%BC%D0%B8",
-			"en": "https://fallout.fandom.com/wiki/Recon_log"
-		},
 		"titles": {
 			"ru": "Дневник с разведданными",
 			"en": "Recon log"
 		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%94%D0%BD%D0%B5%D0%B2%D0%BD%D0%B8%D0%BA_%D1%81_%D1%80%D0%B0%D0%B7%D0%B2%D0%B5%D0%B4%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D0%BC%D0%B8",
+			"en": "https://fallout.fandom.com/wiki/Recon_log"
+		},
 		"icon": "holotape",
+		"unmarked": false,
 		"coordinates": {
 			"lat": -72.15028781120603,
 			"lng": 20.72776182713979
@@ -66,15 +69,16 @@
 	},
 	"5": {
 		"id": 5,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9B%D0%B8%D1%87%D0%BD%D1%8B%D0%B9_%D0%B4%D0%BD%D0%B5%D0%B2%D0%BD%D0%B8%D0%BA",
-			"en": "https://fallout.fandom.com/wiki/Personal_log"
-		},
 		"titles": {
 			"ru": "Личный дневник",
 			"en": "Personal log"
 		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9B%D0%B8%D1%87%D0%BD%D1%8B%D0%B9_%D0%B4%D0%BD%D0%B5%D0%B2%D0%BD%D0%B8%D0%BA",
+			"en": "https://fallout.fandom.com/wiki/Personal_log"
+		},
 		"icon": "holotape",
+		"unmarked": false,
 		"coordinates": {
 			"lat": -72.15028822205949,
 			"lng": 23.443681614003502
@@ -82,15 +86,16 @@
 	},
 	"6": {
 		"id": 6,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%90%D1%80%D0%B5%D0%BD%D0%B0_%C2%AB%D0%AF%D0%B4%D0%B5%D1%80-%D0%9C%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C%D1%87%D0%B8%D0%BA%D0%BE%D0%B2%C2%BB",
-			"en": "https://fallout.fandom.com/wiki/Cola-cars_arena"
-		},
 		"titles": {
 			"ru": "Арена «Ядер-Мобильчиков»",
 			"en": "Cola-cars arena"
 		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%90%D1%80%D0%B5%D0%BD%D0%B0_%C2%AB%D0%AF%D0%B4%D0%B5%D1%80-%D0%9C%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C%D1%87%D0%B8%D0%BA%D0%BE%D0%B2%C2%BB",
+			"en": "https://fallout.fandom.com/wiki/Cola-cars_arena"
+		},
 		"icon": "building",
+		"unmarked": false,
 		"coordinates": {
 			"lat": -61.94542815845638,
 			"lng": 40.954061657523845
@@ -98,15 +103,16 @@
 	},
 	"7": {
 		"id": 7,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%93%D0%BE%D0%BB%D0%BE%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D1%8C_%D0%98%D1%8D%D0%BD%D0%B0",
-			"en": "https://fallout.fandom.com/wiki/Ian%27s_holotape"
-		},
 		"titles": {
 			"ru": "Голозапись Иэна",
 			"en": "Ian's holotape"
 		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%93%D0%BE%D0%BB%D0%BE%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D1%8C_%D0%98%D1%8D%D0%BD%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Ian%27s_holotape"
+		},
 		"icon": "holotape",
+		"unmarked": false,
 		"coordinates": {
 			"lat": -61.945429419245976,
 			"lng": 43.90960659840491
@@ -114,15 +120,16 @@
 	},
 	"8": {
 		"id": 8,
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Fusion_core_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%B1%D0%BB%D0%BE%D0%BA"
-		},
 		"titles": {
-			"en": "Fusion core",
-			"ru": "Ядерный блок"
+			"ru": "Ядерный блок",
+			"en": "Fusion core"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%B1%D0%BB%D0%BE%D0%BA",
+			"en": "https://fallout.fandom.com/wiki/Fusion_core_(Fallout_4)"
 		},
 		"icon": "fusion-core",
+		"unmarked": false,
 		"coordinates": {
 			"lat": -63.76642562593919,
 			"lng": 41.11381533554959
@@ -130,15 +137,16 @@
 	},
 	"9": {
 		"id": 9,
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Mini_nuke",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%BC%D0%B8%D0%BD%D0%B8%D0%B7%D0%B0%D1%80%D1%8F%D0%B4"
-		},
 		"titles": {
-			"en": "Mini nuke",
-			"ru": "Ядерный минизаряд"
+			"ru": "Ядерный минизаряд",
+			"en": "Mini nuke"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%BC%D0%B8%D0%BD%D0%B8%D0%B7%D0%B0%D1%80%D1%8F%D0%B4",
+			"en": "https://fallout.fandom.com/wiki/Mini_nuke"
 		},
 		"icon": "mini-nuke",
+		"unmarked": false,
 		"coordinates": {
 			"lat": -63.76642681091514,
 			"lng": 43.90960659840491
@@ -146,15 +154,16 @@
 	},
 	"10": {
 		"id": 10,
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Mini_nuke",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%BC%D0%B8%D0%BD%D0%B8%D0%B7%D0%B0%D1%80%D1%8F%D0%B4"
-		},
 		"titles": {
-			"en": "Mini nuke",
-			"ru": "Ядерный минизаряд"
+			"ru": "Ядерный минизаряд",
+			"en": "Mini nuke"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%BC%D0%B8%D0%BD%D0%B8%D0%B7%D0%B0%D1%80%D1%8F%D0%B4",
+			"en": "https://fallout.fandom.com/wiki/Mini_nuke"
 		},
 		"icon": "mini-nuke",
+		"unmarked": false,
 		"coordinates": {
 			"lat": -63.76642562593919,
 			"lng": 46.8651569023073
@@ -162,15 +171,16 @@
 	},
 	"11": {
 		"id": 11,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AD%D1%82%D0%B5%D1%80%D0%BD%D1%83%D1%81",
-			"en": "https://fallout.fandom.com/wiki/Aeternus"
-		},
 		"titles": {
 			"ru": "Этернус",
 			"en": "Aeternus"
 		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AD%D1%82%D0%B5%D1%80%D0%BD%D1%83%D1%81",
+			"en": "https://fallout.fandom.com/wiki/Aeternus"
+		},
 		"icon": "weapon",
+		"unmarked": false,
 		"coordinates": {
 			"lat": -61.94542815845638,
 			"lng": 46.865162265328614
@@ -178,15 +188,16 @@
 	},
 	"12": {
 		"id": 12,
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Fusion_core_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%B1%D0%BB%D0%BE%D0%BA"
-		},
 		"titles": {
-			"en": "Fusion core",
-			"ru": "Ядерный блок"
+			"ru": "Ядерный блок",
+			"en": "Fusion core"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%B1%D0%BB%D0%BE%D0%BA",
+			"en": "https://fallout.fandom.com/wiki/Fusion_core_(Fallout_4)"
 		},
 		"icon": "fusion-core",
+		"unmarked": false,
 		"coordinates": {
 			"lat": -63.80170400037052,
 			"lng": 38.15826503164721
@@ -194,15 +205,16 @@
 	},
 	"13": {
 		"id": 13,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A0%D1%8B%D0%BD%D0%BE%D0%BA_%D0%AF%D0%B4%D0%B5%D1%80-%D0%A2%D0%B0%D1%83%D0%BD%D0%B0",
-			"en": "https://fallout.fandom.com/wiki/Nuka-Town_market"
-		},
 		"titles": {
 			"ru": "Рынок Ядер-Тауна",
 			"en": "Nuka-Town market"
 		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A0%D1%8B%D0%BD%D0%BE%D0%BA_%D0%AF%D0%B4%D0%B5%D1%80-%D0%A2%D0%B0%D1%83%D0%BD%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Nuka-Town_market"
+		},
 		"icon": "store",
+		"unmarked": false,
 		"coordinates": {
 			"lat": -60.91964955851455,
 			"lng": 22.2875985500869
@@ -210,15 +222,16 @@
 	},
 	"14": {
 		"id": 14,
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Mini_nuke",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%BC%D0%B8%D0%BD%D0%B8%D0%B7%D0%B0%D1%80%D1%8F%D0%B4"
-		},
 		"titles": {
-			"en": "Mini nuke",
-			"ru": "Ядерный минизаряд"
+			"ru": "Ядерный минизаряд",
+			"en": "Mini nuke"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%BC%D0%B8%D0%BD%D0%B8%D0%B7%D0%B0%D1%80%D1%8F%D0%B4",
+			"en": "https://fallout.fandom.com/wiki/Mini_nuke"
 		},
 		"icon": "mini-nuke",
+		"unmarked": false,
 		"coordinates": {
 			"lat": -60.91964955851455,
 			"lng": 25.163266651955098
@@ -226,15 +239,16 @@
 	},
 	"15": {
 		"id": 15,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%91%D1%80%D1%8B%D0%B7%D0%B3%D0%BE%D1%81%D1%82%D1%80%D0%B5%D0%BB",
-			"en": "https://fallout.fandom.com/wiki/Splattercannon"
-		},
 		"titles": {
 			"ru": "Брызгострел",
 			"en": "Splattercannon"
 		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%91%D1%80%D1%8B%D0%B7%D0%B3%D0%BE%D1%81%D1%82%D1%80%D0%B5%D0%BB",
+			"en": "https://fallout.fandom.com/wiki/Splattercannon"
+		},
 		"icon": "weapon",
+		"unmarked": false,
 		"coordinates": {
 			"lat": -62.69235777001336,
 			"lng": 22.20771634805272
@@ -242,15 +256,16 @@
 	},
 	"16": {
 		"id": 16,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%93%D0%BE%D1%80%D0%BB%D0%BE%D1%80%D0%B5%D0%B7",
-			"en": "https://fallout.fandom.com/wiki/Throatslicer"
-		},
 		"titles": {
 			"ru": "Горлорез",
 			"en": "Throatslicer"
 		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%93%D0%BE%D1%80%D0%BB%D0%BE%D1%80%D0%B5%D0%B7",
+			"en": "https://fallout.fandom.com/wiki/Throatslicer"
+		},
 		"icon": "weapon",
+		"unmarked": false,
 		"coordinates": {
 			"lat": -62.69235654017094,
 			"lng": 25.083389812942222
@@ -258,15 +273,16 @@
 	},
 	"17": {
 		"id": 17,
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Fusion_core_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%B1%D0%BB%D0%BE%D0%BA"
-		},
 		"titles": {
-			"en": "Fusion core",
-			"ru": "Ядерный блок"
+			"ru": "Ядерный блок",
+			"en": "Fusion core"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%B1%D0%BB%D0%BE%D0%BA",
+			"en": "https://fallout.fandom.com/wiki/Fusion_core_(Fallout_4)"
 		},
 		"icon": "fusion-core",
+		"unmarked": false,
 		"coordinates": {
 			"lat": -60.880812631734806,
 			"lng": 19.651560965257328
@@ -274,15 +290,16 @@
 	},
 	"18": {
 		"id": 18,
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Fusion_core_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%B1%D0%BB%D0%BE%D0%BA"
-		},
 		"titles": {
-			"en": "Fusion core",
-			"ru": "Ядерный блок"
+			"ru": "Ядерный блок",
+			"en": "Fusion core"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%B1%D0%BB%D0%BE%D0%BA",
+			"en": "https://fallout.fandom.com/wiki/Fusion_core_(Fallout_4)"
 		},
 		"icon": "fusion-core",
+		"unmarked": false,
 		"coordinates": {
 			"lat": -60.880812631734806,
 			"lng": 16.935651904436188
@@ -290,15 +307,16 @@
 	},
 	"19": {
 		"id": 19,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%90%D0%BC%D1%84%D0%B8%D1%82%D0%B5%D0%B0%D1%82%D1%80_%D0%91%D1%80%D1%8D%D0%B4%D0%B1%D0%B5%D1%80%D1%82%D0%BE%D0%BD%D0%B0",
-			"en": "https://fallout.fandom.com/wiki/Bradberton_Amphitheater"
-		},
 		"titles": {
 			"ru": "Амфитеатр Брэдбертона",
 			"en": "Bradberton Amphitheater"
 		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%90%D0%BC%D1%84%D0%B8%D1%82%D0%B5%D0%B0%D1%82%D1%80_%D0%91%D1%80%D1%8D%D0%B4%D0%B1%D0%B5%D1%80%D1%82%D0%BE%D0%BD%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Bradberton_Amphitheater"
+		},
 		"icon": "building",
+		"unmarked": false,
 		"coordinates": {
 			"lat": -60.841928388080134,
 			"lng": 10.705033214537307
@@ -306,13 +324,13 @@
 	},
 	"20": {
 		"id": 20,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%90%D1%80%D1%8C%D0%B5%D1%80%D1%81%D1%86%D0%B5%D0%BD%D0%B0_%C2%AB%D0%AF%D0%B4%D0%B5%D1%80-%D0%A2%D0%B0%D1%83%D0%BD%D0%B0%C2%BB",
-			"en": "https://fallout.fandom.com/wiki/Nuka-Town_backstage"
-		},
 		"titles": {
 			"ru": "Арьерсцена «Ядер-Тауна»",
 			"en": "Nuka-Town backstage"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%90%D1%80%D1%8C%D0%B5%D1%80%D1%81%D1%86%D0%B5%D0%BD%D0%B0_%C2%AB%D0%AF%D0%B4%D0%B5%D1%80-%D0%A2%D0%B0%D1%83%D0%BD%D0%B0%C2%BB",
+			"en": "https://fallout.fandom.com/wiki/Nuka-Town_backstage"
 		},
 		"icon": "encampment",
 		"unmarked": true,
@@ -323,15 +341,16 @@
 	},
 	"21": {
 		"id": 21,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%97%D0%B0%D0%BF%D0%B8%D1%81%D1%8C_%D0%91%D0%B0%D0%B7%D0%B7%D0%B0",
-			"en": "https://fallout.fandom.com/wiki/Buzz%27s_holotape"
-		},
 		"titles": {
 			"ru": "Запись Базза",
 			"en": "Buzz's holotape"
 		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%97%D0%B0%D0%BF%D0%B8%D1%81%D1%8C_%D0%91%D0%B0%D0%B7%D0%B7%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Buzz%27s_holotape"
+		},
 		"icon": "holotape",
+		"unmarked": false,
 		"coordinates": {
 			"lat": -62.76553863375514,
 			"lng": 10.784910053550183
@@ -339,15 +358,16 @@
 	},
 	"22": {
 		"id": 22,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%98%D0%B4%D0%B8,_%D1%81%D0%BA%D0%B0%D0%B6%D0%B8_%D0%9C%D1%8D%D0%B9%D1%81%D0%BE%D0%BD%D1%83",
-			"en": "https://fallout.fandom.com/wiki/You_go_tell_Mason"
-		},
 		"titles": {
 			"ru": "Иди, скажи Мэйсону",
 			"en": "You go tell Mason"
 		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%98%D0%B4%D0%B8,_%D1%81%D0%BA%D0%B0%D0%B6%D0%B8_%D0%9C%D1%8D%D0%B9%D1%81%D0%BE%D0%BD%D1%83",
+			"en": "https://fallout.fandom.com/wiki/You_go_tell_Mason"
+		},
 		"icon": "holotape",
+		"unmarked": false,
 		"coordinates": {
 			"lat": -62.76553863375514,
 			"lng": 7.829359749647803
@@ -355,15 +375,16 @@
 	},
 	"23": {
 		"id": 23,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9F%D1%80%D0%BE%D0%BA%D0%BB%D1%8F%D1%82%D1%8B%D0%B5_%D0%9E%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D1%8B",
-			"en": "https://fallout.fandom.com/wiki/Stinking_operators"
-		},
 		"titles": {
 			"ru": "Проклятые Операторы",
 			"en": "Stinking Operators"
 		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9F%D1%80%D0%BE%D0%BA%D0%BB%D1%8F%D1%82%D1%8B%D0%B5_%D0%9E%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D1%8B",
+			"en": "https://fallout.fandom.com/wiki/Stinking_operators"
+		},
 		"icon": "holotape",
+		"unmarked": false,
 		"coordinates": {
 			"lat": -62.728970866847035,
 			"lng": 4.953691647779604
@@ -371,13 +392,13 @@
 	},
 	"24": {
 		"id": 24,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B0%D1%84%D0%B5_%D0%9C%D0%B8%D1%81%D1%82%D0%B5%D1%80%D0%B0_%D0%9A%D1%80%D1%8B%D1%88%D0%BA%D0%B8",
-			"en": "https://fallout.fandom.com/wiki/Cappy%27s_Cafe"
-		},
 		"titles": {
 			"ru": "Кафе Мистера Крышки",
 			"en": "Cappy's Cafe"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B0%D1%84%D0%B5_%D0%9C%D0%B8%D1%81%D1%82%D0%B5%D1%80%D0%B0_%D0%9A%D1%80%D1%8B%D1%88%D0%BA%D0%B8",
+			"en": "https://fallout.fandom.com/wiki/Cappy%27s_Cafe"
 		},
 		"icon": "building",
 		"unmarked": true,
@@ -388,15 +409,16 @@
 	},
 	"25": {
 		"id": 25,
+		"titles": {
+			"ru": "Рецепт Ядер-Пустоты",
+			"en": "Nuka-Void Recipe"
+		},
 		"links": {
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A0%D0%B5%D1%86%D0%B5%D0%BF%D1%82%D1%8B_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D1%8B",
 			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_recipes"
 		},
-		"titles": {
-			"ru": "Рецепт Ядер-Цида",
-			"en": "Nuka-Cide Recipe"
-		},
 		"icon": "magazine",
+		"unmarked": false,
 		"coordinates": {
 			"lat": -55.73114973465826,
 			"lng": 24.124835566659872
@@ -404,15 +426,16 @@
 	},
 	"26": {
 		"id": 26,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D0%B0%D0%BB%D0%BE%D0%BD",
-			"en": "https://fallout.fandom.com/wiki/The_Parlor"
-		},
 		"titles": {
 			"ru": "Салон",
 			"en": "The Parlor"
 		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D0%B0%D0%BB%D0%BE%D0%BD",
+			"en": "https://fallout.fandom.com/wiki/The_Parlor"
+		},
 		"icon": "encampment",
+		"unmarked": false,
 		"coordinates": {
 			"lat": -51.163662703571646,
 			"lng": 25.15594475718098
@@ -420,15 +443,16 @@
 	},
 	"27": {
 		"id": 27,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9C%D0%B0%D0%BC%D0%B0,_%D1%8D%D1%82%D0%BE_%D0%9C%D1%8D%D0%B3%D0%B3%D0%B8",
-			"en": "https://fallout.fandom.com/wiki/Mother,_it%27s_Mags"
-		},
 		"titles": {
 			"ru": "Мама, это Мэгги",
 			"en": "Mother, it's Mags"
 		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9C%D0%B0%D0%BC%D0%B0,_%D1%8D%D1%82%D0%BE_%D0%9C%D1%8D%D0%B3%D0%B3%D0%B8",
+			"en": "https://fallout.fandom.com/wiki/Mother,_it%27s_Mags"
+		},
 		"icon": "holotape",
+		"unmarked": false,
 		"coordinates": {
 			"lat": -48.6909603909255,
 			"lng": 22.236328125000004
@@ -436,15 +460,16 @@
 	},
 	"28": {
 		"id": 28,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9C%D1%8D%D0%B3%D0%B3%D0%B8,_%D1%8D%D1%82%D0%BE_%D0%BC%D0%B0%D0%BC%D0%B0",
-			"en": "https://fallout.fandom.com/wiki/Maggy,_it%27s_your_mother"
-		},
 		"titles": {
 			"ru": "Мэгги, это мама",
 			"en": "Maggy, it's your mother"
 		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9C%D1%8D%D0%B3%D0%B3%D0%B8,_%D1%8D%D1%82%D0%BE_%D0%BC%D0%B0%D0%BC%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Maggy,_it%27s_your_mother"
+		},
 		"icon": "holotape",
+		"unmarked": false,
 		"coordinates": {
 			"lat": -48.6909603909255,
 			"lng": 25.048828125000004
@@ -452,15 +477,16 @@
 	},
 	"29": {
 		"id": 29,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A3%D0%B1%D0%B5%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5_%E2%80%94_%D1%82%D0%B5%D1%81%D1%82_%D0%BD%D0%BE%D0%BC%D0%B5%D1%80_%D0%B2%D0%BE%D1%81%D0%B5%D0%BC%D1%8C",
-			"en": "https://fallout.fandom.com/wiki/Persuasion_test_eight"
-		},
 		"titles": {
 			"ru": "Убеждение — тест номер восемь",
 			"en": "Persuasion test eight"
 		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A3%D0%B1%D0%B5%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5_%E2%80%94_%D1%82%D0%B5%D1%81%D1%82_%D0%BD%D0%BE%D0%BC%D0%B5%D1%80_%D0%B2%D0%BE%D1%81%D0%B5%D0%BC%D1%8C",
+			"en": "https://fallout.fandom.com/wiki/Persuasion_test_eight"
+		},
 		"icon": "holotape",
+		"unmarked": false,
 		"coordinates": {
 			"lat": -48.63290858589534,
 			"lng": 27.773437500000004
@@ -468,13 +494,13 @@
 	},
 	"31": {
 		"id": 31,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B0%D0%B1%D0%B8%D0%BD%D0%B5%D1%82_%D0%91%D1%80%D1%8D%D0%B4%D0%B1%D0%B5%D1%80%D1%82%D0%BE%D0%BD%D0%B0",
-			"en": "https://fallout.fandom.com/wiki/Bradberton%27s_office"
-		},
 		"titles": {
 			"ru": "Кабинет Брэдбертона",
 			"en": "Bradberton's office"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B0%D0%B1%D0%B8%D0%BD%D0%B5%D1%82_%D0%91%D1%80%D1%8D%D0%B4%D0%B1%D0%B5%D1%80%D1%82%D0%BE%D0%BD%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Bradberton%27s_office"
 		},
 		"icon": "building",
 		"unmarked": true,
@@ -485,15 +511,16 @@
 	},
 	"32": {
 		"id": 32,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%C2%AB%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%B0%D1%8F_%D1%80%D0%B0%D0%BA%D0%B5%D1%82%D0%B0%C2%BB_%D0%B2_%C2%AB%D0%AF%D0%B4%D0%B5%D1%80-%D0%9C%D0%B8%D1%80%D0%B5%C2%BB",
-			"en": "https://fallout.fandom.com/wiki/Nuka-World_Red_Rocket"
-		},
 		"titles": {
 			"ru": "«Красная ракета» в «Ядер-Мире»",
 			"en": "Nuka-World Red Rocket"
 		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%C2%AB%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%B0%D1%8F_%D1%80%D0%B0%D0%BA%D0%B5%D1%82%D0%B0%C2%BB_%D0%B2_%C2%AB%D0%AF%D0%B4%D0%B5%D1%80-%D0%9C%D0%B8%D1%80%D0%B5%C2%BB",
+			"en": "https://fallout.fandom.com/wiki/Nuka-World_Red_Rocket"
+		},
 		"icon": "filling-station",
+		"unmarked": false,
 		"coordinates": {
 			"lat": 58.85907462337285,
 			"lng": 86.39145412534445
@@ -501,15 +528,16 @@
 	},
 	"33": {
 		"id": 33,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%91%D1%80%D1%8D%D0%B4%D0%B1%D0%B5%D1%80%D1%82%D0%BE%D0%BD",
-			"en": "https://fallout.fandom.com/wiki/Bradberton"
-		},
 		"titles": {
 			"ru": "Брэдбертон",
 			"en": "Bradberton"
 		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%91%D1%80%D1%8D%D0%B4%D0%B1%D0%B5%D1%80%D1%82%D0%BE%D0%BD",
+			"en": "https://fallout.fandom.com/wiki/Bradberton"
+		},
 		"icon": "city",
+		"unmarked": false,
 		"coordinates": {
 			"lat": 73.9153691497899,
 			"lng": 105.66283437802888
@@ -517,15 +545,16 @@
 	},
 	"34": {
 		"id": 34,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%92%D0%B8%D0%BA%D1%81%D0%BE%D0%BD%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D0%BC%D1%83%D0%B7%D0%B5%D0%B9_%D0%BB%D0%BE%D0%BF%D0%B0%D1%82",
-			"en": "https://fallout.fandom.com/wiki/Wixon%27s_shovel_museum"
-		},
 		"titles": {
 			"ru": "Виксоновский музей лопат",
 			"en": "Wixon's Shovel Museum"
 		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%92%D0%B8%D0%BA%D1%81%D0%BE%D0%BD%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D0%BC%D1%83%D0%B7%D0%B5%D0%B9_%D0%BB%D0%BE%D0%BF%D0%B0%D1%82",
+			"en": "https://fallout.fandom.com/wiki/Wixon%27s_shovel_museum"
+		},
 		"icon": "building",
+		"unmarked": false,
 		"coordinates": {
 			"lat": -58.658684732350096,
 			"lng": 92.08328907392307
@@ -533,15 +562,16 @@
 	},
 	"35": {
 		"id": 35,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%A2%D0%B0%D1%83%D0%BD,_%D0%A1%D0%A8%D0%90",
-			"en": "https://fallout.fandom.com/wiki/Nuka-Town_USA"
-		},
 		"titles": {
 			"ru": "Ядер-Таун, США",
 			"en": "Nuka-Town USA"
 		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%A2%D0%B0%D1%83%D0%BD,_%D0%A1%D0%A8%D0%90",
+			"en": "https://fallout.fandom.com/wiki/Nuka-Town_USA"
+		},
 		"icon": "city",
+		"unmarked": false,
 		"coordinates": {
 			"lat": -64.87863322491201,
 			"lng": 22.23655696773057
@@ -549,15 +579,16 @@
 	},
 	"39": {
 		"id": 39,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9E%D1%82%D1%87%D1%91%D1%82_%D0%B2%D1%80%D0%B0%D1%87%D0%B0_%C2%AB%D0%AF%D0%B4%D0%B5%D1%80-%D0%9C%D0%B8%D1%80%D0%B0%C2%BB",
-			"en": "https://fallout.fandom.com/wiki/Nuka-World_paramedic_report"
-		},
 		"titles": {
 			"ru": "Отчёт врача «Ядер-Мира»",
 			"en": "Nuka-World paramedic report"
 		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9E%D1%82%D1%87%D1%91%D1%82_%D0%B2%D1%80%D0%B0%D1%87%D0%B0_%C2%AB%D0%AF%D0%B4%D0%B5%D1%80-%D0%9C%D0%B8%D1%80%D0%B0%C2%BB",
+			"en": "https://fallout.fandom.com/wiki/Nuka-World_paramedic_report"
+		},
 		"icon": "holotape",
+		"unmarked": false,
 		"coordinates": {
 			"lat": -51.49728261905342,
 			"lng": 14.8888777261971
@@ -565,15 +596,16 @@
 	},
 	"40": {
 		"id": 40,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%93%D0%B0%D0%BB%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B0",
-			"en": "https://fallout.fandom.com/wiki/Galactic_Zone"
-		},
 		"titles": {
 			"ru": "Галактика",
 			"en": "Galactic Zone"
 		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%93%D0%B0%D0%BB%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Galactic_Zone"
+		},
 		"icon": "city",
+		"unmarked": false,
 		"coordinates": {
 			"lat": -32.20353467022642,
 			"lng": -27.004850607804762
@@ -581,63 +613,67 @@
 	},
 	"42": {
 		"id": 42,
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Power_armor",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D0%B8%D0%BB%D0%BE%D0%B2%D0%B0%D1%8F_%D0%B1%D1%80%D0%BE%D0%BD%D1%8F"
-		},
 		"titles": {
-			"en": "Power armor",
-			"ru": "Силовая броня"
+			"ru": "Силовая броня",
+			"en": "Power armor"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D0%B8%D0%BB%D0%BE%D0%B2%D0%B0%D1%8F_%D0%B1%D1%80%D0%BE%D0%BD%D1%8F",
+			"en": "https://fallout.fandom.com/wiki/Power_armor"
 		},
 		"icon": "power-armor",
+		"unmarked": false,
 		"coordinates": {
-			"lat": -32.12322380427716,
-			"lng": -21.427917234663628
+			"lat": -29.61167011519739,
+			"lng": -26.982421875000004
 		}
 	},
 	"43": {
 		"id": 43,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%93%D0%BE%D0%BB%D0%BE%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D1%8C_(%D0%AD%D0%BC%D0%B5%D1%80%D1%81%D0%BE%D0%BD)",
-			"en": "https://fallout.fandom.com/wiki/Emerson%27s_holotape"
-		},
 		"titles": {
 			"ru": "Голозапись (Эмерсон)",
 			"en": "Emerson's holotape"
 		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%93%D0%BE%D0%BB%D0%BE%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D1%8C_(%D0%AD%D0%BC%D0%B5%D1%80%D1%81%D0%BE%D0%BD)",
+			"en": "https://fallout.fandom.com/wiki/Emerson%27s_holotape"
+		},
 		"icon": "holotape",
+		"unmarked": false,
 		"coordinates": {
-			"lat": -32.12322380427719,
-			"lng": -18.63212597180829
+			"lat": -29.6880527498568,
+			"lng": -23.818359375000004
 		}
 	},
 	"44": {
 		"id": 44,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9C%D1%83%D1%81%D0%BE%D1%80%D1%89%D0%B8%D0%BA!",
-			"en": "https://fallout.fandom.com/wiki/SCAV!"
-		},
 		"titles": {
 			"ru": "Мусорщик! («Ужасное перемирие»)",
 			"en": "SCAV! («The Terrible Truce»)"
 		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9C%D1%83%D1%81%D0%BE%D1%80%D1%89%D0%B8%D0%BA!",
+			"en": "https://fallout.fandom.com/wiki/SCAV!"
+		},
 		"icon": "magazine",
+		"unmarked": false,
 		"coordinates": {
-			"lat": -32.19083001917081,
-			"lng": -15.836334708952943
+			"lat": -32.32427558887655,
+			"lng": -23.818359375000004
 		}
 	},
 	"45": {
 		"id": 45,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%90%D1%80%D0%B5%D0%BD%D0%B0_%C2%AB%D0%A0%D0%BE%D0%B1%D0%9A%D0%BE%C2%BB",
-			"en": "https://fallout.fandom.com/wiki/RobCo_Battlezone"
-		},
 		"titles": {
 			"ru": "Арена «РобКо»",
 			"en": "RobCo Battlezone"
 		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%90%D1%80%D0%B5%D0%BD%D0%B0_%C2%AB%D0%A0%D0%BE%D0%B1%D0%9A%D0%BE%C2%BB",
+			"en": "https://fallout.fandom.com/wiki/RobCo_Battlezone"
+		},
 		"icon": "attraction",
+		"unmarked": false,
 		"coordinates": {
 			"lat": -34.195442822666806,
 			"lng": -32.131805162943785
@@ -645,15 +681,16 @@
 	},
 	"46": {
 		"id": 46,
-		"links": {
-			"en": "https://fallout.fandom.com/wiki/Fusion_core_(Fallout_4)",
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%B1%D0%BB%D0%BE%D0%BA"
-		},
 		"titles": {
-			"en": "Fusion core",
-			"ru": "Ядерный блок"
+			"ru": "Ядерный блок",
+			"en": "Fusion core"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%B1%D0%BB%D0%BE%D0%BA",
+			"en": "https://fallout.fandom.com/wiki/Fusion_core_(Fallout_4)"
 		},
 		"icon": "fusion-core",
+		"unmarked": false,
 		"coordinates": {
 			"lat": -36.00897515633353,
 			"lng": -34.22927605053689
@@ -661,18 +698,104 @@
 	},
 	"47": {
 		"id": 47,
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A0%D0%B5%D1%86%D0%B5%D0%BF%D1%82%D1%8B_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D1%8B",
-			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_recipes"
-		},
 		"titles": {
 			"ru": "Рецепт Ядер-Луча",
 			"en": "Nuka-Ray Recipe"
 		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A0%D0%B5%D1%86%D0%B5%D0%BF%D1%82%D1%8B_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D1%8B",
+			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_recipes"
+		},
 		"icon": "magazine",
+		"unmarked": false,
 		"coordinates": {
 			"lat": -37.30027528134431,
 			"lng": -31.816406250000004
+		}
+	},
+	"48": {
+		"id": 48,
+		"titles": {
+			"ru": "«Волт-Тек»: среди звёзд",
+			"en": "Vault-Tec: Among the Stars"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%C2%AB%D0%92%D0%BE%D0%BB%D1%82-%D0%A2%D0%B5%D0%BA%C2%BB:_%D1%81%D1%80%D0%B5%D0%B4%D0%B8_%D0%B7%D0%B2%D1%91%D0%B7%D0%B4",
+			"en": "https://fallout.fandom.com/wiki/Vault-Tec:_Among_the_Stars"
+		},
+		"icon": "attraction",
+		"unmarked": false,
+		"coordinates": {
+			"lat": -41.57436130598913,
+			"lng": -27.290039062500004
+		}
+	},
+	"49": {
+		"id": 49,
+		"titles": {
+			"ru": "Ядерный блок",
+			"en": "Fusion core"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%B1%D0%BB%D0%BE%D0%BA",
+			"en": "https://fallout.fandom.com/wiki/Fusion_core_(Fallout_4)"
+		},
+		"icon": "fusion-core",
+		"unmarked": false,
+		"coordinates": {
+			"lat": -41.640078384678915,
+			"lng": -30.234375000000004
+		}
+	},
+	"50": {
+		"id": 50,
+		"titles": {
+			"ru": "Проект «Руководство потребителя»",
+			"en": "Project Consumer Guidance"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82_%C2%AB%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE_%D0%BF%D0%BE%D1%82%D1%80%D0%B5%D0%B1%D0%B8%D1%82%D0%B5%D0%BB%D1%8F%C2%BB",
+			"en": "https://fallout.fandom.com/wiki/Project_consumer_guidance"
+		},
+		"icon": "holotape",
+		"unmarked": false,
+		"coordinates": {
+			"lat": -41.508577297439345,
+			"lng": -24.257812500000004
+		}
+	},
+	"51": {
+		"id": 51,
+		"titles": {
+			"ru": "Кинотеатр «Звёздный свет»",
+			"en": "Starlight Interstellar Theater"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B8%D0%BD%D0%BE%D1%82%D0%B5%D0%B0%D1%82%D1%80_%C2%AB%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D0%BD%D1%8B%D0%B9_%D1%81%D0%B2%D0%B5%D1%82%C2%BB",
+			"en": "https://fallout.fandom.com/wiki/Starlight_Interstellar_Theater"
+		},
+		"icon": "attraction",
+		"unmarked": false,
+		"coordinates": {
+			"lat": -38.54816542304657,
+			"lng": -18.281250000000004
+		}
+	},
+	"52": {
+		"id": 52,
+		"titles": {
+			"ru": "Рецепт Ядер-Пустоты",
+			"en": "Nuka-Void Recipe"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A0%D0%B5%D1%86%D0%B5%D0%BF%D1%82%D1%8B_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D1%8B",
+			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_recipes"
+		},
+		"icon": "magazine",
+		"unmarked": false,
+		"coordinates": {
+			"lat": -38.54816542304657,
+			"lng": -15.292968750000002
 		}
 	}
 }

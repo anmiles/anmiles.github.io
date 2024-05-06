@@ -1,11 +1,11 @@
 {
 	"1": {
 		"id": 1,
-		"links": {},
 		"titles": {
-			"en": "Minutemen Village",
-			"ru": "Деревня новичков"
+			"ru": "Деревня новичков",
+			"en": "Minutemen Village"
 		},
+		"links": {},
 		"icon": "city",
 		"coordinates": {
 			"lat": 82.49697515826423,
@@ -14,11 +14,11 @@
 	},
 	"2": {
 		"id": 2,
-		"links": {},
 		"titles": {
-			"en": "Underground Shelter",
-			"ru": "Бункер Сидоровича"
+			"ru": "Бункер Сидоровича",
+			"en": "Underground Shelter"
 		},
+		"links": {},
 		"icon": "bunker",
 		"unmarked": true,
 		"coordinates": {
@@ -28,11 +28,11 @@
 	},
 	"3": {
 		"id": 3,
-		"links": {},
 		"titles": {
-			"en": "Military Outpost",
-			"ru": "Военный блокпост"
+			"ru": "Военный блокпост",
+			"en": "Military Outpost"
 		},
+		"links": {},
 		"icon": "military-base",
 		"coordinates": {
 			"lat": 83.56912371462894,
@@ -41,11 +41,11 @@
 	},
 	"4": {
 		"id": 4,
-		"links": {},
 		"titles": {
-			"en": "Old Mill",
-			"ru": "Элеватор"
+			"ru": "Элеватор",
+			"en": "Old Mill"
 		},
+		"links": {},
 		"icon": "factory",
 		"coordinates": {
 			"lat": 80.94048173728801,
@@ -54,11 +54,11 @@
 	},
 	"5": {
 		"id": 5,
-		"links": {},
 		"titles": {
-			"en": "Auto Park",
-			"ru": "АТП"
+			"ru": "АТП",
+			"en": "Auto Park"
 		},
+		"links": {},
 		"icon": "building",
 		"coordinates": {
 			"lat": 81.42445533861654,
@@ -67,11 +67,11 @@
 	},
 	"6": {
 		"id": 6,
-		"links": {},
 		"titles": {
-			"en": "Abandoned Farm",
-			"ru": "Ферма на Кордоне"
+			"ru": "Ферма на Кордоне",
+			"en": "Abandoned Farm"
 		},
+		"links": {},
 		"icon": "farm",
 		"coordinates": {
 			"lat": 79.55132228214754,
@@ -80,11 +80,11 @@
 	},
 	"7": {
 		"id": 7,
-		"links": {},
 		"titles": {
-			"en": "Military Checkpoint",
-			"ru": "Дальний блокпост"
+			"ru": "Дальний блокпост",
+			"en": "Military Checkpoint"
 		},
+		"links": {},
 		"icon": "military-base",
 		"coordinates": {
 			"lat": 76.87957472855744,
@@ -93,11 +93,11 @@
 	},
 	"8": {
 		"id": 8,
-		"links": {},
 		"titles": {
-			"en": "Scrapyard",
-			"ru": "Кладбище брошенной техники"
+			"ru": "Кладбище брошенной техники",
+			"en": "Scrapyard"
 		},
+		"links": {},
 		"icon": "junkyard",
 		"coordinates": {
 			"lat": 75.01092321508203,
@@ -106,11 +106,11 @@
 	},
 	"9": {
 		"id": 9,
-		"links": {},
 		"titles": {
-			"en": "Train Station",
-			"ru": "Депо"
+			"ru": "Депо",
+			"en": "Train Station"
 		},
+		"links": {},
 		"icon": "train-station",
 		"coordinates": {
 			"lat": 72.56302946380457,
@@ -119,11 +119,11 @@
 	},
 	"10": {
 		"id": 10,
-		"links": {},
 		"titles": {
-			"en": "Greenetech Genetics Factory",
-			"ru": "НИИ «Агропром»"
+			"ru": "НИИ «Агропром»",
+			"en": "Greenetech Genetics Factory"
 		},
+		"links": {},
 		"icon": "factory",
 		"coordinates": {
 			"lat": 72.70211981469625,
@@ -132,11 +132,11 @@
 	},
 	"11": {
 		"id": 11,
-		"links": {},
 		"titles": {
-			"en": "Factory Building",
-			"ru": "Здание НИИ «Агропром»"
+			"ru": "Здание НИИ «Агропром»",
+			"en": "Factory Building"
 		},
+		"links": {},
 		"icon": "factory",
 		"unmarked": true,
 		"coordinates": {
@@ -146,11 +146,11 @@
 	},
 	"12": {
 		"id": 12,
-		"links": {},
 		"titles": {
-			"en": "Maintenance Tunnel",
-			"ru": "Подземелье «Агропрома»"
+			"ru": "Подземелье «Агропрома»",
+			"en": "Maintenance Tunnel"
 		},
+		"links": {},
 		"icon": "dungeon",
 		"unmarked": true,
 		"coordinates": {
@@ -160,11 +160,11 @@
 	},
 	"13": {
 		"id": 13,
-		"links": {},
 		"titles": {
-			"en": "Greenetech Genetics Research Institute",
-			"ru": "Институт «Агропром»"
+			"ru": "Институт «Агропром»",
+			"en": "Greenetech Genetics Research Institute"
 		},
+		"links": {},
 		"icon": "factory",
 		"coordinates": {
 			"lat": 74.98483659038266,
@@ -173,11 +173,11 @@
 	},
 	"14": {
 		"id": 14,
-		"links": {},
 		"titles": {
-			"en": "Research Institute Building",
-			"ru": "Здание института «Агропром»"
+			"ru": "Здание института «Агропром»",
+			"en": "Research Institute Building"
 		},
+		"links": {},
 		"icon": "factory",
 		"unmarked": true,
 		"coordinates": {
@@ -187,11 +187,11 @@
 	},
 	"15": {
 		"id": 15,
-		"links": {},
 		"titles": {
-			"en": "Brotherhood of Steel Control Point",
-			"ru": "Застава на севере"
+			"ru": "Застава на севере",
+			"en": "Brotherhood of Steel Control Point"
 		},
+		"links": {},
 		"icon": "military-base",
 		"coordinates": {
 			"lat": 68.71081193565959,
@@ -200,11 +200,11 @@
 	},
 	"16": {
 		"id": 16,
-		"links": {},
 		"titles": {
-			"en": "Building Complex",
-			"ru": "Предприятие"
+			"ru": "Предприятие",
+			"en": "Building Complex"
 		},
+		"links": {},
 		"icon": "factory",
 		"coordinates": {
 			"lat": 71.96176330143408,
@@ -213,11 +213,11 @@
 	},
 	"17": {
 		"id": 17,
-		"links": {},
 		"titles": {
-			"en": "Building",
-			"ru": "Здание предприятия"
+			"ru": "Здание предприятия",
+			"en": "Building"
 		},
+		"links": {},
 		"icon": "factory",
 		"unmarked": true,
 		"coordinates": {
@@ -227,11 +227,11 @@
 	},
 	"18": {
 		"id": 18,
-		"links": {},
 		"titles": {
-			"en": "Basement",
-			"ru": "Подвал заброшенной стройки"
+			"ru": "Подвал заброшенной стройки",
+			"en": "Basement"
 		},
+		"links": {},
 		"icon": "dungeon",
 		"unmarked": true,
 		"coordinates": {
@@ -241,11 +241,11 @@
 	},
 	"19": {
 		"id": 19,
-		"links": {},
 		"titles": {
-			"en": "Old HalluciGen Factory",
-			"ru": "Старая фабрика"
+			"ru": "Старая фабрика",
+			"en": "Old HalluciGen Factory"
 		},
+		"links": {},
 		"icon": "factory",
 		"coordinates": {
 			"lat": 74.54666681384154,
@@ -254,11 +254,11 @@
 	},
 	"20": {
 		"id": 20,
-		"links": {},
 		"titles": {
-			"en": "Old HalluciGen Factory",
-			"ru": "Здание старой фабрики"
+			"ru": "Здание старой фабрики",
+			"en": "Old HalluciGen Factory"
 		},
+		"links": {},
 		"icon": "factory",
 		"unmarked": true,
 		"coordinates": {
@@ -268,11 +268,11 @@
 	},
 	"21": {
 		"id": 21,
-		"links": {},
 		"titles": {
-			"en": "Lab Z-18",
-			"ru": "Лаборатория Z-18"
+			"ru": "Лаборатория Z-18",
+			"en": "Lab Z-18"
 		},
+		"links": {},
 		"icon": "factory",
 		"unmarked": true,
 		"coordinates": {
@@ -282,11 +282,11 @@
 	},
 	"22": {
 		"id": 22,
-		"links": {},
 		"titles": {
-			"en": "Infested Farm",
-			"ru": "Свиноферма"
+			"ru": "Свиноферма",
+			"en": "Infested Farm"
 		},
+		"links": {},
 		"icon": "farm",
 		"coordinates": {
 			"lat": 76.64675776334164,
@@ -295,11 +295,11 @@
 	},
 	"23": {
 		"id": 23,
-		"links": {},
 		"titles": {
-			"en": "Gas Station",
-			"ru": "Заправка"
+			"ru": "Заправка",
+			"en": "Gas Station"
 		},
+		"links": {},
 		"icon": "filling-station",
 		"coordinates": {
 			"lat": 80.24102361042571,
@@ -308,11 +308,11 @@
 	},
 	"24": {
 		"id": 24,
-		"links": {},
 		"titles": {
-			"en": "Bar",
-			"ru": "Бар"
+			"ru": "Бар",
+			"en": "Bar"
 		},
+		"links": {},
 		"icon": "building",
 		"coordinates": {
 			"lat": 62.80508664555125,
@@ -321,11 +321,11 @@
 	},
 	"25": {
 		"id": 25,
-		"links": {},
 		"titles": {
-			"en": "Ruined Train Station",
-			"ru": "Железнодорожная станция"
+			"ru": "Железнодорожная станция",
+			"en": "Ruined Train Station"
 		},
+		"links": {},
 		"icon": "train-station",
 		"coordinates": {
 			"lat": 62.37109180010085,
@@ -334,11 +334,11 @@
 	},
 	"26": {
 		"id": 26,
-		"links": {},
 		"titles": {
-			"en": "Bunker",
-			"ru": "Бункер ученых"
+			"ru": "Бункер ученых",
+			"en": "Bunker"
 		},
+		"links": {},
 		"icon": "bunker",
 		"coordinates": {
 			"lat": 67.58220578507012,
@@ -347,11 +347,11 @@
 	},
 	"27": {
 		"id": 27,
-		"links": {},
 		"titles": {
-			"en": "Abandoned Facility",
-			"ru": "Завод"
+			"ru": "Завод",
+			"en": "Abandoned Facility"
 		},
+		"links": {},
 		"icon": "factory",
 		"coordinates": {
 			"lat": 67.21391649375947,
@@ -360,11 +360,11 @@
 	},
 	"28": {
 		"id": 28,
-		"links": {},
 		"titles": {
-			"en": "Lab Z-16",
-			"ru": "Лаборатория Z-16"
+			"ru": "Лаборатория Z-16",
+			"en": "Lab Z-16"
 		},
+		"links": {},
 		"icon": "factory",
 		"unmarked": true,
 		"coordinates": {
@@ -374,11 +374,11 @@
 	},
 	"29": {
 		"id": 29,
-		"links": {},
 		"titles": {
-			"en": "Deserted Village",
-			"ru": "Деревня кровососов"
+			"ru": "Деревня кровососов",
+			"en": "Deserted Village"
 		},
+		"links": {},
 		"icon": "city",
 		"coordinates": {
 			"lat": 54.5800053879288,
@@ -387,11 +387,11 @@
 	},
 	"30": {
 		"id": 30,
-		"links": {},
 		"titles": {
-			"en": "Army Warehouses",
-			"ru": "Армейские Склады"
+			"ru": "Армейские Склады",
+			"en": "Army Warehouses"
 		},
+		"links": {},
 		"icon": "military-base",
 		"coordinates": {
 			"lat": 49.485010489727166,
@@ -400,11 +400,11 @@
 	},
 	"31": {
 		"id": 31,
-		"links": {},
 		"titles": {
-			"en": "Dead Forest",
-			"ru": "Мёртвый лес"
+			"ru": "Мёртвый лес",
+			"en": "Dead Forest"
 		},
+		"links": {},
 		"icon": "forest",
 		"coordinates": {
 			"lat": 38.37072848080367,
@@ -413,11 +413,11 @@
 	},
 	"32": {
 		"id": 32,
-		"links": {},
 		"titles": {
-			"en": "Radar Station",
-			"ru": "Радар"
+			"ru": "Радар",
+			"en": "Radar Station"
 		},
+		"links": {},
 		"icon": "satellite",
 		"coordinates": {
 			"lat": 33.57085990313696,
@@ -426,11 +426,11 @@
 	},
 	"33": {
 		"id": 33,
-		"links": {},
 		"titles": {
-			"en": "Lab Z-10",
-			"ru": "Лаборатория Z-10"
+			"ru": "Лаборатория Z-10",
+			"en": "Lab Z-10"
 		},
+		"links": {},
 		"icon": "factory",
 		"unmarked": true,
 		"coordinates": {
@@ -440,11 +440,11 @@
 	},
 	"34": {
 		"id": 34,
-		"links": {},
 		"titles": {
-			"en": "Bates Motel",
-			"ru": "Мотель"
+			"ru": "Мотель",
+			"en": "Bates Motel"
 		},
+		"links": {},
 		"icon": "building",
 		"coordinates": {
 			"lat": 30.09906909449239,
@@ -453,11 +453,11 @@
 	},
 	"35": {
 		"id": 35,
-		"links": {},
 		"titles": {
-			"en": "Ghost Town Church",
-			"ru": "Церковь в Припяти"
+			"ru": "Церковь в Припяти",
+			"en": "Ghost Town Church"
 		},
+		"links": {},
 		"icon": "church",
 		"coordinates": {
 			"lat": 29.752447131515236,
@@ -466,11 +466,11 @@
 	},
 	"36": {
 		"id": 36,
-		"links": {},
 		"titles": {
-			"en": "Ghost Town Warehouse",
-			"ru": "Хозмаг в Припяти"
+			"ru": "Хозмаг в Припяти",
+			"en": "Ghost Town Warehouse"
 		},
+		"links": {},
 		"icon": "store",
 		"unmarked": true,
 		"coordinates": {
@@ -480,11 +480,11 @@
 	},
 	"37": {
 		"id": 37,
-		"links": {},
 		"titles": {
-			"en": "Ghost Town Bus Station",
-			"ru": "Автостанция в Припяти"
+			"ru": "Автостанция в Припяти",
+			"en": "Ghost Town Bus Station"
 		},
+		"links": {},
 		"icon": "building",
 		"unmarked": true,
 		"coordinates": {
@@ -494,11 +494,11 @@
 	},
 	"38": {
 		"id": 38,
-		"links": {},
 		"titles": {
-			"en": "Ghost Town School",
-			"ru": "Школа в Припяти"
+			"ru": "Школа в Припяти",
+			"en": "Ghost Town School"
 		},
+		"links": {},
 		"icon": "school",
 		"coordinates": {
 			"lat": 34.90542099669312,
@@ -507,11 +507,11 @@
 	},
 	"39": {
 		"id": 39,
-		"links": {},
 		"titles": {
-			"en": "Ghost Town Hotel",
-			"ru": "Гостиница в Припяти"
+			"ru": "Гостиница в Припяти",
+			"en": "Ghost Town Hotel"
 		},
+		"links": {},
 		"icon": "building",
 		"coordinates": {
 			"lat": 34.718789179329264,
@@ -520,11 +520,11 @@
 	},
 	"40": {
 		"id": 40,
-		"links": {},
 		"titles": {
-			"en": "Ghost Town Palace of Culture",
-			"ru": "ДК «Энергетик»"
+			"ru": "ДК «Энергетик»",
+			"en": "Ghost Town Palace of Culture"
 		},
+		"links": {},
 		"icon": "building",
 		"coordinates": {
 			"lat": 30.303074078682968,
@@ -533,11 +533,11 @@
 	},
 	"41": {
 		"id": 41,
-		"links": {},
 		"titles": {
-			"en": "Basement",
-			"ru": "Подвал ДК «Энергетик»"
+			"ru": "Подвал ДК «Энергетик»",
+			"en": "Basement"
 		},
+		"links": {},
 		"icon": "dungeon",
 		"unmarked": true,
 		"coordinates": {
@@ -547,11 +547,11 @@
 	},
 	"42": {
 		"id": 42,
-		"links": {},
 		"titles": {
-			"en": "Ghost Town Stadium",
-			"ru": "Стадион «Авангард»"
+			"ru": "Стадион «Авангард»",
+			"en": "Ghost Town Stadium"
 		},
+		"links": {},
 		"icon": "building",
 		"coordinates": {
 			"lat": 30.02547935823374,
@@ -560,11 +560,11 @@
 	},
 	"43": {
 		"id": 43,
-		"links": {},
 		"titles": {
-			"en": "Mass Fusion NPP",
-			"ru": "ЧАЭС"
+			"ru": "ЧАЭС",
+			"en": "Mass Fusion NPP"
 		},
+		"links": {},
 		"icon": "factory",
 		"coordinates": {
 			"lat": 30.51701443802773,
@@ -573,11 +573,11 @@
 	},
 	"44": {
 		"id": 44,
-		"links": {},
 		"titles": {
-			"en": "Mass Fusion NPP Entrance",
-			"ru": "Вход в здание ЧАЭС"
+			"ru": "Вход в здание ЧАЭС",
+			"en": "Mass Fusion NPP Entrance"
 		},
+		"links": {},
 		"icon": "factory",
 		"unmarked": true,
 		"coordinates": {
