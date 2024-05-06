@@ -101,7 +101,9 @@
 			<div class="icon" data-bind="css: { visited: visited, visible: visible, unmarked: unmarked }, class: className, click: filter"></div>
 			<h3 data-bind="text: title"></h3>
 			<!-- ko if: link -->
-			<a class="permalink nounderline icon fa-solid fa-link" target="_blank" data-bind="attr: { href: link }"></a>
+			<a class="permalink nounderline" target="_blank" data-bind="attr: { href: link }">
+				<i class="fa-solid fa-link"></i>
+			</a>
 			<!-- /ko -->
 		</div>
 		<div class="row" data-bind="css: { visited: visited }" >

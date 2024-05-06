@@ -151,6 +151,7 @@ input[type="checkbox"]:checked {
 
 .popup .icon {
 	cursor: pointer;
+	color: #000000;
 }
 
 .popup h3 {
@@ -222,7 +223,6 @@ input[type="checkbox"]:checked {
 	line-height: 32px;
 	width: 32px;
 	height: 32px;
-	border-style: none;
 	border-radius: 50%;
 	position: relative;
 	flex-shrink: 0;
@@ -363,27 +363,22 @@ input[type="checkbox"]:checked {
 
 .icon-collectible {
 	background: #587799;
-	border-color: #587799;
 }
 
 .icon-bobblehead {
 	background: #f0d100;
-	border-color: #f0d100;
 }
 
 .icon-pickup {
 	background: #d45243;
-	border-color: #d45243;
 }
 
 .icon-location {
 	background: #21bc23;
-	border-color: #21bc23;
 }
 
 .icon.unmarked {
 	background: #78297f;
-	border-color: #78297f;
 }
 
 .search .input .icon {
