@@ -279,7 +279,7 @@ const types = new Types([
 ]);
 
 const icons = new Icons([
-	{ name: "attraction", className: "fa-ticket", type: "location", titles: { en: "Attraction", ru: "Аттракцион" } },
+	{ name: "attraction", className: "fa-sun", type: "location", titles: { en: "Attraction", ru: "Аттракцион" } },
 	{ name: "bobblehead", className: "fa-face-smile", type: "collectible", titles: { en: "Bobblehead", ru: "Пупс" } },
 	{ name: "bridge", className: "fa-bridge", type: "location", titles: { en: "Bridge", ru: "Мост" } },
 	{ name: "building", className: "fa-building", type: "location", titles: { en: "Building", ru: "Здание" } },
@@ -445,6 +445,15 @@ function showPoint(point, isNew) {
 	if (!point.visible()) hasHidden = true;
 	point.unmarked ||= false;
 
+	point.category = icons.find(point.icon).titles[lang.key];
+
+	point.filter = function() {
+		searchPanel.visible(true);
+		searchPanel.text('');
+		searchPanel.icon(icons.find(point.icon));
+		searchPanel.search();
+	}
+
 	point.navigate = function(){
 		searchPanel.visible(false);
 		map.setView(point.coordinates, 5);
@@ -473,12 +482,6 @@ function showPoint(point, isNew) {
 	};
 
 	point.editable = ko.observable(editable);
-	point.editMode = ko.observable(false);
-
-	point.editTitle = function() {
-		point.editMode(!point.editMode());
-		point.title(point.titles[lang.key]);
-	}
 
 	if (isNew) {
 		point.coordinates = map.getCenter();

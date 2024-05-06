@@ -96,22 +96,23 @@
 </script>
 
 <script type="text/template" id="popup-template">
-	<h3 class="row">
-		<span class="title" data-bind="text: title, event: { dblclick: editTitle }"></span>
-		<!-- ko if: link -->
-		<a class="permalink fa-solid icon-link" target="_blank" data-bind="attr: { href: link }"></a>
-		<!-- /ko -->
-	</h3>
-	<input type="text" data-bind="textInput: titles.ru, visible: editMode" />
-	<input type="text" data-bind="textInput: titles.en, visible: editMode" />
-	<div class="row" data-bind="css: { visited: visited }" >
-		<div class="row">
-			<a class="button new" data-bind="click: visit">new</a>
-			<a class="button visited" data-bind="click: visit">visited</a>
-			<a class="button clone" data-bind="visible: editable, click: clone">clone</a>
-			<a class="button delete" data-bind="visible: editable, click: deleteThis">delete</a>
+	<div class="popup">
+		<div class="row title">
+			<div class="icon" data-bind="css: { visited: visited, visible: visible, unmarked: unmarked }, class: className, click: filter"></div>
+			<h3 data-bind="text: title"></h3>
+			<!-- ko if: link -->
+			<a class="permalink nounderline icon fa-solid fa-link" target="_blank" data-bind="attr: { href: link }"></a>
+			<!-- /ko -->
 		</div>
-		<div class="id" data-bind="visible: editable">#<span data-bind="text: id"></span></div>
+		<div class="row" data-bind="css: { visited: visited }" >
+			<div class="row">
+				<a class="button new" data-bind="click: visit">new</a>
+				<a class="button visited" data-bind="click: visit">visited</a>
+				<a class="button clone" data-bind="visible: editable, click: clone">clone</a>
+				<a class="button delete" data-bind="visible: editable, click: deleteThis">delete</a>
+			</div>
+			<div class="id" data-bind="visible: editable">#<span data-bind="text: id"></span></div>
+		</div>
 	</div>
 </script>
 

@@ -637,7 +637,7 @@
 			"ru": "Арена «РобКо»",
 			"en": "RobCo Battlezone"
 		},
-		"icon": "building",
+		"icon": "attraction",
 		"coordinates": {
 			"lat": -34.195442822666806,
 			"lng": -32.131805162943785

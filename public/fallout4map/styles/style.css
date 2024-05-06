@@ -136,29 +136,35 @@ input[type="checkbox"]:checked {
 	border: none;
 }
 
-.leaflet-popup-content h3 {
-	font-size: 20px;
-}
-
-.leaflet-popup-content h3 .title {
+.permalink {
+	font-size: 1.5em;
+	text-decoration: none;
 	margin-right: 0.5em;
 }
 
-.leaflet-popup-content .permalink {
-	text-decoration: none;
+.popup .title {
+	align-items: flex-start;
+	justify-content: flex-start;
+	gap: 8px;
+	margin-bottom: 1em;
 }
 
-.leaflet-popup-content input[type="text"] {
-	width: 100%;
+.popup .icon {
+	cursor: pointer;
 }
 
-.leaflet-popup-content .id {
+.popup h3 {
+	font-size: 20px;
+	margin: 0;
+}
+
+.popup .id {
 	color: grey;
 	font-size: 14px;
 	padding-left: 1em;
 }
 
-.leaflet-popup-content .button {
+.popup .button {
 	display: block;
 	cursor: pointer;
 	padding: 0 8px;
@@ -171,42 +177,42 @@ input[type="checkbox"]:checked {
 	text-align: center;
 }
 
-.leaflet-popup-content .button.new {
+.popup .button.new {
 	background: darkgreen;
 	color: lime;
 }
 
-.leaflet-popup-content .button.visited {
+.popup .button.visited {
 	background: gray;
 	color: white;
 	display: none;
 }
 
-.leaflet-popup-content .visited .button.new {
+.popup .visited .button.new {
 	display: none;
 }
 
-.leaflet-popup-content .visited .button.visited {
+.popup .visited .button.visited {
 	display: block;
 }
 
-.leaflet-popup-content .button.mark {
+.popup .button.mark {
 	display: none;
 }
 
-.leaflet-popup-content .unmarked .button.mark {
+.popup .unmarked .button.mark {
 	display: block;
 }
 
-.leaflet-popup-content .unmarked .button.unmark {
+.popup .unmarked .button.unmark {
 	display: none;
 }
 
-.leaflet-popup-content .button.clone {
+.popup .button.clone {
 	background: lightblue;
 }
 
-.leaflet-popup-content .button.delete {
+.popup .button.delete {
 	background: brown;
 	color: yellow;
 }
@@ -219,6 +225,7 @@ input[type="checkbox"]:checked {
 	border-style: none;
 	border-radius: 50%;
 	position: relative;
+	flex-shrink: 0;
 }
 
 .icon.fa-solid {
