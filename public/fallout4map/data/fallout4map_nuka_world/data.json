@@ -10,7 +10,6 @@
 			"en": "https://fallout.fandom.com/wiki/Nuka-station"
 		},
 		"icon": "train-station",
-		"unmarked": false,
 		"coordinates": {
 			"lat": -75.85582907727735,
 			"lng": 32.246930218090625
@@ -44,7 +43,6 @@
 			"en": "https://fallout.fandom.com/wiki/Fusion_core_(Fallout_4)"
 		},
 		"icon": "fusion-core",
-		"unmarked": false,
 		"coordinates": {
 			"lat": -73.31146964936647,
 			"lng": 20.727767190161057
@@ -61,7 +59,6 @@
 			"en": "https://fallout.fandom.com/wiki/Recon_log"
 		},
 		"icon": "holotape",
-		"unmarked": false,
 		"coordinates": {
 			"lat": -72.15028781120603,
 			"lng": 20.72776182713979
@@ -78,7 +75,6 @@
 			"en": "https://fallout.fandom.com/wiki/Personal_log"
 		},
 		"icon": "holotape",
-		"unmarked": false,
 		"coordinates": {
 			"lat": -72.15028822205949,
 			"lng": 23.443681614003502
@@ -95,7 +91,6 @@
 			"en": "https://fallout.fandom.com/wiki/Cola-cars_arena"
 		},
 		"icon": "building",
-		"unmarked": false,
 		"coordinates": {
 			"lat": -61.94542815845638,
 			"lng": 40.954061657523845
@@ -112,7 +107,6 @@
 			"en": "https://fallout.fandom.com/wiki/Ian%27s_holotape"
 		},
 		"icon": "holotape",
-		"unmarked": false,
 		"coordinates": {
 			"lat": -61.945429419245976,
 			"lng": 43.90960659840491
@@ -129,7 +123,6 @@
 			"en": "https://fallout.fandom.com/wiki/Fusion_core_(Fallout_4)"
 		},
 		"icon": "fusion-core",
-		"unmarked": false,
 		"coordinates": {
 			"lat": -63.76642562593919,
 			"lng": 41.11381533554959
@@ -146,7 +139,6 @@
 			"en": "https://fallout.fandom.com/wiki/Mini_nuke"
 		},
 		"icon": "mini-nuke",
-		"unmarked": false,
 		"coordinates": {
 			"lat": -63.76642681091514,
 			"lng": 43.90960659840491
@@ -163,7 +155,6 @@
 			"en": "https://fallout.fandom.com/wiki/Mini_nuke"
 		},
 		"icon": "mini-nuke",
-		"unmarked": false,
 		"coordinates": {
 			"lat": -63.76642562593919,
 			"lng": 46.8651569023073
@@ -180,7 +171,6 @@
 			"en": "https://fallout.fandom.com/wiki/Aeternus"
 		},
 		"icon": "weapon",
-		"unmarked": false,
 		"coordinates": {
 			"lat": -61.94542815845638,
 			"lng": 46.865162265328614
@@ -197,7 +187,6 @@
 			"en": "https://fallout.fandom.com/wiki/Fusion_core_(Fallout_4)"
 		},
 		"icon": "fusion-core",
-		"unmarked": false,
 		"coordinates": {
 			"lat": -63.80170400037052,
 			"lng": 38.15826503164721
@@ -214,7 +203,6 @@
 			"en": "https://fallout.fandom.com/wiki/Nuka-Town_market"
 		},
 		"icon": "store",
-		"unmarked": false,
 		"coordinates": {
 			"lat": -60.91964955851455,
 			"lng": 22.2875985500869
@@ -231,7 +219,6 @@
 			"en": "https://fallout.fandom.com/wiki/Mini_nuke"
 		},
 		"icon": "mini-nuke",
-		"unmarked": false,
 		"coordinates": {
 			"lat": -60.91964955851455,
 			"lng": 25.163266651955098
@@ -248,7 +235,6 @@
 			"en": "https://fallout.fandom.com/wiki/Splattercannon"
 		},
 		"icon": "weapon",
-		"unmarked": false,
 		"coordinates": {
 			"lat": -62.69235777001336,
 			"lng": 22.20771634805272
@@ -265,7 +251,6 @@
 			"en": "https://fallout.fandom.com/wiki/Throatslicer"
 		},
 		"icon": "weapon",
-		"unmarked": false,
 		"coordinates": {
 			"lat": -62.69235654017094,
 			"lng": 25.083389812942222
@@ -282,7 +267,6 @@
 			"en": "https://fallout.fandom.com/wiki/Fusion_core_(Fallout_4)"
 		},
 		"icon": "fusion-core",
-		"unmarked": false,
 		"coordinates": {
 			"lat": -60.880812631734806,
 			"lng": 19.651560965257328
@@ -299,7 +283,6 @@
 			"en": "https://fallout.fandom.com/wiki/Fusion_core_(Fallout_4)"
 		},
 		"icon": "fusion-core",
-		"unmarked": false,
 		"coordinates": {
 			"lat": -60.880812631734806,
 			"lng": 16.935651904436188
@@ -316,7 +299,6 @@
 			"en": "https://fallout.fandom.com/wiki/Bradberton_Amphitheater"
 		},
 		"icon": "building",
-		"unmarked": false,
 		"coordinates": {
 			"lat": -60.841928388080134,
 			"lng": 10.705033214537307
@@ -350,7 +332,6 @@
 			"en": "https://fallout.fandom.com/wiki/Buzz%27s_holotape"
 		},
 		"icon": "holotape",
-		"unmarked": false,
 		"coordinates": {
 			"lat": -62.76553863375514,
 			"lng": 10.784910053550183
@@ -367,7 +348,6 @@
 			"en": "https://fallout.fandom.com/wiki/You_go_tell_Mason"
 		},
 		"icon": "holotape",
-		"unmarked": false,
 		"coordinates": {
 			"lat": -62.76553863375514,
 			"lng": 7.829359749647803
@@ -384,7 +364,6 @@
 			"en": "https://fallout.fandom.com/wiki/Stinking_operators"
 		},
 		"icon": "holotape",
-		"unmarked": false,
 		"coordinates": {
 			"lat": -62.728970866847035,
 			"lng": 4.953691647779604
@@ -418,7 +397,6 @@
 			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_recipes"
 		},
 		"icon": "magazine",
-		"unmarked": false,
 		"coordinates": {
 			"lat": -55.73114973465826,
 			"lng": 24.124835566659872
@@ -435,7 +413,6 @@
 			"en": "https://fallout.fandom.com/wiki/The_Parlor"
 		},
 		"icon": "encampment",
-		"unmarked": false,
 		"coordinates": {
 			"lat": -51.163662703571646,
 			"lng": 25.15594475718098
@@ -452,7 +429,6 @@
 			"en": "https://fallout.fandom.com/wiki/Mother,_it%27s_Mags"
 		},
 		"icon": "holotape",
-		"unmarked": false,
 		"coordinates": {
 			"lat": -48.6909603909255,
 			"lng": 22.236328125000004
@@ -469,7 +445,6 @@
 			"en": "https://fallout.fandom.com/wiki/Maggy,_it%27s_your_mother"
 		},
 		"icon": "holotape",
-		"unmarked": false,
 		"coordinates": {
 			"lat": -48.6909603909255,
 			"lng": 25.048828125000004
@@ -486,7 +461,6 @@
 			"en": "https://fallout.fandom.com/wiki/Persuasion_test_eight"
 		},
 		"icon": "holotape",
-		"unmarked": false,
 		"coordinates": {
 			"lat": -48.63290858589534,
 			"lng": 27.773437500000004
@@ -520,7 +494,6 @@
 			"en": "https://fallout.fandom.com/wiki/Nuka-World_Red_Rocket"
 		},
 		"icon": "filling-station",
-		"unmarked": false,
 		"coordinates": {
 			"lat": 58.85907462337285,
 			"lng": 86.39145412534445
@@ -537,7 +510,6 @@
 			"en": "https://fallout.fandom.com/wiki/Bradberton"
 		},
 		"icon": "city",
-		"unmarked": false,
 		"coordinates": {
 			"lat": 73.9153691497899,
 			"lng": 105.66283437802888
@@ -554,7 +526,6 @@
 			"en": "https://fallout.fandom.com/wiki/Wixon%27s_shovel_museum"
 		},
 		"icon": "building",
-		"unmarked": false,
 		"coordinates": {
 			"lat": -58.658684732350096,
 			"lng": 92.08328907392307
@@ -571,7 +542,6 @@
 			"en": "https://fallout.fandom.com/wiki/Nuka-Town_USA"
 		},
 		"icon": "city",
-		"unmarked": false,
 		"coordinates": {
 			"lat": -64.87863322491201,
 			"lng": 22.23655696773057
@@ -588,7 +558,6 @@
 			"en": "https://fallout.fandom.com/wiki/Nuka-World_paramedic_report"
 		},
 		"icon": "holotape",
-		"unmarked": false,
 		"coordinates": {
 			"lat": -51.49728261905342,
 			"lng": 14.8888777261971
@@ -605,7 +574,6 @@
 			"en": "https://fallout.fandom.com/wiki/Galactic_Zone"
 		},
 		"icon": "city",
-		"unmarked": false,
 		"coordinates": {
 			"lat": -32.20353467022642,
 			"lng": -27.004850607804762
@@ -622,7 +590,6 @@
 			"en": "https://fallout.fandom.com/wiki/Power_armor"
 		},
 		"icon": "power-armor",
-		"unmarked": false,
 		"coordinates": {
 			"lat": -29.61167011519739,
 			"lng": -26.982421875000004
@@ -639,7 +606,6 @@
 			"en": "https://fallout.fandom.com/wiki/Emerson%27s_holotape"
 		},
 		"icon": "holotape",
-		"unmarked": false,
 		"coordinates": {
 			"lat": -29.6880527498568,
 			"lng": -23.818359375000004
@@ -656,7 +622,6 @@
 			"en": "https://fallout.fandom.com/wiki/SCAV!"
 		},
 		"icon": "magazine",
-		"unmarked": false,
 		"coordinates": {
 			"lat": -32.32427558887655,
 			"lng": -23.818359375000004
@@ -673,7 +638,6 @@
 			"en": "https://fallout.fandom.com/wiki/RobCo_Battlezone"
 		},
 		"icon": "attraction",
-		"unmarked": false,
 		"coordinates": {
 			"lat": -34.195442822666806,
 			"lng": -32.131805162943785
@@ -690,7 +654,6 @@
 			"en": "https://fallout.fandom.com/wiki/Fusion_core_(Fallout_4)"
 		},
 		"icon": "fusion-core",
-		"unmarked": false,
 		"coordinates": {
 			"lat": -36.00897515633353,
 			"lng": -34.22927605053689
@@ -707,7 +670,6 @@
 			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_recipes"
 		},
 		"icon": "magazine",
-		"unmarked": false,
 		"coordinates": {
 			"lat": -37.30027528134431,
 			"lng": -31.816406250000004
@@ -724,7 +686,6 @@
 			"en": "https://fallout.fandom.com/wiki/Vault-Tec:_Among_the_Stars"
 		},
 		"icon": "attraction",
-		"unmarked": false,
 		"coordinates": {
 			"lat": -41.57436130598913,
 			"lng": -27.290039062500004
@@ -741,7 +702,6 @@
 			"en": "https://fallout.fandom.com/wiki/Fusion_core_(Fallout_4)"
 		},
 		"icon": "fusion-core",
-		"unmarked": false,
 		"coordinates": {
 			"lat": -41.640078384678915,
 			"lng": -30.234375000000004
@@ -758,7 +718,6 @@
 			"en": "https://fallout.fandom.com/wiki/Project_consumer_guidance"
 		},
 		"icon": "holotape",
-		"unmarked": false,
 		"coordinates": {
 			"lat": -41.508577297439345,
 			"lng": -24.257812500000004
@@ -775,7 +734,6 @@
 			"en": "https://fallout.fandom.com/wiki/Starlight_Interstellar_Theater"
 		},
 		"icon": "attraction",
-		"unmarked": false,
 		"coordinates": {
 			"lat": -38.54816542304657,
 			"lng": -18.281250000000004
@@ -792,7 +750,6 @@
 			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_recipes"
 		},
 		"icon": "magazine",
-		"unmarked": false,
 		"coordinates": {
 			"lat": -38.54816542304657,
 			"lng": -15.292968750000002

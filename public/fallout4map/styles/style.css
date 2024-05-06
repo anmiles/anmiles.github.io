@@ -136,6 +136,12 @@ input[type="checkbox"]:checked {
 	border: none;
 }
 
+.id {
+	color: grey;
+	font-size: 14px;
+	padding-left: 1em;
+}
+
 .permalink {
 	font-size: 1.5em;
 	text-decoration: none;
@@ -161,12 +167,6 @@ input[type="checkbox"]:checked {
 .popup h3 {
 	font-size: 20px;
 	margin: 0;
-}
-
-.popup .id {
-	color: grey;
-	font-size: 14px;
-	padding-left: 1em;
 }
 
 .popup .button {
@@ -356,6 +356,10 @@ input[type="checkbox"]:checked {
 	position: absolute;
 }
 
+.search .title {
+	flex-grow: 1;
+}
+
 .search h3 {
 	margin: 0;
 	font-size: 1em;
@@ -407,6 +411,10 @@ input[type="checkbox"]:checked {
 }
 
 .filter ul:empty {
+	display: none;
+}
+
+.filter [data-empty] {
 	display: none;
 }
 

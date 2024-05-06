@@ -96,7 +96,8 @@ const dlcs = {
 	'': {
 		key: '',
 		title: 'Fallout 4',
-		zoom: 3,
+		zoom: 4,
+		tileZoom: 3,
 		background: '#1d1d1d',
 		default: true,
 		ready: 0.99,
@@ -104,22 +105,27 @@ const dlcs = {
 	far_harbor: {
 		key: 'far_harbor',
 		title: 'Far Harbor DLC',
+		zoom: 4,
+		tileZoom: 3,
 		background: '#201c20',
-		zoom: 3,
+		startId: 12,
 		ready: 1,
 	},
 	nuka_world: {
 		key: 'nuka_world',
 		title: 'Nuka World DLC',
+		zoom: 4,
+		tileZoom: 3,
 		background: '#282420',
-		zoom: 3,
+		startId: 35,
 		ready: 0.1,
 	},
 	zone: {
 		key: 'zone',
 		title: 'Zone DLC',
 		background: '#666666',
-		zoom: 3,
+		zoom: 4,
+		tileZoom: 3,
 		ready: 1,
 	}
 }
@@ -142,6 +148,7 @@ const langs = {
 		unvisited: 'Непосещённые',
 		visitedCount: 'Посещено',
 		unmarked: 'Неотмечаемые',
+		exact: 'Точные',
 		underConstruction: 'Карта находится в разработке ({0}% готово)'
 	},
 	en: {
@@ -161,6 +168,7 @@ const langs = {
 		unvisited: 'Unvisited',
 		visitedCount: 'Visited',
 		unmarked: 'Unmarked',
+		exact: 'Exact',
 		underConstruction: 'The map is under construction ({0}% finished)'
 	},
 };
@@ -196,11 +204,13 @@ const model = {
 	showVisited: ko.observable(true),
 	showUnvisited: ko.observable(true),
 	showUnmarked: ko.observable(true),
+	showExact: ko.observable(true),
 };
 
 model.showVisited.subscribe(() => searchPanel.search());
 model.showUnvisited.subscribe(() => searchPanel.search());
 model.showUnmarked.subscribe(() => searchPanel.search());
+model.showExact.subscribe(() => searchPanel.search());
 
 const hidden = JSON.parse(localStorage[game.key + '-hidden'] || '{ "types": [], "icons": [] }');
 
@@ -389,8 +399,8 @@ map.on('zoom', ev => {
 }).fire('zoom');
 
 L.tileLayer(`data/${game.key}/tiles/{z}-{y}-{x}.png`, {
-	minNativeZoom: game.zoom,
-	maxNativeZoom: game.zoom,
+	minNativeZoom: game.tileZoom,
+	maxNativeZoom: game.tileZoom,
 	noWrap: true
 }).addTo(map);
 
@@ -439,11 +449,11 @@ $.getJSON(`data/${game.key}/data.json`, data => {
 function showPoint(point, isNew) {
 	point.visited = ko.observable(false);
 	point.enabled = ko.observable(icons.find(point.icon).enabled());
-	point.checked = ko.computed(() => (point.visited() ? model.showVisited() : model.showUnvisited()) && (!point.unmarked || model.showUnmarked()));
+	/* */ point.exact = ko.observable((Math.round(1000 * point.coordinates.lat) / 1000).toString() !== point.coordinates.lat.toString());
+	point.checked = ko.computed(() => (point.visited() ? model.showVisited() : model.showUnvisited()) && (!point.unmarked || model.showUnmarked()) && (!point.exact() || model.showExact()));
 	point.visible = ko.computed(() => point.enabled() && point.checked());
 
 	if (!point.visible()) hasHidden = true;
-	point.unmarked ||= false;
 
 	point.filter = function() {
 		searchPanel.visible(true);
@@ -454,7 +464,7 @@ function showPoint(point, isNew) {
 
 	point.navigate = function(){
 		searchPanel.visible(false);
-		map.setView(point.coordinates, 5);
+		map.setView(point.coordinates);
 		markers[point.id].openPopup();
 		return false;
 	};
@@ -887,6 +897,8 @@ map.addControl(new L.CheckButton({ text: lang.unvisited, position: 'topleft', ho
 
 map.addControl(new L.CheckButton({ text: lang.unmarked, position: 'topleft', hotkey: 'F11', checked: model.showUnmarked }));
 
+/* */ map.addControl(new L.CheckButton({ text: 'EXACT', position: 'topleft', hotkey: 'F12', checked: model.showExact }));
+
 map.addControl(new L.Bound(progress));
 
 if (game.ready !== 1) {
@@ -900,4 +912,7 @@ function hideWarning(control) {
 }
 
 function onMapReady(){
+	if (game.startId) {
+		map.setView(points[game.startId].coordinates);
+	}
 }
