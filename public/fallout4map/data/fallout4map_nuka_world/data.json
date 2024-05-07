@@ -108,8 +108,8 @@
 		},
 		"icon": "holotape",
 		"coordinates": {
-			"lat": -61.945429419245976,
-			"lng": 43.90960659840491
+			"lat": -61.897577621605016,
+			"lng": 50.62500000000001
 		}
 	},
 	"8": {
@@ -172,8 +172,8 @@
 		},
 		"icon": "weapon",
 		"coordinates": {
-			"lat": -61.94542815845638,
-			"lng": 46.865162265328614
+			"lat": -61.93895042666062,
+			"lng": 43.94531250000001
 		}
 	},
 	"12": {
@@ -300,8 +300,8 @@
 		},
 		"icon": "building",
 		"coordinates": {
-			"lat": -60.841928388080134,
-			"lng": 10.705033214537307
+			"lat": -60.63010176626669,
+			"lng": 10.810546875000002
 		}
 	},
 	"20": {
@@ -333,8 +333,8 @@
 		},
 		"icon": "holotape",
 		"coordinates": {
-			"lat": -62.76553863375514,
-			"lng": 10.784910053550183
+			"lat": -56.84897198026976,
+			"lng": 10.810546875000002
 		}
 	},
 	"22": {
@@ -349,8 +349,8 @@
 		},
 		"icon": "holotape",
 		"coordinates": {
-			"lat": -62.76553863375514,
-			"lng": 7.829359749647803
+			"lat": -56.84897198026976,
+			"lng": 7.734375000000001
 		}
 	},
 	"23": {
@@ -365,8 +365,8 @@
 		},
 		"icon": "holotape",
 		"coordinates": {
-			"lat": -62.728970866847035,
-			"lng": 4.953691647779604
+			"lat": -56.80087831233043,
+			"lng": 4.658203125000001
 		}
 	},
 	"24": {
@@ -389,8 +389,8 @@
 	"25": {
 		"id": 25,
 		"titles": {
-			"ru": "Рецепт Ядер-Пустоты",
-			"en": "Nuka-Void Recipe"
+			"ru": "Рецепт Ядер-Цида",
+			"en": "Nuka-Cide Recipe"
 		},
 		"links": {
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A0%D0%B5%D1%86%D0%B5%D0%BF%D1%82%D1%8B_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D1%8B",
@@ -414,8 +414,8 @@
 		},
 		"icon": "encampment",
 		"coordinates": {
-			"lat": -51.163662703571646,
-			"lng": 25.15594475718098
+			"lat": -50.68079714532165,
+			"lng": 25.136718750000004
 		}
 	},
 	"27": {
@@ -462,8 +462,8 @@
 		},
 		"icon": "holotape",
 		"coordinates": {
-			"lat": -48.63290858589534,
-			"lng": 27.773437500000004
+			"lat": -48.6909603909255,
+			"lng": 27.861328125
 		}
 	},
 	"31": {
@@ -591,8 +591,8 @@
 		},
 		"icon": "power-armor",
 		"coordinates": {
-			"lat": -29.61167011519739,
-			"lng": -26.982421875000004
+			"lat": -20.05593126519445,
+			"lng": -23.378906250000004
 		}
 	},
 	"43": {
@@ -607,7 +607,7 @@
 		},
 		"icon": "holotape",
 		"coordinates": {
-			"lat": -29.6880527498568,
+			"lat": -29.61167011519739,
 			"lng": -23.818359375000004
 		}
 	},
@@ -623,7 +623,7 @@
 		},
 		"icon": "magazine",
 		"coordinates": {
-			"lat": -32.32427558887655,
+			"lat": -32.249974455863295,
 			"lng": -23.818359375000004
 		}
 	},
@@ -753,6 +753,1727 @@
 		"coordinates": {
 			"lat": -38.54816542304657,
 			"lng": -15.292968750000002
+		}
+	},
+	"53": {
+		"id": 53,
+		"titles": {
+			"ru": "Ядер-Галактика",
+			"en": "Nuka-Galaxy"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%93%D0%B0%D0%BB%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Nuka-Galaxy"
+		},
+		"icon": "attraction",
+		"coordinates": {
+			"lat": -15.029685756555674,
+			"lng": -39.28710937500001
+		}
+	},
+	"54": {
+		"id": 54,
+		"titles": {
+			"ru": "Ядерный минизаряд",
+			"en": "Mini nuke"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%BC%D0%B8%D0%BD%D0%B8%D0%B7%D0%B0%D1%80%D1%8F%D0%B4",
+			"en": "https://fallout.fandom.com/wiki/Mini_nuke"
+		},
+		"icon": "mini-nuke",
+		"coordinates": {
+			"lat": -15.029685756555674,
+			"lng": -36.38671875000001
+		}
+	},
+	"55": {
+		"id": 55,
+		"titles": {
+			"ru": "Ядер-Космопорт",
+			"en": "Starport Nuka"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D1%81%D0%BC%D0%BE%D0%BF%D0%BE%D1%80%D1%82",
+			"en": "https://fallout.fandom.com/wiki/Starport_Nuka"
+		},
+		"icon": "attraction",
+		"coordinates": {
+			"lat": -27.605670826465445,
+			"lng": -32.69531250000001
+		}
+	},
+	"56": {
+		"id": 56,
+		"titles": {
+			"ru": "Ядерный минизаряд",
+			"en": "Mini nuke"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%BC%D0%B8%D0%BD%D0%B8%D0%B7%D0%B0%D1%80%D1%8F%D0%B4",
+			"en": "https://fallout.fandom.com/wiki/Mini_nuke"
+		},
+		"icon": "mini-nuke",
+		"coordinates": {
+			"lat": -24.926294766395593,
+			"lng": -32.60742187500001
+		}
+	},
+	"57": {
+		"id": 57,
+		"titles": {
+			"ru": "Силовая броня",
+			"en": "Power armor"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D0%B8%D0%BB%D0%BE%D0%B2%D0%B0%D1%8F_%D0%B1%D1%80%D0%BE%D0%BD%D1%8F",
+			"en": "https://fallout.fandom.com/wiki/Power_armor"
+		},
+		"icon": "power-armor",
+		"coordinates": {
+			"lat": -24.926294766395593,
+			"lng": -29.707031250000004
+		}
+	},
+	"58": {
+		"id": 58,
+		"titles": {
+			"ru": "Дневник Марка",
+			"en": "Mark's log"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%94%D0%BD%D0%B5%D0%B2%D0%BD%D0%B8%D0%BA_%D0%9C%D0%B0%D1%80%D0%BA%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Mark%27s_log"
+		},
+		"icon": "holotape",
+		"coordinates": {
+			"lat": -25.005972656239177,
+			"lng": -26.718750000000004
+		}
+	},
+	"59": {
+		"id": 59,
+		"titles": {
+			"ru": "Звёздный диспетчер",
+			"en": "Star Control"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D0%BD%D1%8B%D0%B9_%D0%B4%D0%B8%D1%81%D0%BF%D0%B5%D1%82%D1%87%D0%B5%D1%80"
+		},
+		"icon": "attraction",
+		"unmarked": true,
+		"coordinates": {
+			"lat": -19.973348786110602,
+			"lng": -26.367187500000004
+		}
+	},
+	"60": {
+		"id": 60,
+		"titles": {
+			"ru": "Детское королевство",
+			"en": "Kiddie Kingdom"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%94%D0%B5%D1%82%D1%81%D0%BA%D0%BE%D0%B5_%D0%BA%D0%BE%D1%80%D0%BE%D0%BB%D0%B5%D0%B2%D1%81%D1%82%D0%B2%D0%BE",
+			"en": "https://fallout.fandom.com/wiki/Kiddie_Kingdom"
+		},
+		"icon": "city",
+		"coordinates": {
+			"lat": 6.751896464843375,
+			"lng": 54.05273437500001
+		}
+	},
+	"61": {
+		"id": 61,
+		"titles": {
+			"ru": "Замок Ядер-Короля",
+			"en": "King Cola's Castle"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%97%D0%B0%D0%BC%D0%BE%D0%BA_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D1%80%D0%BE%D0%BB%D1%8F",
+			"en": "https://fallout.fandom.com/wiki/King_Cola%27s_Castle"
+		},
+		"icon": "attraction",
+		"coordinates": {
+			"lat": 16.04581345375218,
+			"lng": 68.11523437500001
+		}
+	},
+	"62": {
+		"id": 62,
+		"titles": {
+			"ru": "Башня замка Ядер-Короля",
+			"en": "King Cola's Castle Tower"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%91%D0%B0%D1%88%D0%BD%D1%8F_%D0%B7%D0%B0%D0%BC%D0%BA%D0%B0_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D1%80%D0%BE%D0%BB%D1%8F",
+			"en": "https://fallout.fandom.com/wiki/King_Cola%27s_Castle_Tower"
+		},
+		"icon": "building",
+		"unmarked": true,
+		"coordinates": {
+			"lat": 18.145851771694467,
+			"lng": 62.22656250000001
+		}
+	},
+	"63": {
+		"id": 63,
+		"titles": {
+			"ru": "Двор Ядер-Короля",
+			"en": "King Cola's Court"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%94%D0%B2%D0%BE%D1%80_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D1%80%D0%BE%D0%BB%D1%8F",
+			"en": "https://fallout.fandom.com/wiki/King_Cola%27s_Court"
+		},
+		"icon": "square",
+		"unmarked": true,
+		"coordinates": {
+			"lat": 14.944784875088372,
+			"lng": 62.22656250000001
+		}
+	},
+	"64": {
+		"id": 64,
+		"titles": {
+			"ru": "Крыша замка Ядер-Короля",
+			"en": "King Cola's Roof"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D1%80%D1%8B%D1%88%D0%B0_%D0%B7%D0%B0%D0%BC%D0%BA%D0%B0_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D1%80%D0%BE%D0%BB%D1%8F"
+		},
+		"icon": "building",
+		"unmarked": true,
+		"coordinates": {
+			"lat": 11.953349393643416,
+			"lng": 62.22656250000001
+		}
+	},
+	"65": {
+		"id": 65,
+		"titles": {
+			"ru": "Павильон смеха",
+			"en": "Fun House"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9F%D0%B0%D0%B2%D0%B8%D0%BB%D1%8C%D0%BE%D0%BD_%D1%81%D0%BC%D0%B5%D1%85%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Fun_House"
+		},
+		"icon": "attraction",
+		"coordinates": {
+			"lat": 33.358061612778876,
+			"lng": 34.98046875000001
+		}
+	},
+	"66": {
+		"id": 66,
+		"titles": {
+			"ru": "Мусорщик! («Мутировавшие кулаки Стефи Кастета»)",
+			"en": "SCAV! («Mutant Fists of Stephie Knuckles»)"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9C%D1%83%D1%81%D0%BE%D1%80%D1%89%D0%B8%D0%BA!",
+			"en": "https://fallout.fandom.com/wiki/SCAV!"
+		},
+		"icon": "magazine",
+		"coordinates": {
+			"lat": 33.358061612778876,
+			"lng": 37.96875000000001
+		}
+	},
+	"67": {
+		"id": 67,
+		"titles": {
+			"ru": "Рецепт Ядер-Ликсира",
+			"en": "Nuka-Lixir Recipe"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A0%D0%B5%D1%86%D0%B5%D0%BF%D1%82%D1%8B_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D1%8B",
+			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_recipes"
+		},
+		"icon": "magazine",
+		"coordinates": {
+			"lat": 33.358061612778876,
+			"lng": 40.95703125000001
+		}
+	},
+	"68": {
+		"id": 68,
+		"titles": {
+			"ru": "Технические тоннели",
+			"en": "Employee tunnels"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5_%D1%82%D0%BE%D0%BD%D0%BD%D0%B5%D0%BB%D0%B8",
+			"en": "https://fallout.fandom.com/wiki/Employee_tunnels"
+		},
+		"icon": "dungeon",
+		"coordinates": {
+			"lat": 19.72534224805787,
+			"lng": 47.98828125000001
+		}
+	},
+	"69": {
+		"id": 69,
+		"titles": {
+			"ru": "Колесо обозрения",
+			"en": "Ferris Wheel"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%BE%D0%BB%D0%B5%D1%81%D0%BE_%D0%BE%D0%B1%D0%BE%D0%B7%D1%80%D0%B5%D0%BD%D0%B8%D1%8F",
+			"en": "https://fallout.fandom.com/wiki/Ferris_Wheel_(Nuka-World)"
+		},
+		"icon": "attraction",
+		"coordinates": {
+			"lat": -4.653079918274038,
+			"lng": 35.85937500000001
+		}
+	},
+	"70": {
+		"id": 70,
+		"titles": {
+			"ru": "Дом Мортона",
+			"en": "Morton residence"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%94%D0%BE%D0%BC_%D0%9C%D0%BE%D1%80%D1%82%D0%BE%D0%BD%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Morton_residence"
+		},
+		"icon": "building",
+		"coordinates": {
+			"lat": 69.09993967425089,
+			"lng": 132.97851562500003
+		}
+	},
+	"72": {
+		"id": 72,
+		"titles": {
+			"ru": "Дом Эвана",
+			"en": "Evan's home"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%94%D0%BE%D0%BC_%D0%AD%D0%B2%D0%B0%D0%BD%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Evan%27s_home"
+		},
+		"icon": "building",
+		"coordinates": {
+			"lat": -82.95112060573365,
+			"lng": 18.369140625000004
+		}
+	},
+	"73": {
+		"id": 73,
+		"titles": {
+			"ru": "Рецепт Ядер-Любви",
+			"en": "Nuka-Love Recipe"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A0%D0%B5%D1%86%D0%B5%D0%BF%D1%82%D1%8B_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D1%8B",
+			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_recipes"
+		},
+		"icon": "magazine",
+		"coordinates": {
+			"lat": -82.95112060573365,
+			"lng": 21.533203125000004
+		}
+	},
+	"74": {
+		"id": 74,
+		"titles": {
+			"ru": "Завод по розливу напитков",
+			"en": "Nuka-Cola bottling plant"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%97%D0%B0%D0%B2%D0%BE%D0%B4_%D0%BF%D0%BE_%D1%80%D0%BE%D0%B7%D0%BB%D0%B8%D0%B2%D1%83_%D0%BD%D0%B0%D0%BF%D0%B8%D1%82%D0%BA%D0%BE%D0%B2",
+			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_bottling_plant"
+		},
+		"icon": "factory",
+		"coordinates": {
+			"lat": 51.890053935216926,
+			"lng": 55.23925781250001
+		}
+	},
+	"75": {
+		"id": 75,
+		"titles": {
+			"ru": "Ядерный блок",
+			"en": "Fusion core"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%B1%D0%BB%D0%BE%D0%BA",
+			"en": "https://fallout.fandom.com/wiki/Fusion_core_(Fallout_4)"
+		},
+		"icon": "fusion-core",
+		"coordinates": {
+			"lat": 51.890053935216926,
+			"lng": 58.35937500000001
+		}
+	},
+	"76": {
+		"id": 76,
+		"titles": {
+			"ru": "Загадочный особняк Грандчестер",
+			"en": "Grandchester Mystery Mansion"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%97%D0%B0%D0%B3%D0%B0%D0%B4%D0%BE%D1%87%D0%BD%D1%8B%D0%B9_%D0%BE%D1%81%D0%BE%D0%B1%D0%BD%D1%8F%D0%BA_%D0%93%D1%80%D0%B0%D0%BD%D0%B4%D1%87%D0%B5%D1%81%D1%82%D0%B5%D1%80",
+			"en": "https://fallout.fandom.com/wiki/Grandchester_Mystery_Mansion"
+		},
+		"icon": "attraction",
+		"coordinates": {
+			"lat": -78.40253749367973,
+			"lng": -74.61914062500001
+		}
+	},
+	"77": {
+		"id": 77,
+		"titles": {
+			"ru": "Ядерный блок",
+			"en": "Fusion core"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%B1%D0%BB%D0%BE%D0%BA",
+			"en": "https://fallout.fandom.com/wiki/Fusion_core_(Fallout_4)"
+		},
+		"icon": "fusion-core",
+		"coordinates": {
+			"lat": -78.40253749367973,
+			"lng": -77.60742187500001
+		}
+	},
+	"78": {
+		"id": 78,
+		"titles": {
+			"ru": "Ядерный минизаряд",
+			"en": "Mini nuke"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%BC%D0%B8%D0%BD%D0%B8%D0%B7%D0%B0%D1%80%D1%8F%D0%B4",
+			"en": "https://fallout.fandom.com/wiki/Mini_nuke"
+		},
+		"icon": "mini-nuke",
+		"coordinates": {
+			"lat": -78.40253749367973,
+			"lng": -71.36718750000001
+		}
+	},
+	"79": {
+		"id": 79,
+		"titles": {
+			"ru": "Лагерь хабологов",
+			"en": "Hubologist's camp"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9B%D0%B0%D0%B3%D0%B5%D1%80%D1%8C_%D1%85%D0%B0%D0%B1%D0%BE%D0%BB%D0%BE%D0%B3%D0%BE%D0%B2",
+			"en": "https://fallout.fandom.com/wiki/Hubologist%27s_camp"
+		},
+		"icon": "encampment",
+		"coordinates": {
+			"lat": -76.35189643112588,
+			"lng": -31.025390625000004
+		}
+	},
+	"80": {
+		"id": 80,
+		"titles": {
+			"ru": "Мир свежести",
+			"en": "World of Refreshment"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9C%D0%B8%D1%80_%D1%81%D0%B2%D0%B5%D0%B6%D0%B5%D1%81%D1%82%D0%B8_(%D0%BB%D0%BE%D0%BA%D0%B0%D1%86%D0%B8%D1%8F)",
+			"en": "https://fallout.fandom.com/wiki/World_of_Refreshment"
+		},
+		"icon": "building",
+		"coordinates": {
+			"lat": 41.3108238809182,
+			"lng": 51.416015625
+		}
+	},
+	"81": {
+		"id": 81,
+		"titles": {
+			"ru": "Силовая броня",
+			"en": "Power armor"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D0%B8%D0%BB%D0%BE%D0%B2%D0%B0%D1%8F_%D0%B1%D1%80%D0%BE%D0%BD%D1%8F",
+			"en": "https://fallout.fandom.com/wiki/Power_armor"
+		},
+		"icon": "power-armor",
+		"coordinates": {
+			"lat": 41.376808565702355,
+			"lng": 54.58007812500001
+		}
+	},
+	"82": {
+		"id": 82,
+		"titles": {
+			"ru": "Рапорт капрала Дауни",
+			"en": "Corporal Downey's report"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A0%D0%B0%D0%BF%D0%BE%D1%80%D1%82_%D0%BA%D0%B0%D0%BF%D1%80%D0%B0%D0%BB%D0%B0_%D0%94%D0%B0%D1%83%D0%BD%D0%B8",
+			"en": "https://fallout.fandom.com/wiki/Corporal_Downey%27s_report"
+		},
+		"icon": "holotape",
+		"coordinates": {
+			"lat": 41.3108238809182,
+			"lng": 57.65625000000001
+		}
+	},
+	"83": {
+		"id": 83,
+		"titles": {
+			"ru": "Секретная лаборатория напитков",
+			"en": "Secure beverageer lab"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D0%B5%D0%BA%D1%80%D0%B5%D1%82%D0%BD%D0%B0%D1%8F_%D0%BB%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%B8%D1%8F_%D0%BD%D0%B0%D0%BF%D0%B8%D1%82%D0%BA%D0%BE%D0%B2",
+			"en": "https://fallout.fandom.com/wiki/Secure_beverageer_lab"
+		},
+		"icon": "factory",
+		"unmarked": true,
+		"coordinates": {
+			"lat": 38.89103282648846,
+			"lng": 51.59179687500001
+		}
+	},
+	"84": {
+		"id": 84,
+		"titles": {
+			"ru": "Записи с Мичемом",
+			"en": "Meacham recordings"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%97%D0%B0%D0%BF%D0%B8%D1%81%D0%B8_%D1%81_%D0%9C%D0%B8%D1%87%D0%B5%D0%BC%D0%BE%D0%BC",
+			"en": "https://fallout.fandom.com/wiki/Meacham_recordings"
+		},
+		"icon": "holotape",
+		"coordinates": {
+			"lat": 36.31512514748051,
+			"lng": 51.59179687500001
+		}
+	},
+	"85": {
+		"id": 85,
+		"titles": {
+			"ru": "Записи с Мичемом",
+			"en": "Meacham recordings"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%97%D0%B0%D0%BF%D0%B8%D1%81%D0%B8_%D1%81_%D0%9C%D0%B8%D1%87%D0%B5%D0%BC%D0%BE%D0%BC",
+			"en": "https://fallout.fandom.com/wiki/Meacham_recordings"
+		},
+		"icon": "holotape",
+		"coordinates": {
+			"lat": 36.24427318493909,
+			"lng": 54.66796875000001
+		}
+	},
+	"86": {
+		"id": 86,
+		"titles": {
+			"ru": "Записи с Мичемом",
+			"en": "Meacham recordings"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%97%D0%B0%D0%BF%D0%B8%D1%81%D0%B8_%D1%81_%D0%9C%D0%B8%D1%87%D0%B5%D0%BC%D0%BE%D0%BC",
+			"en": "https://fallout.fandom.com/wiki/Meacham_recordings"
+		},
+		"icon": "holotape",
+		"coordinates": {
+			"lat": 36.1733569352216,
+			"lng": 57.74414062500001
+		}
+	},
+	"87": {
+		"id": 87,
+		"titles": {
+			"ru": "Записи с Мичемом",
+			"en": "Meacham recordings"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%97%D0%B0%D0%BF%D0%B8%D1%81%D0%B8_%D1%81_%D0%9C%D0%B8%D1%87%D0%B5%D0%BC%D0%BE%D0%BC",
+			"en": "https://fallout.fandom.com/wiki/Meacham_recordings"
+		},
+		"icon": "holotape",
+		"coordinates": {
+			"lat": 36.24427318493909,
+			"lng": 60.82031250000001
+		}
+	},
+	"88": {
+		"id": 88,
+		"titles": {
+			"ru": "Сафари",
+			"en": "Safari Adventure"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D0%B0%D1%84%D0%B0%D1%80%D0%B8_(%D0%BB%D0%BE%D0%BA%D0%B0%D1%86%D0%B8%D1%8F)",
+			"en": "https://fallout.fandom.com/wiki/Safari_Adventure"
+		},
+		"icon": "forest",
+		"coordinates": {
+			"lat": 63.97596090918338,
+			"lng": 15.468750000000002
+		}
+	},
+	"89": {
+		"id": 89,
+		"titles": {
+			"ru": "Домик на дереве Мистера Крышки",
+			"en": "Cappy's treehouse"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%94%D0%BE%D0%BC%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%B5_%D0%9C%D0%B8%D1%81%D1%82%D0%B5%D1%80%D0%B0_%D0%9A%D1%80%D1%8B%D1%88%D0%BA%D0%B8",
+			"en": "https://fallout.fandom.com/wiki/Cappy%27s_treehouse"
+		},
+		"icon": "building",
+		"coordinates": {
+			"lat": 61.18562468142283,
+			"lng": 29.882812500000004
+		}
+	},
+	"90": {
+		"id": 90,
+		"titles": {
+			"ru": "«Сафари» — дом приматов",
+			"en": "Safari Adventure primate house"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%C2%AB%D0%A1%D0%B0%D1%84%D0%B0%D1%80%D0%B8%C2%BB_%E2%80%94_%D0%B4%D0%BE%D0%BC_%D0%BF%D1%80%D0%B8%D0%BC%D0%B0%D1%82%D0%BE%D0%B2",
+			"en": "https://fallout.fandom.com/wiki/Safari_Adventure_primate_house"
+		},
+		"icon": "building",
+		"coordinates": {
+			"lat": 61.64816245852389,
+			"lng": 18.017578125000004
+		}
+	},
+	"91": {
+		"id": 91,
+		"titles": {
+			"ru": "«Сафари» — дом рептилий",
+			"en": "Safari Adventure reptile house"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%C2%AB%D0%A1%D0%B0%D1%84%D0%B0%D1%80%D0%B8%C2%BB_%E2%80%94_%D0%B4%D0%BE%D0%BC_%D1%80%D0%B5%D0%BF%D1%82%D0%B8%D0%BB%D0%B8%D0%B9",
+			"en": "https://fallout.fandom.com/wiki/Safari_Adventure_reptile_house"
+		},
+		"icon": "building",
+		"coordinates": {
+			"lat": 66.68778386116203,
+			"lng": 5.273437500000001
+		}
+	},
+	"92": {
+		"id": 92,
+		"titles": {
+			"ru": "Злая анаконда",
+			"en": "Angry Anaconda"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%97%D0%BB%D0%B0%D1%8F_%D0%B0%D0%BD%D0%B0%D0%BA%D0%BE%D0%BD%D0%B4%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Angry_Anaconda"
+		},
+		"icon": "building",
+		"coordinates": {
+			"lat": 73.30262420189155,
+			"lng": 0.8789062500000001
+		}
+	},
+	"93": {
+		"id": 93,
+		"titles": {
+			"ru": "Ядерный блок",
+			"en": "Fusion core"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%B1%D0%BB%D0%BE%D0%BA",
+			"en": "https://fallout.fandom.com/wiki/Fusion_core_(Fallout_4)"
+		},
+		"icon": "fusion-core",
+		"coordinates": {
+			"lat": 73.27735320192473,
+			"lng": 4.218750000000001
+		}
+	},
+	"94": {
+		"id": 94,
+		"titles": {
+			"ru": "Медвежья берлога",
+			"en": "Bear cave"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9C%D0%B5%D0%B4%D0%B2%D0%B5%D0%B6%D1%8C%D1%8F_%D0%B1%D0%B5%D1%80%D0%BB%D0%BE%D0%B3%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Bear_cave"
+		},
+		"icon": "dungeon",
+		"unmarked": true,
+		"coordinates": {
+			"lat": 69.77895177646761,
+			"lng": 12.392578125
+		}
+	},
+	"95": {
+		"id": 95,
+		"titles": {
+			"ru": "Центр приёма посетителей",
+			"en": "Welcome Center"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A6%D0%B5%D0%BD%D1%82%D1%80_%D0%BF%D1%80%D0%B8%D1%91%D0%BC%D0%B0_%D0%BF%D0%BE%D1%81%D0%B5%D1%82%D0%B8%D1%82%D0%B5%D0%BB%D0%B5%D0%B9",
+			"en": "https://fallout.fandom.com/wiki/Welcome_Center"
+		},
+		"icon": "building",
+		"unmarked": true,
+		"coordinates": {
+			"lat": 61.897577621605016,
+			"lng": 3.6035156250000004
+		}
+	},
+	"96": {
+		"id": 96,
+		"titles": {
+			"ru": "Дневники доктора Макдермота",
+			"en": "Dr. McDermot's journals"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%94%D0%BD%D0%B5%D0%B2%D0%BD%D0%B8%D0%BA%D0%B8_%D0%B4%D0%BE%D0%BA%D1%82%D0%BE%D1%80%D0%B0_%D0%9C%D0%B0%D0%BA%D0%B4%D0%B5%D1%80%D0%BC%D0%BE%D1%82%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Dr._McDermot%27s_journals"
+		},
+		"icon": "holotape",
+		"coordinates": {
+			"lat": 60.326947742998414,
+			"lng": 0.6152343750000001
+		}
+	},
+	"97": {
+		"id": 97,
+		"titles": {
+			"ru": "Дневники доктора Макдермота",
+			"en": "Dr. McDermot's journals"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%94%D0%BD%D0%B5%D0%B2%D0%BD%D0%B8%D0%BA%D0%B8_%D0%B4%D0%BE%D0%BA%D1%82%D0%BE%D1%80%D0%B0_%D0%9C%D0%B0%D0%BA%D0%B4%D0%B5%D1%80%D0%BC%D0%BE%D1%82%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Dr._McDermot%27s_journals"
+		},
+		"icon": "holotape",
+		"coordinates": {
+			"lat": 60.326947742998414,
+			"lng": 6.679687500000001
+		}
+	},
+	"98": {
+		"id": 98,
+		"titles": {
+			"ru": "Дневники доктора Макдермота",
+			"en": "Dr. McDermot's journals"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%94%D0%BD%D0%B5%D0%B2%D0%BD%D0%B8%D0%BA%D0%B8_%D0%B4%D0%BE%D0%BA%D1%82%D0%BE%D1%80%D0%B0_%D0%9C%D0%B0%D0%BA%D0%B4%D0%B5%D1%80%D0%BC%D0%BE%D1%82%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Dr._McDermot%27s_journals"
+		},
+		"icon": "holotape",
+		"coordinates": {
+			"lat": 60.326947742998414,
+			"lng": 3.6035156250000004
+		}
+	},
+	"99": {
+		"id": 99,
+		"titles": {
+			"ru": "Манифест ОДЗЖ",
+			"en": "A.F.A.D. manifesto"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9C%D0%B0%D0%BD%D0%B8%D1%84%D0%B5%D1%81%D1%82_%D0%9E%D0%94%D0%97%D0%96",
+			"en": "https://fallout.fandom.com/wiki/A.F.A.D._manifesto"
+		},
+		"icon": "holotape",
+		"coordinates": {
+			"lat": 60.326947742998414,
+			"lng": 9.667968750000002
+		}
+	},
+	"100": {
+		"id": 100,
+		"titles": {
+			"ru": "Рецепт Ядер-Натиска",
+			"en": "Nuka-Rush Recipe"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A0%D0%B5%D1%86%D0%B5%D0%BF%D1%82%D1%8B_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D1%8B",
+			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_recipes"
+		},
+		"icon": "magazine",
+		"coordinates": {
+			"lat": 61.85614879566797,
+			"lng": 6.591796875000001
+		}
+	},
+	"101": {
+		"id": 101,
+		"titles": {
+			"ru": "Свалка «Ядер-Мира»",
+			"en": "Nuka-World junkyard"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D0%B2%D0%B0%D0%BB%D0%BA%D0%B0_%C2%AB%D0%AF%D0%B4%D0%B5%D1%80-%D0%9C%D0%B8%D1%80%D0%B0%C2%BB",
+			"en": "https://fallout.fandom.com/wiki/Nuka-World_junkyard"
+		},
+		"icon": "junkyard",
+		"coordinates": {
+			"lat": -62.67414334669093,
+			"lng": -83.84765625000001
+		}
+	},
+	"102": {
+		"id": 102,
+		"titles": {
+			"ru": "Ядерный блок",
+			"en": "Fusion core"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%B1%D0%BB%D0%BE%D0%BA",
+			"en": "https://fallout.fandom.com/wiki/Fusion_core_(Fallout_4)"
+		},
+		"icon": "fusion-core",
+		"coordinates": {
+			"lat": -61.227957176677876,
+			"lng": -84.90234375000001
+		}
+	},
+	"103": {
+		"id": 103,
+		"titles": {
+			"ru": "Ядерный блок",
+			"en": "Fusion core"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%B1%D0%BB%D0%BE%D0%BA",
+			"en": "https://fallout.fandom.com/wiki/Fusion_core_(Fallout_4)"
+		},
+		"icon": "fusion-core",
+		"coordinates": {
+			"lat": -61.48075950007598,
+			"lng": -81.73828125000001
+		}
+	},
+	"104": {
+		"id": 104,
+		"titles": {
+			"ru": "Ядерный блок",
+			"en": "Fusion core"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%B1%D0%BB%D0%BE%D0%BA",
+			"en": "https://fallout.fandom.com/wiki/Fusion_core_(Fallout_4)"
+		},
+		"icon": "fusion-core",
+		"coordinates": {
+			"lat": -62.91523303947613,
+			"lng": -80.77148437500001
+		}
+	},
+	"105": {
+		"id": 105,
+		"titles": {
+			"ru": "Ядерный блок",
+			"en": "Fusion core"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%B1%D0%BB%D0%BE%D0%BA",
+			"en": "https://fallout.fandom.com/wiki/Fusion_core_(Fallout_4)"
+		},
+		"icon": "fusion-core",
+		"coordinates": {
+			"lat": -64.01449619484472,
+			"lng": -82.79296875000001
+		}
+	},
+	"106": {
+		"id": 106,
+		"titles": {
+			"ru": "Ядерный блок",
+			"en": "Fusion core"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%B1%D0%BB%D0%BE%D0%BA",
+			"en": "https://fallout.fandom.com/wiki/Fusion_core_(Fallout_4)"
+		},
+		"icon": "fusion-core",
+		"coordinates": {
+			"lat": -63.78248603116502,
+			"lng": -85.86914062500001
+		}
+	},
+	"107": {
+		"id": 107,
+		"titles": {
+			"ru": "Северная плотина",
+			"en": "Northpoint reservoir"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D0%B5%D0%B2%D0%B5%D1%80%D0%BD%D0%B0%D1%8F_%D0%BF%D0%BB%D0%BE%D1%82%D0%B8%D0%BD%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Northpoint_reservoir"
+		},
+		"icon": "water",
+		"coordinates": {
+			"lat": 81.49230582149613,
+			"lng": 75.76171875000001
+		}
+	},
+	"108": {
+		"id": 108,
+		"titles": {
+			"ru": "Служебное помещение «Ядер-Мира»",
+			"en": "Nuka-World maintenance shed"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%BE%D0%B5_%D0%BF%D0%BE%D0%BC%D0%B5%D1%89%D0%B5%D0%BD%D0%B8%D0%B5_%C2%AB%D0%AF%D0%B4%D0%B5%D1%80-%D0%9C%D0%B8%D1%80%D0%B0%C2%BB",
+			"en": "https://fallout.fandom.com/wiki/Nuka-World_maintenance_shed"
+		},
+		"icon": "building",
+		"unmarked": true,
+		"coordinates": {
+			"lat": -61.85614879566797,
+			"lng": 47.724609375
+		}
+	},
+	"109": {
+		"id": 109,
+		"titles": {
+			"ru": "Сухое ущелье",
+			"en": "Dry Rock Gulch"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D1%83%D1%85%D0%BE%D0%B5_%D1%83%D1%89%D0%B5%D0%BB%D1%8C%D0%B5",
+			"en": "https://fallout.fandom.com/wiki/Dry_Rock_Gulch"
+		},
+		"icon": "city",
+		"coordinates": {
+			"lat": 29.6880527498568,
+			"lng": -20.214843750000004
+		}
+	},
+	"110": {
+		"id": 110,
+		"titles": {
+			"ru": "Силовая броня",
+			"en": "Power armor"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D0%B8%D0%BB%D0%BE%D0%B2%D0%B0%D1%8F_%D0%B1%D1%80%D0%BE%D0%BD%D1%8F",
+			"en": "https://fallout.fandom.com/wiki/Power_armor"
+		},
+		"icon": "power-armor",
+		"coordinates": {
+			"lat": 29.6880527498568,
+			"lng": -17.138671875000004
+		}
+	},
+	"111": {
+		"id": 111,
+		"titles": {
+			"ru": "Ядерный минизаряд",
+			"en": "Mini nuke"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%BC%D0%B8%D0%BD%D0%B8%D0%B7%D0%B0%D1%80%D1%8F%D0%B4",
+			"en": "https://fallout.fandom.com/wiki/Mini_nuke"
+		},
+		"icon": "mini-nuke",
+		"coordinates": {
+			"lat": 29.6880527498568,
+			"lng": -23.291015625000004
+		}
+	},
+	"113": {
+		"id": 113,
+		"titles": {
+			"ru": "Голозапись Кристи",
+			"en": "Kristy's holotape"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%93%D0%BE%D0%BB%D0%BE%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D1%8C_%D0%9A%D1%80%D0%B8%D1%81%D1%82%D0%B8",
+			"en": "https://fallout.fandom.com/wiki/Kristy%27s_holotape"
+		},
+		"icon": "holotape",
+		"coordinates": {
+			"lat": 46.13417004624326,
+			"lng": -17.138671875000004
+		}
+	},
+	"114": {
+		"id": 114,
+		"titles": {
+			"ru": "Шахта Безумного Маллигана",
+			"en": "Mad Mulligan's Minecart Coaster"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A8%D0%B0%D1%85%D1%82%D0%B0_%D0%91%D0%B5%D0%B7%D1%83%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE_%D0%9C%D0%B0%D0%BB%D0%BB%D0%B8%D0%B3%D0%B0%D0%BD%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Mad_Mulligan%27s_Minecart_Coaster"
+		},
+		"icon": "dungeon",
+		"unmarked": true,
+		"coordinates": {
+			"lat": 44.15068115978094,
+			"lng": -18.720703125000004
+		}
+	},
+	"115": {
+		"id": 115,
+		"titles": {
+			"ru": "Зона для сотрудников «Сухого ущелья»",
+			"en": "Dry Rock Gulch employee area"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%97%D0%BE%D0%BD%D0%B0_%D0%B4%D0%BB%D1%8F_%D1%81%D0%BE%D1%82%D1%80%D1%83%D0%B4%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2_%C2%AB%D0%A1%D1%83%D1%85%D0%BE%D0%B3%D0%BE_%D1%83%D1%89%D0%B5%D0%BB%D1%8C%D1%8F%C2%BB",
+			"en": "https://fallout.fandom.com/wiki/Dry_Rock_Gulch_employee_area"
+		},
+		"icon": "building",
+		"coordinates": {
+			"lat": 21.453068633086783,
+			"lng": 0.9667968750000001
+		}
+	},
+	"116": {
+		"id": 116,
+		"titles": {
+			"ru": "Мусорщик! («Эта бескрышечная ярость»)",
+			"en": "SCAV! («That No-Caps Rage»)"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9C%D1%83%D1%81%D0%BE%D1%80%D1%89%D0%B8%D0%BA!",
+			"en": "https://fallout.fandom.com/wiki/SCAV!"
+		},
+		"icon": "magazine",
+		"coordinates": {
+			"lat": 21.453068633086783,
+			"lng": 3.9550781250000004
+		}
+	},
+	"117": {
+		"id": 117,
+		"titles": {
+			"ru": "Салун Дока Фосфата",
+			"en": "Doc Phosphate's Saloon"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D0%B0%D0%BB%D1%83%D0%BD_%D0%94%D0%BE%D0%BA%D0%B0_%D0%A4%D0%BE%D1%81%D1%84%D0%B0%D1%82%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Doc_Phosphate%27s_Saloon"
+		},
+		"icon": "building",
+		"coordinates": {
+			"lat": 33.137551192346145,
+			"lng": -26.015625
+		}
+	},
+	"118": {
+		"id": 118,
+		"titles": {
+			"ru": "Театр «Сухого ущелья»",
+			"en": "Dry Rock Gulch theater"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%B5%D0%B0%D1%82%D1%80_%C2%AB%D0%A1%D1%83%D1%85%D0%BE%D0%B3%D0%BE_%D1%83%D1%89%D0%B5%D0%BB%D1%8C%D1%8F%C2%BB",
+			"en": "https://fallout.fandom.com/wiki/Dry_Rock_Gulch_Theater"
+		},
+		"icon": "building",
+		"coordinates": {
+			"lat": 18.396230138028827,
+			"lng": -17.314453125000004
+		}
+	},
+	"119": {
+		"id": 119,
+		"titles": {
+			"ru": "Личный дневник Джесси",
+			"en": "Jesse's personal log"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9B%D0%B8%D1%87%D0%BD%D1%8B%D0%B9_%D0%B4%D0%BD%D0%B5%D0%B2%D0%BD%D0%B8%D0%BA_%D0%94%D0%B6%D0%B5%D1%81%D1%81%D0%B8",
+			"en": "https://fallout.fandom.com/wiki/Jesse%27s_personal_log"
+		},
+		"icon": "holotape",
+		"coordinates": {
+			"lat": 18.562947442888312,
+			"lng": -14.414062500000002
+		}
+	},
+	"120": {
+		"id": 120,
+		"titles": {
+			"ru": "Личный дневник Калеба",
+			"en": "Caleb's personal log"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9B%D0%B8%D1%87%D0%BD%D1%8B%D0%B9_%D0%B4%D0%BD%D0%B5%D0%B2%D0%BD%D0%B8%D0%BA_%D0%9A%D0%B0%D0%BB%D0%B5%D0%B1%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Caleb%27s_personal_log"
+		},
+		"icon": "holotape",
+		"coordinates": {
+			"lat": 18.47960905583198,
+			"lng": -11.337890625
+		}
+	},
+	"121": {
+		"id": 121,
+		"titles": {
+			"ru": "Ферма Данморов",
+			"en": "Dunmore homestead"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A4%D0%B5%D1%80%D0%BC%D0%B0_%D0%94%D0%B0%D0%BD%D0%BC%D0%BE%D1%80%D0%BE%D0%B2",
+			"en": "https://fallout.fandom.com/wiki/Dunmore_homestead"
+		},
+		"icon": "farm",
+		"coordinates": {
+			"lat": -74.16408546675687,
+			"lng": -94.74609375000001
+		}
+	},
+	"122": {
+		"id": 122,
+		"titles": {
+			"ru": "Электростанция «Ядер-Мира»",
+			"en": "Nuka-World power plant"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D1%8F_%C2%AB%D0%AF%D0%B4%D0%B5%D1%80-%D0%9C%D0%B8%D1%80%D0%B0%C2%BB",
+			"en": "https://fallout.fandom.com/wiki/Nuka-World_power_plant"
+		},
+		"icon": "building",
+		"coordinates": {
+			"lat": -4.653079918274038,
+			"lng": -149.94140625000003
+		}
+	},
+	"123": {
+		"id": 123,
+		"titles": {
+			"ru": "Силовая броня",
+			"en": "Power armor"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D0%B8%D0%BB%D0%BE%D0%B2%D0%B0%D1%8F_%D0%B1%D1%80%D0%BE%D0%BD%D1%8F",
+			"en": "https://fallout.fandom.com/wiki/Power_armor"
+		},
+		"icon": "power-armor",
+		"coordinates": {
+			"lat": -4.653079918274038,
+			"lng": -143.70117187500003
+		}
+	},
+	"124": {
+		"id": 124,
+		"titles": {
+			"ru": "Силовая броня",
+			"en": "Power armor"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D0%B8%D0%BB%D0%BE%D0%B2%D0%B0%D1%8F_%D0%B1%D1%80%D0%BE%D0%BD%D1%8F",
+			"en": "https://fallout.fandom.com/wiki/Power_armor"
+		},
+		"icon": "power-armor",
+		"coordinates": {
+			"lat": -4.653079918274038,
+			"lng": -146.77734375000003
+		}
+	},
+	"125": {
+		"id": 125,
+		"titles": {
+			"ru": "Эстакада Брэдбертона",
+			"en": "Bradberton overpass"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AD%D1%81%D1%82%D0%B0%D0%BA%D0%B0%D0%B4%D0%B0_%D0%91%D1%80%D1%8D%D0%B4%D0%B1%D0%B5%D1%80%D1%82%D0%BE%D0%BD%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Bradberton_overpass"
+		},
+		"icon": "bridge",
+		"coordinates": {
+			"lat": 21.69826549685252,
+			"lng": 105.82031250000001
+		}
+	},
+	"126": {
+		"id": 126,
+		"titles": {
+			"ru": "Силовая броня",
+			"en": "Power armor"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D0%B8%D0%BB%D0%BE%D0%B2%D0%B0%D1%8F_%D0%B1%D1%80%D0%BE%D0%BD%D1%8F",
+			"en": "https://fallout.fandom.com/wiki/Power_armor"
+		},
+		"icon": "power-armor",
+		"coordinates": {
+			"lat": 21.779905342529645,
+			"lng": 108.984375
+		}
+	},
+	"127": {
+		"id": 127,
+		"titles": {
+			"ru": "Гора Физзтоп",
+			"en": "Fizztop Mountain"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%93%D0%BE%D1%80%D0%B0_%D0%A4%D0%B8%D0%B7%D0%B7%D1%82%D0%BE%D0%BF",
+			"en": "https://fallout.fandom.com/wiki/Fizztop_Mountain"
+		},
+		"icon": "building",
+		"coordinates": {
+			"lat": -35.02999636902567,
+			"lng": 26.982421875000004
+		}
+	},
+	"128": {
+		"id": 128,
+		"titles": {
+			"ru": "Сувенир Дикси",
+			"en": "Dixie's souvenir"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D1%83%D0%B2%D0%B5%D0%BD%D0%B8%D1%80_%D0%94%D0%B8%D0%BA%D1%81%D0%B8",
+			"en": "https://fallout.fandom.com/wiki/Dixie%27s_souvenir"
+		},
+		"icon": "holotape",
+		"coordinates": {
+			"lat": -35.02999636902567,
+			"lng": 29.970703125000004
+		}
+	},
+	"129": {
+		"id": 129,
+		"titles": {
+			"ru": "Гриль-бар «Физзтоп»",
+			"en": "Fizztop Grille"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%93%D1%80%D0%B8%D0%BB%D1%8C-%D0%B1%D0%B0%D1%80_%C2%AB%D0%A4%D0%B8%D0%B7%D0%B7%D1%82%D0%BE%D0%BF%C2%BB",
+			"en": "https://fallout.fandom.com/wiki/Fizztop_Grille"
+		},
+		"icon": "building",
+		"coordinates": {
+			"lat": -34.016241889667015,
+			"lng": 21.972656250000004
+		}
+	},
+	"130": {
+		"id": 130,
+		"titles": {
+			"ru": "Веранда гриль-бара «Физзтоп»",
+			"en": "Fizztop Grille"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%92%D0%B5%D1%80%D0%B0%D0%BD%D0%B4%D0%B0_%D0%B3%D1%80%D0%B8%D0%BB%D1%8C-%D0%B1%D0%B0%D1%80%D0%B0_%C2%AB%D0%A4%D0%B8%D0%B7%D0%B7%D1%82%D0%BE%D0%BF%C2%BB",
+			"en": "https://fallout.fandom.com/wiki/Fizztop_Grille"
+		},
+		"icon": "building",
+		"unmarked": true,
+		"coordinates": {
+			"lat": -36.456636011596196,
+			"lng": 22.060546875
+		}
+	},
+	"131": {
+		"id": 131,
+		"titles": {
+			"ru": "Голозапись ЛИИ",
+			"en": "N.I.R.A.'s holotape"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%93%D0%BE%D0%BB%D0%BE%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D1%8C_%D0%9B%D0%98%D0%98",
+			"en": "https://fallout.fandom.com/wiki/N.I.R.A.%27s_holotape"
+		},
+		"icon": "holotape",
+		"coordinates": {
+			"lat": -36.456636011596196,
+			"lng": 19.072265625000004
+		}
+	},
+	"132": {
+		"id": 132,
+		"titles": {
+			"ru": "Чистая Ядер-Кола",
+			"en": "Nuka-Cola Clear"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A7%D0%B8%D1%81%D1%82%D0%B0%D1%8F_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_Clear_(holotape)"
+		},
+		"icon": "holotape",
+		"coordinates": {
+			"lat": -53.01478324585922,
+			"lng": 27.421875000000004
+		}
+	},
+	"133": {
+		"id": 133,
+		"titles": {
+			"ru": "Ядер-Аркада",
+			"en": "Nuka-Cade"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%90%D1%80%D0%BA%D0%B0%D0%B4%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Nuka-Cade"
+		},
+		"icon": "building",
+		"unmarked": true,
+		"coordinates": {
+			"lat": -52.908902047770255,
+			"lng": 18.808593750000004
+		}
+	},
+	"134": {
+		"id": 134,
+		"titles": {
+			"ru": "Ядерный блок",
+			"en": "Fusion core"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%B1%D0%BB%D0%BE%D0%BA",
+			"en": "https://fallout.fandom.com/wiki/Fusion_core_(Fallout_4)"
+		},
+		"icon": "fusion-core",
+		"coordinates": {
+			"lat": -54.213861000644926,
+			"lng": 16.699218750000004
+		}
+	},
+	"135": {
+		"id": 135,
+		"titles": {
+			"ru": "Мусорщик! («Берегись Короля ножей»)",
+			"en": "SCAV! («Fear the Knife King»)"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9C%D1%83%D1%81%D0%BE%D1%80%D1%89%D0%B8%D0%BA!",
+			"en": "https://fallout.fandom.com/wiki/SCAV!"
+		},
+		"icon": "magazine",
+		"coordinates": {
+			"lat": -62.43107423292092,
+			"lng": -86.923828125
+		}
+	},
+	"136": {
+		"id": 136,
+		"titles": {
+			"ru": "Мусорщик! («Ядерная паника браминов»)",
+			"en": "SCAV! («Nuka Brahmin Stampede»)"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9C%D1%83%D1%81%D0%BE%D1%80%D1%89%D0%B8%D0%BA!",
+			"en": "https://fallout.fandom.com/wiki/SCAV!"
+		},
+		"icon": "magazine",
+		"coordinates": {
+			"lat": -79.02171239525757,
+			"lng": -74.61914062500001
+		}
+	},
+	"137": {
+		"id": 137,
+		"titles": {
+			"ru": "Рецепт Ядер-Бомбочки",
+			"en": "Nuka-Bombdrop Recipe"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A0%D0%B5%D1%86%D0%B5%D0%BF%D1%82%D1%8B_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D1%8B",
+			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_recipes"
+		},
+		"icon": "magazine",
+		"coordinates": {
+			"lat": 45.213003555993964,
+			"lng": -24.257812500000004
+		}
+	},
+	"138": {
+		"id": 138,
+		"titles": {
+			"ru": "Вагонетки Безумного Маллигана",
+			"en": "Mad Mulligan's Minecart Coaster"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%92%D0%B0%D0%B3%D0%BE%D0%BD%D0%B5%D1%82%D0%BA%D0%B8_%D0%91%D0%B5%D0%B7%D1%83%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE_%D0%9C%D0%B0%D0%BB%D0%BB%D0%B8%D0%B3%D0%B0%D0%BD%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Mad_Mulligan%27s_Minecart_Coaster"
+		},
+		"icon": "building",
+		"coordinates": {
+			"lat": 44.08758502824518,
+			"lng": -21.708984375000004
+		}
+	},
+	"139": {
+		"id": 139,
+		"titles": {
+			"ru": "Рецепт Ядер-Бризера",
+			"en": "Nuka-Cooler Recipe"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A0%D0%B5%D1%86%D0%B5%D0%BF%D1%82%D1%8B_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D1%8B",
+			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_recipes"
+		},
+		"icon": "magazine",
+		"coordinates": {
+			"lat": -27.527758206861897,
+			"lng": -35.68359375000001
+		}
+	},
+	"140": {
+		"id": 140,
+		"titles": {
+			"ru": "Рецепт Ядер-Рассвета",
+			"en": "Nuka-Sunrise Recipe"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A0%D0%B5%D1%86%D0%B5%D0%BF%D1%82%D1%8B_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D1%8B",
+			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_recipes"
+		},
+		"icon": "magazine",
+		"coordinates": {
+			"lat": 18.47960905583198,
+			"lng": -20.302734375000004
+		}
+	},
+	"141": {
+		"id": 141,
+		"titles": {
+			"ru": "Рецепт Ядер-Силы",
+			"en": "Nuka-Power Recipe"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A0%D0%B5%D1%86%D0%B5%D0%BF%D1%82%D1%8B_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D1%8B",
+			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_recipes"
+		},
+		"icon": "magazine",
+		"coordinates": {
+			"lat": -4.653079918274038,
+			"lng": -153.10546875000003
+		}
+	},
+	"142": {
+		"id": 142,
+		"titles": {
+			"ru": "Рецепт Ядер-Спортсмена",
+			"en": "Nuka-Hearty Recipe"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A0%D0%B5%D1%86%D0%B5%D0%BF%D1%82%D1%8B_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D1%8B",
+			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_recipes"
+		},
+		"icon": "magazine",
+		"coordinates": {
+			"lat": 66.75724984139227,
+			"lng": 15.644531250000002
+		}
+	},
+	"143": {
+		"id": 143,
+		"titles": {
+			"ru": "Рецепт Ядер-Удара",
+			"en": "Nuka-Punch Recipe"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A0%D0%B5%D1%86%D0%B5%D0%BF%D1%82%D1%8B_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D1%8B",
+			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_recipes"
+		},
+		"icon": "magazine",
+		"coordinates": {
+			"lat": -77.74894634700438,
+			"lng": -74.61914062500001
+		}
+	},
+	"144": {
+		"id": 144,
+		"titles": {
+			"ru": "Рецепт Ядер-Фрутти",
+			"en": "Nuka-Frutti Recipe"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A0%D0%B5%D1%86%D0%B5%D0%BF%D1%82%D1%8B_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D1%8B",
+			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_recipes"
+		},
+		"icon": "magazine",
+		"coordinates": {
+			"lat": -76.33114246585926,
+			"lng": -27.861328125
+		}
+	},
+	"145": {
+		"id": 145,
+		"titles": {
+			"ru": "Рецепт Ядер-Экстрима",
+			"en": "Nuka-Xtreme Recipe"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A0%D0%B5%D1%86%D0%B5%D0%BF%D1%82%D1%8B_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D1%8B",
+			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_recipes"
+		},
+		"icon": "magazine",
+		"coordinates": {
+			"lat": 15.368949896534705,
+			"lng": -17.314453125000004
+		}
+	},
+	"146": {
+		"id": 146,
+		"titles": {
+			"ru": "Рецепт Ядер-Ягоды",
+			"en": "Nuka-Berry Recipe"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A0%D0%B5%D1%86%D0%B5%D0%BF%D1%82%D1%8B_%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D1%8B",
+			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_recipes"
+		},
+		"icon": "magazine",
+		"coordinates": {
+			"lat": 15.029685756555674,
+			"lng": 59.15039062500001
+		}
+	},
+	"147": {
+		"id": 147,
+		"titles": {
+			"ru": "Бластер Чужих — Хабологи",
+			"en": "Hub's Alien Blaster"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%91%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80_%D0%A7%D1%83%D0%B6%D0%B8%D1%85_%E2%80%94_%D0%A5%D0%B0%D0%B1%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8",
+			"en": "https://fallout.fandom.com/wiki/Hub%27s_Alien_Blaster"
+		},
+		"icon": "weapon",
+		"coordinates": {
+			"lat": -76.31035754301745,
+			"lng": -34.18945312500001
+		}
+	},
+	"148": {
+		"id": 148,
+		"titles": {
+			"ru": "Блестящая дубина Цито",
+			"en": "Cito's Shiny Slugger"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%91%D0%BB%D0%B5%D1%81%D1%82%D1%8F%D1%89%D0%B0%D1%8F_%D0%B4%D1%83%D0%B1%D0%B8%D0%BD%D0%B0_%D0%A6%D0%B8%D1%82%D0%BE",
+			"en": "https://fallout.fandom.com/wiki/Cito%27s_Shiny_Slugger"
+		},
+		"icon": "weapon",
+		"coordinates": {
+			"lat": 64.66151739623564,
+			"lng": 18.105468750000004
+		}
+	},
+	"149": {
+		"id": 149,
+		"titles": {
+			"ru": "Меч чудес",
+			"en": "Sword of Wonders"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9C%D0%B5%D1%87_%D1%87%D1%83%D0%B4%D0%B5%D1%81",
+			"en": "https://fallout.fandom.com/wiki/Sword_of_Wonders"
+		},
+		"icon": "weapon",
+		"coordinates": {
+			"lat": 6.751896464843375,
+			"lng": 50.97656250000001
+		}
+	},
+	"150": {
+		"id": 150,
+		"titles": {
+			"ru": "Человек, который решает проблемы",
+			"en": "The Problem Solver"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A7%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D0%BA,_%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D1%8B%D0%B9_%D1%80%D0%B5%D1%88%D0%B0%D0%B5%D1%82_%D0%BF%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC%D1%8B",
+			"en": "https://fallout.fandom.com/wiki/The_Problem_Solver"
+		},
+		"icon": "weapon",
+		"coordinates": {
+			"lat": -60.54377524118842,
+			"lng": 7.822265625000001
+		}
+	},
+	"151": {
+		"id": 151,
+		"titles": {
+			"ru": "Ядер-Мёт",
+			"en": "Nuka-nuke launcher"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80-%D0%9C%D1%91%D1%82",
+			"en": "https://fallout.fandom.com/wiki/Nuka-nuke_launcher"
+		},
+		"icon": "weapon",
+		"coordinates": {
+			"lat": -53.12040528310657,
+			"lng": 36.73828125000001
+		}
+	},
+	"152": {
+		"id": 152,
+		"titles": {
+			"ru": "Визит генерала Брэкстона",
+			"en": "General Braxton's visit"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%92%D0%B8%D0%B7%D0%B8%D1%82_%D0%B3%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D0%BB%D0%B0_%D0%91%D1%80%D1%8D%D0%BA%D1%81%D1%82%D0%BE%D0%BD%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/General_Braxton%27s_visit"
+		},
+		"icon": "holotape",
+		"coordinates": {
+			"lat": -53.01478324585922,
+			"lng": 30.410156250000004
+		}
+	},
+	"153": {
+		"id": 153,
+		"titles": {
+			"ru": "Голозапись Ниши",
+			"en": "Nisha's holotape"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%93%D0%BE%D0%BB%D0%BE%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D1%8C_%D0%9D%D0%B8%D1%88%D0%B8",
+			"en": "https://fallout.fandom.com/wiki/Nisha%27s_holotape"
+		},
+		"icon": "holotape",
+		"coordinates": {
+			"lat": -37.64903402157865,
+			"lng": 26.982421875000004
+		}
+	},
+	"154": {
+		"id": 154,
+		"titles": {
+			"ru": "Голозапись Рэйчел",
+			"en": "Rachel's holotape"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%93%D0%BE%D0%BB%D0%BE%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D1%8C_%D0%A0%D1%8D%D0%B9%D1%87%D0%B5%D0%BB",
+			"en": "https://fallout.fandom.com/wiki/Rachel%27s_holotape"
+		},
+		"icon": "holotape",
+		"coordinates": {
+			"lat": 72.18180355624855,
+			"lng": 110.65429687500001
+		}
+	},
+	"155": {
+		"id": 155,
+		"titles": {
+			"ru": "Дику",
+			"en": "For Deke"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%94%D0%B8%D0%BA%D1%83",
+			"en": "https://fallout.fandom.com/wiki/For_Deke"
+		},
+		"icon": "holotape",
+		"coordinates": {
+			"lat": -36.03133177633188,
+			"lng": 12.392578125
+		}
+	},
+	"156": {
+		"id": 156,
+		"titles": {
+			"ru": "Дневники доктора Макдермота",
+			"en": "Dr. McDermot's journals"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%94%D0%BD%D0%B5%D0%B2%D0%BD%D0%B8%D0%BA%D0%B8_%D0%B4%D0%BE%D0%BA%D1%82%D0%BE%D1%80%D0%B0_%D0%9C%D0%B0%D0%BA%D0%B4%D0%B5%D1%80%D0%BC%D0%BE%D1%82%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Dr._McDermot%27s_journals"
+		},
+		"icon": "holotape",
+		"coordinates": {
+			"lat": 65.47650756256367,
+			"lng": 20.654296875000004
+		}
+	},
+	"157": {
+		"id": 157,
+		"titles": {
+			"ru": "Дневник Тианы",
+			"en": "Tiana's log"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%94%D0%BD%D0%B5%D0%B2%D0%BD%D0%B8%D0%BA_%D0%A2%D0%B8%D0%B0%D0%BD%D1%8B",
+			"en": "https://fallout.fandom.com/wiki/Tiana%27s_log"
+		},
+		"icon": "holotape",
+		"coordinates": {
+			"lat": -40.713955826286046,
+			"lng": -16.875000000000004
+		}
+	},
+	"158": {
+		"id": 158,
+		"titles": {
+			"ru": "Подсказки для конкурса «Спрятанный Мистер Крышка»",
+			"en": "Hidden Cappy contest hints"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9F%D0%BE%D0%B4%D1%81%D0%BA%D0%B0%D0%B7%D0%BA%D0%B8_%D0%B4%D0%BB%D1%8F_%D0%BA%D0%BE%D0%BD%D0%BA%D1%83%D1%80%D1%81%D0%B0_%C2%AB%D0%A1%D0%BF%D1%80%D1%8F%D1%82%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9_%D0%9C%D0%B8%D1%81%D1%82%D0%B5%D1%80_%D0%9A%D1%80%D1%8B%D1%88%D0%BA%D0%B0%C2%BB",
+			"en": "https://fallout.fandom.com/wiki/Hidden_Cappy_contest_hints"
+		},
+		"icon": "holotape",
+		"coordinates": {
+			"lat": -53.06762664238737,
+			"lng": 33.48632812500001
+		}
+	},
+	"159": {
+		"id": 159,
+		"titles": {
+			"ru": "Запись «Ядер-Колы»",
+			"en": "Nuka-Cola recording"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%97%D0%B0%D0%BF%D0%B8%D1%81%D1%8C_%C2%AB%D0%AF%D0%B4%D0%B5%D1%80-%D0%9A%D0%BE%D0%BB%D1%8B%C2%BB",
+			"en": "https://fallout.fandom.com/wiki/Nuka-Cola_recording"
+		},
+		"icon": "holotape",
+		"coordinates": {
+			"lat": -64.84893726357947,
+			"lng": 25.136718750000004
+		}
+	},
+	"160": {
+		"id": 160,
+		"titles": {
+			"ru": "Запись допроса ОДЗЖ",
+			"en": "A.F.A.D. interrogation"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%97%D0%B0%D0%BF%D0%B8%D1%81%D1%8C_%D0%B4%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D0%B0_%D0%9E%D0%94%D0%97%D0%96",
+			"en": "https://fallout.fandom.com/wiki/A.F.A.D._interrogation"
+		},
+		"icon": "holotape",
+		"coordinates": {
+			"lat": 73.35305494105975,
+			"lng": -2.3730468750000004
+		}
+	},
+	"161": {
+		"id": 161,
+		"titles": {
+			"ru": "Проверка",
+			"en": "The Test"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9F%D1%80%D0%BE%D0%B2%D0%B5%D1%80%D0%BA%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/The_Test"
+		},
+		"icon": "holotape",
+		"coordinates": {
+			"lat": -64.92354174306496,
+			"lng": 28.300781250000004
 		}
 	}
 }
