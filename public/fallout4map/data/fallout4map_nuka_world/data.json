@@ -28,8 +28,8 @@
 		"icon": "dungeon",
 		"unmarked": true,
 		"coordinates": {
-			"lat": -73.2914099381465,
-			"lng": 23.54004371045176
+			"lat": -73.30262420189155,
+			"lng": 23.818359375000004
 		}
 	},
 	"3": {
@@ -44,8 +44,8 @@
 		},
 		"icon": "fusion-core",
 		"coordinates": {
-			"lat": -73.31146964936647,
-			"lng": 20.727767190161057
+			"lat": -73.27735320192471,
+			"lng": 20.742187500000004
 		}
 	},
 	"4": {
@@ -60,8 +60,8 @@
 		},
 		"icon": "holotape",
 		"coordinates": {
-			"lat": -72.15028781120603,
-			"lng": 20.72776182713979
+			"lat": -72.3424643905499,
+			"lng": 20.742187500000004
 		}
 	},
 	"5": {
@@ -76,8 +76,8 @@
 		},
 		"icon": "holotape",
 		"coordinates": {
-			"lat": -72.20867825343294,
-			"lng": 23.642578125000004
+			"lat": -72.39570570653261,
+			"lng": 23.818359375000004
 		}
 	},
 	"6": {
@@ -382,8 +382,8 @@
 		"icon": "building",
 		"unmarked": true,
 		"coordinates": {
-			"lat": -55.68615753206006,
-			"lng": 21.24916210177041
+			"lat": -55.727110085045986,
+			"lng": 21.181640625000004
 		}
 	},
 	"25": {
@@ -479,8 +479,8 @@
 		"icon": "building",
 		"unmarked": true,
 		"coordinates": {
-			"lat": -52.889518365504756,
-			"lng": 24.56131105465179
+			"lat": -53.01478324585922,
+			"lng": 24.521484375000004
 		}
 	},
 	"32": {
@@ -494,9 +494,10 @@
 			"en": "https://fallout.fandom.com/wiki/Nuka-World_Red_Rocket"
 		},
 		"icon": "filling-station",
+		"settlement": true,
 		"coordinates": {
-			"lat": 58.85907462337285,
-			"lng": 86.39145412534445
+			"lat": 58.7682001592396,
+			"lng": 86.57226562500001
 		}
 	},
 	"33": {
@@ -511,8 +512,8 @@
 		},
 		"icon": "city",
 		"coordinates": {
-			"lat": 73.9153691497899,
-			"lng": 105.66283437802888
+			"lat": 74.27165531800037,
+			"lng": 106.39160156250001
 		}
 	},
 	"34": {
@@ -527,8 +528,8 @@
 		},
 		"icon": "building",
 		"coordinates": {
-			"lat": -58.658684732350096,
-			"lng": 92.08328907392307
+			"lat": -56.77680831656841,
+			"lng": 92.72460937500001
 		}
 	},
 	"35": {
@@ -543,8 +544,8 @@
 		},
 		"icon": "city",
 		"coordinates": {
-			"lat": -64.87863322491201,
-			"lng": 22.23655696773057
+			"lat": -64.84893726357947,
+			"lng": 21.708984375000004
 		}
 	},
 	"39": {
@@ -733,7 +734,7 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B8%D0%BD%D0%BE%D1%82%D0%B5%D0%B0%D1%82%D1%80_%C2%AB%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D0%BD%D1%8B%D0%B9_%D1%81%D0%B2%D0%B5%D1%82%C2%BB",
 			"en": "https://fallout.fandom.com/wiki/Starlight_Interstellar_Theater"
 		},
-		"icon": "attraction",
+		"icon": "cinema",
 		"coordinates": {
 			"lat": -38.54816542304657,
 			"lng": -18.281250000000004
@@ -1057,8 +1058,8 @@
 		},
 		"icon": "building",
 		"coordinates": {
-			"lat": -82.95112060573365,
-			"lng": 18.369140625000004
+			"lat": -82.9457257577333,
+			"lng": 18.808593750000004
 		}
 	},
 	"73": {
@@ -1074,7 +1075,7 @@
 		"icon": "magazine",
 		"coordinates": {
 			"lat": -82.95112060573365,
-			"lng": 21.533203125000004
+			"lng": 21.621093750000004
 		}
 	},
 	"74": {
@@ -1186,7 +1187,7 @@
 		"icon": "building",
 		"coordinates": {
 			"lat": 41.3108238809182,
-			"lng": 51.416015625
+			"lng": 51.32812500000001
 		}
 	},
 	"81": {
@@ -1620,8 +1621,8 @@
 		},
 		"icon": "water",
 		"coordinates": {
-			"lat": 81.49230582149613,
-			"lng": 75.76171875000001
+			"lat": 81.32159262612377,
+			"lng": 77.2119140625
 		}
 	},
 	"108": {
@@ -1894,8 +1895,8 @@
 		},
 		"icon": "bridge",
 		"coordinates": {
-			"lat": 21.69826549685252,
-			"lng": 105.82031250000001
+			"lat": 21.00247105435674,
+			"lng": 105.9521484375
 		}
 	},
 	"126": {
@@ -1910,8 +1911,8 @@
 		},
 		"icon": "power-armor",
 		"coordinates": {
-			"lat": 21.779905342529645,
-			"lng": 108.984375
+			"lat": 8.233237111274565,
+			"lng": 104.80957031250001
 		}
 	},
 	"127": {
@@ -1926,8 +1927,8 @@
 		},
 		"icon": "building",
 		"coordinates": {
-			"lat": -35.02999636902567,
-			"lng": 26.982421875000004
+			"lat": -34.30714385628803,
+			"lng": 30.981445312500004
 		}
 	},
 	"128": {
@@ -1942,8 +1943,8 @@
 		},
 		"icon": "holotape",
 		"coordinates": {
-			"lat": -35.02999636902567,
-			"lng": 29.970703125000004
+			"lat": -36.527294814546245,
+			"lng": 31.025390625000004
 		}
 	},
 	"129": {
@@ -1958,8 +1959,8 @@
 		},
 		"icon": "building",
 		"coordinates": {
-			"lat": -34.016241889667015,
-			"lng": 21.972656250000004
+			"lat": -33.94335994657881,
+			"lng": 22.3681640625
 		}
 	},
 	"130": {
@@ -1975,8 +1976,8 @@
 		"icon": "building",
 		"unmarked": true,
 		"coordinates": {
-			"lat": -36.456636011596196,
-			"lng": 22.060546875
+			"lat": -36.3151251474805,
+			"lng": 22.5
 		}
 	},
 	"131": {
@@ -1991,8 +1992,8 @@
 		},
 		"icon": "holotape",
 		"coordinates": {
-			"lat": -36.456636011596196,
-			"lng": 19.072265625000004
+			"lat": -33.247875947924385,
+			"lng": 25.312500000000004
 		}
 	},
 	"132": {
@@ -2344,8 +2345,8 @@
 		},
 		"icon": "holotape",
 		"coordinates": {
-			"lat": -37.64903402157865,
-			"lng": 26.982421875000004
+			"lat": -31.80289258670676,
+			"lng": 30.937500000000004
 		}
 	},
 	"154": {
@@ -2360,8 +2361,8 @@
 		},
 		"icon": "holotape",
 		"coordinates": {
-			"lat": 72.18180355624855,
-			"lng": 110.65429687500001
+			"lat": 73.60299628304274,
+			"lng": 117.68554687500001
 		}
 	},
 	"155": {
@@ -2376,8 +2377,8 @@
 		},
 		"icon": "holotape",
 		"coordinates": {
-			"lat": -36.03133177633188,
-			"lng": 12.392578125
+			"lat": -41.11246878918086,
+			"lng": 15.468750000000002
 		}
 	},
 	"156": {
@@ -2474,6 +2475,359 @@
 		"coordinates": {
 			"lat": -43.004647127794435,
 			"lng": 23.291015625000004
+		}
+	},
+	"162": {
+		"id": 162,
+		"titles": {
+			"ru": "Медальон «Колесо обозрения»",
+			"en": "Medallion «Ferris Wheel»"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9C%D0%B5%D0%B4%D0%B0%D0%BB%D1%8C%D0%BE%D0%BD_%D0%B0%D1%82%D1%82%D1%80%D0%B0%D0%BA%D1%86%D0%B8%D0%BE%D0%BD%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Park_medallion"
+		},
+		"icon": "medallion",
+		"coordinates": {
+			"lat": -5.7908968128719565,
+			"lng": 33.57421875000001
+		}
+	},
+	"163": {
+		"id": 163,
+		"titles": {
+			"ru": "Медальон «Шахта Безумного Маллигана»",
+			"en": "Medallion «Mad Mulligan's Minecart Coaster»"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9C%D0%B5%D0%B4%D0%B0%D0%BB%D1%8C%D0%BE%D0%BD_%D0%B0%D1%82%D1%82%D1%80%D0%B0%D0%BA%D1%86%D0%B8%D0%BE%D0%BD%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Park_medallion"
+		},
+		"icon": "medallion",
+		"coordinates": {
+			"lat": 42.22851735620852,
+			"lng": -20.390625000000004
+		}
+	},
+	"164": {
+		"id": 164,
+		"titles": {
+			"ru": "Медальон «Ядер-Галактика»",
+			"en": "Medallion «Nuka-Galaxy»"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9C%D0%B5%D0%B4%D0%B0%D0%BB%D1%8C%D0%BE%D0%BD_%D0%B0%D1%82%D1%82%D1%80%D0%B0%D0%BA%D1%86%D0%B8%D0%BE%D0%BD%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Park_medallion"
+		},
+		"icon": "medallion",
+		"coordinates": {
+			"lat": 30.90222470517144,
+			"lng": 36.12304687500001
+		}
+	},
+	"165": {
+		"id": 165,
+		"titles": {
+			"ru": "Медальон «Домик на дереве»",
+			"en": "Medallion «Cappy's treehouse»"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9C%D0%B5%D0%B4%D0%B0%D0%BB%D1%8C%D0%BE%D0%BD_%D0%B0%D1%82%D1%82%D1%80%D0%B0%D0%BA%D1%86%D0%B8%D0%BE%D0%BD%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Park_medallion"
+		},
+		"icon": "medallion",
+		"coordinates": {
+			"lat": 59.62332522313026,
+			"lng": 30.673828125000004
+		}
+	},
+	"166": {
+		"id": 166,
+		"titles": {
+			"ru": "Медальон «Ядер-Гонщики»",
+			"en": "Medallion «Nuka-Racers»"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9C%D0%B5%D0%B4%D0%B0%D0%BB%D1%8C%D0%BE%D0%BD_%D0%B0%D1%82%D1%82%D1%80%D0%B0%D0%BA%D1%86%D0%B8%D0%BE%D0%BD%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Park_medallion"
+		},
+		"icon": "medallion",
+		"coordinates": {
+			"lat": 1.5818302639606454,
+			"lng": 50.36132812500001
+		}
+	},
+	"167": {
+		"id": 167,
+		"titles": {
+			"ru": "Медальон «Волт-Тек: среди звёзд»",
+			"en": "Medallion «Vault-Tec: Among the Stars»"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9C%D0%B5%D0%B4%D0%B0%D0%BB%D1%8C%D0%BE%D0%BD_%D0%B0%D1%82%D1%82%D1%80%D0%B0%D0%BA%D1%86%D0%B8%D0%BE%D0%BD%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Park_medallion"
+		},
+		"icon": "medallion",
+		"coordinates": {
+			"lat": -39.23225314171489,
+			"lng": -26.894531250000004
+		}
+	},
+	"168": {
+		"id": 168,
+		"titles": {
+			"ru": "Медальон «Мир свежести»",
+			"en": "Medallion «World of Refreshment»"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9C%D0%B5%D0%B4%D0%B0%D0%BB%D1%8C%D0%BE%D0%BD_%D0%B0%D1%82%D1%82%D1%80%D0%B0%D0%BA%D1%86%D0%B8%D0%BE%D0%BD%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Park_medallion"
+		},
+		"icon": "medallion",
+		"coordinates": {
+			"lat": 37.99616267972814,
+			"lng": 48.60351562500001
+		}
+	},
+	"169": {
+		"id": 169,
+		"titles": {
+			"ru": "Спрятанный Мистер Крышка",
+			"en": "Hidden Cappy clue"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D0%BF%D1%80%D1%8F%D1%82%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9_%D0%9C%D0%B8%D1%81%D1%82%D0%B5%D1%80_%D0%9A%D1%80%D1%8B%D1%88%D0%BA%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Hidden_Cappy_clues"
+		},
+		"icon": "cappy-clue",
+		"coordinates": {
+			"lat": -41.04621681452063,
+			"lng": 12.524414062500002
+		}
+	},
+	"170": {
+		"id": 170,
+		"titles": {
+			"ru": "Спрятанный Мистер Крышка",
+			"en": "Hidden Cappy clue"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D0%BF%D1%80%D1%8F%D1%82%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9_%D0%9C%D0%B8%D1%81%D1%82%D0%B5%D1%80_%D0%9A%D1%80%D1%8B%D1%88%D0%BA%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Hidden_Cappy_clues"
+		},
+		"icon": "cappy-clue",
+		"coordinates": {
+			"lat": -26.588527147308625,
+			"lng": -38.49609375000001
+		}
+	},
+	"171": {
+		"id": 171,
+		"titles": {
+			"ru": "Спрятанный Мистер Крышка",
+			"en": "Hidden Cappy clue"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D0%BF%D1%80%D1%8F%D1%82%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9_%D0%9C%D0%B8%D1%81%D1%82%D0%B5%D1%80_%D0%9A%D1%80%D1%8B%D1%88%D0%BA%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Hidden_Cappy_clues"
+		},
+		"icon": "cappy-clue",
+		"coordinates": {
+			"lat": -35.74651225991851,
+			"lng": -29.355468750000004
+		}
+	},
+	"172": {
+		"id": 172,
+		"titles": {
+			"ru": "Спрятанный Мистер Крышка",
+			"en": "Hidden Cappy clue"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D0%BF%D1%80%D1%8F%D1%82%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9_%D0%9C%D0%B8%D1%81%D1%82%D0%B5%D1%80_%D0%9A%D1%80%D1%8B%D1%88%D0%BA%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Hidden_Cappy_clues"
+		},
+		"icon": "cappy-clue",
+		"coordinates": {
+			"lat": 30.977609093348686,
+			"lng": 39.46289062500001
+		}
+	},
+	"173": {
+		"id": 173,
+		"titles": {
+			"ru": "Спрятанный Мистер Крышка",
+			"en": "Hidden Cappy clue"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D0%BF%D1%80%D1%8F%D1%82%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9_%D0%9C%D0%B8%D1%81%D1%82%D0%B5%D1%80_%D0%9A%D1%80%D1%8B%D1%88%D0%BA%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Hidden_Cappy_clues"
+		},
+		"icon": "cappy-clue",
+		"coordinates": {
+			"lat": 18.06231230454674,
+			"lng": 65.83007812500001
+		}
+	},
+	"174": {
+		"id": 174,
+		"titles": {
+			"ru": "Спрятанный Мистер Крышка",
+			"en": "Hidden Cappy clue"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D0%BF%D1%80%D1%8F%D1%82%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9_%D0%9C%D0%B8%D1%81%D1%82%D0%B5%D1%80_%D0%9A%D1%80%D1%8B%D1%88%D0%BA%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Hidden_Cappy_clues"
+		},
+		"icon": "cappy-clue",
+		"coordinates": {
+			"lat": 35.85343961959182,
+			"lng": -17.753906250000004
+		}
+	},
+	"175": {
+		"id": 175,
+		"titles": {
+			"ru": "Спрятанный Мистер Крышка",
+			"en": "Hidden Cappy clue"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D0%BF%D1%80%D1%8F%D1%82%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9_%D0%9C%D0%B8%D1%81%D1%82%D0%B5%D1%80_%D0%9A%D1%80%D1%8B%D1%88%D0%BA%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Hidden_Cappy_clues"
+		},
+		"icon": "cappy-clue",
+		"coordinates": {
+			"lat": 42.42345651793833,
+			"lng": -16.523437500000004
+		}
+	},
+	"176": {
+		"id": 176,
+		"titles": {
+			"ru": "Спрятанный Мистер Крышка",
+			"en": "Hidden Cappy clue"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D0%BF%D1%80%D1%8F%D1%82%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9_%D0%9C%D0%B8%D1%81%D1%82%D0%B5%D1%80_%D0%9A%D1%80%D1%8B%D1%88%D0%BA%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Hidden_Cappy_clues"
+		},
+		"icon": "cappy-clue",
+		"coordinates": {
+			"lat": 62.2679226294176,
+			"lng": 27.24609375
+		}
+	},
+	"177": {
+		"id": 177,
+		"titles": {
+			"ru": "Спрятанный Мистер Крышка",
+			"en": "Hidden Cappy clue"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D0%BF%D1%80%D1%8F%D1%82%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9_%D0%9C%D0%B8%D1%81%D1%82%D0%B5%D1%80_%D0%9A%D1%80%D1%8B%D1%88%D0%BA%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Hidden_Cappy_clues"
+		},
+		"icon": "cappy-clue",
+		"coordinates": {
+			"lat": 60.23981116999893,
+			"lng": 18.808593750000004
+		}
+	},
+	"178": {
+		"id": 178,
+		"titles": {
+			"ru": "Спрятанный Мистер Крышка",
+			"en": "Hidden Cappy clue"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D0%BF%D1%80%D1%8F%D1%82%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9_%D0%9C%D0%B8%D1%81%D1%82%D0%B5%D1%80_%D0%9A%D1%80%D1%8B%D1%88%D0%BA%D0%B0",
+			"en": "https://fallout.fandom.com/wiki/Hidden_Cappy_clues"
+		},
+		"icon": "cappy-clue",
+		"coordinates": {
+			"lat": 16.46769474828897,
+			"lng": 3.1640625000000004
+		}
+	},
+	"179": {
+		"id": 179,
+		"titles": {
+			"ru": "Тайник Кларка",
+			"en": "Clark's footlocker"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%94%D0%B8%D0%BA%D1%83",
+			"en": "https://fallout.fandom.com/wiki/For_Deke"
+		},
+		"icon": "stash",
+		"unmarked": true,
+		"coordinates": {
+			"lat": 47.100044694025215,
+			"lng": 32.34375000000001
+		}
+	},
+	"180": {
+		"id": 180,
+		"titles": {
+			"ru": "Ядерный блок",
+			"en": "Fusion core"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%B1%D0%BB%D0%BE%D0%BA",
+			"en": "https://fallout.fandom.com/wiki/Fusion_core_(Fallout_4)"
+		},
+		"icon": "fusion-core",
+		"coordinates": {
+			"lat": -30.67571540416773,
+			"lng": 25.312500000000004
+		}
+	},
+	"181": {
+		"id": 181,
+		"titles": {
+			"ru": "Чашки",
+			"en": "Teacups"
+		},
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/Teacups"
+		},
+		"icon": "attraction",
+		"unmarked": true,
+		"coordinates": {
+			"lat": -1.7575368113083125,
+			"lng": 41.83593750000001
+		}
+	},
+	"182": {
+		"id": 182,
+		"titles": {
+			"ru": "Толстяк",
+			"en": "Fat Man"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D1%8F%D0%BA_(Fallout_4)",
+			"en": "https://fallout.fandom.com/wiki/Fat_Man_(Fallout_4)"
+		},
+		"icon": "weapon",
+		"coordinates": {
+			"lat": 8.146242825034385,
+			"lng": 107.92968750000001
+		}
+	},
+	"183": {
+		"id": 183,
+		"titles": {
+			"ru": "Силовая броня",
+			"en": "Power armor"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D0%B8%D0%BB%D0%BE%D0%B2%D0%B0%D1%8F_%D0%B1%D1%80%D0%BE%D0%BD%D1%8F",
+			"en": "https://fallout.fandom.com/wiki/Power_armor"
+		},
+		"icon": "power-armor",
+		"coordinates": {
+			"lat": 69.09993967425089,
+			"lng": 136.05468750000003
 		}
 	}
 }

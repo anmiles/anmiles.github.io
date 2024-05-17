@@ -52,7 +52,7 @@
 			</p>
 			<ul data-bind="foreach: icons">
 				<li class="row" data-bind="attr: { 'data-empty': count() === 0 }">
-					<input type="checkbox" data-bind="attr: { id: name }, checked: enabled, click: toggle"
+					<input type="checkbox" data-bind="attr: { id: name }, checked: enabled, click: toggle, css: { special: special }"
 					/><label class="row" data-bind="attr: { for: name }"
 						><span class="icon" data-bind="css: className"></span
 						><span data-bind="text: title"></span
@@ -84,6 +84,7 @@
 			<!-- /ko -->
 		</select>
 		<label for="unmarked"><input type="checkbox" id="unmarked" name="unmarked">unmarked</label>
+		<label for="settlement"><input type="checkbox" id="settlement" name="settlement">settlement</label>
 		<input type="submit" />
 	</form>
 </dialog>
@@ -100,7 +101,12 @@
 	<div class="popup">
 		<div class="row title">
 			<div class="icon" data-bind="css: { visited: visited, visible: visible }, class: className, click: filter"></div>
-			<h3 data-bind="text: title"></h3>
+			<h3>
+				<span data-bind="text: title"></span>
+				<!-- ko if: note -->
+					<em data-bind="text: note"></em>
+				<!-- /ko -->
+			</h3>
 			<!-- ko if: link -->
 			<a class="permalink nounderline" target="_blank" data-bind="attr: { href: link }">
 				<i class="fa-solid fa-link"></i>

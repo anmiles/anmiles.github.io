@@ -441,7 +441,8 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%BE%D0%BC%D0%BC%D1%83%D0%BD%D0%B0_%C2%AB%D0%A1%D0%BE%D0%BB%D0%BD%D0%B5%D1%87%D0%BD%D1%8B%D0%B5_%D0%BF%D1%80%D0%B8%D0%BB%D0%B8%D0%B2%D1%8B%C2%BB",
 			"en": "https://fallout.fandom.com/wiki/Sunshine_Tidings_co-op"
 		},
-		"icon": "settlement",
+		"icon": "city",
+		"settlement": true,
 		"coordinates": {
 			"lat": 63.82128765261384,
 			"lng": -104.23828125000001
@@ -457,7 +458,8 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%90%D0%BB%D1%8C%D1%8F%D0%BD%D1%81",
 			"en": "https://fallout.fandom.com/wiki/Covenant"
 		},
-		"icon": "settlement",
+		"icon": "city",
+		"settlement": true,
 		"coordinates": {
 			"lat": 67.7094454829218,
 			"lng": 4.7900390625
@@ -585,7 +587,8 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%B0%D1%8F_%D0%B1%D0%B0%D0%B7%D0%B0",
 			"en": "https://fallout.fandom.com/wiki/Home_Plate"
 		},
-		"icon": "settlement",
+		"icon": "building",
+		"settlement": true,
 		"coordinates": {
 			"lat": -6.35897532723566,
 			"lng": -4.174804687500001
@@ -601,7 +604,8 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A0%D0%B5%D1%81%D1%82%D0%BE%D1%80%D0%B0%D0%BD_%C2%AB%D0%A1%D1%82%D0%B0%D1%80%D0%BB%D0%B0%D0%B9%D1%82%C2%BB",
 			"en": "https://fallout.fandom.com/wiki/Starlight_Drive_In"
 		},
-		"icon": "settlement",
+		"icon": "cinema",
+		"settlement": true,
 		"coordinates": {
 			"lat": 72.89380193362285,
 			"lng": -39.59472656250001
@@ -617,7 +621,8 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A4%D0%B5%D1%80%D0%BC%D0%B0_%D0%AD%D0%B1%D0%B5%D1%80%D0%BD%D0%B5%D1%82%D0%B8",
 			"en": "https://fallout.fandom.com/wiki/Abernathy_farm"
 		},
-		"icon": "settlement",
+		"icon": "farm",
+		"settlement": true,
 		"coordinates": {
 			"lat": 76.57815922398312,
 			"lng": -90.35156250000001
@@ -633,7 +638,8 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D1%82%D0%BE%D1%8F%D0%BD%D0%BA%D0%B0_%D0%B3%D1%80%D1%83%D0%B7%D0%BE%D0%B2%D0%B8%D0%BA%D0%BE%D0%B2_%C2%AB%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%B0%D1%8F_%D1%80%D0%B0%D0%BA%D0%B5%D1%82%D0%B0%C2%BB",
 			"en": "https://fallout.fandom.com/wiki/Red_Rocket_truck_stop"
 		},
-		"icon": "settlement",
+		"icon": "filling-station",
+		"settlement": true,
 		"coordinates": {
 			"lat": 79.99716840285255,
 			"lng": -80.85937500000001
@@ -649,7 +655,8 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D1%8D%D0%BD%D0%BA%D1%87%D1%83%D0%B0%D1%80%D0%B8",
 			"en": "https://fallout.fandom.com/wiki/Sanctuary"
 		},
-		"icon": "settlement",
+		"icon": "city",
+		"settlement": true,
 		"coordinates": {
 			"lat": 81.58284333315854,
 			"lng": -92.19726562500001
@@ -665,7 +672,8 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%B5%D0%BD%D0%BF%D0%B0%D0%B9%D0%BD%D1%81-%D0%91%D0%BB%D0%B0%D1%84%D1%84",
 			"en": "https://fallout.fandom.com/wiki/Tenpines_Bluff"
 		},
-		"icon": "settlement",
+		"icon": "farm",
+		"settlement": true,
 		"coordinates": {
 			"lat": 81.85498412431787,
 			"lng": -16.171875000000004
@@ -738,8 +746,8 @@
 	"55": {
 		"id": 55,
 		"titles": {
-			"ru": "Большой Джим (оружие)",
-			"en": "Big Jim (weapon)"
+			"ru": "Большой Джим",
+			"en": "Big Jim"
 		},
 		"links": {
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%91%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9_%D0%94%D0%B6%D0%B8%D0%BC_(%D0%BE%D1%80%D1%83%D0%B6%D0%B8%D0%B5)",
@@ -1154,7 +1162,7 @@
 	"83": {
 		"id": 83,
 		"titles": {
-			"ru": "Красная угроза (голодиск)",
+			"ru": "Красная угроза",
 			"en": "Red Menace"
 		},
 		"links": {
@@ -4233,7 +4241,8 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9C%D0%B0%D1%8F%D0%BA_%D0%9A%D0%B8%D0%BD%D0%B3%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%B0",
 			"en": "https://fallout.fandom.com/wiki/Kingsport_Lighthouse"
 		},
-		"icon": "settlement",
+		"icon": "building",
+		"settlement": true,
 		"coordinates": {
 			"lat": 73.7880535310551,
 			"lng": 134.12109375000003
@@ -4249,7 +4258,8 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9F%D1%80%D0%B8%D1%87%D0%B0%D0%BB_%C2%AB%D0%AD%D0%B3%D1%80%D0%B5%D1%82-%D1%82%D1%83%D1%80%D1%81%C2%BB",
 			"en": "https://fallout.fandom.com/wiki/Egret_Tours_Marina"
 		},
-		"icon": "settlement",
+		"icon": "water",
+		"settlement": true,
 		"coordinates": {
 			"lat": -47.8721439688873,
 			"lng": -29.179687500000004
@@ -4281,7 +4291,8 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A4%D0%BE%D1%80%D0%BF%D0%BE%D1%81%D1%82_%C2%AB%D0%97%D0%B8%D0%BC%D0%BE%D0%BD%D0%B4%D0%B6%D0%B0%C2%BB",
 			"en": "https://fallout.fandom.com/wiki/Outpost_Zimonja"
 		},
-		"icon": "settlement",
+		"icon": "building",
+		"settlement": true,
 		"coordinates": {
 			"lat": 83.54985076685979,
 			"lng": -0.43945312500000006
@@ -4297,7 +4308,8 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%BE%D1%82%D1%82%D0%B5%D0%B4%D0%B6_%D0%BD%D0%B0_%D0%B1%D0%B5%D1%80%D0%B5%D0%B3%D1%83",
 			"en": "https://fallout.fandom.com/wiki/Coastal_cottage"
 		},
-		"icon": "settlement",
+		"icon": "building",
+		"settlement": true,
 		"coordinates": {
 			"lat": 81.44013675935982,
 			"lng": 108.54492187500001
@@ -4313,7 +4325,8 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9F%D0%BE%D1%82%D0%BE%D0%B3%D0%BE%D0%BD%D0%BA%D0%B0",
 			"en": "https://fallout.fandom.com/wiki/The_Slog"
 		},
-		"icon": "settlement",
+		"icon": "farm",
+		"settlement": true,
 		"coordinates": {
 			"lat": 77.0591158825237,
 			"lng": 82.26562500000001
@@ -4329,7 +4342,8 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A4%D0%B5%D1%80%D0%BC%D0%B0_%D0%A4%D0%B8%D0%BD%D1%87%D0%B0",
 			"en": "https://fallout.fandom.com/wiki/Finch_farm"
 		},
-		"icon": "settlement",
+		"icon": "farm",
+		"settlement": true,
 		"coordinates": {
 			"lat": 67.97463396204759,
 			"lng": 83.93554687500001
@@ -4345,7 +4359,8 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9B%D0%BE%D0%B4%D0%BE%D1%87%D0%BD%D1%8B%D0%B9_%D0%B4%D0%BE%D0%BC%D0%B8%D0%BA_%D0%A2%D0%B0%D1%84%D1%84%D0%B8%D0%BD%D0%B3%D1%82%D0%BE%D0%BD%D0%B0",
 			"en": "https://fallout.fandom.com/wiki/Taffington_boathouse"
 		},
-		"icon": "settlement",
+		"icon": "water",
+		"settlement": true,
 		"coordinates": {
 			"lat": 69.41124235697256,
 			"lng": 24.345703125
@@ -4361,7 +4376,8 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%B5%D0%BF%D0%BB%D0%B8%D1%86%D0%B0_%C2%AB%D0%93%D1%80%D0%B8%D0%BD%D1%82%D0%BE%D0%BF%C2%BB",
 			"en": "https://fallout.fandom.com/wiki/Greentop_Nursery"
 		},
-		"icon": "settlement",
+		"icon": "farm",
+		"settlement": true,
 		"coordinates": {
 			"lat": 75.43097919105938,
 			"lng": 53.17382812500001
@@ -4377,7 +4393,8 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9E%D1%81%D0%BE%D0%B1%D0%BD%D1%8F%D0%BA_%D1%81%D0%B5%D0%BC%D1%8C%D0%B8_%D0%9A%D1%80%D1%83%D0%BF%D0%BE%D0%B2",
 			"en": "https://fallout.fandom.com/wiki/Croup_Manor"
 		},
-		"icon": "settlement",
+		"icon": "building",
+		"settlement": true,
 		"coordinates": {
 			"lat": 61.77312286453146,
 			"lng": 136.45019531250003
@@ -4393,7 +4410,8 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B0%D0%BD%D1%82%D1%80%D0%B8-%D0%9A%D1%80%D0%BE%D1%81%D1%81%D0%B8%D0%BD%D0%B3",
 			"en": "https://fallout.fandom.com/wiki/County_crossing"
 		},
-		"icon": "settlement",
+		"icon": "farm",
+		"settlement": true,
 		"coordinates": {
 			"lat": 59.5343180010956,
 			"lng": 62.31445312500001
@@ -4409,7 +4427,8 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9D%D0%BE%D1%80%D0%B4%D1%85%D0%B0%D0%B3%D0%B5%D0%BD-%D0%91%D0%B8%D1%87",
 			"en": "https://fallout.fandom.com/wiki/Nordhagen_Beach"
 		},
-		"icon": "settlement",
+		"icon": "building",
+		"settlement": true,
 		"coordinates": {
 			"lat": 30.06909396443887,
 			"lng": 102.04101562500001
@@ -4425,7 +4444,8 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%91%D0%BE%D1%81%D1%82%D0%BE%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D0%B0%D1%8D%D1%80%D0%BE%D0%BF%D0%BE%D1%80%D1%82",
 			"en": "https://fallout.fandom.com/wiki/Boston_Airport"
 		},
-		"icon": "settlement",
+		"icon": "building",
+		"settlement": true,
 		"coordinates": {
 			"lat": 24.607069137709708,
 			"lng": 79.18945312500001
@@ -4441,7 +4461,8 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%91%D0%B0%D0%BD%D0%BA%D0%B5%D1%80-%D0%A5%D0%B8%D0%BB%D0%BB",
 			"en": "https://fallout.fandom.com/wiki/Bunker_Hill"
 		},
-		"icon": "settlement",
+		"icon": "city",
+		"settlement": true,
 		"coordinates": {
 			"lat": 42.74701217318067,
 			"lng": 38.14453125000001
@@ -4457,7 +4478,8 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%93%D1%80%D0%B5%D0%B9%D0%B3%D0%B0%D1%80%D0%B4%D0%B5%D0%BD",
 			"en": "https://fallout.fandom.com/wiki/Graygarden"
 		},
-		"icon": "settlement",
+		"icon": "farm",
+		"settlement": true,
 		"coordinates": {
 			"lat": 46.01222384063236,
 			"lng": -51.32812500000001
@@ -4473,7 +4495,8 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D1%8F_%C2%AB%D0%9E%D0%B1%D0%B5%D1%80%D0%BB%D0%B5%D0%BD%D0%B4%C2%BB",
 			"en": "https://fallout.fandom.com/wiki/Oberland_station"
 		},
-		"icon": "settlement",
+		"icon": "train-station",
+		"settlement": true,
 		"coordinates": {
 			"lat": 21.53484700204879,
 			"lng": -51.94335937500001
@@ -4489,7 +4512,8 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9F%D0%B5%D1%80%D0%B5%D1%83%D0%BB%D0%BE%D0%BA_%D0%B2%D0%B8%D1%81%D0%B5%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA%D0%B0",
 			"en": "https://fallout.fandom.com/wiki/Hangman%27s_Alley"
 		},
-		"icon": "settlement",
+		"icon": "square",
+		"settlement": true,
 		"coordinates": {
 			"lat": 6.227933930268672,
 			"lng": -15.336914062500002
@@ -4505,7 +4529,8 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D0%BE%D0%BC%D0%B5%D1%80%D0%B2%D0%B8%D0%BB%D0%BB-%D0%9F%D0%BB%D0%B5%D0%B9%D1%81",
 			"en": "https://fallout.fandom.com/wiki/Somerville_Place"
 		},
-		"icon": "settlement",
+		"icon": "farm",
+		"settlement": true,
 		"coordinates": {
 			"lat": -69.03714171275197,
 			"lng": -34.98046875000001
@@ -4521,7 +4546,8 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%94%D0%B6%D0%B0%D0%BC%D0%B5%D0%B9%D0%BA%D0%B0-%D0%9F%D0%BB%D0%B5%D0%B9%D0%BD",
 			"en": "https://fallout.fandom.com/wiki/Jamaica_Plain"
 		},
-		"icon": "settlement",
+		"icon": "city",
+		"settlement": true,
 		"coordinates": {
 			"lat": -48.10743118848039,
 			"lng": 31.904296875000004
@@ -4537,7 +4563,8 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%97%D0%B0%D0%BC%D0%BE%D0%BA",
 			"en": "https://fallout.fandom.com/wiki/The_Castle"
 		},
-		"icon": "settlement",
+		"icon": "building",
+		"settlement": true,
 		"coordinates": {
 			"lat": -32.32427558887655,
 			"lng": 78.04687500000001
@@ -4553,7 +4580,8 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D0%BF%D0%B5%D0%BA%D1%82%D0%B0%D0%BA%D0%BB-%D0%B0%D0%B9%D0%BB%D1%8D%D0%BD%D0%B4",
 			"en": "https://fallout.fandom.com/wiki/Spectacle_Island"
 		},
-		"icon": "settlement",
+		"icon": "water",
+		"settlement": true,
 		"coordinates": {
 			"lat": -46.07323062540835,
 			"lng": 115.13671875
@@ -4569,7 +4597,8 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A4%D0%B5%D1%80%D0%BC%D0%B0_%D0%A3%D0%BE%D1%80%D0%B2%D0%B8%D0%BA%D0%BE%D0%B2",
 			"en": "https://fallout.fandom.com/wiki/Warwick_homestead"
 		},
-		"icon": "settlement",
+		"icon": "farm",
+		"settlement": true,
 		"coordinates": {
 			"lat": -57.27904276497778,
 			"lng": 90.79101562500001
@@ -4585,7 +4614,8 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D1%82%D1%80%D0%BE%D0%B9%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D0%BA%D0%B0_%D0%B2_%D0%9C%D0%B5%D1%80%D0%BA%D0%B2%D0%BE%D1%82%D0%B5%D1%80",
 			"en": "https://fallout.fandom.com/wiki/Murkwater_construction_site"
 		},
-		"icon": "settlement",
+		"icon": "building",
+		"settlement": true,
 		"coordinates": {
 			"lat": -71.38514208411496,
 			"lng": 20.126953125000004
@@ -9699,7 +9729,7 @@
 	"770": {
 		"id": 770,
 		"titles": {
-			"ru": "Клэр (голодиск)",
+			"ru": "Клэр",
 			"en": "To Claire"
 		},
 		"links": {
@@ -10052,7 +10082,7 @@
 		"id": 812,
 		"titles": {
 			"ru": "Карабин Теслы",
-			"en": "Tesla rifle (Automatron)"
+			"en": "Tesla rifle"
 		},
 		"links": {
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B0%D1%80%D0%B0%D0%B1%D0%B8%D0%BD_%D0%A2%D0%B5%D1%81%D0%BB%D1%8B",
@@ -10068,7 +10098,7 @@
 		"id": 813,
 		"titles": {
 			"ru": "Головной лазер штурмотрона",
-			"en": "Salvaged assaultron head (Automatron)"
+			"en": "Salvaged assaultron head"
 		},
 		"links": {
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%BE%D0%B9_%D0%BB%D0%B0%D0%B7%D0%B5%D1%80_%D1%88%D1%82%D1%83%D1%80%D0%BC%D0%BE%D1%82%D1%80%D0%BE%D0%BD%D0%B0",
@@ -10084,7 +10114,7 @@
 		"id": 814,
 		"titles": {
 			"ru": "Клинок штурмотрона",
-			"en": "Assaultron blade (Automatron)"
+			"en": "Assaultron blade"
 		},
 		"links": {
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%BB%D0%B8%D0%BD%D0%BE%D0%BA_%D1%88%D1%82%D1%83%D1%80%D0%BC%D0%BE%D1%82%D1%80%D0%BE%D0%BD%D0%B0",
@@ -10100,7 +10130,7 @@
 		"id": 815,
 		"titles": {
 			"ru": "Циркулярный резак Мистера Помощника",
-			"en": "Mr. Handy buzz blade (Automatron)"
+			"en": "Mr. Handy buzz blade"
 		},
 		"links": {
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A6%D0%B8%D1%80%D0%BA%D1%83%D0%BB%D1%8F%D1%80%D0%BD%D1%8B%D0%B9_%D1%80%D0%B5%D0%B7%D0%B0%D0%BA_%D0%9C%D0%B8%D1%81%D1%82%D0%B5%D1%80%D0%B0_%D0%9F%D0%BE%D0%BC%D0%BE%D1%89%D0%BD%D0%B8%D0%BA%D0%B0",
@@ -10122,7 +10152,8 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9B%D0%BE%D0%B3%D0%BE%D0%B2%D0%BE_%D0%9C%D0%B5%D1%85%D0%B0%D0%BD%D0%B8%D1%81%D1%82%D0%B0",
 			"en": "https://fallout.fandom.com/wiki/The_Mechanist%27s_lair"
 		},
-		"icon": "settlement",
+		"icon": "dungeon",
+		"settlement": true,
 		"coordinates": {
 			"lat": 47.2195681123155,
 			"lng": 70.13671875000001
@@ -10131,8 +10162,8 @@
 	"817": {
 		"id": 817,
 		"titles": {
-			"ru": "Взгляд протектрона (Automatron)",
-			"en": "Protectron's Gaze (Automatron)"
+			"ru": "Взгляд протектрона",
+			"en": "Protectron's Gaze"
 		},
 		"links": {
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%92%D0%B7%D0%B3%D0%BB%D1%8F%D0%B4_%D0%BF%D1%80%D0%BE%D1%82%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BD%D0%B0_(Fallout_4)",
@@ -10243,8 +10274,8 @@
 	"825": {
 		"id": 825,
 		"titles": {
-			"ru": "Автоматрон (голодиск)",
-			"en": "Automatron (holotape)"
+			"ru": "Автоматрон",
+			"en": "Automatron"
 		},
 		"links": {
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%90%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D1%80%D0%BE%D0%BD_(%D0%B3%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D1%81%D0%BA)",
@@ -10986,7 +11017,7 @@
 		"id": 878,
 		"titles": {
 			"ru": "Общественные события",
-			"en": "Publick Occurrences (location)"
+			"en": "Publick Occurrences"
 		},
 		"links": {
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9E%D0%B1%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5_%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D1%8F",
@@ -11062,8 +11093,8 @@
 		"icon": "dungeon",
 		"unmarked": true,
 		"coordinates": {
-			"lat": -4.806364708499998,
-			"lng": -6.481933593750001
+			"lat": -4.937724274302479,
+			"lng": -6.492919921875001
 		}
 	},
 	"883": {
@@ -11409,8 +11440,8 @@
 	"905": {
 		"id": 905,
 		"titles": {
-			"ru": "Радиостанция Даймонд-сити (локация)",
-			"en": "Diamond City Radio (location)"
+			"ru": "Радиостанция Даймонд-сити",
+			"en": "Diamond City Radio"
 		},
 		"links": {
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A0%D0%B0%D0%B4%D0%B8%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D1%8F_%D0%94%D0%B0%D0%B9%D0%BC%D0%BE%D0%BD%D0%B4-%D1%81%D0%B8%D1%82%D0%B8_(%D0%BB%D0%BE%D0%BA%D0%B0%D1%86%D0%B8%D1%8F)",
@@ -11861,7 +11892,7 @@
 	"936": {
 		"id": 936,
 		"titles": {
-			"ru": "Раскопки (локация)",
+			"ru": "Раскопки",
 			"en": "The Dig"
 		},
 		"links": {
@@ -13504,7 +13535,7 @@
 	"1054": {
 		"id": 1054,
 		"titles": {
-			"ru": "Дневник Карла (голодиск)",
+			"ru": "Дневник Карла",
 			"en": "Carl's log"
 		},
 		"links": {
@@ -16799,8 +16830,8 @@
 	"1277": {
 		"id": 1277,
 		"titles": {
-			"ru": "Институт (локация)",
-			"en": "The Institute (location)"
+			"ru": "Институт",
+			"en": "The Institute"
 		},
 		"links": {
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%98%D0%BD%D1%81%D1%82%D0%B8%D1%82%D1%83%D1%82_(%D0%BB%D0%BE%D0%BA%D0%B0%D1%86%D0%B8%D1%8F)",
@@ -16867,7 +16898,7 @@
 		"id": 1281,
 		"titles": {
 			"ru": "Лаборатория ВРЭ",
-			"en": "The Institute (location)"
+			"en": "Institute FEV Lab"
 		},
 		"links": {
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%B8%D1%8F_%D0%92%D0%A0%D0%AD",
@@ -17124,6 +17155,48 @@
 		"coordinates": {
 			"lat": 49.55372551347579,
 			"lng": -136.75781250000003
+		}
+	},
+	"1298": {
+		"id": 1298,
+		"titles": {
+			"ru": "Хижина торговца",
+			"en": "Trader's cabin"
+		},
+		"links": {},
+		"icon": "encampment",
+		"unmarked": true,
+		"coordinates": {
+			"lat": 80.2459485403551,
+			"lng": 112.71972656250001
+		}
+	},
+	"1299": {
+		"id": 1299,
+		"titles": {
+			"ru": "Мастерская Щепки",
+			"en": "Slim's Workshop"
+		},
+		"links": {},
+		"icon": "encampment",
+		"unmarked": true,
+		"coordinates": {
+			"lat": -12.168225677390119,
+			"lng": 37.94677734375001
+		}
+	},
+	"1300": {
+		"id": 1300,
+		"titles": {
+			"ru": "Хижина Элеанор",
+			"en": "Eleanor's shack"
+		},
+		"links": {},
+		"icon": "encampment",
+		"unmarked": true,
+		"coordinates": {
+			"lat": -31.765537409484374,
+			"lng": -12.304687500000002
 		}
 	}
 }

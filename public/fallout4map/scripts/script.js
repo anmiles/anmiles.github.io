@@ -100,7 +100,8 @@ const dlcs = {
 		tileZoom: 3,
 		background: '#1d1d1d',
 		default: true,
-		ready: 0.99,
+		added: 0.99,
+		verified: 0.98
 	},
 	far_harbor: {
 		key: 'far_harbor',
@@ -108,8 +109,9 @@ const dlcs = {
 		zoom: 4,
 		tileZoom: 3,
 		background: '#201c20',
-		startId: 12,
-		ready: 1,
+		startPointId: 12,
+		added: 1,
+		verified: 1,
 	},
 	nuka_world: {
 		key: 'nuka_world',
@@ -117,8 +119,9 @@ const dlcs = {
 		zoom: 4,
 		tileZoom: 3,
 		background: '#282420',
-		startId: 35,
-		ready: 0.22,
+		startPointId: 35,
+		added: 0.99,
+		verified: 0.30
 	},
 	zone: {
 		key: 'zone',
@@ -126,7 +129,8 @@ const dlcs = {
 		background: '#666666',
 		zoom: 4,
 		tileZoom: 3,
-		ready: 1,
+		added: 1,
+		verified: 1,
 	}
 }
 
@@ -144,11 +148,13 @@ const langs = {
 		confirmMove: 'Переместить метку?',
 		search: 'Поиск',
 		filter: 'Фильтр',
+		settlement: 'Поселение',
+		settlementsOnly: 'Только поселения',
 		visited: 'Посещённые',
 		unvisited: 'Непосещённые',
 		visitedCount: 'Посещено',
 		unmarked: 'Неотмечаемые',
-		underConstruction: 'Карта находится в разработке ({0}% готово)'
+		underConstruction: 'Карта находится в разработке ({0}% добавлено, {1}% проверено)'
 	},
 	en: {
 		key: 'en',
@@ -163,11 +169,13 @@ const langs = {
 		confirmMove: 'Move point?',
 		search: 'Search',
 		filter: 'Filter',
+		settlement: 'Settlement',
+		settlementsOnly: 'Settlements only',
 		visited: 'Visited',
 		unvisited: 'Unvisited',
 		visitedCount: 'Visited',
 		unmarked: 'Unmarked',
-		underConstruction: 'The map is under construction ({0}% finished)'
+		underConstruction: 'The map is under construction ({0}% added, {1}% verified)'
 	},
 };
 
@@ -202,11 +210,13 @@ const model = {
 	showVisited: ko.observable(true),
 	showUnvisited: ko.observable(true),
 	showUnmarked: ko.observable(true),
+	showSettlementsOnly: ko.observable(false),
 };
 
 model.showVisited.subscribe(() => searchPanel.search());
 model.showUnvisited.subscribe(() => searchPanel.search());
 model.showUnmarked.subscribe(() => searchPanel.search());
+model.showSettlementsOnly.subscribe(() => searchPanel.search());
 
 const hidden = JSON.parse(localStorage[game.key + '-hidden'] || '{ "types": [], "icons": [] }');
 
@@ -257,7 +267,8 @@ class Icons extends Lookup {
 				icon.points = ko.observableArray([]);
 				icon.title = icon.titles[lang.key];
 				icon.all = icon.all || false;
-				icon.className = types.find(icon.type).className + ' ' + 'icon-' + icon.name + ' fa-solid ' + icon.className;
+				icon.special = icon.special || false;
+				icon.className = types.find(icon.type).className + ' ' + 'icon-' + icon.name + ' fa-solid ' + icon.className + (icon.special ? " special" : "");
 				icon.toggle = toggleIcon;
 				icon.enabled = ko.observable(hidden.icons.indexOf(icon.name) === -1);
 				icon.count = ko.computed(() => icon.points().filter(point => point.checked()).length);
@@ -286,12 +297,14 @@ const types = new Types([
 
 const icons = new Icons([
 	{ name: "attraction", className: "fa-sun", type: "location", titles: { en: "Attraction", ru: "Аттракцион" } },
-	{ name: "bobblehead", className: "fa-face-smile", type: "collectible", titles: { en: "Bobblehead", ru: "Пупс" } },
+	{ name: "bobblehead", className: "fa-face-smile", type: "collectible", special: true, titles: { en: "Bobblehead", ru: "Пупс" } },
 	{ name: "bridge", className: "fa-bridge", type: "location", titles: { en: "Bridge", ru: "Мост" } },
 	{ name: "building", className: "fa-building", type: "location", titles: { en: "Building", ru: "Здание" } },
 	{ name: "bunker", className: "fa-door-closed", type: "location", titles: { en: "Bunker", ru: "Бункер" } },
 	{ name: "camper", className: "fa-caravan", type: "location", titles: { en: "Camper", ru: "Трейлерный парк" } },
+	{ name: "cappy-clue", className: "fa-certificate", type: "collectible", special: true, titles: { en: "Cappy clue", ru: "Мистер Крышка" } },
 	{ name: "church", className: "fa-church", type: "location", titles: { en: "Church", ru: "Церковь" } },
+	{ name: "cinema", className: "fa-film", type: "location", titles: { en: "Cinema", ru: "Кинотеатр" } },
 	{ name: "city", className: "fa-city", type: "location", titles: { en: "City", ru: "Город" } },
 	{ name: "dungeon", className: "fa-igloo", type: "location", titles: { en: "Dungeon", ru: "Подземелье" } },
 	{ name: "encampment", className: "fa-campground", type: "location", titles: { en: "Encampment", ru: "Лагерь" } },
@@ -305,6 +318,7 @@ const icons = new Icons([
 	{ name: "hospital", className: "fa-bed-pulse", type: "location", titles: { en: "Hospital", ru: "Больница" } },
 	{ name: "junkyard", className: "fa-trash", type: "location", titles: { en: "Junkyard", ru: "Свалка" } },
 	{ name: "magazine", className: "fa-book-open-reader", type: "collectible", titles: { en: "Magazine", ru: "Журнал" } },
+	{ name: "medallion", className: "fa-medal", type: "collectible", special: true, titles: { en: "Medallion", ru: "Медальон" } },
 	{ name: "military-base", className: "fa-star", type: "location", titles: { en: "Military base", ru: "Военная база" } },
 	{ name: "mini-nuke", className: "fa-bomb", type: "pickup", titles: { en: "Mini nuke", ru: "Ядерный минизаряд" } },
 	{ name: "parking", className: "fa-warehouse", type: "location", titles: { en: "Parking", ru: "Парковка" } },
@@ -317,7 +331,6 @@ const icons = new Icons([
 	{ name: "radio-tower", className: "fa-tower-cell", type: "location", titles: { en: "Radio tower", ru: "Радиовышка" } },
 	{ name: "satellite", className: "fa-satellite-dish", type: "location", titles: { en: "Satellite", ru: "Спутниковая антенна" } },
 	{ name: "school", className: "fa-graduation-cap", type: "location", titles: { en: "School", ru: "Школа" } },
-	{ name: "settlement", className: "fa-house", type: "location", titles: { en: "Settlement", ru: "Поселение" } },
 	{ name: "ship", className: "fa-anchor", type: "location", titles: { en: "Ship", ru: "Корабль" } },
 	{ name: "square", className: "fa-vector-square", type: "location", titles: { en: "Square", ru: "Площадь" } },
 	{ name: "stash", className: "fa-box", type: "location", titles: { en: "Stash", ru: "Тайник" } },
@@ -445,7 +458,13 @@ $.getJSON(`data/${game.key}/data.json`, data => {
 function showPoint(point, isNew) {
 	point.visited = ko.observable(false);
 	point.enabled = ko.observable(icons.find(point.icon).enabled());
-	point.checked = ko.computed(() => (point.visited() ? model.showVisited() : model.showUnvisited()) && (!point.unmarked || model.showUnmarked()));
+
+	point.checked = ko.computed(() => {
+		return (point.visited() ? model.showVisited() : model.showUnvisited())
+		&& (!point.unmarked || model.showUnmarked())
+		&& (point.settlement || !model.showSettlementsOnly());
+	});
+
 	point.visible = ko.computed(() => point.enabled() && point.checked());
 
 	if (!point.visible()) hasHidden = true;
@@ -485,7 +504,12 @@ function showPoint(point, isNew) {
 	};
 
 	point.editable = ko.observable(editable);
-	point.className = ko.observable(icons.find(point.icon).className + (point.unmarked ? " unmarked" : ""));
+	point.className = ko.observable(icons.find(point.icon).className + (point.unmarked ? " unmarked" : "") + (point.settlement ? " settlement" : ""));
+	point.note = ko.observable('');
+
+	if (point.settlement) {
+		point.note(lang.settlement);
+	}
 
 	if (isNew) {
 		point.coordinates = map.getCenter();
@@ -653,6 +677,10 @@ async function addPoint(json){
 		point.unmarked = true;
 	}
 
+	if (json.settlement) {
+		point.settlement = true;
+	}
+
 	points[id] = point;
 
 	showPoint(points[id], true);
@@ -688,6 +716,7 @@ async function inputJSON() {
 
 			json.icon = data.icon.value;
 			if (data.unmarked.checked) json.unmarked = true;
+			if (data.settlement.checked) json.settlement = true;
 
 			dialog.get(0).close();
 			resolve(json);
@@ -729,9 +758,8 @@ document.onkeydown = function (ev) {
 	}
 }
 
-function extendControl(templateId, position) {
+function extendControl(templateId) {
 	return L.Control.extend({
-		options: { position: position },
 		onAdd: function() {
 			var options = this.options;
 			var container = $($('#' + templateId).html());
@@ -747,8 +775,8 @@ function extendControl(templateId, position) {
 	});
 }
 
-L.Bound = extendControl('bound-template', 'bottomleft');
-L.Button = extendControl('button-template', 'topright');
+L.Bound = extendControl('bound-template');
+L.Button = extendControl('button-template');
 L.CheckButton = extendControl('checkButton-template', 'topleft');
 
 L.PanelButton = L.Button.extend({
@@ -856,46 +884,28 @@ searchPanel.visible.subscribe((value) => {
 
 const filterPanel = createPanel({ types: Array.from(types.values()) }, '.filter');
 
-map.addControl(new L.Button({ text: `${lang.game}: ${game.title}`, click: () => {
-	replaceQueryString('dlc', dlc, dlcs);
-}}));
-
-map.addControl(new L.Button({ text: `${lang.lang}: ${lang.title}`, click: () => {
-	replaceQueryString('lang', lang, langs);
-}}));
-
-map.addControl(new L.Button({text: lang.load, hotkey: 'F1', click: () => {
-	load();
-}}));
-
-map.addControl(new L.Button({text: lang.save, hotkey: 'F2', click: () => {
-	save();
-}}));
+map.addControl(new L.Button({ position: 'topright', hotkey: null, text: `${lang.game}: ${game.title}`, click: () => replaceQueryString('dlc', dlc, dlcs) }));
+map.addControl(new L.Button({ position: 'topright', hotkey: null, text: `${lang.lang}: ${lang.title}`, click: () => replaceQueryString('lang', lang, langs) }));
+map.addControl(new L.Button({ position: 'topright', hotkey: 'F1', text: lang.load, click: () => load() }));
+map.addControl(new L.Button({ position: 'topright', hotkey: 'F2', text: lang.save, click: () => save() }));
 
 if (editable) {
-	map.addControl(new L.Button({text: lang.addPoint, hotkey: 'F9', click: () => {
-		addPoint();
-	}}));
-
-	map.addControl(new L.Button({text: lang.copyPoints, hotkey: 'F10', click: () => {
-		copyPoints();
-	}}));
+	map.addControl(new L.Button({ position: 'topright', hotkey: 'F9', text: lang.addPoint, click: () => addPoint() }));
+	map.addControl(new L.Button({ position: 'topright', hotkey: 'F10', text: lang.copyPoints, click: () => copyPoints() }));
 }
 
-map.addControl(new L.PanelButton({ text: lang.search, position: 'topleft', hotkey: 'F3', panel: searchPanel }));
+map.addControl(new L.PanelButton({ position: 'topleft', hotkey: 'F3', text: lang.search, panel: searchPanel }));
+map.addControl(new L.PanelButton({ position: 'topleft', hotkey: 'F4', text: lang.filter, panel: filterPanel }));
+map.addControl(new L.CheckButton({ position: 'topleft', hotkey: 'F6', text: lang.unmarked, checked: model.showUnmarked }));
+map.addControl(new L.CheckButton({ position: 'topleft', hotkey: 'F7', text: lang.visited, checked: model.showVisited }));
+map.addControl(new L.CheckButton({ position: 'topleft', hotkey: 'F8', text: lang.unvisited, checked: model.showUnvisited }));
+map.addControl(new L.CheckButton({ position: 'topleft', hotkey: 'F12', text: lang.settlementsOnly, checked: model.showSettlementsOnly }));
 
-map.addControl(new L.PanelButton({ text: lang.filter, position: 'topleft', hotkey: 'F4', panel: filterPanel }));
+map.addControl(new L.Bound({ position: 'bottomleft', ...progress }));
 
-map.addControl(new L.CheckButton({ text: lang.visited, position: 'topleft', hotkey: 'F7', checked: model.showVisited }));
-
-map.addControl(new L.CheckButton({ text: lang.unvisited, position: 'topleft', hotkey: 'F8', checked: model.showUnvisited }));
-
-map.addControl(new L.CheckButton({ text: lang.unmarked, position: 'topleft', hotkey: 'F11', checked: model.showUnmarked }));
-
-map.addControl(new L.Bound(progress));
-
-if (game.ready !== 1) {
-	const underConstruction = new L.Button({ text: lang.underConstruction.format(Math.round(game.ready * 100)), position: 'bottomleft', click: () => { hideWarning(underConstruction) } });
+if (game.added !== 1 || game.verified !== 1) {
+	const text = lang.underConstruction.format(Math.round(game.added * 100), Math.round(game.verified * 100));
+	const underConstruction = new L.Button({ position: 'bottomleft', text, click: () => hideWarning(underConstruction) });
 	map.addControl(underConstruction);
 	L.DomUtil.addClass(underConstruction.getContainer(), 'underConstruction');
 }
@@ -905,7 +915,7 @@ function hideWarning(control) {
 }
 
 function onMapReady(){
-	if (game.startId) {
-		map.setView(points[game.startId].coordinates);
+	if (game.startPointId) {
+		map.setView(points[game.startPointId].coordinates);
 	}
 }

@@ -163,7 +163,7 @@
 		"id": 12,
 		"titles": {
 			"ru": "Фар-Харбор",
-			"en": "Far Harbor (location)"
+			"en": "Far Harbor"
 		},
 		"links": {
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A4%D0%B0%D1%80-%D0%A5%D0%B0%D1%80%D0%B1%D0%BE%D1%80",
@@ -427,7 +427,8 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A4%D0%B5%D1%80%D0%BC%D0%B0_%D0%94%D0%B0%D0%BB%D1%82%D0%BE%D0%BD%D0%BE%D0%B2",
 			"en": "https://fallout.fandom.com/wiki/Dalton_farm"
 		},
-		"icon": "settlement",
+		"icon": "farm",
+		"settlement": true,
 		"coordinates": {
 			"lat": 81.62543620228573,
 			"lng": -9.728161896370752
@@ -475,7 +476,7 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B8%D0%BD%D0%BE%D1%82%D0%B5%D0%B0%D1%82%D1%80_%C2%AB%D0%A0%D0%B0%D0%B9%D1%81%D0%BA%D0%B8%D0%B5_%D0%BA%D1%83%D1%89%D0%B8%C2%BB",
 			"en": "https://fallout.fandom.com/wiki/Eden_Meadows_Cinemas"
 		},
-		"icon": "building",
+		"icon": "cinema",
 		"coordinates": {
 			"lat": 48.346163317046155,
 			"lng": -35.31784514591293
@@ -507,7 +508,8 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D1%83%D1%80%D0%B8%D1%81%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D1%86%D0%B5%D0%BD%D1%82%D1%80_%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BF%D0%B0%D1%80%D0%BA%D0%B0",
 			"en": "https://fallout.fandom.com/wiki/National_Park_Visitor%27s_Center"
 		},
-		"icon": "settlement",
+		"icon": "building",
+		"settlement": true,
 		"coordinates": {
 			"lat": 74.15132847846782,
 			"lng": 39.57161344671204
@@ -555,7 +557,8 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9B%D0%B5%D1%81%D0%BE%D0%BF%D0%B8%D0%BB%D0%BA%D0%B0_%D0%BD%D0%B0_%D0%BE%D0%B7%D0%B5%D1%80%D0%B5_%D0%AD%D1%85%D0%BE",
 			"en": "https://fallout.fandom.com/wiki/Echo_Lake_Lumber"
 		},
-		"icon": "settlement",
+		"icon": "factory",
+		"settlement": true,
 		"coordinates": {
 			"lat": 13.258920473979535,
 			"lng": -69.96768996945832
@@ -1112,7 +1115,7 @@
 	"72": {
 		"id": 72,
 		"titles": {
-			"ru": "Кровопускатель (Far Harbor)",
+			"ru": "Кровопускатель",
 			"en": "Bloodletter"
 		},
 		"links": {
@@ -1144,8 +1147,8 @@
 	"74": {
 		"id": 74,
 		"titles": {
-			"ru": "Акадия (локация)",
-			"en": "Acadia (location)"
+			"ru": "Акадия",
+			"en": "Acadia"
 		},
 		"links": {
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%90%D0%BA%D0%B0%D0%B4%D0%B8%D1%8F_(%D0%BB%D0%BE%D0%BA%D0%B0%D1%86%D0%B8%D1%8F)",
@@ -1820,8 +1823,8 @@
 	"118": {
 		"id": 118,
 		"titles": {
-			"ru": "Так хочет Атом (голозапись)",
-			"en": "What Atom Requires (holotape)"
+			"ru": "Так хочет Атом",
+			"en": "What Atom Requires"
 		},
 		"links": {
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%B0%D0%BA_%D1%85%D0%BE%D1%87%D0%B5%D1%82_%D0%90%D1%82%D0%BE%D0%BC_(%D0%B3%D0%BE%D0%BB%D0%BE%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D1%8C)",
@@ -2053,7 +2056,8 @@
 			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A5%D0%B8%D0%B6%D0%B8%D0%BD%D0%B0_%D0%9B%D0%BE%D0%BD%D0%B3%D1%84%D0%B5%D0%BB%D0%BB%D0%BE",
 			"en": "https://fallout.fandom.com/wiki/Longfellow%27s_cabin"
 		},
-		"icon": "settlement",
+		"icon": "encampment",
+		"settlement": true,
 		"coordinates": {
 			"lat": 71.4641428378547,
 			"lng": 112.34173058191018

@@ -166,7 +166,14 @@ input[type="checkbox"]:checked {
 
 .popup h3 {
 	font-size: 20px;
+	line-height: 24px;
 	margin: 0;
+}
+
+.popup h3 em {
+	display: block;
+	font-weight: normal;
+	font-size: 0.7em;
 }
 
 .popup .button {
@@ -198,18 +205,6 @@ input[type="checkbox"]:checked {
 
 .popup .visited .button.visited {
 	display: block;
-}
-
-.popup .button.mark {
-	display: none;
-}
-
-.popup .unmarked .button.mark {
-	display: block;
-}
-
-.popup .unmarked .button.unmark {
-	display: none;
 }
 
 .popup .button.clone {
@@ -372,10 +367,6 @@ input[type="checkbox"]:checked {
 	background: #587799;
 }
 
-.icon-bobblehead {
-	background: #f0d100;
-}
-
 .icon-pickup {
 	background: #d45243;
 }
@@ -386,6 +377,14 @@ input[type="checkbox"]:checked {
 
 .icon.unmarked {
 	background: #78297f;
+}
+
+.icon.settlement {
+	background: #ff8800;
+}
+
+.icon.special {
+	background: #f0d100;
 }
 
 .search .input .icon {
@@ -447,7 +446,7 @@ input[type="checkbox"]:checked {
 	filter: saturate(0) invert(1) brightness(1.5);
 }
 
-.filter input[type="checkbox"]#bobblehead:checked {
+.filter input[type="checkbox"].special:checked {
 	filter: saturate(1) invert(1) brightness(1.5) hue-rotate(187deg);
 }
 
@@ -461,10 +460,6 @@ input[type="checkbox"]:checked {
 
 .filter .type.location {
 	filter: hue-rotate(59deg);
-}
-
-.filter .type.unmarked {
-	filter: hue-rotate(205deg);
 }
 
 .control.clickable.underConstruction {
