@@ -121,7 +121,7 @@ const dlcs = {
 		background: '#282420',
 		startPointId: 35,
 		added: 0.99,
-		verified: 0.30
+		verified: 0.46
 	},
 	zone: {
 		key: 'zone',
@@ -302,7 +302,7 @@ const icons = new Icons([
 	{ name: "building", className: "fa-building", type: "location", titles: { en: "Building", ru: "Здание" } },
 	{ name: "bunker", className: "fa-door-closed", type: "location", titles: { en: "Bunker", ru: "Бункер" } },
 	{ name: "camper", className: "fa-caravan", type: "location", titles: { en: "Camper", ru: "Трейлерный парк" } },
-	{ name: "cappy-clue", className: "fa-certificate", type: "collectible", special: true, titles: { en: "Cappy clue", ru: "Мистер Крышка" } },
+	{ name: "cappy-clue", className: "fa-magnifying-glass", type: "collectible", special: true, titles: { en: "Cappy clue", ru: "Мистер Крышка" } },
 	{ name: "church", className: "fa-church", type: "location", titles: { en: "Church", ru: "Церковь" } },
 	{ name: "cinema", className: "fa-film", type: "location", titles: { en: "Cinema", ru: "Кинотеатр" } },
 	{ name: "city", className: "fa-city", type: "location", titles: { en: "City", ru: "Город" } },
@@ -333,6 +333,7 @@ const icons = new Icons([
 	{ name: "school", className: "fa-graduation-cap", type: "location", titles: { en: "School", ru: "Школа" } },
 	{ name: "ship", className: "fa-anchor", type: "location", titles: { en: "Ship", ru: "Корабль" } },
 	{ name: "square", className: "fa-vector-square", type: "location", titles: { en: "Square", ru: "Площадь" } },
+	{ name: "star-core", className: "fa-microchip", type: "collectible", special: "true", titles: { en: "Star core", ru: "Звёздное ядро" } },
 	{ name: "stash", className: "fa-box", type: "location", titles: { en: "Stash", ru: "Тайник" } },
 	{ name: "store", className: "fa-store", type: "location", titles: { en: "Store", ru: "Магазин" } },
 	{ name: "subway-station", className: "fa-train-subway", type: "location", titles: { en: "Subway station", ru: "Станция метро" } },
@@ -516,8 +517,20 @@ function showPoint(point, isNew) {
 	}
 
 	point.title = ko.observable(point.titles[lang.key]);
-	point.link = ko.observable(point.links[lang.key]);
 	point.searchTitle = ko.observable(icons.find(point.icon).title);
+
+	point.link = ko.observable(point.links[lang.key]);
+	point.linkLang = ko.observable('');
+
+	if (!point.link()) {
+		const links = Object.entries(point.links);
+
+		if (links.length > 0) {
+			const [linkLang, link] = links[0];
+			point.link(link);
+			point.linkLang(linkLang);
+		}
+	}
 
 	if (!checkPoint(point)) {
 		delete points[point.id];
@@ -697,18 +710,23 @@ async function inputJSON() {
 			const data = ev.originalEvent.target.elements;
 
 			if (!data.icon.value) {
-				alert(`Please select icon`);
+				alert('Please select icon');
 				return;
 			}
 
-			let json;
-
-			try {
-				json = JSON.parse(data.json.value);
-			} catch (ex) {
-				error(`Invalid JSON: ${ex}`);
+			if (!data.data) {
+				alert('Please specify data');
 				return;
 			}
+
+			const lines = data.data.value.trim().split('\n').map(l => l.trim().replace(/\r/g, ''));
+
+			const json = { titles: {}, links: {} };
+
+			if (lines[0]) { json.titles.ru = lines[0]; }
+			if (lines[1]) { json.titles.en = lines[1]; }
+			if (lines[2]) { json.links.ru = lines[2]; }
+			if (lines[3]) { json.links.en = lines[3]; }
 
 			if (!checkPoint(json)) {
 				return;

@@ -72,7 +72,10 @@
 
 <dialog class="addForm" class="control container">
 	<form>
-		<input type="text" name="json" placeholder="{ json }">
+		<textarea rows="4" name="data" placeholder="Title [ru]
+Title [en]
+Link [ru]
+Link [en]"></textarea>
 		<select name="icon">
 			<option selected></option>
 			<!-- ko foreach: types -->
@@ -110,6 +113,7 @@
 			<!-- ko if: link -->
 			<a class="permalink nounderline" target="_blank" data-bind="attr: { href: link }">
 				<i class="fa-solid fa-link"></i>
+				<small data-bind="if: linkLang"><span data-bind="text: linkLang"></span></small>
 			</a>
 			<!-- /ko -->
 		</div>

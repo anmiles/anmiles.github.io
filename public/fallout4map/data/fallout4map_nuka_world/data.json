@@ -44,8 +44,8 @@
 		},
 		"icon": "fusion-core",
 		"coordinates": {
-			"lat": -73.27735320192471,
-			"lng": 20.742187500000004
+			"lat": -73.28999334294058,
+			"lng": 22.236328125000004
 		}
 	},
 	"4": {
@@ -60,8 +60,8 @@
 		},
 		"icon": "holotape",
 		"coordinates": {
-			"lat": -72.3424643905499,
-			"lng": 20.742187500000004
+			"lat": -72.81607371878991,
+			"lng": 22.280273437500004
 		}
 	},
 	"5": {
@@ -76,7 +76,7 @@
 		},
 		"icon": "holotape",
 		"coordinates": {
-			"lat": -72.39570570653261,
+			"lat": -72.81607371878991,
 			"lng": 23.818359375000004
 		}
 	},
@@ -108,8 +108,8 @@
 		},
 		"icon": "holotape",
 		"coordinates": {
-			"lat": -61.897577621605016,
-			"lng": 50.62500000000001
+			"lat": -61.85614879566797,
+			"lng": 49.21875000000001
 		}
 	},
 	"8": {
@@ -124,8 +124,8 @@
 		},
 		"icon": "fusion-core",
 		"coordinates": {
-			"lat": -63.76642562593919,
-			"lng": 41.11381533554959
+			"lat": -62.67414334669093,
+			"lng": 40.91308593750001
 		}
 	},
 	"9": {
@@ -140,8 +140,8 @@
 		},
 		"icon": "mini-nuke",
 		"coordinates": {
-			"lat": -63.76642681091514,
-			"lng": 43.90960659840491
+			"lat": -62.73460087706358,
+			"lng": 42.5390625
 		}
 	},
 	"10": {
@@ -156,8 +156,8 @@
 		},
 		"icon": "mini-nuke",
 		"coordinates": {
-			"lat": -63.76642562593919,
-			"lng": 46.8651569023073
+			"lat": -62.73460087706358,
+			"lng": 44.12109375
 		}
 	},
 	"11": {
@@ -172,8 +172,8 @@
 		},
 		"icon": "weapon",
 		"coordinates": {
-			"lat": -61.93895042666062,
-			"lng": 43.94531250000001
+			"lat": -61.95961583829658,
+			"lng": 42.5390625
 		}
 	},
 	"12": {
@@ -188,8 +188,8 @@
 		},
 		"icon": "fusion-core",
 		"coordinates": {
-			"lat": -63.80170400037052,
-			"lng": 38.15826503164721
+			"lat": -62.694309593663185,
+			"lng": 39.37500000000001
 		}
 	},
 	"13": {
@@ -204,8 +204,8 @@
 		},
 		"icon": "store",
 		"coordinates": {
-			"lat": -60.91964955851455,
-			"lng": 22.2875985500869
+			"lat": -60.28340847828243,
+			"lng": 22.280273437500004
 		}
 	},
 	"14": {
@@ -220,8 +220,8 @@
 		},
 		"icon": "mini-nuke",
 		"coordinates": {
-			"lat": -60.91964955851455,
-			"lng": 25.163266651955098
+			"lat": -60.28340847828243,
+			"lng": 23.8623046875
 		}
 	},
 	"15": {
@@ -236,8 +236,8 @@
 		},
 		"icon": "weapon",
 		"coordinates": {
-			"lat": -62.69235777001336,
-			"lng": 22.20771634805272
+			"lat": -61.05828537037916,
+			"lng": 20.830078125000004
 		}
 	},
 	"16": {
@@ -252,8 +252,8 @@
 		},
 		"icon": "weapon",
 		"coordinates": {
-			"lat": -62.69235654017094,
-			"lng": 25.083389812942222
+			"lat": -61.05828537037916,
+			"lng": 22.412109375000004
 		}
 	},
 	"17": {
@@ -268,8 +268,8 @@
 		},
 		"icon": "fusion-core",
 		"coordinates": {
-			"lat": -60.880812631734806,
-			"lng": 19.651560965257328
+			"lat": -60.26161708284461,
+			"lng": 20.830078125000004
 		}
 	},
 	"18": {
@@ -284,8 +284,8 @@
 		},
 		"icon": "fusion-core",
 		"coordinates": {
-			"lat": -60.880812631734806,
-			"lng": 16.935651904436188
+			"lat": -60.26161708284461,
+			"lng": 19.291992187500004
 		}
 	},
 	"19": {
@@ -333,8 +333,8 @@
 		},
 		"icon": "holotape",
 		"coordinates": {
-			"lat": -56.84897198026976,
-			"lng": 10.810546875000002
+			"lat": -57.75107598132102,
+			"lng": 12.216796875000002
 		}
 	},
 	"22": {
@@ -349,8 +349,8 @@
 		},
 		"icon": "holotape",
 		"coordinates": {
-			"lat": -56.84897198026976,
-			"lng": 7.734375000000001
+			"lat": -57.72761921621495,
+			"lng": 10.634765625
 		}
 	},
 	"23": {
@@ -365,8 +365,8 @@
 		},
 		"icon": "holotape",
 		"coordinates": {
-			"lat": -56.80087831233043,
-			"lng": 4.658203125000001
+			"lat": -57.72761921621495,
+			"lng": 9.140625000000002
 		}
 	},
 	"24": {
@@ -398,8 +398,8 @@
 		},
 		"icon": "magazine",
 		"coordinates": {
-			"lat": -55.73114973465826,
-			"lng": 24.124835566659872
+			"lat": -55.702355093270924,
+			"lng": 22.719726562500004
 		}
 	},
 	"26": {
@@ -430,8 +430,8 @@
 		},
 		"icon": "holotape",
 		"coordinates": {
-			"lat": -48.6909603909255,
-			"lng": 22.236328125000004
+			"lat": -49.66762782262193,
+			"lng": 23.686523437500004
 		}
 	},
 	"28": {
@@ -446,8 +446,8 @@
 		},
 		"icon": "holotape",
 		"coordinates": {
-			"lat": -48.6909603909255,
-			"lng": 25.048828125000004
+			"lat": -49.66762782262193,
+			"lng": 25.180664062500004
 		}
 	},
 	"29": {
@@ -462,8 +462,8 @@
 		},
 		"icon": "holotape",
 		"coordinates": {
-			"lat": -48.6909603909255,
-			"lng": 27.861328125
+			"lat": -49.696061819115656,
+			"lng": 26.718750000000004
 		}
 	},
 	"31": {
@@ -576,24 +576,8 @@
 		},
 		"icon": "city",
 		"coordinates": {
-			"lat": -32.20353467022642,
-			"lng": -27.004850607804762
-		}
-	},
-	"42": {
-		"id": 42,
-		"titles": {
-			"ru": "Силовая броня",
-			"en": "Power armor"
-		},
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A1%D0%B8%D0%BB%D0%BE%D0%B2%D0%B0%D1%8F_%D0%B1%D1%80%D0%BE%D0%BD%D1%8F",
-			"en": "https://fallout.fandom.com/wiki/Power_armor"
-		},
-		"icon": "power-armor",
-		"coordinates": {
-			"lat": -20.05593126519445,
-			"lng": -23.378906250000004
+			"lat": -28.57487404744697,
+			"lng": -24.6533203125
 		}
 	},
 	"43": {
@@ -608,8 +592,8 @@
 		},
 		"icon": "holotape",
 		"coordinates": {
-			"lat": -29.61167011519739,
-			"lng": -23.818359375000004
+			"lat": -17.056784609942554,
+			"lng": -35.41992187500001
 		}
 	},
 	"44": {
@@ -624,8 +608,8 @@
 		},
 		"icon": "magazine",
 		"coordinates": {
-			"lat": -32.249974455863295,
-			"lng": -23.818359375000004
+			"lat": -31.12819929911197,
+			"lng": -34.45312500000001
 		}
 	},
 	"45": {
@@ -640,24 +624,8 @@
 		},
 		"icon": "attraction",
 		"coordinates": {
-			"lat": -34.195442822666806,
-			"lng": -32.131805162943785
-		}
-	},
-	"46": {
-		"id": 46,
-		"titles": {
-			"ru": "Ядерный блок",
-			"en": "Fusion core"
-		},
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%B1%D0%BB%D0%BE%D0%BA",
-			"en": "https://fallout.fandom.com/wiki/Fusion_core_(Fallout_4)"
-		},
-		"icon": "fusion-core",
-		"coordinates": {
-			"lat": -36.00897515633353,
-			"lng": -34.22927605053689
+			"lat": -18.020527657852327,
+			"lng": -18.764648437500004
 		}
 	},
 	"47": {
@@ -672,8 +640,8 @@
 		},
 		"icon": "magazine",
 		"coordinates": {
-			"lat": -37.30027528134431,
-			"lng": -31.816406250000004
+			"lat": -18.062312304546726,
+			"lng": -17.270507812500004
 		}
 	},
 	"48": {
@@ -688,8 +656,8 @@
 		},
 		"icon": "attraction",
 		"coordinates": {
-			"lat": -41.57436130598913,
-			"lng": -27.290039062500004
+			"lat": -40.34654412118006,
+			"lng": -28.7841796875
 		}
 	},
 	"49": {
@@ -704,8 +672,8 @@
 		},
 		"icon": "fusion-core",
 		"coordinates": {
-			"lat": -41.640078384678915,
-			"lng": -30.234375000000004
+			"lat": -40.380028402511826,
+			"lng": -30.322265625000004
 		}
 	},
 	"50": {
@@ -720,8 +688,8 @@
 		},
 		"icon": "holotape",
 		"coordinates": {
-			"lat": -41.508577297439345,
-			"lng": -24.257812500000004
+			"lat": -40.34654412118006,
+			"lng": -27.24609375
 		}
 	},
 	"51": {
@@ -737,7 +705,7 @@
 		"icon": "cinema",
 		"coordinates": {
 			"lat": -38.54816542304657,
-			"lng": -18.281250000000004
+			"lng": -18.720703125000004
 		}
 	},
 	"52": {
@@ -753,7 +721,7 @@
 		"icon": "magazine",
 		"coordinates": {
 			"lat": -38.54816542304657,
-			"lng": -15.292968750000002
+			"lng": -17.182617187500004
 		}
 	},
 	"53": {
@@ -768,24 +736,8 @@
 		},
 		"icon": "attraction",
 		"coordinates": {
-			"lat": -15.029685756555674,
-			"lng": -39.28710937500001
-		}
-	},
-	"54": {
-		"id": 54,
-		"titles": {
-			"ru": "Ядерный минизаряд",
-			"en": "Mini nuke"
-		},
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%BC%D0%B8%D0%BD%D0%B8%D0%B7%D0%B0%D1%80%D1%8F%D0%B4",
-			"en": "https://fallout.fandom.com/wiki/Mini_nuke"
-		},
-		"icon": "mini-nuke",
-		"coordinates": {
-			"lat": -15.029685756555674,
-			"lng": -36.38671875000001
+			"lat": -15.961329081596647,
+			"lng": -38.935546875
 		}
 	},
 	"55": {
@@ -800,8 +752,8 @@
 		},
 		"icon": "attraction",
 		"coordinates": {
-			"lat": -27.605670826465445,
-			"lng": -32.69531250000001
+			"lat": -28.14950321154457,
+			"lng": -30.146484375000004
 		}
 	},
 	"56": {
@@ -816,8 +768,8 @@
 		},
 		"icon": "mini-nuke",
 		"coordinates": {
-			"lat": -24.926294766395593,
-			"lng": -32.60742187500001
+			"lat": -26.70635985763354,
+			"lng": -31.640625000000004
 		}
 	},
 	"57": {
@@ -832,8 +784,8 @@
 		},
 		"icon": "power-armor",
 		"coordinates": {
-			"lat": -24.926294766395593,
-			"lng": -29.707031250000004
+			"lat": -26.74561038219901,
+			"lng": -30.102539062500004
 		}
 	},
 	"58": {
@@ -848,8 +800,8 @@
 		},
 		"icon": "holotape",
 		"coordinates": {
-			"lat": -25.005972656239177,
-			"lng": -26.718750000000004
+			"lat": -28.14950321154457,
+			"lng": -28.564453125000004
 		}
 	},
 	"59": {
@@ -864,8 +816,8 @@
 		"icon": "attraction",
 		"unmarked": true,
 		"coordinates": {
-			"lat": -19.973348786110602,
-			"lng": -26.367187500000004
+			"lat": -28.110748760633545,
+			"lng": -31.684570312500004
 		}
 	},
 	"60": {
@@ -979,7 +931,7 @@
 		"icon": "magazine",
 		"coordinates": {
 			"lat": 33.358061612778876,
-			"lng": 37.96875000000001
+			"lng": 33.44238281250001
 		}
 	},
 	"67": {
@@ -994,8 +946,8 @@
 		},
 		"icon": "magazine",
 		"coordinates": {
-			"lat": 33.358061612778876,
-			"lng": 40.95703125000001
+			"lat": 33.32134852669881,
+			"lng": 36.47460937500001
 		}
 	},
 	"68": {
@@ -1074,8 +1026,8 @@
 		},
 		"icon": "magazine",
 		"coordinates": {
-			"lat": -82.95112060573365,
-			"lng": 21.621093750000004
+			"lat": -82.9457257577333,
+			"lng": 20.346679687500004
 		}
 	},
 	"74": {
@@ -1106,8 +1058,8 @@
 		},
 		"icon": "fusion-core",
 		"coordinates": {
-			"lat": 51.890053935216926,
-			"lng": 58.35937500000001
+			"lat": 51.944264879028765,
+			"lng": 56.86523437500001
 		}
 	},
 	"76": {
@@ -1138,8 +1090,8 @@
 		},
 		"icon": "fusion-core",
 		"coordinates": {
-			"lat": -78.40253749367973,
-			"lng": -77.60742187500001
+			"lat": -78.38485516080925,
+			"lng": -76.24511718750001
 		}
 	},
 	"78": {
@@ -1155,7 +1107,7 @@
 		"icon": "mini-nuke",
 		"coordinates": {
 			"lat": -78.40253749367973,
-			"lng": -71.36718750000001
+			"lng": -73.03710937500001
 		}
 	},
 	"79": {
@@ -1202,8 +1154,8 @@
 		},
 		"icon": "power-armor",
 		"coordinates": {
-			"lat": 41.376808565702355,
-			"lng": 54.58007812500001
+			"lat": 41.3108238809182,
+			"lng": 52.9541015625
 		}
 	},
 	"82": {
@@ -1218,8 +1170,8 @@
 		},
 		"icon": "holotape",
 		"coordinates": {
-			"lat": 41.3108238809182,
-			"lng": 57.65625000000001
+			"lat": 41.343824581185714,
+			"lng": 54.53613281250001
 		}
 	},
 	"83": {
@@ -1251,7 +1203,7 @@
 		},
 		"icon": "holotape",
 		"coordinates": {
-			"lat": 36.31512514748051,
+			"lat": 37.64903402157866,
 			"lng": 51.59179687500001
 		}
 	},
@@ -1267,8 +1219,8 @@
 		},
 		"icon": "holotape",
 		"coordinates": {
-			"lat": 36.24427318493909,
-			"lng": 54.66796875000001
+			"lat": 37.64903402157866,
+			"lng": 53.12988281250001
 		}
 	},
 	"86": {
@@ -1283,8 +1235,8 @@
 		},
 		"icon": "holotape",
 		"coordinates": {
-			"lat": 36.1733569352216,
-			"lng": 57.74414062500001
+			"lat": 38.85682013474361,
+			"lng": 53.17382812500001
 		}
 	},
 	"87": {
@@ -1299,8 +1251,8 @@
 		},
 		"icon": "holotape",
 		"coordinates": {
-			"lat": 36.24427318493909,
-			"lng": 60.82031250000001
+			"lat": 37.68382032669382,
+			"lng": 54.75585937500001
 		}
 	},
 	"88": {
@@ -1395,8 +1347,8 @@
 		},
 		"icon": "fusion-core",
 		"coordinates": {
-			"lat": 73.27735320192473,
-			"lng": 4.218750000000001
+			"lat": 73.31524578498036,
+			"lng": 2.5048828125000004
 		}
 	},
 	"94": {
@@ -1445,8 +1397,8 @@
 		},
 		"icon": "holotape",
 		"coordinates": {
-			"lat": 60.326947742998414,
-			"lng": 0.6152343750000001
+			"lat": 61.14323525084058,
+			"lng": 2.1093750000000004
 		}
 	},
 	"97": {
@@ -1461,8 +1413,8 @@
 		},
 		"icon": "holotape",
 		"coordinates": {
-			"lat": 60.326947742998414,
-			"lng": 6.679687500000001
+			"lat": 61.14323525084058,
+			"lng": 5.185546875000001
 		}
 	},
 	"98": {
@@ -1477,7 +1429,7 @@
 		},
 		"icon": "holotape",
 		"coordinates": {
-			"lat": 60.326947742998414,
+			"lat": 61.16443708638272,
 			"lng": 3.6035156250000004
 		}
 	},
@@ -1493,8 +1445,8 @@
 		},
 		"icon": "holotape",
 		"coordinates": {
-			"lat": 60.326947742998414,
-			"lng": 9.667968750000002
+			"lat": 61.10078883158897,
+			"lng": 6.767578125000001
 		}
 	},
 	"100": {
@@ -1509,8 +1461,8 @@
 		},
 		"icon": "magazine",
 		"coordinates": {
-			"lat": 61.85614879566797,
-			"lng": 6.591796875000001
+			"lat": 61.897577621605016,
+			"lng": 5.185546875000001
 		}
 	},
 	"101": {
@@ -1541,8 +1493,8 @@
 		},
 		"icon": "fusion-core",
 		"coordinates": {
-			"lat": -61.227957176677876,
-			"lng": -84.90234375000001
+			"lat": -61.95961583829658,
+			"lng": -84.462890625
 		}
 	},
 	"103": {
@@ -1557,8 +1509,8 @@
 		},
 		"icon": "fusion-core",
 		"coordinates": {
-			"lat": -61.48075950007598,
-			"lng": -81.73828125000001
+			"lat": -62.04213770379758,
+			"lng": -82.79296875000001
 		}
 	},
 	"104": {
@@ -1573,8 +1525,8 @@
 		},
 		"icon": "fusion-core",
 		"coordinates": {
-			"lat": -62.91523303947613,
-			"lng": -80.77148437500001
+			"lat": -62.75472592723178,
+			"lng": -82.30957031250001
 		}
 	},
 	"105": {
@@ -1589,8 +1541,8 @@
 		},
 		"icon": "fusion-core",
 		"coordinates": {
-			"lat": -64.01449619484472,
-			"lng": -82.79296875000001
+			"lat": -63.35212928507874,
+			"lng": -83.14453125000001
 		}
 	},
 	"106": {
@@ -1605,8 +1557,8 @@
 		},
 		"icon": "fusion-core",
 		"coordinates": {
-			"lat": -63.78248603116502,
-			"lng": -85.86914062500001
+			"lat": -63.27318217465046,
+			"lng": -84.77050781250001
 		}
 	},
 	"107": {
@@ -1671,7 +1623,7 @@
 		"icon": "power-armor",
 		"coordinates": {
 			"lat": 29.6880527498568,
-			"lng": -17.138671875000004
+			"lng": -18.676757812500004
 		}
 	},
 	"111": {
@@ -1687,7 +1639,7 @@
 		"icon": "mini-nuke",
 		"coordinates": {
 			"lat": 29.6880527498568,
-			"lng": -23.291015625000004
+			"lng": -21.7529296875
 		}
 	},
 	"113": {
@@ -1702,8 +1654,8 @@
 		},
 		"icon": "holotape",
 		"coordinates": {
-			"lat": 46.13417004624326,
-			"lng": -17.138671875000004
+			"lat": 44.15068115978094,
+			"lng": -17.182617187500004
 		}
 	},
 	"114": {
@@ -1799,8 +1751,8 @@
 		},
 		"icon": "holotape",
 		"coordinates": {
-			"lat": 18.562947442888312,
-			"lng": -14.414062500000002
+			"lat": 18.437924653474408,
+			"lng": -15.776367187500002
 		}
 	},
 	"120": {
@@ -1815,8 +1767,8 @@
 		},
 		"icon": "holotape",
 		"coordinates": {
-			"lat": 18.47960905583198,
-			"lng": -11.337890625
+			"lat": 16.88865978738161,
+			"lng": -15.732421875000002
 		}
 	},
 	"121": {
@@ -1943,8 +1895,8 @@
 		},
 		"icon": "holotape",
 		"coordinates": {
-			"lat": -36.527294814546245,
-			"lng": 31.025390625000004
+			"lat": -35.6037187406973,
+			"lng": 30.981445312500004
 		}
 	},
 	"129": {
@@ -1976,8 +1928,8 @@
 		"icon": "building",
 		"unmarked": true,
 		"coordinates": {
-			"lat": -36.3151251474805,
-			"lng": 22.5
+			"lat": -35.532226227703376,
+			"lng": 22.3681640625
 		}
 	},
 	"131": {
@@ -1992,8 +1944,8 @@
 		},
 		"icon": "holotape",
 		"coordinates": {
-			"lat": -33.247875947924385,
-			"lng": 25.312500000000004
+			"lat": -33.54139466898275,
+			"lng": 24.6533203125
 		}
 	},
 	"132": {
@@ -2009,7 +1961,7 @@
 		"icon": "holotape",
 		"coordinates": {
 			"lat": -53.01478324585922,
-			"lng": 27.421875000000004
+			"lng": 26.147460937500004
 		}
 	},
 	"133": {
@@ -2041,8 +1993,8 @@
 		},
 		"icon": "fusion-core",
 		"coordinates": {
-			"lat": -54.213861000644926,
-			"lng": 16.699218750000004
+			"lat": -52.908902047770255,
+			"lng": 17.314453125000004
 		}
 	},
 	"135": {
@@ -2057,8 +2009,8 @@
 		},
 		"icon": "magazine",
 		"coordinates": {
-			"lat": -62.43107423292092,
-			"lng": -86.923828125
+			"lat": -62.61356210229029,
+			"lng": -85.47363281250001
 		}
 	},
 	"136": {
@@ -2073,7 +2025,7 @@
 		},
 		"icon": "magazine",
 		"coordinates": {
-			"lat": -79.02171239525757,
+			"lat": -78.72491156127533,
 			"lng": -74.61914062500001
 		}
 	},
@@ -2089,8 +2041,8 @@
 		},
 		"icon": "magazine",
 		"coordinates": {
-			"lat": 45.213003555993964,
-			"lng": -24.257812500000004
+			"lat": 44.11914151643737,
+			"lng": -23.2470703125
 		}
 	},
 	"138": {
@@ -2121,8 +2073,8 @@
 		},
 		"icon": "magazine",
 		"coordinates": {
-			"lat": -27.527758206861897,
-			"lng": -35.68359375000001
+			"lat": -35.06597313798418,
+			"lng": -26.499023437500004
 		}
 	},
 	"140": {
@@ -2137,8 +2089,8 @@
 		},
 		"icon": "magazine",
 		"coordinates": {
-			"lat": 18.47960905583198,
-			"lng": -20.302734375000004
+			"lat": 16.88865978738161,
+			"lng": -18.896484375000004
 		}
 	},
 	"141": {
@@ -2185,8 +2137,8 @@
 		},
 		"icon": "magazine",
 		"coordinates": {
-			"lat": -77.74894634700438,
-			"lng": -74.61914062500001
+			"lat": -78.07107600956168,
+			"lng": -74.57519531250001
 		}
 	},
 	"144": {
@@ -2201,8 +2153,8 @@
 		},
 		"icon": "magazine",
 		"coordinates": {
-			"lat": -76.33114246585926,
-			"lng": -27.861328125
+			"lat": -76.34152331547646,
+			"lng": -29.399414062500004
 		}
 	},
 	"145": {
@@ -2217,7 +2169,7 @@
 		},
 		"icon": "magazine",
 		"coordinates": {
-			"lat": 15.368949896534705,
+			"lat": 16.846605106396304,
 			"lng": -17.314453125000004
 		}
 	},
@@ -2233,8 +2185,8 @@
 		},
 		"icon": "magazine",
 		"coordinates": {
-			"lat": 15.029685756555674,
-			"lng": 59.15039062500001
+			"lat": 14.902321826141808,
+			"lng": 60.68847656250001
 		}
 	},
 	"147": {
@@ -2249,8 +2201,8 @@
 		},
 		"icon": "weapon",
 		"coordinates": {
-			"lat": -76.31035754301745,
-			"lng": -34.18945312500001
+			"lat": -76.34152331547646,
+			"lng": -32.60742187500001
 		}
 	},
 	"148": {
@@ -2265,8 +2217,8 @@
 		},
 		"icon": "weapon",
 		"coordinates": {
-			"lat": 64.66151739623564,
-			"lng": 18.105468750000004
+			"lat": 63.99523519297698,
+			"lng": 17.050781250000004
 		}
 	},
 	"149": {
@@ -2281,8 +2233,8 @@
 		},
 		"icon": "weapon",
 		"coordinates": {
-			"lat": 6.751896464843375,
-			"lng": 50.97656250000001
+			"lat": 6.708253968671543,
+			"lng": 52.51464843750001
 		}
 	},
 	"150": {
@@ -2297,8 +2249,8 @@
 		},
 		"icon": "weapon",
 		"coordinates": {
-			"lat": -60.54377524118842,
-			"lng": 7.822265625000001
+			"lat": -60.58696734225869,
+			"lng": 9.228515625000002
 		}
 	},
 	"151": {
@@ -2313,8 +2265,8 @@
 		},
 		"icon": "weapon",
 		"coordinates": {
-			"lat": -53.12040528310657,
-			"lng": 36.73828125000001
+			"lat": -53.041213040756475,
+			"lng": 30.805664062500004
 		}
 	},
 	"152": {
@@ -2330,7 +2282,7 @@
 		"icon": "holotape",
 		"coordinates": {
 			"lat": -53.01478324585922,
-			"lng": 30.410156250000004
+			"lng": 27.685546875000004
 		}
 	},
 	"153": {
@@ -2345,8 +2297,8 @@
 		},
 		"icon": "holotape",
 		"coordinates": {
-			"lat": -31.80289258670676,
-			"lng": 30.937500000000004
+			"lat": -32.9164853473144,
+			"lng": 31.025390625000004
 		}
 	},
 	"154": {
@@ -2377,8 +2329,8 @@
 		},
 		"icon": "holotape",
 		"coordinates": {
-			"lat": -41.11246878918086,
-			"lng": 15.468750000000002
+			"lat": -41.0130657870063,
+			"lng": 14.853515625000002
 		}
 	},
 	"156": {
@@ -2409,8 +2361,8 @@
 		},
 		"icon": "holotape",
 		"coordinates": {
-			"lat": -40.713955826286046,
-			"lng": -16.875000000000004
+			"lat": -25.125392611512016,
+			"lng": -9.360351562500002
 		}
 	},
 	"158": {
@@ -2425,8 +2377,8 @@
 		},
 		"icon": "holotape",
 		"coordinates": {
-			"lat": -53.06762664238737,
-			"lng": 33.48632812500001
+			"lat": -53.01478324585922,
+			"lng": 29.223632812500004
 		}
 	},
 	"159": {
@@ -2441,8 +2393,8 @@
 		},
 		"icon": "holotape",
 		"coordinates": {
-			"lat": -11.5230875068685,
-			"lng": -24.9609375
+			"lat": -29.61167011519739,
+			"lng": -10.195312500000002
 		}
 	},
 	"160": {
@@ -2457,8 +2409,8 @@
 		},
 		"icon": "holotape",
 		"coordinates": {
-			"lat": 73.35305494105975,
-			"lng": -2.3730468750000004
+			"lat": 73.30262420189155,
+			"lng": -0.6591796875000001
 		}
 	},
 	"161": {
@@ -2489,8 +2441,8 @@
 		},
 		"icon": "medallion",
 		"coordinates": {
-			"lat": -5.7908968128719565,
-			"lng": 33.57421875000001
+			"lat": -5.528510525692789,
+			"lng": 34.45312500000001
 		}
 	},
 	"163": {
@@ -2521,8 +2473,8 @@
 		},
 		"icon": "medallion",
 		"coordinates": {
-			"lat": 30.90222470517144,
-			"lng": 36.12304687500001
+			"lat": -15.919073517982413,
+			"lng": -37.35351562500001
 		}
 	},
 	"165": {
@@ -2569,8 +2521,8 @@
 		},
 		"icon": "medallion",
 		"coordinates": {
-			"lat": -39.23225314171489,
-			"lng": -26.894531250000004
+			"lat": -39.16414104768743,
+			"lng": -28.7841796875
 		}
 	},
 	"168": {
@@ -2602,7 +2554,7 @@
 		"icon": "cappy-clue",
 		"coordinates": {
 			"lat": -41.04621681452063,
-			"lng": 12.524414062500002
+			"lng": 13.0078125
 		}
 	},
 	"170": {
@@ -2617,8 +2569,8 @@
 		},
 		"icon": "cappy-clue",
 		"coordinates": {
-			"lat": -26.588527147308625,
-			"lng": -38.49609375000001
+			"lat": -31.42866311735861,
+			"lng": -32.16796875000001
 		}
 	},
 	"171": {
@@ -2633,8 +2585,8 @@
 		},
 		"icon": "cappy-clue",
 		"coordinates": {
-			"lat": -35.74651225991851,
-			"lng": -29.355468750000004
+			"lat": -23.56398712845123,
+			"lng": -19.819335937500004
 		}
 	},
 	"172": {
@@ -2778,8 +2730,8 @@
 		},
 		"icon": "fusion-core",
 		"coordinates": {
-			"lat": -30.67571540416773,
-			"lng": 25.312500000000004
+			"lat": -31.316101383495635,
+			"lng": 25.400390625
 		}
 	},
 	"181": {
@@ -2810,8 +2762,8 @@
 		},
 		"icon": "weapon",
 		"coordinates": {
-			"lat": 8.146242825034385,
-			"lng": 107.92968750000001
+			"lat": 8.276727101164047,
+			"lng": 106.5234375
 		}
 	},
 	"183": {
@@ -2826,8 +2778,1161 @@
 		},
 		"icon": "power-armor",
 		"coordinates": {
-			"lat": 69.09993967425089,
-			"lng": 136.05468750000003
+			"lat": 69.08425705053145,
+			"lng": 134.56054687500003
+		}
+	},
+	"184": {
+		"id": 184,
+		"titles": {
+			"en": "Splashdown",
+			"ru": "Бассейн"
+		},
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/Splashdown"
+		},
+		"icon": "attraction",
+		"unmarked": true,
+		"coordinates": {
+			"lat": -14.306969497825788,
+			"lng": -32.87109375000001
+		}
+	},
+	"185": {
+		"id": 185,
+		"titles": {
+			"en": "ArcJet G-Force",
+			"ru": "ArcJet G-Force"
+		},
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/ArcJet_G-Force"
+		},
+		"icon": "attraction",
+		"unmarked": true,
+		"coordinates": {
+			"lat": -21.861498734372567,
+			"lng": -33.75000000000001
+		}
+	},
+	"186": {
+		"id": 186,
+		"titles": {
+			"en": "Abandoned farmland",
+			"ru": "Заброшенные сельхозугодья"
+		},
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/Abandoned_farmland"
+		},
+		"icon": "farm",
+		"unmarked": true,
+		"coordinates": {
+			"lat": -64.47279382008165,
+			"lng": -12.832031250000002
+		}
+	},
+	"187": {
+		"id": 187,
+		"titles": {
+			"en": "Blast Off! (Galactic Zone)",
+			"ru": "Взлёт! (Галактика)"
+		},
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/Blast_Off!"
+		},
+		"icon": "attraction",
+		"unmarked": true,
+		"coordinates": {
+			"lat": -34.125447565116126,
+			"lng": -21.928710937500004
+		}
+	},
+	"188": {
+		"id": 188,
+		"titles": {
+			"en": "Blast Off! (Kiddie Kingdom)",
+			"ru": "Взлёт! (Детское королевство)"
+		},
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/Blast_Off!"
+		},
+		"icon": "attraction",
+		"unmarked": true,
+		"coordinates": {
+			"lat": 4.302591077119676,
+			"lng": 57.65625000000001
+		}
+	},
+	"189": {
+		"id": 189,
+		"titles": {
+			"en": "Candy Town Playground",
+			"ru": "Детская площадка «Конфетный городок»"
+		},
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/Candy_Town_Playground"
+		},
+		"icon": "square",
+		"unmarked": true,
+		"coordinates": {
+			"lat": 3.162455530237848,
+			"lng": 45.615234375
+		}
+	},
+	"190": {
+		"id": 190,
+		"titles": {
+			"ru": "Алтарь Мистера Крышки и Бутылки",
+			"en": "Cappy and Bottle shrine"
+		},
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/Cappy_and_Bottle_shrine"
+		},
+		"icon": "stash",
+		"unmarked": true,
+		"coordinates": {
+			"lat": 55.07836723201515,
+			"lng": -44.29687500000001
+		}
+	},
+	"191": {
+		"id": 191,
+		"titles": {
+			"ru": "Карусель",
+			"en": "Carousel"
+		},
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/Carousel"
+		},
+		"icon": "attraction",
+		"unmarked": true,
+		"coordinates": {
+			"lat": -2.3065056838291094,
+			"lng": 65.72021484375001
+		}
+	},
+	"192": {
+		"id": 192,
+		"titles": {
+			"ru": "Дома в тупике",
+			"en": "Dead end houses"
+		},
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/Dead_end_houses"
+		},
+		"icon": "building",
+		"unmarked": true,
+		"coordinates": {
+			"lat": 67.80924450600011,
+			"lng": 83.32031250000001
+		}
+	},
+	"193": {
+		"id": 193,
+		"titles": {
+			"ru": "Хижина самогонщика",
+			"en": "Distiller shack"
+		},
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/Distiller_shack"
+		},
+		"icon": "encampment",
+		"unmarked": true,
+		"coordinates": {
+			"lat": 43.197167282501276,
+			"lng": 140.09765625000003
+		}
+	},
+	"194": {
+		"id": 194,
+		"titles": {
+			"ru": "Handy Whirl",
+			"en": "Handy Whirl"
+		},
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/Handy_Whirl"
+		},
+		"icon": "attraction",
+		"unmarked": true,
+		"coordinates": {
+			"lat": -10.40137755454354,
+			"lng": -18.061523437500004
+		}
+	},
+	"195": {
+		"id": 195,
+		"titles": {
+			"ru": "Лагерь в ангаре",
+			"en": "Hangar camp"
+		},
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/Hangar_camp"
+		},
+		"icon": "encampment",
+		"unmarked": true,
+		"coordinates": {
+			"lat": -51.45400691005982,
+			"lng": -32.60742187500001
+		}
+	},
+	"196": {
+		"id": 196,
+		"titles": {
+			"ru": "Театр «Путешествие в джунгли»",
+			"en": "Jungle Journey Theater"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%A2%D0%B5%D0%B0%D1%82%D1%80_%C2%AB%D0%9F%D1%83%D1%82%D0%B5%D1%88%D0%B5%D1%81%D1%82%D0%B2%D0%B8%D0%B5_%D0%B2_%D0%B4%D0%B6%D1%83%D0%BD%D0%B3%D0%BB%D0%B8%C2%BB",
+			"en": "https://fallout.fandom.com/wiki/Jungle_Journey_Theater"
+		},
+		"icon": "building",
+		"unmarked": true,
+		"coordinates": {
+			"lat": 63.39152174400885,
+			"lng": -0.6152343750000001
+		}
+	},
+	"197": {
+		"id": 197,
+		"titles": {
+			"ru": "Магазин подарков «Little Nuka»",
+			"en": "Little Nuka Gift Shop"
+		},
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/Little_Nuka_Gift_Shop"
+		},
+		"icon": "building",
+		"unmarked": true,
+		"coordinates": {
+			"lat": 74.913708156753,
+			"lng": 108.19335937500001
+		}
+	},
+	"198": {
+		"id": 198,
+		"titles": {
+			"ru": "Главная улица",
+			"en": "Main Street"
+		},
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/Main_Street"
+		},
+		"icon": "square",
+		"unmarked": true,
+		"coordinates": {
+			"lat": 33.063924198120645,
+			"lng": -12.744140625000002
+		}
+	},
+	"199": {
+		"id": 199,
+		"titles": {
+			"ru": "Тоннель монорельса",
+			"en": "Monorail tunnel"
+		},
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/Monorail_tunnel"
+		},
+		"icon": "bridge",
+		"unmarked": true,
+		"coordinates": {
+			"lat": -26.667095801104804,
+			"lng": 124.45312500000001
+		}
+	},
+	"200": {
+		"id": 200,
+		"titles": {
+			"ru": "Северо-западные хозяйственные постройки",
+			"en": "Northwest maintenance buildings"
+		},
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/Northwest_maintenance_buildings"
+		},
+		"icon": "building",
+		"unmarked": true,
+		"coordinates": {
+			"lat": -1.0106897682409002,
+			"lng": -57.52441406250001
+		}
+	},
+	"201": {
+		"id": 201,
+		"titles": {
+			"ru": "Ядер-остров",
+			"en": "Nuka Island"
+		},
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/Nuka_Island"
+		},
+		"icon": "square",
+		"unmarked": true,
+		"coordinates": {
+			"lat": 3.9519408561575946,
+			"lng": 10.546875000000002
+		}
+	},
+	"202": {
+		"id": 202,
+		"titles": {
+			"ru": "Ядер-ракеты (Галактика)",
+			"en": "Nuka Rockets (Galactic Zone)"
+		},
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/Nuka_Rockets"
+		},
+		"icon": "attraction",
+		"unmarked": true,
+		"coordinates": {
+			"lat": -19.020577110966798,
+			"lng": -26.103515625000004
+		}
+	},
+	"203": {
+		"id": 203,
+		"titles": {
+			"ru": "Ядер-ракеты (Детское королевство)",
+			"en": "Nuka Rockets (Kiddie Kingdom)"
+		},
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/Nuka_Rockets"
+		},
+		"icon": "attraction",
+		"unmarked": true,
+		"coordinates": {
+			"lat": 19.476950206488414,
+			"lng": 44.20898437500001
+		}
+	},
+	"204": {
+		"id": 204,
+		"titles": {
+			"ru": "Ядер-гонщики",
+			"en": "Nuka-Racers"
+		},
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/Nuka-Racers"
+		},
+		"icon": "attraction",
+		"unmarked": true,
+		"coordinates": {
+			"lat": 23.885837699862005,
+			"lng": 41.13281250000001
+		}
+	},
+	"205": {
+		"id": 205,
+		"titles": {
+			"ru": "Старый Шугартоп",
+			"en": "Ol' Sugartop"
+		},
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/Ol%27_Sugartop"
+		},
+		"icon": "building",
+		"unmarked": true,
+		"coordinates": {
+			"lat": 35.67514743608467,
+			"lng": -28.564453125000004
+		}
+	},
+	"206": {
+		"id": 206,
+		"titles": {
+			"ru": "Пикник и кемпинг",
+			"en": "Picnic and campsite"
+		},
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/Picnic_and_campsite"
+		},
+		"icon": "encampment",
+		"unmarked": true,
+		"coordinates": {
+			"lat": -2.6357885741666065,
+			"lng": -93.33984375000001
+		}
+	},
+	"207": {
+		"id": 207,
+		"titles": {
+			"ru": "Здание с плакатом",
+			"en": "Placard building"
+		},
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/Placard_building"
+		},
+		"icon": "building",
+		"unmarked": true,
+		"coordinates": {
+			"lat": -78.6991059255054,
+			"lng": 45.17578125000001
+		}
+	},
+	"208": {
+		"id": 208,
+		"titles": {
+			"ru": "Дом у бассейна",
+			"en": "Pool house"
+		},
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/Pool_house"
+		},
+		"icon": "building",
+		"unmarked": true,
+		"coordinates": {
+			"lat": 56.9449741808516,
+			"lng": 120.14648437500001
+		}
+	},
+	"209": {
+		"id": 209,
+		"titles": {
+			"ru": "Rally Rollers",
+			"en": "Rally Rollers"
+		},
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/Rally_Rollers_(Nuka-World)"
+		},
+		"icon": "attraction",
+		"unmarked": true,
+		"coordinates": {
+			"lat": 3.337953961416485,
+			"lng": 36.03515625000001
+		}
+	},
+	"210": {
+		"id": 210,
+		"titles": {
+			"ru": "Красный палаточный лагерь",
+			"en": "Red tent camp"
+		},
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/Red_tent_camp"
+		},
+		"icon": "encampment",
+		"unmarked": true,
+		"coordinates": {
+			"lat": 20.632784250388028,
+			"lng": -119.35546875000001
+		}
+	},
+	"211": {
+		"id": 211,
+		"titles": {
+			"ru": "Дома у плотины",
+			"en": "Reservoir houses"
+		},
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/Reservoir_houses"
+		},
+		"icon": "building",
+		"unmarked": true,
+		"coordinates": {
+			"lat": 80.67555881973475,
+			"lng": 55.37109375000001
+		}
+	},
+	"212": {
+		"id": 212,
+		"titles": {
+			"ru": "Юго-восточный город",
+			"en": "Southeast town"
+		},
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/Southeast_town"
+		},
+		"icon": "city",
+		"unmarked": true,
+		"coordinates": {
+			"lat": -80.84490140679905,
+			"lng": 39.55078125
+		}
+	},
+	"213": {
+		"id": 213,
+		"titles": {
+			"ru": "Spacewalk",
+			"en": "Spacewalk"
+		},
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/Spacewalk"
+		},
+		"icon": "attraction",
+		"unmarked": true,
+		"coordinates": {
+			"lat": -24.926294766395593,
+			"lng": -18.500976562500004
+		}
+	},
+	"214": {
+		"id": 214,
+		"titles": {
+			"ru": "Звёздный рынок",
+			"en": "Star Market"
+		},
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/Star_Market"
+		},
+		"icon": "square",
+		"unmarked": true,
+		"coordinates": {
+			"lat": -35.02999636902567,
+			"lng": -28.037109375000004
+		}
+	},
+	"215": {
+		"id": 215,
+		"titles": {
+			"ru": "Гнёзда жалокрыла",
+			"en": "Stingwing nests"
+		},
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/Stingwing_nests"
+		},
+		"icon": "square",
+		"unmarked": true,
+		"coordinates": {
+			"lat": -36.597889133070204,
+			"lng": -115.66406250000001
+		}
+	},
+	"216": {
+		"id": 216,
+		"titles": {
+			"ru": "Хижина супермутанта",
+			"en": "Super mutant shack"
+		},
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/Super_mutant_shack"
+		},
+		"icon": "encampment",
+		"unmarked": true,
+		"coordinates": {
+			"lat": -78.56048828398782,
+			"lng": -96.85546875000001
+		}
+	},
+	"217": {
+		"id": 217,
+		"titles": {
+			"ru": "«Испытание»",
+			"en": "The Gauntlet"
+		},
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/The_Gauntlet_(Nuka-World)"
+		},
+		"icon": "dungeon",
+		"unmarked": true,
+		"coordinates": {
+			"lat": -74.06786624952264,
+			"lng": 29.003906250000004
+		}
+	},
+	"218": {
+		"id": 218,
+		"titles": {
+			"ru": "Свалка токсичных отходов",
+			"en": "Toxic dump"
+		},
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/Toxic_dump"
+		},
+		"icon": "junkyard",
+		"unmarked": true,
+		"coordinates": {
+			"lat": -80.05804956215623,
+			"lng": -19.687500000000004
+		}
+	},
+	"219": {
+		"id": 219,
+		"titles": {
+			"ru": "Ядовитое озеро",
+			"en": "Toxic lake"
+		},
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/Toxic_lake"
+		},
+		"icon": "water",
+		"unmarked": true,
+		"coordinates": {
+			"lat": -82.1664460084773,
+			"lng": -72.59765625000001
+		}
+	},
+	"220": {
+		"id": 220,
+		"titles": {
+			"ru": "Теледерево",
+			"en": "TV tree"
+		},
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/TV_tree"
+		},
+		"icon": "forest",
+		"unmarked": true,
+		"coordinates": {
+			"lat": 63.704722429433225,
+			"lng": -19.863281250000004
+		}
+	},
+	"221": {
+		"id": 221,
+		"titles": {
+			"ru": "Лагерь на ветряке",
+			"en": "Wind power camp"
+		},
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/Wind_power_camp"
+		},
+		"icon": "encampment",
+		"unmarked": true,
+		"coordinates": {
+			"lat": 52.5897007687178,
+			"lng": -77.87109375
+		}
+	},
+	"222": {
+		"id": 222,
+		"titles": {
+			"ru": "Самый большой пожарный гидрант",
+			"en": "World's Largest Fire Hydrant"
+		},
+		"links": {
+			"en": "https://fallout.fandom.com/wiki/World%27s_Largest_Fire_Hydrant"
+		},
+		"icon": "square",
+		"unmarked": true,
+		"coordinates": {
+			"lat": -77.65534600967777,
+			"lng": -31.464843750000004
+		}
+	},
+	"223": {
+		"id": 223,
+		"titles": {
+			"ru": "Звёздное ядро",
+			"en": "Star core"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D0%BD%D0%BE%D0%B5_%D1%8F%D0%B4%D1%80%D0%BE",
+			"en": "https://fallout.fandom.com/wiki/Star_core"
+		},
+		"icon": "star-core",
+		"coordinates": {
+			"lat": -39.77476948529546,
+			"lng": -20.258789062500004
+		}
+	},
+	"224": {
+		"id": 224,
+		"titles": {
+			"ru": "Звёздное ядро",
+			"en": "Star core"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D0%BD%D0%BE%D0%B5_%D1%8F%D0%B4%D1%80%D0%BE",
+			"en": "https://fallout.fandom.com/wiki/Star_core"
+		},
+		"icon": "star-core",
+		"coordinates": {
+			"lat": -39.77476948529546,
+			"lng": -18.676757812500004
+		}
+	},
+	"225": {
+		"id": 225,
+		"titles": {
+			"ru": "Звёздное ядро",
+			"en": "Star core"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D0%BD%D0%BE%D0%B5_%D1%8F%D0%B4%D1%80%D0%BE",
+			"en": "https://fallout.fandom.com/wiki/Star_core"
+		},
+		"icon": "star-core",
+		"coordinates": {
+			"lat": -39.740986355883564,
+			"lng": -15.600585937500002
+		}
+	},
+	"226": {
+		"id": 226,
+		"titles": {
+			"ru": "Звёздное ядро",
+			"en": "Star core"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D0%BD%D0%BE%D0%B5_%D1%8F%D0%B4%D1%80%D0%BE",
+			"en": "https://fallout.fandom.com/wiki/Star_core"
+		},
+		"icon": "star-core",
+		"coordinates": {
+			"lat": -39.740986355883564,
+			"lng": -17.138671875000004
+		}
+	},
+	"227": {
+		"id": 227,
+		"titles": {
+			"ru": "Звёздное ядро",
+			"en": "Star core"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D0%BD%D0%BE%D0%B5_%D1%8F%D0%B4%D1%80%D0%BE",
+			"en": "https://fallout.fandom.com/wiki/Star_core"
+		},
+		"icon": "star-core",
+		"coordinates": {
+			"lat": -42.68243539838622,
+			"lng": -27.114257812500004
+		}
+	},
+	"228": {
+		"id": 228,
+		"titles": {
+			"ru": "Звёздное ядро",
+			"en": "Star core"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D0%BD%D0%BE%D0%B5_%D1%8F%D0%B4%D1%80%D0%BE",
+			"en": "https://fallout.fandom.com/wiki/Star_core"
+		},
+		"icon": "star-core",
+		"coordinates": {
+			"lat": -42.68243539838622,
+			"lng": -28.696289062500004
+		}
+	},
+	"229": {
+		"id": 229,
+		"titles": {
+			"ru": "Звёздное ядро",
+			"en": "Star core"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D0%BD%D0%BE%D0%B5_%D1%8F%D0%B4%D1%80%D0%BE",
+			"en": "https://fallout.fandom.com/wiki/Star_core"
+		},
+		"icon": "star-core",
+		"coordinates": {
+			"lat": -42.68243539838622,
+			"lng": -30.234375000000004
+		}
+	},
+	"230": {
+		"id": 230,
+		"titles": {
+			"ru": "Звёздное ядро",
+			"en": "Star core"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D0%BD%D0%BE%D0%B5_%D1%8F%D0%B4%D1%80%D0%BE",
+			"en": "https://fallout.fandom.com/wiki/Star_core"
+		},
+		"icon": "star-core",
+		"coordinates": {
+			"lat": -41.54147766679029,
+			"lng": -27.158203125000004
+		}
+	},
+	"231": {
+		"id": 231,
+		"titles": {
+			"ru": "Звёздное ядро",
+			"en": "Star core"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D0%BD%D0%BE%D0%B5_%D1%8F%D0%B4%D1%80%D0%BE",
+			"en": "https://fallout.fandom.com/wiki/Star_core"
+		},
+		"icon": "star-core",
+		"coordinates": {
+			"lat": -41.54147766679029,
+			"lng": -28.696289062500004
+		}
+	},
+	"232": {
+		"id": 232,
+		"titles": {
+			"ru": "Звёздное ядро",
+			"en": "Star core"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D0%BD%D0%BE%D0%B5_%D1%8F%D0%B4%D1%80%D0%BE",
+			"en": "https://fallout.fandom.com/wiki/Star_core"
+		},
+		"icon": "star-core",
+		"coordinates": {
+			"lat": -41.54147766679029,
+			"lng": -30.234375000000004
+		}
+	},
+	"233": {
+		"id": 233,
+		"titles": {
+			"ru": "Звёздное ядро",
+			"en": "Star core"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D0%BD%D0%BE%D0%B5_%D1%8F%D0%B4%D1%80%D0%BE",
+			"en": "https://fallout.fandom.com/wiki/Star_core"
+		},
+		"icon": "star-core",
+		"coordinates": {
+			"lat": -29.45873118535533,
+			"lng": -31.684570312500004
+		}
+	},
+	"234": {
+		"id": 234,
+		"titles": {
+			"ru": "Звёздное ядро",
+			"en": "Star core"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D0%BD%D0%BE%D0%B5_%D1%8F%D0%B4%D1%80%D0%BE",
+			"en": "https://fallout.fandom.com/wiki/Star_core"
+		},
+		"icon": "star-core",
+		"coordinates": {
+			"lat": -29.496987596535757,
+			"lng": -30.146484375000004
+		}
+	},
+	"235": {
+		"id": 235,
+		"titles": {
+			"ru": "Звёздное ядро",
+			"en": "Star core"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D0%BD%D0%BE%D0%B5_%D1%8F%D0%B4%D1%80%D0%BE",
+			"en": "https://fallout.fandom.com/wiki/Star_core"
+		},
+		"icon": "star-core",
+		"coordinates": {
+			"lat": -21.90227796666864,
+			"lng": -32.21191406250001
+		}
+	},
+	"236": {
+		"id": 236,
+		"titles": {
+			"ru": "Звёздное ядро",
+			"en": "Star core"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D0%BD%D0%BE%D0%B5_%D1%8F%D0%B4%D1%80%D0%BE",
+			"en": "https://fallout.fandom.com/wiki/Star_core"
+		},
+		"icon": "star-core",
+		"coordinates": {
+			"lat": -35.67514743608468,
+			"lng": -32.82714843750001
+		}
+	},
+	"237": {
+		"id": 237,
+		"titles": {
+			"ru": "Звёздное ядро",
+			"en": "Star core"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D0%BD%D0%BE%D0%B5_%D1%8F%D0%B4%D1%80%D0%BE",
+			"en": "https://fallout.fandom.com/wiki/Star_core"
+		},
+		"icon": "star-core",
+		"coordinates": {
+			"lat": -14.00869637063467,
+			"lng": -37.83691406250001
+		}
+	},
+	"238": {
+		"id": 238,
+		"titles": {
+			"ru": "Ядерный блок",
+			"en": "Fusion core"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%B1%D0%BB%D0%BE%D0%BA",
+			"en": "https://fallout.fandom.com/wiki/Fusion_core_(Fallout_4)"
+		},
+		"icon": "fusion-core",
+		"coordinates": {
+			"lat": -15.876809064146757,
+			"lng": -12.7001953125
+		}
+	},
+	"239": {
+		"id": 239,
+		"titles": {
+			"ru": "Звёздное ядро",
+			"en": "Star core"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D0%BD%D0%BE%D0%B5_%D1%8F%D0%B4%D1%80%D0%BE",
+			"en": "https://fallout.fandom.com/wiki/Star_core"
+		},
+		"icon": "star-core",
+		"coordinates": {
+			"lat": -58.97266715450153,
+			"lng": 21.357421875000004
+		}
+	},
+	"240": {
+		"id": 240,
+		"titles": {
+			"ru": "Звёздное ядро",
+			"en": "Star core"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D0%BD%D0%BE%D0%B5_%D1%8F%D0%B4%D1%80%D0%BE",
+			"en": "https://fallout.fandom.com/wiki/Star_core"
+		},
+		"icon": "star-core",
+		"coordinates": {
+			"lat": -52.935396658623176,
+			"lng": 20.346679687500004
+		}
+	},
+	"241": {
+		"id": 241,
+		"titles": {
+			"ru": "Звёздное ядро",
+			"en": "Star core"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D0%BD%D0%BE%D0%B5_%D1%8F%D0%B4%D1%80%D0%BE",
+			"en": "https://fallout.fandom.com/wiki/Star_core"
+		},
+		"icon": "star-core",
+		"coordinates": {
+			"lat": -29.496987596535757,
+			"lng": -28.608398437500004
+		}
+	},
+	"242": {
+		"id": 242,
+		"titles": {
+			"ru": "Звёздное ядро",
+			"en": "Star core"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D0%BD%D0%BE%D0%B5_%D1%8F%D0%B4%D1%80%D0%BE",
+			"en": "https://fallout.fandom.com/wiki/Star_core"
+		},
+		"icon": "star-core",
+		"coordinates": {
+			"lat": -16.003575733881313,
+			"lng": -40.47363281250001
+		}
+	},
+	"243": {
+		"id": 243,
+		"titles": {
+			"ru": "Звёздное ядро",
+			"en": "Star core"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D0%BD%D0%BE%D0%B5_%D1%8F%D0%B4%D1%80%D0%BE",
+			"en": "https://fallout.fandom.com/wiki/Star_core"
+		},
+		"icon": "star-core",
+		"coordinates": {
+			"lat": -19.020577110966798,
+			"lng": -37.30957031250001
+		}
+	},
+	"244": {
+		"id": 244,
+		"titles": {
+			"ru": "Звёздное ядро",
+			"en": "Star core"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D0%BD%D0%BE%D0%B5_%D1%8F%D0%B4%D1%80%D0%BE",
+			"en": "https://fallout.fandom.com/wiki/Star_core"
+		},
+		"icon": "star-core",
+		"coordinates": {
+			"lat": -19.062117883514652,
+			"lng": -38.935546875
+		}
+	},
+	"245": {
+		"id": 245,
+		"titles": {
+			"ru": "Звёздное ядро",
+			"en": "Star core"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D0%BD%D0%BE%D0%B5_%D1%8F%D0%B4%D1%80%D0%BE",
+			"en": "https://fallout.fandom.com/wiki/Star_core"
+		},
+		"icon": "star-core",
+		"coordinates": {
+			"lat": -19.020577110966798,
+			"lng": -40.47363281250001
+		}
+	},
+	"246": {
+		"id": 246,
+		"titles": {
+			"ru": "Звёздное ядро",
+			"en": "Star core"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D0%BD%D0%BE%D0%B5_%D1%8F%D0%B4%D1%80%D0%BE",
+			"en": "https://fallout.fandom.com/wiki/Star_core"
+		},
+		"icon": "star-core",
+		"coordinates": {
+			"lat": -17.476432197195518,
+			"lng": -37.35351562500001
+		}
+	},
+	"247": {
+		"id": 247,
+		"titles": {
+			"ru": "Звёздное ядро",
+			"en": "Star core"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D0%BD%D0%BE%D0%B5_%D1%8F%D0%B4%D1%80%D0%BE",
+			"en": "https://fallout.fandom.com/wiki/Star_core"
+		},
+		"icon": "star-core",
+		"coordinates": {
+			"lat": -17.476432197195518,
+			"lng": -38.935546875
+		}
+	},
+	"248": {
+		"id": 248,
+		"titles": {
+			"ru": "Звёздное ядро",
+			"en": "Star core"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D0%BD%D0%BE%D0%B5_%D1%8F%D0%B4%D1%80%D0%BE",
+			"en": "https://fallout.fandom.com/wiki/Star_core"
+		},
+		"icon": "star-core",
+		"coordinates": {
+			"lat": -17.518344187852207,
+			"lng": -40.51757812500001
+		}
+	},
+	"249": {
+		"id": 249,
+		"titles": {
+			"ru": "Звёздное ядро",
+			"en": "Star core"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D0%BD%D0%BE%D0%B5_%D1%8F%D0%B4%D1%80%D0%BE",
+			"en": "https://fallout.fandom.com/wiki/Star_core"
+		},
+		"icon": "star-core",
+		"coordinates": {
+			"lat": -19.68397023588844,
+			"lng": -12.348632812500002
+		}
+	},
+	"250": {
+		"id": 250,
+		"titles": {
+			"ru": "Звёздное ядро",
+			"en": "Star core"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D0%BD%D0%BE%D0%B5_%D1%8F%D0%B4%D1%80%D0%BE",
+			"en": "https://fallout.fandom.com/wiki/Star_core"
+		},
+		"icon": "star-core",
+		"coordinates": {
+			"lat": -20.96143961409684,
+			"lng": -17.094726562500004
+		}
+	},
+	"251": {
+		"id": 251,
+		"titles": {
+			"ru": "Звёздное ядро",
+			"en": "Star core"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D0%BD%D0%BE%D0%B5_%D1%8F%D0%B4%D1%80%D0%BE",
+			"en": "https://fallout.fandom.com/wiki/Star_core"
+		},
+		"icon": "star-core",
+		"coordinates": {
+			"lat": -21.002471054356725,
+			"lng": -18.588867187500004
+		}
+	},
+	"252": {
+		"id": 252,
+		"titles": {
+			"ru": "Звёздное ядро",
+			"en": "Star core"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D0%BD%D0%BE%D0%B5_%D1%8F%D0%B4%D1%80%D0%BE",
+			"en": "https://fallout.fandom.com/wiki/Star_core"
+		},
+		"icon": "star-core",
+		"coordinates": {
+			"lat": -21.002471054356725,
+			"lng": -20.126953125000004
+		}
+	},
+	"253": {
+		"id": 253,
+		"titles": {
+			"ru": "Звёздное ядро",
+			"en": "Star core"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D0%BD%D0%BE%D0%B5_%D1%8F%D0%B4%D1%80%D0%BE",
+			"en": "https://fallout.fandom.com/wiki/Star_core"
+		},
+		"icon": "star-core",
+		"coordinates": {
+			"lat": -19.518375478601556,
+			"lng": -17.094726562500004
+		}
+	},
+	"254": {
+		"id": 254,
+		"titles": {
+			"ru": "Звёздное ядро",
+			"en": "Star core"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D0%BD%D0%BE%D0%B5_%D1%8F%D0%B4%D1%80%D0%BE",
+			"en": "https://fallout.fandom.com/wiki/Star_core"
+		},
+		"icon": "star-core",
+		"coordinates": {
+			"lat": -19.518375478601556,
+			"lng": -18.676757812500004
+		}
+	},
+	"255": {
+		"id": 255,
+		"titles": {
+			"ru": "Звёздное ядро",
+			"en": "Star core"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D0%BD%D0%BE%D0%B5_%D1%8F%D0%B4%D1%80%D0%BE",
+			"en": "https://fallout.fandom.com/wiki/Star_core"
+		},
+		"icon": "star-core",
+		"coordinates": {
+			"lat": -19.559790136497412,
+			"lng": -20.170898437500004
 		}
 	}
 }
