@@ -121,7 +121,7 @@ const dlcs = {
 		background: '#282420',
 		startPointId: 35,
 		added: 0.99,
-		verified: 0.95
+		verified: 0.96
 	},
 	zone: {
 		key: 'zone',
