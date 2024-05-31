@@ -120,8 +120,8 @@ const dlcs = {
 		tileZoom: 3,
 		background: '#282420',
 		startPointId: 35,
-		added: 0.99,
-		verified: 0.96
+		added: 1,
+		verified: 1
 	},
 	zone: {
 		key: 'zone',
