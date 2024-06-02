@@ -100,8 +100,8 @@ const dlcs = {
 		tileZoom: 3,
 		background: '#1d1d1d',
 		default: true,
-		added: 0.99,
-		verified: 0.98
+		added: 1,
+		verified: 1
 	},
 	far_harbor: {
 		key: 'far_harbor',

@@ -187,8 +187,8 @@
 		},
 		"icon": "bobblehead",
 		"coordinates": {
-			"lat": 20.50935458871459,
-			"lng": 36.73828125000001
+			"lat": 18.06231230454674,
+			"lng": 39.33105468750001
 		}
 	},
 	"13": {
@@ -5113,8 +5113,8 @@
 		},
 		"icon": "building",
 		"coordinates": {
-			"lat": 19.72534224805787,
-			"lng": 38.97949218750001
+			"lat": 19.518375478601566,
+			"lng": 39.28710937500001
 		}
 	},
 	"348": {
@@ -6345,8 +6345,8 @@
 		},
 		"icon": "magazine",
 		"coordinates": {
-			"lat": 19.973348786110613,
-			"lng": 40.20996093750001
+			"lat": 19.518375478601566,
+			"lng": 37.74902343750001
 		}
 	},
 	"426": {
@@ -8714,8 +8714,8 @@
 		},
 		"icon": "mini-nuke",
 		"coordinates": {
-			"lat": 19.559790136497412,
-			"lng": 37.79296875000001
+			"lat": 18.06231230454674,
+			"lng": 37.83691406250001
 		}
 	},
 	"674": {
@@ -9658,8 +9658,8 @@
 		},
 		"icon": "fusion-core",
 		"coordinates": {
-			"lat": 21.3303150734318,
-			"lng": 40.47363281250001
+			"lat": 21.00247105435674,
+			"lng": 37.705078125
 		}
 	},
 	"761": {
@@ -9674,8 +9674,8 @@
 		},
 		"icon": "holotape",
 		"coordinates": {
-			"lat": 18.312810846425457,
-			"lng": 38.45214843750001
+			"lat": 20.179723502765153,
+			"lng": 42.71484375000001
 		}
 	},
 	"762": {
@@ -13640,8 +13640,8 @@
 		},
 		"icon": "holotape",
 		"coordinates": {
-			"lat": 18.771115062337024,
-			"lng": 39.81445312500001
+			"lat": 20.96143961409684,
+			"lng": 39.19921875000001
 		}
 	},
 	"1062": {
@@ -15799,8 +15799,8 @@
 		"icon": "building",
 		"unmarked": true,
 		"coordinates": {
-			"lat": 16.636191878397664,
-			"lng": 36.84814453125001
+			"lat": 16.46769474828897,
+			"lng": 36.69433593750001
 		}
 	},
 	"1213": {
@@ -16400,25 +16400,8 @@
 		"icon": "radioactive-area",
 		"unmarked": true,
 		"coordinates": {
-			"lat": 20.879342971957897,
-			"lng": 38.0126953125
-		}
-	},
-	"1252": {
-		"id": 1252,
-		"titles": {
-			"ru": "Кабинет руководителя «Масс фьюжн»",
-			"en": "Mass Fusion executive suite"
-		},
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B0%D0%B1%D0%B8%D0%BD%D0%B5%D1%82_%D1%80%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8F_%C2%AB%D0%9C%D0%B0%D1%81%D1%81_%D1%84%D1%8C%D1%8E%D0%B6%D0%BD%C2%BB",
-			"en": "https://fallout.fandom.com/wiki/Mass_Fusion_executive_suite"
-		},
-		"icon": "building",
-		"unmarked": true,
-		"coordinates": {
-			"lat": 21.166483858206583,
-			"lng": 39.19921875000001
+			"lat": 16.636191878397664,
+			"lng": 38.58398437500001
 		}
 	},
 	"1253": {
@@ -16941,8 +16924,8 @@
 		"icon": "dungeon",
 		"unmarked": true,
 		"coordinates": {
-			"lat": 33.8279206267038,
-			"lng": -11.477907690118018
+			"lat": 33.760882000869195,
+			"lng": -11.40380859375
 		}
 	},
 	"1284": {
@@ -17197,6 +17180,22 @@
 		"coordinates": {
 			"lat": -31.765537409484374,
 			"lng": -12.304687500000002
+		}
+	},
+	"1301": {
+		"id": 1301,
+		"titles": {
+			"ru": "Кабинет руководителя «Масс фьюжн»",
+			"en": "Mass Fusion executive suite"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9A%D0%B0%D0%B1%D0%B8%D0%BD%D0%B5%D1%82_%D1%80%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8F_%C2%AB%D0%9C%D0%B0%D1%81%D1%81_%D1%84%D1%8C%D1%8E%D0%B6%D0%BD%C2%BB",
+			"en": "https://fallout.fandom.com/wiki/Mass_Fusion_executive_suite"
+		},
+		"icon": "building",
+		"coordinates": {
+			"lat": 20.179723502765153,
+			"lng": 41.26464843750001
 		}
 	}
 }
