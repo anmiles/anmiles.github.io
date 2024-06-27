@@ -34,12 +34,12 @@ function updateVersion(text) {
 function insertAnalytics(text) {
 	return text.replace('</body>', `\
 <!-- Google tag (gtag.js) -->
-<script type="text/javascript" async src="https://www.googletagmanager.com/gtag/js?id=UA-92540327-1"></script>
+<script type="text/javascript" async src="https://www.googletagmanager.com/gtag/js?id=G-C66BR79P9J"></script>
 <script type="text/javascript">
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
-gtag('config', 'UA-92540327-1');
+gtag('config', 'G-C66BR79P9J');
 </script>
 
 </body>\
