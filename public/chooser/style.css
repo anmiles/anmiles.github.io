@@ -1,6 +1,13 @@
+body {
+	height: 100vh;
+}
+
+.box {
+	flex-grow: 1;
+}
+
 .lines {
-	height: calc(100vh - 10em - 2px);
-    overflow-y: auto;
+	overflow-y: auto;
 	border: 1px solid currentColor;
 }
 
