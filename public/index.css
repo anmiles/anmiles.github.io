@@ -87,9 +87,11 @@ dd {
 .buttons {
 	display: flex;
 	gap: 0.5em;
+	flex-wrap: wrap;
 }
 
 button {
+	flex: 1;
 	height: 2em;
 	min-width: 100px;
 	text-transform: uppercase;
