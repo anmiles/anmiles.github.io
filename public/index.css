@@ -101,6 +101,22 @@ dd {
 	flex-grow: 1;
 }
 
+/* languages */
+
+[lang="en"] {
+	display: none;
+}
+
+body[data-lang="en"] [lang="ru"] {
+	display: none;
+}
+
+body[data-lang="en"] [lang="en"] {
+	display: block;
+}
+
+/* themes */
+
 .theme {
 	position: absolute;
 	right: 20px;
@@ -108,18 +124,7 @@ dd {
 	cursor: pointer;
 }
 
-.theme:hover {
-	filter: brightness(1.2);
-}
-
-.theme svg {
-	width: 32px;
-	height: 32px;
-	stroke: currentColor;
-	display: none;
-}
-
-/* default theme */
+/* light theme */
 
 body {
 	color: #3d2917;
@@ -136,10 +141,6 @@ body:before {
 
 .box {
 	border-color: #6d4929;
-}
-
-.theme .light {
-	display: block;
 }
 
 a,
@@ -161,14 +162,6 @@ body[data-theme="dark"] {
 
 body[data-theme="dark"]:before {
 	background: #1e1e1e;
-}
-
-body[data-theme="dark"] .theme .light {
-	display: none;
-}
-
-body[data-theme="dark"] .theme .dark {
-	display: block;
 }
 
 body[data-theme="dark"] .box {
