@@ -20,7 +20,7 @@ body {
 	justify-content: flex-start;
 	align-items: center;
 	padding: 2em;
-	gap: 2em;
+	gap: 1em;
 }
 
 body:before {
@@ -39,7 +39,7 @@ body > * {
 .box {
 	width: 100%;
 	max-width: 960px;
-	padding: 20px;
+	padding: 1em;
 	border-radius: 10px;
 	display: flex;
 	flex-direction: column;
@@ -118,10 +118,13 @@ body[data-lang="en"] [lang="en"] {
 /* themes */
 
 .theme {
-	position: absolute;
-	right: 20px;
-	top: 20px;
+	width: 100%;
+	max-width: 960px;
 	cursor: pointer;
+}
+
+.theme svg {
+	float: right;
 }
 
 /* light theme */
@@ -135,11 +138,9 @@ body:before {
 	background-size: cover;
 }
 
-.box {
+.box,
+button {
 	background: rgba(255, 255, 255, 0.7);
-}
-
-.box {
 	border-color: #6d4929;
 }
 
@@ -164,7 +165,8 @@ body[data-theme="dark"]:before {
 	background: #1e1e1e;
 }
 
-body[data-theme="dark"] .box {
+body[data-theme="dark"] .box,
+body[data-theme="dark"] .button {
 	background: #252525;
 	border-color: #414141;
 }
@@ -182,4 +184,25 @@ body[data-theme="dark"] a:visited {
 body[data-theme="dark"] a:hover,
 body[data-theme="dark"] a:focus {
 	filter: brightness(1.25);
+}
+
+.buttons {
+	display: flex;
+	gap: 0.5em;
+}
+
+button,
+button[disabled]:hover {
+	height: 2em;
+	min-width: 100px;
+	text-transform: uppercase;
+	cursor: pointer;
+	flex-grow: 1;
+	border-radius: 0.5em;
+	border-width: 1px;
+	filter: brightness(0.95);
+}
+
+button:hover {
+	filter: none;
 }
