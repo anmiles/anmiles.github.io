@@ -82,6 +82,28 @@ dd {
 	flex-grow: 1;
 }
 
+/* buttons */
+
+.buttons {
+	display: flex;
+	gap: 0.5em;
+}
+
+button {
+	height: 2em;
+	min-width: 100px;
+	text-transform: uppercase;
+	cursor: pointer;
+	flex-grow: 1;
+	border-radius: 0.5em;
+	border-width: 1px;
+}
+
+button[disabled] {
+	opacity: 0.5;
+	cursor: not-allowed;
+}
+
 /* languages */
 
 [lang="en"] {
@@ -121,8 +143,18 @@ body:before {
 
 .box,
 button {
+	color: inherit;
 	background: rgba(255, 255, 255, 0.7);
 	border-color: #6d4929;
+}
+
+button,
+button[disabled]:hover {
+	filter: brightness(0.95);
+}
+
+button:hover {
+	filter: none;
 }
 
 a,
@@ -147,7 +179,7 @@ body[data-theme="dark"]:before {
 }
 
 body[data-theme="dark"] .box,
-body[data-theme="dark"] .button {
+body[data-theme="dark"] button {
 	background: #252525;
 	border-color: #414141;
 }
@@ -167,27 +199,13 @@ body[data-theme="dark"] a:focus {
 	filter: brightness(1.25);
 }
 
-/* buttons */
-
-.buttons {
-	display: flex;
-	gap: 0.5em;
+body[data-theme="dark"] button,
+body[data-theme="dark"] button[disabled]:hover {
+	filter: brightness(1.1);
 }
 
-button,
-button[disabled]:hover {
-	height: 2em;
-	min-width: 100px;
-	text-transform: uppercase;
-	cursor: pointer;
-	flex-grow: 1;
-	border-radius: 0.5em;
-	border-width: 1px;
-	filter: brightness(0.95);
-}
-
-button:hover {
-	filter: none;
+body[data-theme="dark"] button:hover {
+	filter: brightness(1.2);
 }
 
 /* mobile */

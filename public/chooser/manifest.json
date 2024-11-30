@@ -3,7 +3,7 @@
 	"id": "chooser",
 	"start_url": ".",
 	"background_color": "#ffffff",
-	"theme_color": "#ffe814",
+	"theme_color": "#3bb300",
 	"display": "standalone",
 	"icons": [
 		{

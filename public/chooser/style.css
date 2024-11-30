@@ -1,84 +1,32 @@
-html, body
-{
-	width: 100%;
-	height: 100%;
-	margin: 0;
-	padding: 0;
+.lines {
+	height: calc(100vh - 10em - 2px);
+    overflow-y: auto;
+	border: 1px solid currentColor;
 }
 
-body, table, input, select, button, textarea {
-	font-family: "Segoe UI", "Roboto", "Helvetica", sans-serif;
-	font-size: 16px;
-}
-
-body {
-	display: flex;
-	flex-direction: column;
-	overscroll-behavior: contain;
-}
-
-body > *:nth-child(1) {
-	flex-grow: 1;
-}
-
-body > *:nth-child(2) {
-	flex-shrink: 0;
-}
-
-textarea {
-	border-bottom: none;
-	padding: 0.5em;
-}
-
-.buttons {
-	display: flex;
-}
-
-button {
-	height: 3em;
-	text-transform: uppercase;
-	cursor: pointer;
-	flex-grow: 1;
-}
-
-button:first-child,
-button:last-child {
-	width: 25%;
-	flex-grow: 0;
-}
-
-button.primary {
-}
-
-.sections {
-	overflow: auto;
-	border: 1px solid #ffe814;
-	border-bottom: none;
-}
-
-.section {
-	border-bottom: 1px solid #888888;
-}
-
-.section:last-child {
-	border-color: #ffe814;
-}
-
-.line {
-	border-bottom: 1px solid #dddddd;
-	cursor: pointer;
-}
-
-.line:last-child {
+.lines:empty {
 	border: none;
 }
 
+.line {
+	border-bottom: 1px solid currentColor;
+	cursor: pointer;
+}
+
 .line.selected {
-	background: hsl(80 88% 40% / 1);
+	background: hsl(100 100% 35% / 1);
 }
 
 .line.invalid {
-	background: hsl(54 100% 54% / 1);
+	background: hsl(50 100% 50% / 1);
+}
+
+body[data-theme="dark"] .line.selected {
+	background: hsl(100 100% 15% / 1);
+}
+
+body[data-theme="dark"] .line.invalid {
+	background: hsl(50 100% 15% / 1);
 }
 
 p {

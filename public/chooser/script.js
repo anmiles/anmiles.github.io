@@ -29,65 +29,43 @@ class Line {
 	}
 }
 
-class Section {
+class Model {
+	text = ko.observable('');
 	lines = ko.observableArray([]);
+	hiddenLines = ko.observableArray([]);
 
-	constructor(text) {
-		if (!text.match(/[\.!]$/)) {
-			text += '.';
-		}
+	empty = ko.computed(() => this.lines().length === 0 && this.hiddenLines().length === 0);
+
+	add() {
+		const text = prompt();
+		if (!text) return;
 
 		const entities = [];
 
-		text
-			.replace(/^...\S+?: /, '') // strip sign
-			.replace('\ufe0f', '') // emoji variation selector
-			.replace('\ufe0e', '') // emoji variation selector
-			.replace(/(".*?")|(«.*?»)/g, (entity) => {
-				entities.push(entity);
-				return `[ENTITY${entities.length - 1}]`;
-			}).split(/(?<=[\.!])\s+(?=([^A-Za-z0-9А-Яа-яЁё]*)[A-ZА-ЯЁ])/).filter(s => s).forEach(text => {
-				const line = new Line(text.replace(/\[ENTITY(\d+)\]/, (_entity, index) => entities[index]));
+		const paragraphs = text.split(/\n+/).map(line => line.trim()).filter(line => line);
+
+		for (let paragraph of paragraphs) {
+			if (!paragraph.match(/[\.!]$/)) {
+				paragraph += '.';
+			}
+
+			paragraph = paragraph
+				.replace(/^...\S+?: /, '') // strip sign
+				.replace('\ufe0f', '') // emoji variation selector
+				.replace('\ufe0e', '') // emoji variation selector
+				.replace(/(".*?")|(«.*?»)/g, (entity) => {
+					entities.push(entity);
+					return `[ENTITY${entities.length - 1}]`;
+				});
+
+			const sentences = paragraph.split(/(?<=[\.!])\s+(?=([^A-Za-z0-9А-Яа-яЁё]*)[A-ZА-ЯЁ])/).filter(s => s);
+
+			for (const sentence of sentences) {
+				const line = new Line(sentence.replace(/\[ENTITY(\d+)\]/, (_entity, index) => entities[index]));
 				this.lines.push(line);
-				model.lines.push(line);
-			});
-	}
-}
-
-class Model {
-	mode = ko.observable('');
-	text = ko.observable('');
-	sections = ko.observableArray([]);
-	lines = ko.observableArray([]);
-	selectedLines = ko.observableArray([]);
-	inverted = ko.observable(false);
-
-	modes = [ 'input', 'select', 'result' ];
-
-	result = ko.computed(() => {
-		const resultLines = this.inverted()
-			? this.lines().filter(line => !this.selectedLines().includes(line))
-			: this.selectedLines();
-
-		return resultLines.map(line => line.text).join(' ');
-	});
-
-	constructor() {
-		this.mode('input');
-		this.mode.subscribe(newMode => history.pushState({}, null, '#' + newMode));
-	}
-
-	parse(_el, ev) {
-		if (ev.keyCode && !(ev.ctrlKey && (ev.keyCode === 10 || ev.keyCode === 13))) {
-			return true;
+			}
 		}
-
-		this.mode('select');
-		this.lines([]);
-		const textArray = this.text().split(/\n+/).filter(text => text.trim());
-		textArray.forEach(text => this.sections.push(new Section(text.trim())));
-		return false;
-	};
+	}
 
 	validate() {
 		const keys = {};
@@ -107,9 +85,34 @@ class Model {
 				keys[key].forEach(line => line.invalid(true));
 			}
 		});
-	};
+	}
 
-	submit() {
+	filter() {
+		const selectedLines = [];
+
+		for (const line of this.lines()) {
+			if (line.selected()) {
+				line.selected(false);
+				selectedLines.push(line);
+			} else {
+				this.hiddenLines.push(line);
+			}
+		}
+
+		this.lines(selectedLines);
+	}
+
+	invert() {
+		const lines = this.hiddenLines();
+		this.hiddenLines([...this.lines()]);
+		this.lines(lines);
+	}
+
+	sort() {
+		this.lines(this.lines().sort(Line.sort));
+	}
+
+	daySort() {
 		const markers = [
 			['Сегодня', 'Этот день', 'Начните день', 'В начале дня', 'День начнется', 'День начнётся', 'Утро', 'С утра', 'С раннего утра'],
 			[],
@@ -122,10 +125,11 @@ class Model {
 			['Ночь']
 		];
 
-		const blocks = markers.map(section => section.map(marker => []));
-		const secondaryLines = [];
+		const blocks = markers.map(markerBlock => markerBlock.map(() => []));
+		const nonMarkedLines = [];
 
-		this.lines().filter(line => line.selected()).forEach(line => {
+		this.lines().forEach(line => {
+
 			for (const i in markers) {
 				const index = markers[i].findIndex(marker => line.text.startsWith(marker));
 
@@ -135,10 +139,10 @@ class Model {
 				}
 			}
 
-			secondaryLines.push(line);
+			nonMarkedLines.push(line);
 		});
 
-		secondaryLines.sort(Line.sort);
+		nonMarkedLines.sort(Line.sort);
 
 		for (const i in blocks) {
 			blocks[i] = blocks[i].flat().sort(Line.sort);
@@ -146,56 +150,31 @@ class Model {
 
 		const filteredBlocks = blocks.filter((block, i) => i === 0 || !(blocks[i].length === 0 && blocks[i - 1].length === 0));
 		const emptyBlocksCount = filteredBlocks.filter(block => block.length === 0).length;
-		const fill = Math.ceil(secondaryLines.length / emptyBlocksCount);
+		const fill = Math.ceil(nonMarkedLines.length / emptyBlocksCount);
 
-		this.selectedLines([]);
+		const sortedLines = [];
 		let e = 0;
 
 		for (const block of filteredBlocks) {
 			if (block.length > 0) {
-				this.selectedLines.push(...block);
+				sortedLines.push(...block);
 			} else {
-				this.selectedLines.push(...secondaryLines.slice(fill * e, fill * (e++ + 1)));
+				sortedLines.push(...nonMarkedLines.slice(fill * e, fill * (e++ + 1)));
 			}
 		}
 
-		this.mode('result');
-	};
-
-	back() {
-		const newIndex = this.modes.indexOf(this.mode()) - 1;
-		this.mode(this.modes[Math.max(newIndex, 0)]);
-	};
-
-	selectAll() {
-
+		this.lines(sortedLines);
 	}
 
-	invert (_model, ev) {
-		switch (this.mode()) {
-			case 'select':
-				this.lines().forEach(line => line.toggle(line, ev));
-				break;
-
-			case 'result':
-				this.inverted(!this.inverted());
-				break;
-		}
-	};
-
 	copy() {
-		navigator.clipboard.writeText(this.result());
-	};
+		const text = this.lines().map(line => line.text).join(' ');
+		navigator.clipboard.writeText(text);
+	}
 
 	reset() {
 		if (!confirm('Are you sure?')) return;
-		this.mode('input');
-		this.text('');
-		this.selectedLines([]);
-		this.sections([]);
 		this.lines([]);
-		this.inverted(false);
-	};
+	}
 }
 
 const model = new Model();

@@ -7,47 +7,34 @@
 	<meta name="DC.date" content="2023-06-30">
 	<link rel="icon" href="favicon.svg" type="image/svg">
 	<link rel="manifest" href="manifest.json?v={VERSION}">
+	<link rel="stylesheet" href="/index.css?v={VERSION}" type="text/css">
 	<link rel="stylesheet" href="style.css?v={VERSION}" type="text/css">
 </head>
 <body>
 
-<!-- ko if: mode() === 'input' -->
-<textarea data-bind="value: text, event: { keydown: parse }"></textarea>
-<!-- /ko -->
-
-<!-- ko if: mode() === 'select' -->
-<div class="sections" data-bind="foreach: sections">
-	<div class="section" data-bind="foreach: lines">
+<div class="theme"></div>
+<div class="box">
+	<div class="lines" data-bind="foreach: lines">
 		<div class="line" tabindex="0" data-bind="click: toggle, css: { selected: selected, invalid: invalid }, event: { keydown: toggle }">
 			<p data-bind="text: text"></p>
 		</div>
 	</div>
 </div>
-<!-- /ko -->
-
-<!-- ko if: mode() === 'result' -->
-<textarea data-bind="value: result"></textarea>
-<!-- /ko -->
 
 <div class="buttons">
-	<button data-bind="click: back">Back</button>
-
-	<!-- ko if: mode() === 'input' -->
-	<button data-bind="click: parse" class="primary">Parse</button>
-	<!-- /ko -->
-
-	<!-- ko if: mode() === 'select' -->
-	<button data-bind="click: submit" class="primary">Submit</button>
-	<button data-bind="click: invert">Invert</button>
-	<!-- /ko -->
-
-	<!-- ko if: mode() === 'result' -->
-	<button data-bind="click: copy" class="primary">Copy</button>
-	<button data-bind="click: invert">Invert</button>
-	<!-- /ko -->
-
-	<button data-bind="click: reset">Reset</button>
+	<button data-bind="click: add">Add</button>
+	<button data-bind="click: filter, attr: { disabled: empty() }">Filter</button>
+	<button data-bind="click: invert, attr: { disabled: empty() }">Invert</button>
+	<button data-bind="click: sort, attr: { disabled: empty() }">Sort</button>
+	<button data-bind="click: daySort, attr: { disabled: empty() }">Day sort</button>
+	<button data-bind="click: copy, attr: { disabled: empty() }">Copy</button>
+	<button data-bind="click: reset, attr: { disabled: empty() }">Reset</button>
 </div>
+
+<script type="text/javascript" src="/libs/react-18.3.1.min.js"></script>
+<script type="text/javascript" src="/libs/react-dom-18.3.1.min.js"></script>
+<script type="text/javascript" src="/libs/theme-switcher-0.1.0.min.js"></script>
+<script type="text/javascript" src="/index.js?v={VERSION}"></script>
 
 <!-- TODO: migrate to react -->
 <script type="text/javascript" src="/libs/knockout-3.5.1.min.js"></script>
