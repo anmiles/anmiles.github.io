@@ -174,6 +174,7 @@ class Model {
 	reset() {
 		if (!confirm('Are you sure?')) return;
 		this.lines([]);
+		this.hiddenLines([]);
 	}
 }
 
