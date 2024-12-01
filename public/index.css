@@ -113,7 +113,7 @@ body > * {
 /* scrollbars */
 
 .box::-webkit-scrollbar {
-	width: calc(var(--border-radius) * 2);
+	width: 8px;
 }
 
 .box::-webkit-scrollbar-thumb {
