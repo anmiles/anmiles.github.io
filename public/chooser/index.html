@@ -13,25 +13,22 @@
 <body>
 
 <div class="top">
+	<div class="buttons left">
+		Sort:
+		<button data-bind="click: sorter.toggle.bind(sorter), visible: sorter.mode() === 'abc'">ABC</button>
+		<button data-bind="click: sorter.toggle.bind(sorter), visible: sorter.mode() === 'daily'">Daily</button>
+	</div>
 	<div class="theme right"></div>
 </div>
 
-<div class="box">
-	<div class="lines" data-bind="foreach: lines">
-		<div class="line" tabindex="0" data-bind="click: toggle, css: { selected: selected, invalid: invalid }, event: { keydown: toggle }">
-			<p data-bind="text: text"></p>
-		</div>
+<div class="box" data-bind="foreach: lines">
+	<div class="line" tabindex="0" data-bind="click: toggle, css: { selected: selected, invalid: invalid }, event: { keydown: toggle }">
+		<p data-bind="text: text"></p>
 	</div>
 </div>
 
-<div class="buttons">
-	<button data-bind="click: add">Add</button>
-	<button data-bind="click: filter, attr: { disabled: empty() }">Filter</button>
-	<button data-bind="click: invert, attr: { disabled: empty() }">Invert</button>
-	<button data-bind="click: sort, attr: { disabled: empty() }">Sort</button>
-	<button data-bind="click: daySort, attr: { disabled: empty() }">Day sort</button>
-	<button data-bind="click: copy, attr: { disabled: empty() }">Copy</button>
-	<button data-bind="click: reset, attr: { disabled: empty() }">Reset</button>
+<div class="buttons" data-bind="foreach: buttons">
+	<button data-bind="text: text, click: action, attr: { disabled: disabled() }"></button>
 </div>
 
 <script type="text/javascript" src="/libs/react-18.3.1.min.js"></script>

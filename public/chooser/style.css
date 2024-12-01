@@ -1,23 +1,19 @@
-body {
-	height: 100vh;
+.top .buttons {
+	float: left;
 }
 
 .box {
-	flex-grow: 1;
-}
-
-.lines {
-	overflow-y: auto;
-	border: 1px solid currentColor;
-}
-
-.lines:empty {
-	border: none;
+	gap: 0;
 }
 
 .line {
-	border-bottom: 1px solid currentColor;
+	border: 1px solid currentColor;
+	border-bottom-width: 0;
 	cursor: pointer;
+}
+
+.line:last-child {
+	border-bottom-width: 1px;
 }
 
 .line.selected {

@@ -29,16 +29,122 @@ class Line {
 	}
 }
 
-class Model {
-	text = ko.observable('');
-	lines = ko.observableArray([]);
-	hiddenLines = ko.observableArray([]);
+class Sorter {
 
-	empty = ko.computed(() => this.lines().length === 0 && this.hiddenLines().length === 0);
+	constructor() {
+		this.mode = ko.observable(localStorage.getItem('mode') || 'abc');
+	}
+
+	toggle() {
+		this.mode(this.mode() === 'daily' ? 'abc' : 'daily');
+		localStorage.setItem('mode', this.mode());
+	}
+
+	sort(lines) {
+		if (this.mode() === 'abc') {
+			return lines.sort(Line.sort);
+		}
+
+		const markers = [
+			['Сегодня', 'Этот день', 'Начните день', 'В начале дня', 'День начнется', 'День начнётся', 'Утро', 'С утра', 'С раннего утра'],
+			[],
+			['Днем', 'Днём'],
+			[],
+			['Во второй половине дня'],
+			[],
+			['Вечер'],
+			[],
+			['Ночь']
+		];
+
+		const blocks = markers.map(markerBlock => markerBlock.map(() => []));
+		const nonMarkedLines = [];
+
+		lines.forEach(line => {
+
+			for (const i in markers) {
+				const index = markers[i].findIndex(marker => line.text.startsWith(marker));
+
+				if (index > -1) {
+					blocks[i][index].push(line);
+					return;
+				}
+			}
+
+			nonMarkedLines.push(line);
+		});
+
+		nonMarkedLines.sort(Line.sort);
+
+		for (const i in blocks) {
+			blocks[i] = blocks[i].flat().sort(Line.sort);
+		}
+
+		const filteredBlocks = blocks.filter((block, i) => i === 0 || !(blocks[i].length === 0 && blocks[i - 1].length === 0));
+		const emptyBlocksCount = filteredBlocks.filter(block => block.length === 0).length;
+		const fill = Math.ceil(nonMarkedLines.length / emptyBlocksCount);
+
+		const sortedLines = [];
+		let e = 0;
+
+		for (const block of filteredBlocks) {
+			if (block.length > 0) {
+				sortedLines.push(...block);
+			} else {
+				sortedLines.push(...nonMarkedLines.slice(fill * e, fill * (e++ + 1)));
+			}
+		}
+
+		return sortedLines;
+	}
+}
+
+class Model {
+
+	constructor() {
+		this.sorter = new Sorter();
+		this.lines = ko.observableArray([]);
+		this.hiddenLines = ko.observableArray([]);
+		this.history = ko.observableArray([]);
+		this.empty = ko.computed(() => this.lines().length === 0 && this.hiddenLines().length === 0);
+		this.buttons = ko.observableArray([]);
+
+		this.addButton(this.undo, () => this.history().length === 0);
+		this.addButton(this.add, () => false);
+		this.addButton(this.filter, () => this.empty());
+		this.addButton(this.invert, () => this.empty());
+		this.addButton(this.cleanup, () => this.empty());
+		this.addButton(this.sort, () => this.empty());
+		this.addButton(this.copy, () => this.empty());
+		this.addButton(this.reset, () => this.empty());
+	}
+
+	addButton(method, disabled) {
+		this.buttons.push({ text: method.name, action: method.bind(this), disabled });
+	}
+
+	save() {
+		if (this.history.length > 100) {
+			this.history.splice(0, 10);
+		}
+
+		this.history.push({
+			lines: [ ...this.lines() ],
+			hiddenLines: [ ...this.hiddenLines() ],
+		});
+	}
+
+	undo() {
+		const historyItem = this.history.pop();
+		this.lines(historyItem.lines);
+		this.hiddenLines(historyItem.hiddenLines);
+	}
 
 	add() {
 		const text = prompt();
 		if (!text) return;
+
+		this.save();
 
 		const entities = [];
 
@@ -88,6 +194,8 @@ class Model {
 	}
 
 	filter() {
+		this.save();
+
 		const selectedLines = [];
 
 		for (const line of this.lines()) {
@@ -103,67 +211,22 @@ class Model {
 	}
 
 	invert() {
-		const lines = this.hiddenLines();
-		this.hiddenLines([...this.lines()]);
-		this.lines(lines);
+		this.save();
+
+		const lines = this.lines();
+		this.lines(this.hiddenLines());
+		this.hiddenLines(lines);
+	}
+
+	cleanup() {
+		this.save();
+
+		this.hiddenLines([]);
 	}
 
 	sort() {
-		this.lines(this.lines().sort(Line.sort));
-	}
-
-	daySort() {
-		const markers = [
-			['Сегодня', 'Этот день', 'Начните день', 'В начале дня', 'День начнется', 'День начнётся', 'Утро', 'С утра', 'С раннего утра'],
-			[],
-			['Днем', 'Днём'],
-			[],
-			['Во второй половине дня'],
-			[],
-			['Вечер'],
-			[],
-			['Ночь']
-		];
-
-		const blocks = markers.map(markerBlock => markerBlock.map(() => []));
-		const nonMarkedLines = [];
-
-		this.lines().forEach(line => {
-
-			for (const i in markers) {
-				const index = markers[i].findIndex(marker => line.text.startsWith(marker));
-
-				if (index > -1) {
-					blocks[i][index].push(line);
-					return;
-				}
-			}
-
-			nonMarkedLines.push(line);
-		});
-
-		nonMarkedLines.sort(Line.sort);
-
-		for (const i in blocks) {
-			blocks[i] = blocks[i].flat().sort(Line.sort);
-		}
-
-		const filteredBlocks = blocks.filter((block, i) => i === 0 || !(blocks[i].length === 0 && blocks[i - 1].length === 0));
-		const emptyBlocksCount = filteredBlocks.filter(block => block.length === 0).length;
-		const fill = Math.ceil(nonMarkedLines.length / emptyBlocksCount);
-
-		const sortedLines = [];
-		let e = 0;
-
-		for (const block of filteredBlocks) {
-			if (block.length > 0) {
-				sortedLines.push(...block);
-			} else {
-				sortedLines.push(...nonMarkedLines.slice(fill * e, fill * (e++ + 1)));
-			}
-		}
-
-		this.lines(sortedLines);
+		this.save();
+		this.lines(this.sorter.sort(this.lines()));
 	}
 
 	copy() {
@@ -175,8 +238,14 @@ class Model {
 		if (!confirm('Are you sure?')) return;
 		this.lines([]);
 		this.hiddenLines([]);
+		this.history([]);
 	}
 }
 
 const model = new Model();
 ko.applyBindings(model, document.body);
+
+document.querySelector('.lines').addEventListener('scroll', (ev) => {
+	const percent = ev.target.scrollHeight - ev.target.offsetHeight
+	console.log(ev.target.offsetHeight, ev.target.scrollHeight, ev.target.clientHeight, ev.target.scrollTop, ev.target.offsetHeight + ev.target.clientHeight);
+});
