@@ -1,13 +1,14 @@
-/* root */
+/* variables */
 
 body {
-	--text-color: #3d2917;
-	--body-background-color: #eee6d9;
+	--text-color: hsl(28, 45%, 20%);
+	--border-color: hsl(28, 45%, 80%);
+	--separator-color: hsl(28, 45%, 100%);
+	--body-background-color: hsl(38, 35%, 90%);
+	--scrollbar-color: hsl(38, 35%, 80%);
+	--link-color: hsl(195, 100%, 35%);
+	--box-background-color: hsla(0, 0%, 100%, 0.7);
 	--body-background-image: url(/images/bg.jpg);
-	--box-background-color: rgba(255, 255, 255, 0.7);
-	--border-color: #6d4929;
-	--separator-color: var(--body-background-color);
-	--link-color: #0086b3;
 	--link-brightness-hover: 1.25;
 	--button-brightness: 0.95;
 	--button-brightness-hover: 1;
@@ -16,13 +17,14 @@ body {
 }
 
 body[data-theme="dark"] {
-	--text-color: #bbbbbb;
-	--body-background-color: #1e1e1e;
+	--text-color: hsl(0, 0%, 75%);
+	--border-color: hsl(0, 0%, 25%);
+	--separator-color: hsl(0, 0%, 0%);
+	--body-background-color: hsl(0, 0%, 12%);
+	--scrollbar-color: hsl(0, 0%, 25%);
+	--link-color: hsl(195, 43%, 50%);
+	--box-background-color: hsl(0, 0%, 15%);
 	--body-background-image: url();
-	--box-background-color: #252525;
-	--border-color: #414141;
-	--separator-color: var(--border-color);
-	--link-color: #4a9cb7;
 	--link-brightness-hover: 1.25;
 	--button-brightness: 1.1;
 	--button-brightness-hover: 1.2;
@@ -117,17 +119,31 @@ body > * {
 	padding: 0 1em;
 }
 
-/* scrollbars */
+@media screen and (max-width: 800px) {
+	.box {
+		width: 100vw;
+		border-width: 1px 0;
+		border-radius: 0;
+	}
+
+	.top {
+		padding: 0;
+	}
+}
+
+/* scrollbar */
 
 ::-webkit-scrollbar {
 	width: 0.5em;
 	height: 0.5em;
+	background-color: var(--body-background-color);
 }
 
 ::-webkit-scrollbar-thumb {
-	background-color: var(--border-color);
+	background-color: var(--scrollbar-color);
 }
 
+.box::-webkit-scrollbar,
 .box::-webkit-scrollbar-thumb {
 	border-radius: var(--border-radius);
 }
@@ -140,10 +156,17 @@ body > * {
 	display: none;
 }
 
+@media screen and (max-width: 800px) {
+	.box::-webkit-scrollbar,
+	.box::-webkit-scrollbar-thumb {
+		border-radius: 0;
+	}
+}
+
 @supports (-moz-appearance: none) {
 	.box {
 		scrollbar-width: thin;
-		scrollbar-color: var(--border-color) var(--body-background-color);
+		scrollbar-color: var(--scrollbar-color) var(--body-background-color);
 	}
 }
 
@@ -167,10 +190,15 @@ dd {
 
 hr {
 	margin: 2em 0;
-	border: 1px inset var(--separator-color);
+	border: 1px solid var(--border-color);
+	border-top-color: var(--separator-color);
 }
 
-/* typographics */
+body[data-theme="dark"] hr {
+	border-width: 1px;
+}
+
+/* typographic */
 
 a,
 a:link,
