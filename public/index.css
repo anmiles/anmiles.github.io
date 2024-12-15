@@ -4,8 +4,9 @@ body {
 	--text-color: #3d2917;
 	--body-background-color: #eee6d9;
 	--body-background-image: url(/images/bg.jpg);
-	--box-background: rgba(255, 255, 255, 0.7);
+	--box-background-color: rgba(255, 255, 255, 0.7);
 	--border-color: #6d4929;
+	--separator-color: var(--body-background-color);
 	--link-color: #0086b3;
 	--link-brightness-hover: 1.25;
 	--button-brightness: 0.95;
@@ -18,8 +19,9 @@ body[data-theme="dark"] {
 	--text-color: #bbbbbb;
 	--body-background-color: #1e1e1e;
 	--body-background-image: url();
-	--box-background: #252525;
+	--box-background-color: #252525;
 	--border-color: #414141;
+	--separator-color: var(--border-color);
 	--link-color: #4a9cb7;
 	--link-brightness-hover: 1.25;
 	--button-brightness: 1.1;
@@ -96,7 +98,7 @@ body > * {
 	gap: 1em;
 	border: 1px solid black;
 	overflow-y: auto;
-	background: var(--box-background);
+	background: var(--box-background-color);
 	border-color: var(--border-color);
 }
 
@@ -110,14 +112,23 @@ body > * {
 	display: none;
 }
 
+.top {
+	z-index: 2;
+	padding: 0 1em;
+}
+
 /* scrollbars */
 
-.box::-webkit-scrollbar {
-	width: 8px;
+::-webkit-scrollbar {
+	width: 0.5em;
+	height: 0.5em;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: var(--border-color);
 }
 
 .box::-webkit-scrollbar-thumb {
-	background-color: var(--border-color);
 	border-radius: var(--border-radius);
 }
 
@@ -156,7 +167,7 @@ dd {
 
 hr {
 	margin: 2em 0;
-	border: 1px inset var(--border-color);
+	border: 1px inset var(--separator-color);
 }
 
 /* typographics */
@@ -195,7 +206,7 @@ button {
 	border-radius: var(--border-radius);
 	border-width: 1px;
 	color: inherit;
-	background: var(--box-background);
+	background: var(--box-background-color);
 	border-color: var(--border-color);
 }
 
@@ -232,4 +243,10 @@ body[data-lang="en"] [lang="en"] {
 .theme {
 	cursor: pointer;
 	float: right;
+}
+
+.themeSwitcher ul {
+	border: 1px solid var(--border-color);
+	border-radius: var(--border-radius);
+	background: var(--body-background-color);
 }

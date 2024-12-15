@@ -12,7 +12,7 @@ function detectLanguage(){
 }
 
 function detectTheme() {
-	new ThemeSwitcher({ svgRoot: '/libs/images/' })
+	new ThemeSwitcherElement({ float: 'right' })
 		.render(document.querySelector('.theme'));
 }
 

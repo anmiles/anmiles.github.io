@@ -17,7 +17,7 @@
 }
 
 .line.selected {
-	background: hsl(100 100% 35% / 1);
+	background: hsl(90 100% 40% / 1);
 }
 
 .line.invalid {
@@ -25,11 +25,13 @@
 }
 
 body[data-theme="dark"] .line.selected {
-	background: hsl(100 100% 15% / 1);
+	background: hsl(90 100% 20% / 1);
+	color: white;
 }
 
 body[data-theme="dark"] .line.invalid {
-	background: hsl(50 100% 15% / 1);
+	background: hsl(50 100% 25% / 1);
+	color: white;
 }
 
 p {
