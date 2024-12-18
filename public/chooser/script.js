@@ -141,7 +141,7 @@ class Model {
 	}
 
 	add() {
-		const text = prompt();
+		const text = prompt('Add text');
 		if (!text) return;
 
 		this.save();
@@ -244,8 +244,3 @@ class Model {
 
 const model = new Model();
 ko.applyBindings(model, document.body);
-
-document.querySelector('.lines').addEventListener('scroll', (ev) => {
-	const percent = ev.target.scrollHeight - ev.target.offsetHeight
-	console.log(ev.target.offsetHeight, ev.target.scrollHeight, ev.target.clientHeight, ev.target.scrollTop, ev.target.offsetHeight + ev.target.clientHeight);
-});

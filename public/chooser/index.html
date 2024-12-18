@@ -21,10 +21,20 @@
 	<div class="theme right"></div>
 </div>
 
-<div class="box" data-bind="foreach: lines">
+<div class="box">
+	<!-- ko if: lines().length === 0 -->
+	<div class="empty">
+		<!-- ko with: $root.buttons().find(button => button.text === 'add') -->
+		<button data-bind="text: text, click: action"></button>
+		<!-- /ko -->
+	</div>
+	<!-- /ko -->
+
+	<!-- ko foreach:lines -->
 	<div class="line" tabindex="0" data-bind="click: toggle, css: { selected: selected, invalid: invalid }, event: { keydown: toggle }">
 		<p data-bind="text: text"></p>
 	</div>
+	<!-- /ko -->
 </div>
 
 <div class="buttons" data-bind="foreach: buttons">
