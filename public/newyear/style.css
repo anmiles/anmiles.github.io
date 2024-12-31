@@ -21,9 +21,11 @@ body, table, input, select, button, textarea {
 	font-size: 16px;
 }
 
-body {
-	background: url(background.jpg) bottom center no-repeat;
-	background-size: cover;
+body:before {
+	background-color: #000000;
+	background-image: url(background.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
 }
 
 .snow {
@@ -31,6 +33,7 @@ body {
 	flex-direction: column;
 	align-items: center;
 	justify-content: start;
+	width: 100%;
 	height: 100%;
 	background-image: url('snowflake1.png'), url('snowflake2.png'), url('snowflake3.png');
 	animation: snow 20s linear infinite;
@@ -42,8 +45,22 @@ body {
 	100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
 }
 
+.pyro {
+	position: relative;
+	width: 100vw;
+	height: 50vh;
+	transform: scale(1, 0.5);
+}
+
+.pyro > .before, .pyro > .after {
+	transform: scale(1.5, 3);
+}
+
+.pyro > .congratulations {
+	transform: scale(1, 2);
+}
+
 .congratulations {
-	padding-top: 12vw;
 	text-align: center;
 	color: orange;
 	background: repeating-linear-gradient(to right, red,orange 10px, yellow 20px, orange 30px, red 40px);
@@ -51,7 +68,8 @@ body {
 	-moz-background-clip: text;
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
-	font-size: 8vw;
+	font-size: 12.5vh;
+	line-height: 18vh;
 	font-weight: bold;
 	text-shadow: -0.1em -0.1em 0.1em rgba(255, 255, 255, 0.5);
 }
@@ -82,11 +100,11 @@ body {
 	box-shadow: -0.2vh -0.3vh 0.6vh currentColor;
 }
 
-.counter .value.bottom {
+.counter .value.lower {
 	background-color: #004400;
 }
 
-.counter .value.top {
+.counter .value.upper {
 	background-color: #800000;
 	height: 50%;
 	border-bottom: 2px solid rgba(14, 30, 189, 0.5);
@@ -94,6 +112,10 @@ body {
 	border-radius: 3vh 3vh 0 0;
 	box-shadow: none;
 }
+
+/* .counter [data-total="0"] .value.upper {
+	background-color: #004400;
+} */
 
 .counter small {
 	position: absolute;
@@ -118,7 +140,7 @@ body {
 		border-radius: 3vw;
 	}
 
-	.counter .value.top {
+	.counter .value.upper {
 		border-radius: 3vw 3vw 0 0;
 	}
 
