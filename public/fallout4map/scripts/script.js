@@ -151,11 +151,12 @@ const langs = {
 		settlement: 'Поселение',
 		locationsOnly: 'Только локации',
 		settlementsOnly: 'Только поселения',
-		visited: 'Посещённые',
-		unvisited: 'Непосещённые',
-		visitedCount: 'Посещено',
-		unmarked: 'Неотмечаемые',
-		unmarkedPoint: 'Неотмечаемая локация',
+		visit: 'Посетить',
+		visited: 'Посещено',
+		visitedPoints: 'Посещённые',
+		notVisitedPoints: 'Непосещённые',
+		unmarkedPoints: 'Неотмечаемые',
+		unmarkedLocation: 'Неотмечаемая локация',
 		underConstruction: 'Карта находится в разработке ({0}% добавлено, {1}% проверено)'
 	},
 	en: {
@@ -174,11 +175,12 @@ const langs = {
 		settlement: 'Settlement',
 		locationsOnly: 'Locations only',
 		settlementsOnly: 'Settlements only',
+		visit: 'Посетить',
 		visited: 'Visited',
-		unvisited: 'Unvisited',
-		visitedCount: 'Visited',
-		unmarked: 'Unmarked',
-		unmarkedPoint: 'Unmarked location',
+		visitedPoints: 'Visited',
+		notVisitedPoints: 'Not visited',
+		unmarkedPoints: 'Unmarked',
+		unmarkedLocation: 'Unmarked location',
 		underConstruction: 'The map is under construction ({0}% added, {1}% verified)'
 	},
 };
@@ -212,14 +214,14 @@ let hasHidden = false;
 
 const model = {
 	showVisited: ko.observable(true),
-	showUnvisited: ko.observable(true),
+	showNotVisited: ko.observable(true),
 	showUnmarked: ko.observable(true),
 	showLocationsOnly: ko.observable(false),
 	showSettlementsOnly: ko.observable(false),
 };
 
 model.showVisited.subscribe(() => searchPanel.search());
-model.showUnvisited.subscribe(() => searchPanel.search());
+model.showNotVisited.subscribe(() => searchPanel.search());
 model.showUnmarked.subscribe(() => searchPanel.search());
 model.showLocationsOnly.subscribe(() => searchPanel.search());
 model.showSettlementsOnly.subscribe(() => searchPanel.search());
@@ -391,7 +393,7 @@ progress.update = () => {
 
 progress.text = ko.computed(() => {
 	const value = Math.floor(100 * progress.visited() / progress.total());
-	return `${lang.visitedCount}: ${isNaN(value) ? '...' : value + '%'}`;
+	return `${lang.visited}: ${isNaN(value) ? '...' : value + '%'}`;
 });
 
 const map = L.map('map', {
@@ -467,7 +469,7 @@ function showPoint(point, isNew) {
 	point.enabled = ko.observable(icons.find(point.icon).enabled());
 
 	point.checked = ko.computed(() => {
-		return (point.visited() ? model.showVisited() : model.showUnvisited())
+		return (point.visited() ? model.showVisited() : model.showNotVisited())
 		&& (!point.unmarked || model.showUnmarked())
 		&& (point.settlement || !model.showSettlementsOnly())
 		&& ((icons.find(point.icon).type === 'location' && !point.unmarked) || !model.showLocationsOnly());
@@ -516,7 +518,7 @@ function showPoint(point, isNew) {
 	point.note = ko.observable('');
 
 	if (point.unmarked) {
-		point.note(lang.unmarkedPoint);
+		point.note(lang.unmarkedLocation);
 	}
 
 	if (point.settlement) {
@@ -577,7 +579,7 @@ function showPoint(point, isNew) {
 	.addTo(map);
 
 	markers[point.id]
-		.bindPopup($('#popup-template').html())
+		.bindPopup($('#popup-template').html(), { minWidth: 250 })
 		._popup.on('contentupdate', (ev) => ko.applyBindings(point, ev.target._contentNode));
 }
 
@@ -925,9 +927,9 @@ if (editable) {
 
 map.addControl(new L.PanelButton({ position: 'topleft', hotkey: 'F3', text: lang.search, panel: searchPanel }));
 map.addControl(new L.PanelButton({ position: 'topleft', hotkey: 'F4', text: lang.filter, panel: filterPanel }));
-map.addControl(new L.CheckButton({ position: 'topleft', hotkey: 'F6', text: lang.unmarked, checked: model.showUnmarked }));
-map.addControl(new L.CheckButton({ position: 'topleft', hotkey: 'F7', text: lang.visited, checked: model.showVisited }));
-map.addControl(new L.CheckButton({ position: 'topleft', hotkey: 'F8', text: lang.unvisited, checked: model.showUnvisited }));
+map.addControl(new L.CheckButton({ position: 'topleft', hotkey: 'F6', text: lang.unmarkedPoints, checked: model.showUnmarked }));
+map.addControl(new L.CheckButton({ position: 'topleft', hotkey: 'F7', text: lang.visitedPoints, checked: model.showVisited }));
+map.addControl(new L.CheckButton({ position: 'topleft', hotkey: 'F8', text: lang.notVisitedPoints, checked: model.showNotVisited }));
 map.addControl(new L.CheckButton({ position: 'topleft', hotkey: 'F9', text: lang.locationsOnly, checked: model.showLocationsOnly }));
 map.addControl(new L.CheckButton({ position: 'topleft', hotkey: 'F10', text: lang.settlementsOnly, checked: model.showSettlementsOnly }));
 

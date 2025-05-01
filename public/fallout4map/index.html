@@ -86,8 +86,8 @@ Link [en]"></textarea>
 				<!-- /ko -->
 			<!-- /ko -->
 		</select>
-		<label for="unmarked"><input type="checkbox" id="unmarked" name="unmarked">unmarked</label>
-		<label for="settlement"><input type="checkbox" id="settlement" name="settlement">settlement</label>
+		<label for="unmarked"><input type="checkbox" id="unmarked" name="unmarked" data-bind="text: lang.unmarkedLocation">unmarked</label>
+		<label for="settlement"><input type="checkbox" id="settlement" name="settlement" data-bind="text: lang.settlement">settlement</label>
 		<input type="submit" />
 	</form>
 </dialog>
@@ -119,10 +119,10 @@ Link [en]"></textarea>
 		</div>
 		<div class="row" data-bind="css: { visited: visited }" >
 			<div class="row">
-				<a class="button new" data-bind="click: visit">new</a>
-				<a class="button visited" data-bind="click: visit">visited</a>
-				<a class="button clone" data-bind="visible: editable, click: clone">clone</a>
-				<a class="button delete" data-bind="visible: editable, click: deleteThis">delete</a>
+				<a class="button new" data-bind="text: lang.visit,click: visit"></a>
+				<a class="button visited" data-bind="text: lang.visited, click: visit"></a>
+				<a class="button clone fa fa-copy" data-bind="visible: editable, click: clone"></a>
+				<a class="button delete fa fa-trash" data-bind="visible: editable, click: deleteThis"></a>
 			</div>
 			<div class="id" data-bind="visible: editable">#<span data-bind="text: id"></span></div>
 		</div>
