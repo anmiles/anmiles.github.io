@@ -1143,22 +1143,6 @@
 			"lng": -105.99609375000001
 		}
 	},
-	"81": {
-		"id": 81,
-		"titles": {
-			"ru": "Ядерный блок",
-			"en": "Fusion core"
-		},
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%B1%D0%BB%D0%BE%D0%BA",
-			"en": "https://fallout.fandom.com/wiki/Fusion_core_(Fallout_4)"
-		},
-		"icon": "fusion-core",
-		"coordinates": {
-			"lat": 22.51255695405145,
-			"lng": -106.74316406250001
-		}
-	},
 	"83": {
 		"id": 83,
 		"titles": {
@@ -8490,8 +8474,8 @@
 		},
 		"icon": "mini-nuke",
 		"coordinates": {
-			"lat": 22.105998799750566,
-			"lng": -103.18359375000001
+			"lat": 23.443088931121785,
+			"lng": -104.37011718750001
 		}
 	},
 	"660": {
@@ -8506,8 +8490,8 @@
 		},
 		"icon": "weapon",
 		"coordinates": {
-			"lat": 24.126701958681682,
-			"lng": -103.447265625
+			"lat": 24.246964554300938,
+			"lng": -104.65576171875
 		}
 	},
 	"661": {
