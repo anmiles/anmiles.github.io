@@ -26,6 +26,7 @@ jobs:
     steps:
       - uses: actions/setup-node@v4
       - uses: actions/checkout@v4
+      - run: apk add --no-cache tar coreutils
       - run: npm ci
       - run: npm run update
       - uses: actions/configure-pages@v4
