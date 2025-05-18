@@ -20,7 +20,7 @@
 			color: "#BBB",
 		},
 
-		droplabel:
+		dropLabel:
 		{
 			position: "relative",
 			top: "40%"
@@ -39,7 +39,7 @@
 			if (count > 0)
 			{
 				var file = Uploader.files[0];
-				Uploader.droplabel.innerHTML = Uploader.labels.process;
+				Uploader.dropLabel.innerHTML = Uploader.labels.process;
 
 				if (Uploader.processText)
 				{
@@ -48,12 +48,12 @@
 					reader.readAsText(file);
 				}
 
-				Uploader.droplabel.innerHTML = Uploader.labels.welcome;
+				Uploader.dropLabel.innerHTML = Uploader.labels.welcome;
 			}
 		}
 		catch(ex)
 		{
-			Uploader.droplabel.innerHTML = Uploader.labels.welcome;
+			Uploader.dropLabel.innerHTML = Uploader.labels.welcome;
 			alert(ex);
 		}
 	},
@@ -67,18 +67,18 @@
 		if (uploader.labels && uploader.labels.process)	{ this.labels.process = uploader.labels.process; }
 		if (uploader.execute)	{ this.execute = uploader.execute; }
 		if (uploader.styles && uploader.styles.dropbox) {for (var s in uploader.styles.dropbox){this.styles.dropbox[s] = uploader.styles.dropbox[s]}}
-		if (uploader.styles && uploader.styles.droplabel) {for (var s in uploader.styles.droplabel){this.styles.droplabel[s] = uploader.styles.droplabel[s]}}
+		if (uploader.styles && uploader.styles.dropLabel) {for (var s in uploader.styles.dropLabel){this.styles.dropLabel[s] = uploader.styles.dropLabel[s]}}
 		if (uploader.processText){this.processText = uploader.processText};
 
-		this.droplabel = document.createElement('span');
-		this.droplabel.id = "idUploaderDropLabel";
-		this.droplabel.innerHTML = this.labels.welcome;
-		for (s in this.styles.droplabel) { this.droplabel.style[s] = this.styles.droplabel[s]; }
+		this.dropLabel = document.createElement('span');
+		this.dropLabel.id = "idUploaderDropLabel";
+		this.dropLabel.innerHTML = this.labels.welcome;
+		for (s in this.styles.dropLabel) { this.dropLabel.style[s] = this.styles.dropLabel[s]; }
 
 		this.dropbox = document.createElement('div');
 		this.dropbox.id = "idUploaderDropBox";
 		for (s in this.styles.dropbox) { this.dropbox.style[s] = this.styles.dropbox[s]; }
-		this.dropbox.appendChild(this.droplabel);
+		this.dropbox.appendChild(this.dropLabel);
 
 		this.dropHolder.appendChild(this.dropbox);
 		this.dropbox.addEventListener("dragenter", function(e){e.stopPropagation(); e.preventDefault();}, false);
@@ -90,6 +90,6 @@
 
 	showMessage: function(string)
 	{
-		this.droplabel.innerHTML = string;
+		this.dropLabel.innerHTML = string;
 	}
 };

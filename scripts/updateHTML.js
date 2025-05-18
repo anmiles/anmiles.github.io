@@ -2,7 +2,7 @@ const fs = require('fs');
 const moment = require('moment');
 require('@anmiles/prototypes');
 
-const root = "public";
+const root = './public';
 const exts = [ '.htm', '.html' ];
 const time = moment().format('yyyy-MM-DD-HH-mm-ss');
 

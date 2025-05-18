@@ -211,8 +211,8 @@ input[type="checkbox"]:checked {
 
 .popup .button.visited {
 	background: lightgray;
-    color: black;
-    border-color: darkgray;
+	color: black;
+	border-color: darkgray;
 	display: none;
 }
 

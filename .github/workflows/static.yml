@@ -22,12 +22,12 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     container:
-      image: node:18.18
+      image: node:20.19.2-alpine
     steps:
       - uses: actions/setup-node@v4
       - uses: actions/checkout@v4
       - run: npm ci
-      - run: npm run update
+      - run: npm run build
       - uses: actions/configure-pages@v4
       - uses: actions/upload-pages-artifact@v3
         with:

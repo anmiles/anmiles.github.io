@@ -12,10 +12,10 @@ function detectLanguage(){
 }
 
 function detectTheme() {
-	if (typeof ThemeSwitcherElement === 'undefined')
+	if (typeof ThemeSwitcher === 'undefined')
 		return;
 
-	new ThemeSwitcherElement({ float: 'right' })
+	new ThemeSwitcher.Element({ float: 'right' })
 		.render(document.querySelector('.theme'));
 }
 

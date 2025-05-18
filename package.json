@@ -12,15 +12,20 @@
 	"repository": "github:anmiles/anmiles.github.io",
 	"license": "MIT",
 	"engines": {
-		"node": ">=18.18.0"
+		"node": ">=20.19.0"
 	},
 	"scripts": {
+		"spellcheck": "cspell .",
 		"update": "npm-run-all update:*",
 		"update:html": "node ./scripts/updateHTML.js"
 	},
 	"dependencies": {
-		"@anmiles/prototypes": "^10.0.4",
+		"@anmiles/prototypes": "^11.0.0",
 		"moment": "^2.30.1",
 		"npm-run-all": "^4.1.5"
+	},
+	"devDependencies": {
+		"@cspell/dict-ru_ru": "^2.3.0",
+		"cspell": "^9.0.1"
 	}
 }
