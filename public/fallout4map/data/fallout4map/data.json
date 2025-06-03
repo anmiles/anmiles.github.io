@@ -171,8 +171,8 @@
 		},
 		"icon": "bobblehead",
 		"coordinates": {
-			"lat": -3.2940822283128046,
-			"lng": 9.580078125
+			"lat": -2.591888984149953,
+			"lng": 10.371093750000002
 		}
 	},
 	"12": {
@@ -5849,8 +5849,8 @@
 		},
 		"icon": "subway-station",
 		"coordinates": {
-			"lat": 73.64635924512918,
-			"lng": 33.53027343750001
+			"lat": 73.69578033575057,
+			"lng": 33.48632812500001
 		}
 	},
 	"396": {
@@ -5882,7 +5882,7 @@
 		"icon": "fusion-core",
 		"coordinates": {
 			"lat": 73.89811065820952,
-			"lng": 33.22265625000001
+			"lng": 33.11279296875001
 		}
 	},
 	"398": {
@@ -6281,8 +6281,8 @@
 		},
 		"icon": "magazine",
 		"coordinates": {
-			"lat": -1.318243056862001,
-			"lng": 7.998046875000001
+			"lat": -1.4061088354351594,
+			"lng": 9.536132812500002
 		}
 	},
 	"423": {
@@ -8666,8 +8666,8 @@
 		},
 		"icon": "mini-nuke",
 		"coordinates": {
-			"lat": 74.26569794417799,
-			"lng": 32.25585937500001
+			"lat": 74.41987703343547,
+			"lng": 33.57421875000001
 		}
 	},
 	"672": {
@@ -8682,8 +8682,8 @@
 		},
 		"icon": "weapon",
 		"coordinates": {
-			"lat": 74.16408546675687,
-			"lng": 32.91503906250001
+			"lat": 74.13407794029423,
+			"lng": 32.93701171875001
 		}
 	},
 	"673": {
@@ -11890,22 +11890,6 @@
 			"lng": 45.615234375
 		}
 	},
-	"937": {
-		"id": 937,
-		"titles": {
-			"ru": "Ядерный минизаряд",
-			"en": "Mini nuke"
-		},
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%BC%D0%B8%D0%BD%D0%B8%D0%B7%D0%B0%D1%80%D1%8F%D0%B4",
-			"en": "https://fallout.fandom.com/wiki/Mini_nuke_(Fallout_4)"
-		},
-		"icon": "mini-nuke",
-		"coordinates": {
-			"lat": 11.974844752931832,
-			"lng": 45.13183593750001
-		}
-	},
 	"938": {
 		"id": 938,
 		"titles": {
@@ -14203,8 +14187,8 @@
 		"icon": "subway-station",
 		"unmarked": true,
 		"coordinates": {
-			"lat": 0.7909904981540058,
-			"lng": 9.228515625000002
+			"lat": -0.17578097424708533,
+			"lng": 10.019531250000002
 		}
 	},
 	"1099": {
@@ -17164,6 +17148,38 @@
 		"coordinates": {
 			"lat": 20.179723502765153,
 			"lng": 41.26464843750001
+		}
+	},
+	"1302": {
+		"id": 1302,
+		"titles": {
+			"ru": "Прощальные слова H2-22",
+			"en": "Goodbye from H2-22"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%9F%D1%80%D0%BE%D1%89%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5_%D1%81%D0%BB%D0%BE%D0%B2%D0%B0_H2-22",
+			"en": "https://fallout.fandom.com/wiki/Goodbye_from_H2-22"
+		},
+		"icon": "holotape",
+		"coordinates": {
+			"lat": 17.056784609942554,
+			"lng": 44.51660156250001
+		}
+	},
+	"1303": {
+		"id": 1303,
+		"titles": {
+			"ru": "Ядерный блок",
+			"en": "Fusion core"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%B1%D0%BB%D0%BE%D0%BA",
+			"en": "https://fallout.fandom.com/wiki/Fusion_core_(Fallout_4)"
+		},
+		"icon": "fusion-core",
+		"coordinates": {
+			"lat": 74.35482803013984,
+			"lng": 32.84912109375001
 		}
 	}
 }

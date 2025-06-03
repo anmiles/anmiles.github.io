@@ -35,7 +35,7 @@
 		<div class="section row" data-bind="click: navigate, css: { selected: $index() === $parent.selectedIndex() }">
 			<span class="icon" data-bind="css: { visited: visited, visible: true }, class: className, attr: { title: searchTitle }"></span>
 			<span class="title" data-bind="text: title"></span>
-			<div class="id" data-bind="visible: editable">#<span data-bind="text: id"></span></div>
+			<div class="id">#<span data-bind="text: id"></span></div>
 		</div>
 	</div>
 </div>
@@ -124,7 +124,7 @@ Link [en]"></textarea>
 				<a class="button clone fa fa-copy" data-bind="visible: editable, click: clone"></a>
 				<a class="button delete fa fa-trash" data-bind="visible: editable, click: deleteThis"></a>
 			</div>
-			<div class="id" data-bind="visible: editable">#<span data-bind="text: id"></span></div>
+			<div class="id">#<span data-bind="text: id"></span></div>
 		</div>
 	</div>
 </script>
