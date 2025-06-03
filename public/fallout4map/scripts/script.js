@@ -890,8 +890,10 @@ const searchPanel = createPanel({
 		window.searchTimeout = setTimeout(() => {
 			searchPanel.results(Object.values(points).filter((point) => {
 				for (const i in point.titles) {
-					if (point.checked() && point.titles[i]
-						&& (!searchPanel.text() || cleanup(point.titles[i]).indexOf(cleanup(searchPanel.text())) !== -1)
+					if (
+						point.checked()
+						&& point.titles[i]
+						&& (!searchPanel.text() || cleanup(point.titles[i]).includes(cleanup(searchPanel.text())) ||  String(point.id).includes(cleanup(searchPanel.text())))
 						&& (!searchPanel.icon() || point.icon === searchPanel.icon().name)
 						&& (!searchPanel.type() || searchPanel.type().name === 'all' || icons.find(point.icon).type === searchPanel.type().name)
 					) return true;
