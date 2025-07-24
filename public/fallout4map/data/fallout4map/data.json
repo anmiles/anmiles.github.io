@@ -17181,5 +17181,21 @@
 			"lat": 74.35482803013984,
 			"lng": 32.84912109375001
 		}
+	},
+	"1304": {
+		"id": 1304,
+		"titles": {
+			"ru": "Ядерный блок",
+			"en": "Fusion core"
+		},
+		"links": {
+			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%B1%D0%BB%D0%BE%D0%BA",
+			"en": "https://fallout.fandom.com/wiki/Fusion_core_(Fallout_4)"
+		},
+		"icon": "fusion-core",
+		"coordinates": {
+			"lat": 43.16512263158296,
+			"lng": 69.21386718750001
+		}
 	}
 }
