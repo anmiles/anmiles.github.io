@@ -353,38 +353,6 @@
 			"lng": 15.145456549153542
 		}
 	},
-	"24": {
-		"id": 24,
-		"titles": {
-			"ru": "Ядерный минизаряд",
-			"en": "Mini nuke"
-		},
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%BC%D0%B8%D0%BD%D0%B8%D0%B7%D0%B0%D1%80%D1%8F%D0%B4",
-			"en": "https://fallout.fandom.com/wiki/Mini_nuke"
-		},
-		"icon": "mini-nuke",
-		"coordinates": {
-			"lat": 63.722657254675944,
-			"lng": 13.854903174824685
-		}
-	},
-	"25": {
-		"id": 25,
-		"titles": {
-			"ru": "Ядерный минизаряд",
-			"en": "Mini nuke"
-		},
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%BC%D0%B8%D0%BD%D0%B8%D0%B7%D0%B0%D1%80%D1%8F%D0%B4",
-			"en": "https://fallout.fandom.com/wiki/Mini_nuke"
-		},
-		"icon": "mini-nuke",
-		"coordinates": {
-			"lat": 63.761542331963774,
-			"lng": 16.731031643664668
-		}
-	},
 	"26": {
 		"id": 26,
 		"titles": {
