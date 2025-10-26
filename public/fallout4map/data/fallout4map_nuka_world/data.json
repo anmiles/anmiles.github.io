@@ -144,22 +144,6 @@
 			"lng": 42.5390625
 		}
 	},
-	"10": {
-		"id": 10,
-		"titles": {
-			"ru": "Ядерный минизаряд",
-			"en": "Mini nuke"
-		},
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%BC%D0%B8%D0%BD%D0%B8%D0%B7%D0%B0%D1%80%D1%8F%D0%B4",
-			"en": "https://fallout.fandom.com/wiki/Mini_nuke"
-		},
-		"icon": "mini-nuke",
-		"coordinates": {
-			"lat": -62.73460087706358,
-			"lng": 44.12109375
-		}
-	},
 	"11": {
 		"id": 11,
 		"titles": {
@@ -174,22 +158,6 @@
 		"coordinates": {
 			"lat": -61.95961583829658,
 			"lng": 42.5390625
-		}
-	},
-	"12": {
-		"id": 12,
-		"titles": {
-			"ru": "Ядерный блок",
-			"en": "Fusion core"
-		},
-		"links": {
-			"ru": "https://fallout.fandom.com/ru/wiki/%D0%AF%D0%B4%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%B1%D0%BB%D0%BE%D0%BA",
-			"en": "https://fallout.fandom.com/wiki/Fusion_core_(Fallout_4)"
-		},
-		"icon": "fusion-core",
-		"coordinates": {
-			"lat": -62.694309593663185,
-			"lng": 39.37500000000001
 		}
 	},
 	"13": {
