@@ -60,12 +60,12 @@ body, table, input, select, button, textarea {
 
 .input.wide
 {
-	width: 155px;
+	width: 305px;
 }
 
 .input.wide input
 {
-	width: 150px;
+	width: 300px;
 }
 
 form input[type="button"]

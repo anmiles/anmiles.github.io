@@ -50,8 +50,8 @@ function showPhone()
 		return;
 	}
 
-	json[encodeURI(pTitle)] = [pWidth, pHeight, sDiagonal, sWidth, sHeight];
-	location.hash = JSON.stringify(json).replace(/\"/g, "'");
+	json[pTitle] = [pWidth, pHeight, sDiagonal, sWidth, sHeight];
+	location.hash = JSON.stringify(json).replaceAll("'", '%27').replaceAll('""', "'");
 
 	if (form.button.value == 'Скрыть')
 	{
@@ -74,6 +74,7 @@ function buildPhone(id, pWidth, pHeight, pTitle, sDiagonal, sWidth, sHeight)
 		phone = $('<div />');
 		phone.addClass('phone');
 		phone.attr('id', 'phone' + id);
+		phone.attr('title', pTitle);
 		$('#canvas').append(phone);
 	}
 
@@ -101,8 +102,6 @@ function buildPhone(id, pWidth, pHeight, pTitle, sDiagonal, sWidth, sHeight)
 	phone.css('padding-right', (phone.width() - inner.width()) / 2);
 	phone.css('padding-top', (phone.height() - inner.height()) / 2);
 	phone.css('padding-bottom', (phone.height() - inner.height()) / 2);
-	phone.css('margin-left', 60 - (phone.width() - inner.width()) / 2);
-	phone.css('margin-top', 60 - (phone.height() - inner.height()) / 2);
 	phone.css('z-index', Math.floor(1000000 / Math.sqrt(pWidth * pHeight)));
 
 	title.height((phone.height() - inner.height()) / 2);
@@ -116,23 +115,19 @@ function buildPhone(id, pWidth, pHeight, pTitle, sDiagonal, sWidth, sHeight)
 
 function hidePhone(id)
 {
-	$('#phone' + id).remove();
+	const phone = $('#phone' + id);
+	delete json[phone.attr('title')];
+	location.hash = JSON.stringify(json).replaceAll("'", '%27').replaceAll('""', "'");
+	phone.remove();
 }
 
 try
 {
-	json = JSON.parse(decodeURI(location.hash).replace('#', '').replace(/\'/g, '"'));
+	json = JSON.parse(decodeURI(location.hash).replace('#', ''));
 
 	for (var i in json)
 	{
-		if (decodeURI(i) == i && encodeURI(i) != i)
-		{
-			json[encodeURI(i)] = json[i];
-			delete json[i];
-			i = encodeURI(i);
-		}
-
-		addPhone(decodeURI(i), json[i]);
+		addPhone(i, json[i]);
 	}
 }
 catch(ex)
