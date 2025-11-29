@@ -17,17 +17,17 @@ function Model(){
 	model.ShowFireworks = ko.observable(false);
 
 	const now = new Date();
-	const newYear = new Date(now.getFullYear() + 1, 0, 1);
+	const targetDate = window.targetDate || new Date(now.getFullYear() + 1, 0, 1);
 	const matches = location.search.match(/rest=(\d+)/);
 
 	const adjustSeconds = matches
-		? (newYear.getTime() - now.getTime()) / 1000 - parseInt(matches[1])
+		? (targetDate.getTime() - now.getTime()) / 1000 - parseInt(matches[1])
 		: 0;
 
 	function countdown() {
 		const now = new Date();
 		now.setSeconds(now.getSeconds() + adjustSeconds);
-		const diff = newYear - now;
+		const diff = targetDate - now;
 
 		if (diff <= 0 || (now.getMonth() === 0 && now.getDate() < 14)) {
 			model.ShowFireworks(true);
