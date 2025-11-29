@@ -20,7 +20,7 @@
 		"update:html": "node ./scripts/updateHTML.js"
 	},
 	"dependencies": {
-		"@anmiles/prototypes": "^11.2.2",
+		"@anmiles/prototypes": "^11.2.3",
 		"moment": "^2.30.1",
 		"npm-run-all": "^4.1.5"
 	},
