@@ -22,7 +22,7 @@ body, table, input, select, button, textarea {
 }
 
 body:before {
-	background-color: #000000;
+	background-color: #eed49e;
 	background-image: url(background.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -143,7 +143,7 @@ body {
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
 	font-size: 10vh;
-	line-height: 100%;
+	line-height: 20vh;
 	font-weight: bold;
 	text-shadow: -0.1em -0.1em 0.1em rgba(255, 255, 255, 0.5);
 }
@@ -190,5 +190,6 @@ body {
 
 	.congratulations .text {
 		font-size: 10vw;
+		line-height: 20vw;
 	}
 }
