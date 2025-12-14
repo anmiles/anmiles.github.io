@@ -5,15 +5,12 @@ function Model(){
 	model.TotalMinutes = ko.observable(0);
 	model.TotalHours = ko.observable(0);
 	model.TotalDays = ko.observable(0);
-	model.TotalWeeks = ko.observable(0);
 
 	model.Seconds = ko.observable('00');
 	model.Minutes = ko.observable('00');
 	model.Hours = ko.observable('00');
 	model.Days = ko.observable('00');
-	model.Weeks = ko.observable('00');
 
-	model.ShowWeeks = ko.observable(true);
 	model.ShowFireworks = ko.observable(false);
 
 	const now = new Date();
@@ -30,6 +27,7 @@ function Model(){
 		const diff = targetDate - now;
 
 		if (diff <= 0 || (now.getMonth() === 0 && now.getDate() < 14)) {
+			window.dispatchEvent(new Event('newyear'));
 			model.ShowFireworks(true);
 			return;
 		}
@@ -38,32 +36,25 @@ function Model(){
 		let minutes = Math.floor(seconds / 60);
 		let hours = Math.floor(minutes / 60);
 		let days = Math.floor(hours / 24);
-		let weeks = Math.floor(days / 7);
 
 		model.TotalSeconds(seconds);
 		model.TotalMinutes(minutes);
 		model.TotalHours(hours);
 		model.TotalDays(days);
-		model.TotalWeeks(weeks);
-
-		if (weeks < 5) model.ShowWeeks(false);
 
 		seconds %= 60;
 		minutes %= 60;
 		hours %= 24;
-		if (model.ShowWeeks() === true) days %= 7;
 
 		if (seconds < 10) seconds = "0" + seconds;
 		if (minutes < 10) minutes = "0" + minutes;
 		if (hours < 10) hours = "0" + hours;
 		if (days < 10) days = "0" + days;
-		if (weeks < 10) weeks = "0" + weeks;
 
 		model.Seconds(seconds);
 		model.Minutes(minutes);
 		model.Hours(hours);
 		model.Days(days);
-		model.Weeks(weeks);
 	}
 
 	countdown();

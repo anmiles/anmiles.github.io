@@ -16,35 +16,37 @@
 
 <div class="snow" data-bind="visible: !ShowFireworks()">
 	<div class="counter">
-		<div class="item weeks" data-bind="attr: { 'data-total': TotalWeeks }, visible: ShowWeeks">
-			<div class="value lower" data-bind="text: Weeks"></div>
-			<div class="value upper" data-bind="text: Weeks"></div>
-			<small lang="ru">Недели</small>
-			<small lang="en">Weeks</small>
-		</div>
 		<div class="item days" data-bind="attr: { 'data-total': TotalDays }">
 			<div class="value lower" data-bind="text: Days"></div>
 			<div class="value upper" data-bind="text: Days"></div>
-			<small lang="ru">Дни</small>
-			<small lang="en">Days</small>
+			<small>
+				<span lang="ru">Дни</span>
+				<span lang="en">Days</span>
+			</small>
 		</div>
 		<div class="item hours" data-bind="attr: { 'data-total': TotalHours }">
 			<div class="value lower" data-bind="text: Hours"></div>
 			<div class="value upper" data-bind="text: Hours"></div>
-			<small lang="ru">Часы</small>
-			<small lang="en">Hours</small>
+			<small>
+				<span lang="ru">Часы</span>
+				<span lang="en">Hours</span>
+			</small>
 		</div>
 		<div class="item minutes" data-bind="attr: { 'data-total': TotalMinutes }">
 			<div class="value lower" data-bind="text: Minutes"></div>
 			<div class="value upper" data-bind="text: Minutes"></div>
-			<small lang="ru">Минуты</small>
-			<small lang="en">Minutes</small>
+			<small>
+				<span lang="ru">Минуты</span>
+				<span lang="en">Minutes</span>
+			</small>
 		</div>
 		<div class="item seconds" data-bind="attr: { 'data-total': TotalSeconds }">
 			<div class="value lower" data-bind="text: Seconds"></div>
 			<div class="value upper" data-bind="text: Seconds"></div>
-			<small lang="ru">Секунды</small>
-			<small lang="en">Seconds</small>
+			<small>
+				<span lang="ru">Секунды</span>
+				<span lang="en">Seconds</span>
+			</small>
 		</div>
 	</div>
 </div>
@@ -53,8 +55,10 @@
 <div class="pyro" data-bind="visible: ShowFireworks">
 	<div class="before"></div>
 	<div class="after"></div>
-	<div class="congratulations" lang="ru">С Новым Годом!</div>
-	<div class="congratulations" lang="en">Happy New Year!</div>
+	<div class="congratulations">
+		<div class="text" lang="ru">С Новым Годом!</div>
+		<div class="text" lang="en">Happy New Year!</div>
+	</div>
 </div>
 
 <!-- TODO: migrate to react -->

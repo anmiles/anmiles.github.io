@@ -28,11 +28,17 @@ body:before {
 	background-repeat: no-repeat;
 }
 
+body {
+	padding: 4vh;
+	justify-content: end;
+	box-sizing: border-box;
+}
+
 .snow {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: start;
+	justify-content: end;
 	width: 100%;
 	height: 100%;
 	background-image: url('snowflake1.png'), url('snowflake2.png'), url('snowflake3.png');
@@ -45,59 +51,30 @@ body:before {
 	100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
 }
 
-.pyro {
-	position: relative;
-	width: 100vw;
-	height: 50vh;
-	transform: scale(1, 0.5);
-}
-
-.pyro > .before, .pyro > .after {
-	transform: scale(1.5, 3);
-}
-
-.pyro > .congratulations {
-	transform: scale(1, 2);
-}
-
-.congratulations {
-	text-align: center;
-	color: orange;
-	background: repeating-linear-gradient(to right, red,orange 10px, yellow 20px, orange 30px, red 40px);
-	-webkit-background-clip: text;
-	-moz-background-clip: text;
-	background-clip: text;
-	-webkit-text-fill-color: transparent;
-	font-size: 12.5vh;
-	line-height: 18vh;
-	font-weight: bold;
-	text-shadow: -0.1em -0.1em 0.1em rgba(255, 255, 255, 0.5);
-}
-
 .counter {
-	color: white;
-	padding-top: 10vh;
+	color: #691e00;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 4vh;
 }
 
 .counter .item {
 	float: left;
-	width: 15vh;
-	height: 15vh;
-	margin: 1.5vh;
+	width: 20vh;
 	position: relative;
 }
 
 .counter .value {
 	width: 100%;
-	height: 100%;
-	position: absolute;
-	font-size: 10vh;
-	line-height: 15vh;
+	height: 20vh;
+	line-height: 20vh;
+	font-size: 12.5vh;
+	border-radius: 4vh;
 	text-align: center;
-	border-radius: 3vh;
 	color: #ffffff;
-	text-shadow: -0.2vh -0.3vh 0.6vh currentColor;
-	box-shadow: -0.2vh -0.3vh 0.6vh currentColor;
+	text-shadow: -0.25vh -0.4vh 0.8vh currentColor;
+	box-shadow: -0.25vh -0.4vh 0.8vh currentColor;
 }
 
 .counter .value.lower {
@@ -106,47 +83,112 @@ body:before {
 
 .counter .value.upper {
 	background-color: #800000;
-	height: 50%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 10vh;
+	border-radius: 4vh 4vh 0 0;
 	border-bottom: 2px solid rgba(14, 30, 189, 0.5);
 	overflow: hidden;
-	border-radius: 3vh 3vh 0 0;
 	box-shadow: none;
 }
 
-/* .counter [data-total="0"] .value.upper {
+.counter [data-total="0"] .value.upper {
 	background-color: #004400;
-} */
+}
 
 .counter small {
-	position: absolute;
-	bottom: -6vh;
-	font-size: 3vh;
-	line-height: 6vh;
+	display: block;
 	width: 100%;
+	font-size: 4vh;
+	line-height: 100%;
+	margin-top: 2vh;
 	text-align: center;
-	text-shadow: -0.2vh -0.3vh 0.6vh currentColor;
+	text-shadow: -0.25vh -0.4vh 0.8vh currentColor;
+}
+
+.pyro {
+	position: relative;
+	width: 92vh;
+	height: 20vh;
+	margin-bottom: 6vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.pyro > .before, .pyro > .after {
+	transform: scale(1.5, 1.5);
+}
+
+.congratulations:before {
+	content: '';
+    background: rgba(105, 30, 0, 0.5);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+	border-radius: 4vh;
+}
+
+.congratulations .text {
+	position: relative;
+	text-align: center;
+	color: orange;
+	background: repeating-linear-gradient(to right, red,orange 10px, yellow 20px, orange 30px, red 40px);
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 10vh;
+	line-height: 100%;
+	font-weight: bold;
+	text-shadow: -0.1em -0.1em 0.1em rgba(255, 255, 255, 0.5);
 }
 
 @media screen and (max-aspect-ratio: 1) {
+	body {
+		padding: 4vw;
+	}
+
+	.counter {
+		gap: 4vw;
+	}
+
 	.counter .item {
-		width: 15vw;
-		height: 15vw;
-		margin: 1.5vw;
+		width: 20vw;
 	}
 
 	.counter .value {
-		font-size: 10vw;
-		line-height: 15vw;
-		border-radius: 3vw;
+		height: 20vw;
+		line-height: 20vw;
+		font-size: 12.5vw;
+		border-radius: 4vw;
 	}
 
 	.counter .value.upper {
-		border-radius: 3vw 3vw 0 0;
+		height: 10vw;
+		border-radius: 4vw 4vw 0 0;
 	}
 
 	.counter small {
-		bottom: -6vw;
-		font-size: 3vw;
-		line-height: 6vw;
+		font-size: 4vw;
+		margin-top: 2vw;
+	}
+
+	.pyro {
+		width: 92vw;
+		height: 20vw;
+		margin-bottom: 6vw;
+	}
+
+	.congratulations:before {
+		border-radius: 4vw;
+	}
+
+	.congratulations .text {
+		font-size: 10vw;
 	}
 }
