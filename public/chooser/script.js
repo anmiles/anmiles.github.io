@@ -148,7 +148,7 @@ class Model {
 
 		const entities = [];
 
-		const paragraphs = text.split(/\n+/).map(line => line.trim()).filter(line => line);
+		const paragraphs = text.replaceAll('\r', '\n').split(/\n+/).map(line => line.trim()).filter(line => line);
 
 		for (let paragraph of paragraphs) {
 			if (!paragraph.match(/[\.!]$/)) {
