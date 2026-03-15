@@ -600,7 +600,7 @@ function checkPoint(point) {
 }
 
 function backup(){
-	const data = lostPoints;
+	const data = {...lostPoints};
 
 	for (const p in points) {
 		if (points[p].visited()) data[p] = true;
