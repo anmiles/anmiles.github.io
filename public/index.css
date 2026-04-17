@@ -10,8 +10,9 @@ body {
 	--box-background-color: hsla(0, 0%, 100%, 0.7);
 	--body-background-image: url(/images/bg.jpg);
 	--link-brightness-hover: 1.25;
-	--button-brightness: 0.95;
-	--button-brightness-hover: 1;
+	--button-background-color: hsl(38, 35%, 85%);
+	--button-border-color: hsl(28, 45%, 40%);
+	--button-brightness-hover: 1.03;
 	--font-size: 16px;
 	--border-radius: 6px;
 }
@@ -26,8 +27,9 @@ body[data-theme="dark"] {
 	--box-background-color: hsl(0, 0%, 15%);
 	--body-background-image: url();
 	--link-brightness-hover: 1.25;
-	--button-brightness: 1.1;
-	--button-brightness-hover: 1.2;
+	--button-background-color: hsl(0, 0%, 25%);
+	--button-border-color: hsl(0, 0%, 35%);
+	--button-brightness-hover: 1.1;
 }
 
 @media screen and (max-width: 800px) {
@@ -233,14 +235,15 @@ button {
 	flex-grow: 1;
 	border-radius: var(--border-radius);
 	border-width: 1px;
+	border-style: solid;
 	color: inherit;
-	background: var(--box-background-color);
-	border-color: var(--border-color);
+	background: var(--button-background-color);
+	border-color: var(--button-border-color);
 }
 
 button,
 button[disabled]:hover {
-	filter: brightness(var(--button-brightness));
+	filter: brightness(1);
 }
 
 button:hover {
