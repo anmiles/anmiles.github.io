@@ -12,16 +12,16 @@
 </head>
 <body>
 
-<div class="top">
+<header>
 	<div class="buttons left">
 		Sort:
 		<button data-bind="click: sorter.toggle.bind(sorter), visible: sorter.mode() === 'abc'">ABC</button>
 		<button data-bind="click: sorter.toggle.bind(sorter), visible: sorter.mode() === 'daily'">Daily</button>
 	</div>
 	<div class="theme right"></div>
-</div>
+</header>
 
-<div class="box">
+<main class="box">
 	<!-- ko if: lines().length === 0 -->
 	<div class="empty">
 		<!-- ko with: $root.buttons().find(button => button.text === 'add') -->
@@ -35,11 +35,13 @@
 		<p data-bind="text: text"></p>
 	</div>
 	<!-- /ko -->
-</div>
+</main>
 
-<div class="buttons" data-bind="foreach: buttons">
-	<button data-bind="text: text, click: action, attr: { disabled: disabled() }"></button>
-</div>
+<footer>
+	<div class="buttons" data-bind="foreach: buttons">
+		<button data-bind="text: text, click: action, attr: { disabled: disabled() }"></button>
+	</div>
+</footer>
 
 <script type="text/javascript" src="/libs/react-18.3.1.min.js"></script>
 <script type="text/javascript" src="/libs/react-dom-18.3.1.min.js"></script>

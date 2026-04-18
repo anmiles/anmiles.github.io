@@ -91,7 +91,7 @@ function load(json) {
 		});
 }
 
-$('.load a').click(function(){
+$('.load').click(function(){
 	var input = prompt('Insert crossword JSON here');
 	var json = null;
 
@@ -102,7 +102,7 @@ $('.load a').click(function(){
 	}
 });
 
-$('.debug a').click(function(){
+$('.debug').click(function(){
 	var textarea = $('.history');
 
 	if (textarea.is(':visible')) {

@@ -11,11 +11,11 @@
 </head>
 <body>
 
-<div class="top">
+<header>
 	<div class="theme right"></div>
-</div>
+</header>
 
-<div class="box">
+<main class="box">
 	<div class="field">
 		<label for="sections">Sections:</label>
 		<input data-input="true" type="number" id="sections" value="130" />
@@ -56,10 +56,13 @@
 		<label for="progress">Progress:</label>
 		<div id="progress"><div id="bar" style="width: 0"></div></div>
 	</div>
-</div>
+</main>
 
 <!-- TODO: migrate to react -->
 <script type="text/javascript" src="/libs/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="/libs/react-18.3.1.min.js"></script>
+<script type="text/javascript" src="/libs/react-dom-18.3.1.min.js"></script>
+<script type="text/javascript" src="/libs/theme-switcher-2.0.0.min.js"></script>
 <script type="text/javascript" src="/index.js?v={VERSION}"></script>
 <script type="text/javascript" src="script.js?v={VERSION}"></script>
 

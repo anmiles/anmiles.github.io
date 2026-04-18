@@ -11,11 +11,11 @@
 </head>
 <body>
 
-<div class="top">
+<header>
 	<div class="theme right"></div>
-</div>
+</header>
 
-<div class="box">
+<main class="box">
 	<div class="crossword">
 
 	</div>
@@ -23,22 +23,21 @@
 
 	</div>
 	<textarea class="history" readonly></textarea>
-</div>
+</main>
 
-<div class="load">
-	<div class="box">
-		<a href="#">Load</a>
+<footer>
+	<div class="buttons">
+		<button class="load">Load</button>
+		<button class="debug">Debug</button>
 	</div>
-</div>
+</footer>
 
-<div class="debug">
-	<div class="box">
-		<a href="#">Debug</a>
-	</div>
-</div>
 
 <!-- TODO: migrate to react -->
 <script type="text/javascript" src="/libs/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="/libs/react-18.3.1.min.js"></script>
+<script type="text/javascript" src="/libs/react-dom-18.3.1.min.js"></script>
+<script type="text/javascript" src="/libs/theme-switcher-2.0.0.min.js"></script>
 <script type="text/javascript" src="/index.js?v={VERSION}"></script>
 <script type="text/javascript" src="script.js?v={VERSION}"></script>
 

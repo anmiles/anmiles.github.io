@@ -1,15 +1,3 @@
-.load {
-	position: absolute;
-	right: 1em;
-	top: 1em;
-}
-
-.debug {
-	position: absolute;
-	right: 1em;
-	bottom: 1em;
-}
-
 .crossword {
 	position: relative;
 	line-height: 1em;
@@ -55,4 +43,8 @@
 	width: 100%;
 	height: 6em;
 	display: none;
+}
+
+footer .buttons {
+	float: right;
 }

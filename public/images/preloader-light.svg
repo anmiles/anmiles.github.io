@@ -1,0 +1,38 @@
+<svg width="100px" height="100px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+	<linearGradient id="spinnerGradient" x1="0" y1="0" x2="1" y2="0">
+		<stop offset="0%" stop-color="hsl(28, 45%, 20%)" stop-opacity="1"></stop>
+		<stop offset="90%" stop-color="transparent" stop-opacity="0"></stop>
+	</linearGradient>
+	<circle
+		cx="50"
+		cy="50"
+		r="42"
+		transform-origin="center"
+		fill="none"
+		stroke="url(#spinnerGradient)"
+		stroke-width="16"
+		stroke-linecap="round"
+		stroke-dasharray="132 264"
+		stroke-dashoffset="0">
+		<animateTransform
+			type="rotate"
+			attributeName="transform"
+			calcMode="spline"
+			dur="1"
+			values="0;360"
+			keyTimes="0;1"
+			keySplines="0 0 1 1"
+			repeatCount="indefinite"
+		/>
+	</circle>
+	<circle
+		cx="50"
+		cy="50"
+		r="42"
+		fill="none"
+		stroke="hsl(28, 45%, 20%)"
+		stroke-width="16"
+		opacity=".2"
+	/>
+</svg>
+
