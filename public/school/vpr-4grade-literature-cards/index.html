@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Карточки</title>
+
+	<script type="text/cards" id="cards-data">
+
+Аксаков: Аленький цветочек
+Алексей Толстой: Приключения Буратино, или Золотой ключик
+Андерсен: Снежная королева
+Бажов: Серебряное копытце
+Баратынский: Весна, весна! Как воздух чист!
+Барто: Мишка
+Белов: Малька провинилась
+Берестов: Читалочка
+Бианки: Мышонок Пик
+Благинина: Посидим в тишине
+Бунин: Листопад
+Гайдар: Чук и Гек
+Гаршин: Лягушка-путешественница
+Горький: Детство
+Драгунский: Денискины рассказы
+Ермолаев: Два пирожных
+Ершов: Конёк-горбунок
+Есенин: Берёза
+Жуковский: Светлана
+Заходер: Кит и кот
+Зощенко: Ёлка
+Катаев: Цветик-семицветик
+Крылов: Лебедь, Щука и Рак
+Куприн: Скворцы
+Лев Толстой: Котёнок
+Лермонтов: Ашик-Кериб
+Мамин-Сибиряк: Приёмыш
+Маршак: Двенадцать месяцев
+Михалков: Дядя Стёпа
+Мошковская: Я ушёл в свою обиду
+Некрасов: Дед Мазай и зайцы
+Никитин: Русь
+Носов: Живая шляпа
+Одоевский: Городок в табакерке
+Осеева: Волшебное слово
+Паустовский: Барсучий нос
+Плещеев: Уж тает снег, бегут ручьи
+Пришвин: Выскочка
+Пушкин: Сказка о царе Салтане
+Саша Чёрный: Про кота
+Скребицкий: Четыре художника
+Снегирёв: Про пингвинов
+Соколов-Микитов: Листопадничек
+Токмакова: Может, нуль не виноват
+Тургенев: Записки охотника
+Тютчев: Люблю грозу в начале мая
+Успенский: Каникулы в Простоквашино
+Ушинский: Четыре желания
+Фет: Весенний дождь
+Хармс: Иван Иванович Самовар
+Цветаева: Бежит тропинка с бугорка
+Чарушин: Лесной котёнок
+Чехов: Каштанка
+Чуковский: Мойдодыр
+Шварц: Сказка о потерянном времени
+
+	</script>
+
+	<script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+	<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+	<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+
+		:root {
+			--color-bg-body: #fff8f0;
+			--color-bg-card: #ffffff;
+
+			--color-neutral: #ffc952;
+			--color-success: #34c759;
+			--color-fail: #ff3b30;
+
+			--color-text: #333333;
+			--color-text-light: #ffffff;
+
+			--color-timer-track: #e4e4e4;
+			--color-timer-bar: #3b82f6;
+
+			--shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+
+			--card-width: 480px;
+			--card-height: 360px;
+
+			--spacing: 24px;
+			--radius: 24px;
+
+			--button-height: 48px;
+			--timer-height: 8px;
+		}
+
+		html,
+		body {
+			margin: 0;
+			padding: 0;
+		}
+
+		body {
+			background: var(--color-bg-body);
+			color: var(--color-text);
+			font-family: Arial, sans-serif;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+
+		.app {
+			max-width: 100vw;
+			padding: 0 var(--spacing);
+		}
+
+		.app > * {
+			width: var(--card-width);
+			max-width: 100%;
+			padding: var(--spacing);
+			margin: calc(1.5 * var(--spacing)) auto;
+		}
+
+		.box {
+			background: var(--color-bg-card);
+			border-radius: var(--radius);
+			box-shadow: var(--shadow);
+			display: flex;
+			flex-direction: column;
+			gap: var(--spacing);
+		}
+
+		.card {
+			min-height: var(--card-height);
+		}
+
+		.content {
+			flex: 1;
+			display: flex;
+			flex-direction: column;
+			text-align: center;
+			gap: var(--spacing);
+			padding: var(--spacing) 0;
+		}
+
+		.author {
+			font-size: 2rem;
+			line-height: 1.2;
+		}
+
+		.title {
+			font-size: 1.5rem;
+			line-height: 1.3;
+		}
+
+		.buttons {
+			display: flex;
+			gap: var(--spacing);
+		}
+
+		button {
+			flex: 1;
+			border: none;
+			border-radius: var(--radius);
+			height: var(--button-height);
+			font-size: 18px;
+			font-weight: bold;
+			cursor: pointer;
+			transition: 0.2s;
+		}
+
+		button:hover {
+			transform: translateY(-1px);
+		}
+
+		button:active {
+			transform: translateY(0);
+		}
+
+		button.neutral {
+			background: var(--color-neutral);
+			color: var(--color-text);
+		}
+
+		button.success {
+			background: var(--color-success);
+			color: var(--color-text-light);
+		}
+
+		button.fail {
+			background: var(--color-fail);
+			color: var(--color-text-light);
+		}
+
+		.timer {
+			width: 100%;
+			height: var(--timer-height);
+			border-radius: 999px;
+			overflow: hidden;
+			background: var(--color-timer-track);
+		}
+
+		.timer-bar {
+			height: 100%;
+			background: var(--color-timer-bar);
+		}
+
+		.stats {
+			position: relative;
+			overflow: hidden;
+			border-radius: var(--radius);
+			background: white;
+			box-shadow: var(--shadow);
+			height: var(--button-height);
+			display: flex;
+		}
+
+		.stats-finished,
+		.stats-learning {
+			transition: width 0.3s;
+		}
+
+		.stats-finished {
+			background: var(--color-success);
+		}
+
+		.stats-learning {
+			background: var(--color-neutral);
+		}
+
+		.stats-value {
+			position: absolute;
+			inset: 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-weight: bold;
+		}
+
+		.emoji {
+			font-size: 72px;
+		}
+
+		textarea {
+			width: 100%;
+			min-height: 300px;
+			resize: vertical;
+			font-size: 16px;
+		}
+	</style>
+</head>
+<body>
+	<div id="root"></div>
+
+	<script type="text/babel">
+		const {
+			useEffect,
+			useReducer,
+			useRef,
+			useState,
+		} = React;
+
+		const STORAGE_KEY = 'cards-data';
+		const GUESS_TIME = 10000;
+		const REQUIRED_GUESSES = 2;
+
+		const PHASES = {
+			INIT: 'INIT',
+			GUESSING: 'GUESSING',
+			CHECKING: 'CHECKING',
+			EXPIRED: 'EXPIRED',
+			DONE: 'DONE',
+		};
+
+		const defaultCardsText = document.querySelector('#cards-data').textContent.trim();
+		const defaultCards = parseCards(defaultCardsText);
+		const initialCardsText = (localStorage.getItem(STORAGE_KEY) ?? defaultCardsText).trim();
+
+		function parseCards(cardsText) {
+			return cardsText
+				.split('\n')
+				.filter(line => line.trim())
+				.map((line, index) => {
+					const [ author, title ] = line.split(': ').map(s => s.trim());
+
+					return {
+						id: index,
+						author,
+						title : title ?? 'Без названия',
+						guessedCount: 0,
+					};
+				});
+		}
+
+		function getRandomCard(cards, previousCardId = null) {
+			if (cards.length === 0) {
+				return null;
+			}
+
+			if (cards.length === 1) {
+				return cards[0];
+			}
+
+			let nextCard;
+
+			do {
+				nextCard = cards[Math.floor(Math.random() * cards.length)];
+			} while (previousCardId !== null && nextCard.id === previousCardId)
+
+			return nextCard;
+		}
+
+		function createInitialState() {
+			const initialCards = parseCards(initialCardsText);
+			const firstCard = getRandomCard(initialCards);
+
+			return {
+				phase: PHASES.INIT,
+				initialCards,
+				activeCards: initialCards,
+				currentCard: firstCard,
+			};
+		}
+
+		function reducer(state, action) {
+			switch (action.type) {
+				case 'GUESS': {
+					return {
+						...state,
+						phase: PHASES.GUESSING
+					}
+				}
+				case 'CHECK': {
+					return {
+						...state,
+						phase: PHASES.CHECKING
+					}
+				}
+				case 'EXPIRE': {
+					return {
+						...state,
+						phase: PHASES.EXPIRED
+					}
+				}
+				case 'ANSWER': {
+					const updatedCards = state.activeCards
+						.map(card => {
+							const inc = card.id === state.currentCard.id && action.guessed ? 1 : 0;
+
+							return {
+								...card,
+								guessedCount: card.guessedCount + inc
+							}
+						})
+						.filter(card => card.guessedCount < REQUIRED_GUESSES);
+
+					if (updatedCards.length === 0) {
+						return {
+							...state,
+							phase: PHASES.DONE,
+							activeCards: [],
+							currentCard: null,
+						};
+					}
+
+					return {
+						...state,
+						phase: PHASES.GUESSING,
+						activeCards: updatedCards,
+						currentCard: getRandomCard(updatedCards, state.currentCard.id),
+					};
+				}
+
+				case 'RESET': {
+					return {
+						...state,
+						phase: PHASES.INIT,
+						initialCards: action.initialCards,
+						activeCards: action.initialCards,
+						currentCard: getRandomCard(action.initialCards),
+					};
+				}
+
+				default: {
+					return {
+						...state,
+						phase: action.type,
+					};
+				}
+			}
+		}
+
+		function useCountdown({ enabled, duration, onExpire }) {
+			const [countdown, setCountdown] = useState(duration);
+
+			const frameRef = useRef();
+			const startRef = useRef();
+
+			useEffect(() => {
+				if (!enabled) {
+					setCountdown(duration);
+					return;
+				}
+
+				startRef.current = performance.now();
+
+				function update(now) {
+					const elapsed = now - startRef.current;
+					const remaining = Math.max(duration - elapsed, 0);
+					setCountdown(remaining);
+
+					if (remaining > 0) {
+						frameRef.current = requestAnimationFrame(update);
+					} else {
+						onExpire();
+					}
+				}
+
+				frameRef.current = requestAnimationFrame(update);
+				return () => cancelAnimationFrame(frameRef.current);
+			}, [enabled, duration, onExpire]);
+
+			return countdown;
+		}
+
+		function Content({ phase, currentCard }) {
+			function getContent() {
+				switch (phase) {
+					case PHASES.INIT:
+						return <>
+							<div className="emoji">🐱</div>
+							<div className="title">Карточки по литературе для подготовки к ВПР 4 класс</div>
+						</>;
+					case PHASES.GUESSING:
+						return <div className="author">{currentCard.author}</div>;
+					case PHASES.CHECKING:
+					case PHASES.EXPIRED:
+						return <>
+							<div className="author">{currentCard.author}</div>
+							<div className="title">{currentCard.title}</div>
+						</>;
+					case PHASES.DONE:
+						return <>
+							<div className="emoji">🎉</div>
+							<div className="title">Все карточки выучены!</div>
+						</>;
+					default:
+						return null;
+				}
+			}
+
+			return <div className="content">{ getContent() }</div>;
+		}
+
+		function Timer({ phase, dispatch }) {
+			const isRunning = phase === PHASES.GUESSING;
+			const onExpire = React.useCallback(() => { dispatch({ type: 'EXPIRE' })}, [dispatch]);
+			const countdown = useCountdown({ enabled: isRunning, duration: GUESS_TIME, onExpire });
+
+			if (!isRunning) {
+				return null;
+			}
+
+			return (
+				<div className="timer">
+					<div className="timer-bar" style={{ width: `${(countdown / GUESS_TIME) * 100}%` }}></div>
+				</div>
+			);
+		}
+
+		function Buttons({ phase, dispatch }) {
+			function getButtons() {
+				switch (phase) {
+					case PHASES.INIT:
+						return <button className="neutral" onClick={() => dispatch({ type: 'GUESS' })}>Начать</button>;
+					case PHASES.GUESSING:
+						return <button className="neutral" onClick={() => dispatch({ type: 'CHECK' })}>Проверить</button>;
+					case PHASES.CHECKING:
+						return <>
+							<button className="success" onClick={() => dispatch({ type: 'ANSWER', guessed: true })}>Знаю</button>
+							<button className="fail" onClick={() => dispatch({ type: 'ANSWER', guessed: false })}>Не знаю</button>
+						</>;
+					case PHASES.EXPIRED:
+						return <button className="neutral" onClick={() => dispatch({ type: 'ANSWER', guessed: false })}>Дальше</button>;
+					case PHASES.DONE:
+						return null;
+					default:
+						return null;
+				}
+			}
+
+			return <div className="buttons">{ getButtons() }</div>;
+		}
+
+		function Card({ phase, currentCard, dispatch }) {
+			return (
+				<div className="box card">
+					<Content phase={phase} currentCard={currentCard} />
+					<Timer phase={phase} dispatch={dispatch} />
+					<Buttons phase={phase} dispatch={dispatch} />
+				</div>
+			);
+		}
+
+		function Stats({ phase, initialCards, activeCards }) {
+			if (
+				phase === PHASES.INIT ||
+				phase === PHASES.DONE
+			) {
+				return null;
+			}
+
+			const count = {
+				total: initialCards.length,
+				finished: initialCards.length - activeCards.length,
+				learning: activeCards.filter(card => card.guessedCount > 0).length,
+			};
+
+			return (
+				<div className="stats">
+					<div className="stats-finished" style={{ width: `${(count.finished / count.total) * 100}%` }} />
+					<div className="stats-learning" style={{ width: `${(count.learning / count.total) * 100}%` }} />
+					<div className="stats-value">{count.finished} / {count.total}</div>
+				</div>
+			);
+		}
+
+		function Editor({ initialCards, activeCards, dispatch }) {
+			const [ editorValue, setEditorValue ] = useState(initialCardsText);
+			const [ isEditorOpen, setIsEditorOpen ] = useState(false);
+
+			function editCards() {
+				if (!confirm('Весь прогресс будет утерян. Продолжить?')) {
+					return;
+				}
+
+				dispatch({ type: 'RESET', initialCards });
+				setIsEditorOpen(v => !v);
+			}
+
+			function saveCards() {
+				const parsedCards = parseCards(editorValue);
+
+				if (parsedCards.length === 0) {
+					alert('Список карточек пуст');
+					return;
+				}
+
+				localStorage.setItem(STORAGE_KEY, editorValue);
+				dispatch({ type: 'RESET', initialCards: parsedCards });
+				setIsEditorOpen(false);
+			}
+
+			function resetCards() {
+				if (!confirm('Все карточки будут возвращены к первоначальному списку. Продолжить?')) {
+					return;
+				}
+
+				localStorage.setItem(STORAGE_KEY, defaultCardsText);
+				setEditorValue(defaultCardsText);
+				dispatch({ type: 'RESET', initialCards: defaultCards });
+			}
+
+			const buttons = isEditorOpen
+				? <>
+					<button className="success" onClick={saveCards}>Сохранить</button>
+					<button className="fail" onClick={resetCards}>Вернуть как было</button>
+				</>
+				: <button className="neutral" onClick={editCards}>Редактировать карточки</button>
+
+			return (
+				<div className="box">
+					{ isEditorOpen && <textarea value={editorValue} onChange={e => setEditorValue(e.target.value)} /> }
+					<div className="buttons">
+						{buttons}
+					</div>
+				</div>
+			);
+		}
+
+		function App() {
+			const [ state, dispatch ] = useReducer(reducer, undefined, createInitialState);
+
+			return (
+				<div className="app" data-phase={state.phase.toLowerCase()}>
+					<Editor initialCards={state.initialCards} activeCards={state.activeCards} dispatch={dispatch} />
+					<Card phase={state.phase} currentCard={state.currentCard} dispatch={dispatch} />
+					<Stats phase={state.phase} initialCards={state.initialCards} activeCards={state.activeCards} />
+				</div>
+			);
+		}
+
+		ReactDOM.createRoot(document.getElementById("root")).render(<App />);
+	</script>
+</body>
+</html>
