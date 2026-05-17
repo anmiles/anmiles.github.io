@@ -218,6 +218,7 @@
 			background: white;
 			box-shadow: var(--shadow);
 			height: var(--button-height);
+			padding: 0;
 			display: flex;
 		}
 
@@ -268,7 +269,6 @@
 
 		const STORAGE_KEY = 'cards-data';
 		const GUESS_TIME = 10000;
-		const REQUIRED_GUESSES = 2;
 
 		const PHASES = {
 			INIT: 'INIT',
@@ -287,112 +287,72 @@
 				.split('\n')
 				.filter(line => line.trim())
 				.map((line, index) => {
-					const [ author, title ] = line.split(': ').map(s => s.trim());
-
-					return {
-						id: index,
-						author,
-						title : title ?? 'Без названия',
-						guessedCount: 0,
-					};
-				});
+					const [ author, title ] = line.split(':').map(s => s.trim());
+					return { author, title : title ?? 'Без названия'};
+				})
+				.sort(() => Math.random() - 0.5);
 		}
 
-		function getRandomCard(cards, previousCardId = null) {
-			if (cards.length === 0) {
-				return null;
+		function nextState(state) {
+			if (!state.currentCard) {
+				return {
+					...state,
+					phase: PHASES.INIT,
+					activeCards: state.initialCards,
+					currentCard: state.initialCards[0],
+					isRepeat: false,
+				};
 			}
 
-			if (cards.length === 1) {
-				return cards[0];
+			const nextActiveCards = state.activeCards.filter(card => !state.answer || card.author !== state.currentCard.author);
+
+			if (nextActiveCards.length > 0) {
+				const currentIndex = nextActiveCards.findIndex(card => card.author === state.currentCard.author);
+				const nextIndex = (currentIndex + 1) % nextActiveCards.length;
+
+				return {
+					...state,
+					phase: PHASES.GUESSING,
+					activeCards: nextActiveCards,
+					currentCard: nextActiveCards[nextIndex],
+				};
 			}
 
-			let nextCard;
+			if (!state.isRepeat) {
+				return {
+					...state,
+					phase: PHASES.GUESSING,
+					activeCards: state.initialCards,
+					currentCard: state.initialCards[0],
+					isRepeat: true,
+				};
+			}
 
-			do {
-				nextCard = cards[Math.floor(Math.random() * cards.length)];
-			} while (previousCardId !== null && nextCard.id === previousCardId)
-
-			return nextCard;
+			return {
+				...state,
+				phase: PHASES.DONE,
+				activeCards: [],
+				currentCard: null,
+				isRepeat: false,
+			};
 		}
 
 		function createInitialState() {
-			const initialCards = parseCards(initialCardsText);
-			const firstCard = getRandomCard(initialCards);
-
-			return {
-				phase: PHASES.INIT,
-				initialCards,
-				activeCards: initialCards,
-				currentCard: firstCard,
-			};
+			return nextState({ initialCards: parseCards(initialCardsText) });
 		}
 
 		function reducer(state, action) {
 			switch (action.type) {
-				case 'GUESS': {
-					return {
-						...state,
-						phase: PHASES.GUESSING
-					}
-				}
-				case 'CHECK': {
-					return {
-						...state,
-						phase: PHASES.CHECKING
-					}
-				}
-				case 'EXPIRE': {
-					return {
-						...state,
-						phase: PHASES.EXPIRED
-					}
-				}
-				case 'ANSWER': {
-					const updatedCards = state.activeCards
-						.map(card => {
-							const inc = card.id === state.currentCard.id && action.guessed ? 1 : 0;
-
-							return {
-								...card,
-								guessedCount: card.guessedCount + inc
-							}
-						})
-						.filter(card => card.guessedCount < REQUIRED_GUESSES);
-
-					if (updatedCards.length === 0) {
-						return {
-							...state,
-							phase: PHASES.DONE,
-							activeCards: [],
-							currentCard: null,
-						};
-					}
-
-					return {
-						...state,
-						phase: PHASES.GUESSING,
-						activeCards: updatedCards,
-						currentCard: getRandomCard(updatedCards, state.currentCard.id),
-					};
-				}
-
-				case 'RESET': {
-					return {
-						...state,
-						phase: PHASES.INIT,
-						initialCards: action.initialCards,
-						activeCards: action.initialCards,
-						currentCard: getRandomCard(action.initialCards),
-					};
-				}
-
-				default: {
-					return {
-						...state,
-						phase: action.type,
-					};
-				}
+				case 'GUESS':
+					return { ...state, phase: PHASES.GUESSING };
+				case 'CHECK':
+					return { ...state, phase: PHASES.CHECKING };
+				case 'EXPIRE':
+					return { ...state, phase: PHASES.EXPIRED };
+				case 'NEXT':
+					return nextState({...state, answer: action.answer });
+				case 'RESET':
+					return nextState({...state, currentCard: null, initialCards: action.initialCards ?? state.initialCards });
 			}
 		}
 
@@ -483,13 +443,13 @@
 						return <button className="neutral" onClick={() => dispatch({ type: 'CHECK' })}>Проверить</button>;
 					case PHASES.CHECKING:
 						return <>
-							<button className="success" onClick={() => dispatch({ type: 'ANSWER', guessed: true })}>Знаю</button>
-							<button className="fail" onClick={() => dispatch({ type: 'ANSWER', guessed: false })}>Не знаю</button>
+							<button className="success" onClick={() => dispatch({ type: 'NEXT', answer: true })}>Знаю</button>
+							<button className="fail" onClick={() => dispatch({ type: 'NEXT', answer: false })}>Не знаю</button>
 						</>;
 					case PHASES.EXPIRED:
-						return <button className="neutral" onClick={() => dispatch({ type: 'ANSWER', guessed: false })}>Дальше</button>;
+						return <button className="neutral" onClick={() => dispatch({ type: 'NEXT', answer: false })}>Дальше</button>;
 					case PHASES.DONE:
-						return null;
+						return <button className="neutral" onClick={() => dispatch({ type: 'RESET' })}>Ура!</button>;
 					default:
 						return null;
 				}
@@ -498,7 +458,9 @@
 			return <div className="buttons">{ getButtons() }</div>;
 		}
 
-		function Card({ phase, currentCard, dispatch }) {
+		function Card({ state, dispatch }) {
+			const { phase, currentCard } = state;
+
 			return (
 				<div className="box card">
 					<Content phase={phase} currentCard={currentCard} />
@@ -508,30 +470,42 @@
 			);
 		}
 
-		function Stats({ phase, initialCards, activeCards }) {
-			if (
-				phase === PHASES.INIT ||
-				phase === PHASES.DONE
-			) {
-				return null;
+		function Stats({ state }) {
+			const { phase, initialCards, activeCards, isRepeat } = state;
+
+			if (phase === PHASES.INIT) {
+				return;
 			}
 
 			const count = {
 				total: initialCards.length,
 				finished: initialCards.length - activeCards.length,
-				learning: activeCards.filter(card => card.guessedCount > 0).length,
 			};
+
+			const finishedWidth = phase === PHASES.DONE
+				? 1
+				: isRepeat
+					? count.finished / count.total
+					: 0;
+
+			const learningWidth = phase === PHASES.DONE
+				? 0
+				: isRepeat
+					? 1 - finishedWidth
+					: count.finished / count.total;
 
 			return (
 				<div className="stats">
-					<div className="stats-finished" style={{ width: `${(count.finished / count.total) * 100}%` }} />
-					<div className="stats-learning" style={{ width: `${(count.learning / count.total) * 100}%` }} />
-					<div className="stats-value">{count.finished} / {count.total}</div>
+					<div className="stats-finished" style={{ width: `${finishedWidth * 100}%` }} />
+					<div className="stats-learning" style={{ width: `${learningWidth * 100}%` }} />
+					<div className="stats-value">{isRepeat ? count.finished || count.total : count.finished} / {count.total}</div>
 				</div>
 			);
 		}
 
-		function Editor({ initialCards, activeCards, dispatch }) {
+		function Editor({ state, dispatch }) {
+			const { initialCards } = state;
+
 			const [ editorValue, setEditorValue ] = useState(initialCardsText);
 			const [ isEditorOpen, setIsEditorOpen ] = useState(false);
 
@@ -540,7 +514,7 @@
 					return;
 				}
 
-				dispatch({ type: 'RESET', initialCards });
+				dispatch({ type: 'RESET' });
 				setIsEditorOpen(v => !v);
 			}
 
@@ -589,9 +563,9 @@
 
 			return (
 				<div className="app" data-phase={state.phase.toLowerCase()}>
-					<Editor initialCards={state.initialCards} activeCards={state.activeCards} dispatch={dispatch} />
-					<Card phase={state.phase} currentCard={state.currentCard} dispatch={dispatch} />
-					<Stats phase={state.phase} initialCards={state.initialCards} activeCards={state.activeCards} />
+					<Editor state={state} dispatch={dispatch} />
+					<Card state={state} dispatch={dispatch} />
+					<Stats state={state} />
 				</div>
 			);
 		}
