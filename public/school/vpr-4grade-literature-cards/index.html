@@ -79,8 +79,9 @@
 			--color-bg-card: #ffffff;
 
 			--color-neutral: #ffc952;
-			--color-success: #34c759;
-			--color-fail: #ff3b30;
+			--color-success: #009933;
+			--color-learning: #ff8f0f;
+			--color-fail: #cc0000;
 
 			--color-text: #333333;
 			--color-text-light: #ffffff;
@@ -109,7 +110,8 @@
 		body {
 			background: var(--color-bg-body);
 			color: var(--color-text);
-			font-family: Arial, sans-serif;
+			font-family: "Segoe UI", "Roboto", "Helvetica", sans-serif;
+			font-size: 16px;
 			display: flex;
 			flex-direction: column;
 			align-items: center;
@@ -134,6 +136,7 @@
 			display: flex;
 			flex-direction: column;
 			gap: var(--spacing);
+			position: relative;
 		}
 
 		.card {
@@ -146,7 +149,20 @@
 			flex-direction: column;
 			text-align: center;
 			gap: var(--spacing);
-			padding: var(--spacing) 0;
+			padding: calc(2 * var(--spacing)) 0 var(--spacing) 0;
+		}
+
+		.repeat {
+			background: var(--color-success);
+			color: var(--color-text-light);
+			width: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+			padding: calc(var(--spacing) / 2) 0;
+			border-radius: var(--radius) var(--radius) 0 0;
+			text-transform: uppercase;
+			font-weight: bold;
 		}
 
 		.author {
@@ -169,8 +185,8 @@
 			border: none;
 			border-radius: var(--radius);
 			height: var(--button-height);
-			font-size: 18px;
 			font-weight: bold;
+			font-size: 1em;
 			cursor: pointer;
 			transition: 0.2s;
 		}
@@ -232,7 +248,7 @@
 		}
 
 		.stats-learning {
-			background: var(--color-neutral);
+			background: var(--color-learning);
 		}
 
 		.stats-value {
@@ -245,14 +261,14 @@
 		}
 
 		.emoji {
-			font-size: 72px;
+			font-size: 3em;
 		}
 
 		textarea {
 			width: 100%;
 			min-height: 300px;
 			resize: vertical;
-			font-size: 16px;
+			font-size: 1em;
 		}
 	</style>
 </head>
@@ -304,7 +320,11 @@
 				};
 			}
 
-			const nextActiveCards = state.activeCards.filter(card => !state.answer || card.author !== state.currentCard.author);
+			const nextActiveCards = state.activeCards.filter(card => card.author !== state.currentCard.author);
+
+			if (!state.answer) {
+				nextActiveCards.push(state.currentCard);
+			}
 
 			if (nextActiveCards.length > 0) {
 				const currentIndex = nextActiveCards.findIndex(card => card.author === state.currentCard.author);
@@ -389,7 +409,7 @@
 			return countdown;
 		}
 
-		function Content({ phase, currentCard }) {
+		function Content({ phase, currentCard, isRepeat }) {
 			function getContent() {
 				switch (phase) {
 					case PHASES.INIT:
@@ -415,7 +435,12 @@
 				}
 			}
 
-			return <div className="content">{ getContent() }</div>;
+			return (
+				<div className="content">
+					{ isRepeat && <div class="repeat">Повторение</div> }
+					{ getContent() }
+				</div>
+			);
 		}
 
 		function Timer({ phase, dispatch }) {
@@ -455,15 +480,19 @@
 				}
 			}
 
-			return <div className="buttons">{ getButtons() }</div>;
+			return (
+				<div className="buttons">
+					{ getButtons() }
+				</div>
+			);
 		}
 
 		function Card({ state, dispatch }) {
-			const { phase, currentCard } = state;
+			const { phase, currentCard, isRepeat } = state;
 
 			return (
 				<div className="box card">
-					<Content phase={phase} currentCard={currentCard} />
+					<Content phase={phase} currentCard={currentCard} isRepeat={ isRepeat } />
 					<Timer phase={phase} dispatch={dispatch} />
 					<Buttons phase={phase} dispatch={dispatch} />
 				</div>
