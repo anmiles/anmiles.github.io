@@ -26,7 +26,7 @@
 Ермолаев: Два пирожных
 Ершов: Конёк-горбунок
 Есенин: Берёза
-Жидков: Как я ловил человечков
+Житков: Как я ловил человечков
 Жуковский: Светлана
 Заходер: Кит и кот
 Зощенко: Ёлка
@@ -82,7 +82,6 @@
 
 			--color-neutral: #ffc952;
 			--color-success: #009933;
-			--color-learning: #ff8f0f;
 			--color-fail: #cc0000;
 
 			--color-text: #333333;
@@ -145,6 +144,22 @@
 			min-height: var(--card-height);
 		}
 
+		.card.correct {
+			outline: 4px solid var(--color-success);
+		}
+
+		.card.correct .error {
+			display: none;
+		}
+
+		.card.incorrect {
+			outline: 4px solid var(--color-fail);
+		}
+
+		.card.incorrect .error {
+			color: var(--color-fail);
+		}
+
 		.content {
 			flex: 1;
 			display: flex;
@@ -152,19 +167,6 @@
 			text-align: center;
 			gap: var(--spacing);
 			padding: calc(2 * var(--spacing)) 0 var(--spacing) 0;
-		}
-
-		.repeat {
-			background: var(--color-success);
-			color: var(--color-text-light);
-			width: 100%;
-			position: absolute;
-			left: 0;
-			top: 0;
-			padding: calc(var(--spacing) / 2) 0;
-			border-radius: var(--radius) var(--radius) 0 0;
-			text-transform: uppercase;
-			font-weight: bold;
 		}
 
 		.author {
@@ -240,17 +242,9 @@
 			display: flex;
 		}
 
-		.stats-finished,
-		.stats-learning {
-			transition: width 0.3s;
-		}
-
 		.stats-finished {
+			transition: width 0.3s;
 			background: var(--color-success);
-		}
-
-		.stats-learning {
-			background: var(--color-learning);
 		}
 
 		.stats-value {
@@ -286,14 +280,24 @@
 		} = React;
 
 		const STORAGE_KEY = 'cards-data';
-		const GUESS_TIME = 10000;
+		const QUESTION_TIMEOUT = 10000;
+		const HAS_SPEECH_RECOGNITION = Boolean(window.SpeechRecognition || window.webkitSpeechRecognition);
 
 		const PHASES = {
 			INIT: 'INIT',
-			GUESSING: 'GUESSING',
-			CHECKING: 'CHECKING',
-			EXPIRED: 'EXPIRED',
+			MODE: 'MODE',
+			QUESTION: 'QUESTION',
+			CHECK: 'CHECK',
+			ANSWER: 'ANSWER',
 			DONE: 'DONE',
+		};
+
+		const ACTIONS = {
+			MODE: 'MODE',
+			QUESTION: 'QUESTION',
+			CHECK: 'CHECK',
+			ANSWER: 'ANSWER',
+			RESET: 'RESET',
 		};
 
 		const defaultCardsText = document.querySelector('#cards-data').textContent.trim();
@@ -305,76 +309,180 @@
 				.split('\n')
 				.filter(line => line.trim())
 				.map((line, index) => {
-					const [ author, title ] = line.split(':').map(s => s.trim());
-					return { author, title : title ?? 'Без названия'};
+					const firstSeparatorIndex = line.indexOf(':');
+					const title = line.slice(firstSeparatorIndex + 1).trim();
+
+					const author = firstSeparatorIndex === -1
+						? title
+						: line.slice(0, firstSeparatorIndex).trim();
+
+					return { author, title };
 				})
 				.sort(() => Math.random() - 0.5);
 		}
 
-		function nextState(state) {
-			if (!state.currentCard) {
-				return {
-					...state,
-					phase: PHASES.INIT,
-					activeCards: state.initialCards,
-					currentCard: state.initialCards[0],
-					isRepeat: false,
-				};
-			}
+		function useCompareSpeech({ enabled, correctAnswer, onResult }) {
+			useEffect(() => {
+				if (!enabled) {
+					return;
+				}
 
-			const nextActiveCards = state.activeCards.filter(card => card.author !== state.currentCard.author);
+				const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 
-			if (!state.answer) {
-				nextActiveCards.push(state.currentCard);
-			}
+				if (!SpeechRecognition) {
+					return;
+				}
 
-			if (nextActiveCards.length > 0) {
-				const currentIndex = nextActiveCards.findIndex(card => card.author === state.currentCard.author);
-				const nextIndex = (currentIndex + 1) % nextActiveCards.length;
+				const recognition = new SpeechRecognition();
+				recognition.lang = 'ru-RU';
+				recognition.interimResults = false;
+				recognition.continuous = false;
 
-				return {
-					...state,
-					phase: PHASES.GUESSING,
-					activeCards: nextActiveCards,
-					currentCard: nextActiveCards[nextIndex],
-				};
-			}
+				let timeoutId = null;
+				let cancelled = false;
 
-			if (!state.isRepeat) {
-				return {
-					...state,
-					phase: PHASES.GUESSING,
-					activeCards: state.initialCards,
-					currentCard: state.initialCards[0],
-					isRepeat: true,
-				};
-			}
+				function cancel() {
+					cancelled = true;
+					timeoutId && clearTimeout(timeoutId);
 
-			return {
-				...state,
-				phase: PHASES.DONE,
-				activeCards: [],
-				currentCard: null,
-				isRepeat: false,
-			};
+					recognition.onresult = null;
+					recognition.onerror = null;
+					recognition.onend = null;
+
+					try {
+						recognition.stop();
+					} catch {}
+				}
+
+				const replacements = [
+					{ find: '12', replace: 'Двенадцать' },
+					{ find: '4', replace: 'Четыре' },
+					{ find: '2', replace: 'Два' },
+				]
+
+				function normalize(text) {
+					for (const {find, replace } of replacements) {
+						text = text.replaceAll(find, replace);
+					}
+
+					return text
+						.toLowerCase()
+						.replace(/ё/g, 'е')
+						.replace(/[^\p{L}\p{N}\s]/gu, '')
+						.replace(/\s+/g, ' ')
+						.trim();
+				}
+
+				new Promise(resolve => {
+					timeoutId = setTimeout(() => {
+						resolve({ isCorrect: false });
+					}, QUESTION_TIMEOUT);
+
+					recognition.onresult = (event) => {
+						const answer = event.results[0][0].transcript;
+						const isCorrect = normalize(answer) === normalize(correctAnswer);
+						resolve({ isCorrect, answer });
+					};
+
+					recognition.onerror = (error) => {
+						console.error(error);
+						resolve({ isCorrect: false, error });
+					};
+
+					recognition.onend = () => {
+						resolve({ isCorrect: false });
+					};
+
+					recognition.start();
+				}).then((result) => {
+					if (!cancelled) {
+						onResult(result);
+						cancel();
+					}
+				});
+
+				return cancel;
+			}, [enabled, correctAnswer, onResult]);
 		}
 
 		function createInitialState() {
-			return nextState({ initialCards: parseCards(initialCardsText) });
+			const initialCards = parseCards(initialCardsText);
+
+			return {
+				phase: PHASES.INIT,
+				initialCards,
+				activeCards: initialCards,
+				currentCard: null,
+				useSpeechRecognition: false,
+				isCorrect: undefined,
+				answer: undefined,
+				error: undefined,
+			};
 		}
 
 		function reducer(state, action) {
 			switch (action.type) {
-				case 'GUESS':
-					return { ...state, phase: PHASES.GUESSING };
-				case 'CHECK':
-					return { ...state, phase: PHASES.CHECKING };
-				case 'EXPIRE':
-					return { ...state, phase: PHASES.EXPIRED };
-				case 'NEXT':
-					return nextState({...state, answer: action.answer });
-				case 'RESET':
-					return nextState({...state, currentCard: null, initialCards: action.initialCards ?? state.initialCards });
+				case ACTIONS.MODE: {
+					return {
+						...state,
+						phase: PHASES.MODE,
+					}
+				}
+				case ACTIONS.QUESTION: {
+					if (state.activeCards.length > 0) {
+						const currentIndex = state.activeCards.findIndex(card => card.author === state.currentCard?.author);
+						const nextIndex = (currentIndex + 1) % state.activeCards.length;
+
+						return {
+							...state,
+							phase: PHASES.QUESTION,
+							useSpeechRecognition: action.useSpeechRecognition ?? state.useSpeechRecognition,
+							currentCard: state.activeCards[nextIndex],
+						};
+					}
+
+					return {
+						...state,
+						phase: PHASES.DONE,
+						currentCard: null,
+					};
+				}
+				case ACTIONS.CHECK: {
+					return {
+						...state,
+						phase: PHASES.CHECK,
+					}
+				}
+				case ACTIONS.ANSWER: {
+					const nextActiveCards = state.activeCards.filter(card => card.author !== state.currentCard?.author);
+
+					if (!action.isCorrect && state.currentCard) {
+						nextActiveCards.push(state.currentCard);
+					}
+
+					return {
+						...state,
+						phase: PHASES.ANSWER,
+						activeCards: nextActiveCards,
+						isCorrect: action.isCorrect,
+						answer: action.answer,
+						error: action.error,
+					};
+				}
+				case ACTIONS.RESET: {
+					const initialCards = action.initialCards ?? state.initialCards;
+
+					return {
+						...state,
+						phase: PHASES.INIT,
+						initialCards: initialCards,
+						activeCards: initialCards,
+						currentCard: null,
+					};
+				}
+				default: {
+					return state;
+				}
 			}
 		}
 
@@ -406,26 +514,34 @@
 
 				frameRef.current = requestAnimationFrame(update);
 				return () => cancelAnimationFrame(frameRef.current);
-			}, [enabled, duration, onExpire]);
+			}, [enabled, duration]);
 
 			return countdown;
 		}
 
-		function Content({ phase, currentCard, isRepeat }) {
+		function Content({ state }) {
+			const { phase, currentCard, answer, error, useSpeechRecognition } = state;
+
 			function getContent() {
 				switch (phase) {
 					case PHASES.INIT:
+					case PHASES.MODE:
 						return <>
 							<div className="emoji">🐱</div>
 							<div className="title">Карточки по литературе для подготовки к ВПР 4 класс</div>
 						</>;
-					case PHASES.GUESSING:
-						return <div className="author">{currentCard.author}</div>;
-					case PHASES.CHECKING:
-					case PHASES.EXPIRED:
+					case PHASES.QUESTION:
+						return <>
+							<div className="author">{currentCard.author}</div>
+							<div className="title"></div>
+							{ useSpeechRecognition && <div className="speech-desc">Слушаю...</div> }
+						</>;
+					case PHASES.CHECK:
+					case PHASES.ANSWER:
 						return <>
 							<div className="author">{currentCard.author}</div>
 							<div className="title">{currentCard.title}</div>
+							{ useSpeechRecognition && answer && <div className="speech-desc error">{ 'Твой ответ: ' + answer }</div> }
 						</>;
 					case PHASES.DONE:
 						return <>
@@ -439,44 +555,58 @@
 
 			return (
 				<div className="content">
-					{ isRepeat && <div class="repeat">Повторение</div> }
 					{ getContent() }
 				</div>
 			);
 		}
 
-		function Timer({ phase, dispatch }) {
-			const isRunning = phase === PHASES.GUESSING;
-			const onExpire = React.useCallback(() => { dispatch({ type: 'EXPIRE' })}, [dispatch]);
-			const countdown = useCountdown({ enabled: isRunning, duration: GUESS_TIME, onExpire });
+		function Timer({ state, dispatch }) {
+			const { phase, useSpeechRecognition } = state;
 
-			if (!isRunning) {
+			const countdown = useCountdown({
+				enabled: phase === PHASES.QUESTION,
+				duration: QUESTION_TIMEOUT,
+				onExpire: useSpeechRecognition
+					? () => {}
+					: () => dispatch({ type: ACTIONS.ANSWER }),
+			});
+
+			if (phase !== PHASES.QUESTION) {
 				return null;
 			}
 
 			return (
 				<div className="timer">
-					<div className="timer-bar" style={{ width: `${(countdown / GUESS_TIME) * 100}%` }}></div>
+					<div className="timer-bar" style={{ width: `${(countdown / QUESTION_TIMEOUT) * 100}%` }}></div>
 				</div>
 			);
 		}
 
-		function Buttons({ phase, dispatch }) {
+		function Buttons({ state, dispatch }) {
+			const { phase, useSpeechRecognition } = state;
+
 			function getButtons() {
 				switch (phase) {
 					case PHASES.INIT:
-						return <button className="neutral" onClick={() => dispatch({ type: 'GUESS' })}>Начать</button>;
-					case PHASES.GUESSING:
-						return <button className="neutral" onClick={() => dispatch({ type: 'CHECK' })}>Проверить</button>;
-					case PHASES.CHECKING:
+						return <button className="neutral" onClick={() => dispatch({ type: HAS_SPEECH_RECOGNITION ? ACTIONS.MODE : ACTIONS.QUESTION })}>Начать</button>;
+					case PHASES.MODE:
 						return <>
-							<button className="success" onClick={() => dispatch({ type: 'NEXT', answer: true })}>Знаю</button>
-							<button className="fail" onClick={() => dispatch({ type: 'NEXT', answer: false })}>Не знаю</button>
+							<button className="success" onClick={() => dispatch({ type: ACTIONS.QUESTION, useSpeechRecognition: true })}>Есть микрофон</button>
+							<button className="fail" onClick={() => dispatch({ type: ACTIONS.QUESTION, useSpeechRecognition: false })}>Нет микрофона</button>
 						</>;
-					case PHASES.EXPIRED:
-						return <button className="neutral" onClick={() => dispatch({ type: 'NEXT', answer: false })}>Дальше</button>;
+					case PHASES.QUESTION:
+						return useSpeechRecognition
+							? null
+							: <button className="neutral" onClick={() => dispatch({ type: ACTIONS.CHECK })}>Проверить</button>;
+					case PHASES.CHECK:
+						return <>
+							<button className="success" onClick={() => dispatch({ type: ACTIONS.ANSWER, isCorrect: true })}>Знаю</button>
+							<button className="fail" onClick={() => dispatch({ type: ACTIONS.ANSWER, isCorrect: false })}>Не знаю</button>
+						</>;
+					case PHASES.ANSWER:
+						return <button className="neutral" onClick={() => dispatch({ type: ACTIONS.QUESTION })}>Дальше</button>;
 					case PHASES.DONE:
-						return <button className="neutral" onClick={() => dispatch({ type: 'RESET' })}>Ура!</button>;
+						return <button className="neutral" onClick={() => dispatch({ type: ACTIONS.RESET })}>Ура!</button>;
 					default:
 						return null;
 				}
@@ -490,46 +620,39 @@
 		}
 
 		function Card({ state, dispatch }) {
-			const { phase, currentCard, isRepeat } = state;
+			const { phase, currentCard, isCorrect, useSpeechRecognition } = state;
+
+			useCompareSpeech({
+				enabled: useSpeechRecognition && phase === PHASES.QUESTION,
+				correctAnswer: currentCard?.title ?? '',
+				onResult: ({ isCorrect, answer, error}) => dispatch({ type: ACTIONS.ANSWER, isCorrect, answer, error }),
+			});
+
+			const cardClass = useSpeechRecognition && phase === PHASES.ANSWER ? (isCorrect ? 'correct' : 'incorrect') : '';
 
 			return (
-				<div className="box card">
-					<Content phase={phase} currentCard={currentCard} isRepeat={ isRepeat } />
-					<Timer phase={phase} dispatch={dispatch} />
-					<Buttons phase={phase} dispatch={dispatch} />
+				<div className={ `box card ${cardClass}` }>
+					<Content state={state} />
+					<Timer state={state} dispatch={dispatch} />
+					<Buttons state={state} dispatch={dispatch} />
 				</div>
 			);
 		}
 
 		function Stats({ state }) {
-			const { phase, initialCards, activeCards, isRepeat } = state;
+			const { phase, initialCards, activeCards } = state;
 
 			if (phase === PHASES.INIT) {
 				return;
 			}
 
-			const count = {
-				total: initialCards.length,
-				finished: initialCards.length - activeCards.length,
-			};
-
-			const finishedWidth = phase === PHASES.DONE
-				? 1
-				: isRepeat
-					? count.finished / count.total
-					: 0;
-
-			const learningWidth = phase === PHASES.DONE
-				? 0
-				: isRepeat
-					? 1 - finishedWidth
-					: count.finished / count.total;
+			const totalCount = initialCards.length;
+			const finishedCount = initialCards.length - activeCards.length;
 
 			return (
 				<div className="stats">
-					<div className="stats-finished" style={{ width: `${finishedWidth * 100}%` }} />
-					<div className="stats-learning" style={{ width: `${learningWidth * 100}%` }} />
-					<div className="stats-value">{isRepeat ? count.finished || count.total : count.finished} / {count.total}</div>
+					<div className="stats-finished" style={{ width: `${(finishedCount / totalCount) * 100}%` }} />
+					<div className="stats-value">{finishedCount} / {totalCount}</div>
 				</div>
 			);
 		}
@@ -545,7 +668,7 @@
 					return;
 				}
 
-				dispatch({ type: 'RESET' });
+				dispatch({ type: ACTIONS.RESET });
 				setIsEditorOpen(v => !v);
 			}
 
@@ -558,7 +681,7 @@
 				}
 
 				localStorage.setItem(STORAGE_KEY, editorValue);
-				dispatch({ type: 'RESET', initialCards: parsedCards });
+				dispatch({ type: ACTIONS.RESET, initialCards: parsedCards });
 				setIsEditorOpen(false);
 			}
 
@@ -569,7 +692,7 @@
 
 				localStorage.setItem(STORAGE_KEY, defaultCardsText);
 				setEditorValue(defaultCardsText);
-				dispatch({ type: 'RESET', initialCards: defaultCards });
+				dispatch({ type: ACTIONS.RESET, initialCards: defaultCards });
 			}
 
 			const buttons = isEditorOpen
@@ -591,9 +714,16 @@
 
 		function App() {
 			const [ state, dispatch ] = useReducer(reducer, undefined, createInitialState);
+			const { phase, useSpeechRecognition } = state;
+
+			useEffect(() => {
+				if (!useSpeechRecognition && phase === PHASES.ANSWER) {
+					dispatch({ type: ACTIONS.QUESTION });
+				}
+			}, [phase, useSpeechRecognition]);
 
 			return (
-				<div className="app" data-phase={state.phase.toLowerCase()}>
+				<div className="app" data-phase={phase.toLowerCase()}>
 					<Editor state={state} dispatch={dispatch} />
 					<Card state={state} dispatch={dispatch} />
 					<Stats state={state} />
