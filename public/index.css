@@ -27,7 +27,6 @@ body[data-theme="dark"] {
 	--link-color: hsl(195, 43%, 50%);
 	--box-background-color: hsl(0, 0%, 15%);
 	--body-background-image: url();
-	--link-brightness-hover: 1.25;
 	--button-background-color: hsl(0, 0%, 25%);
 	--button-border-color: hsl(0, 0%, 35%);
 	--button-brightness-hover: 1.1;
@@ -60,10 +59,7 @@ body {
 	line-height: 150%;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
 	align-items: center;
-	padding: 1em;
-	gap: 1em;
 	color: var(--text-color);
 }
 
@@ -79,6 +75,11 @@ body:before {
 	background-image: var(--body-background-image);
 	background-position: center center;
 	background-repeat: no-repeat;
+}
+
+body,
+body:before {
+	height: 100dvh;
 }
 
 /* box */
@@ -105,6 +106,7 @@ main {
 	display: flex;
 	flex-direction: column;
 	flex-grow: 1;
+	min-height: 0;
 	gap: 1em;
 	overflow-y: auto;
 }
@@ -126,11 +128,11 @@ main > [lang] > hr:last-child {
 header,
 footer {
 	z-index: 2;
-	height: var(--header-footer-height);
+	min-height: calc(2em + var(--header-footer-height));
+	padding: 1em;
 }
 
 header {
-	padding: 0 1em;
 	display: grid;
 	grid-template-columns: 1fr auto 1fr;
 	align-items: center;
@@ -157,6 +159,14 @@ header h1 {
 	margin: 0;
 }
 
+main {
+	margin-bottom: 1em;
+}
+
+footer {
+	margin-top: -1em;
+}
+
 @media screen and (max-width: 800px) {
 	main {
 		width: 100vw;
@@ -167,9 +177,16 @@ header h1 {
 		border-radius: 0;
 	}
 
-	header,
+	main:last-child {
+		padding-bottom: 0;
+	}
+
+	main {
+		margin-bottom: 0;
+	}
+
 	footer {
-		padding: 0;
+		margin-top: 0;
 	}
 }
 
