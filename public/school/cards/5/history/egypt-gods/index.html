@@ -31,6 +31,7 @@
 	<script src="https://unpkg.com/react@18/umd/react.development.js"></script>
 	<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
 	<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+	<script type="text/javascript" src="/scripts/levenshtein.js?v={VERSION}"></script>
 
 	<style>
 		* {
@@ -242,6 +243,7 @@
 
 		const STORAGE_KEY = 'cards-data';
 		const QUESTION_TIMEOUT = 10000;
+		const MAX_STRING_DISTANCE = 5;
 		const HAS_SPEECH_RECOGNITION = Boolean(window.SpeechRecognition || window.webkitSpeechRecognition);
 
 		const PHASES = {
@@ -282,13 +284,31 @@
 				.sort(() => Math.random() - 0.5);
 		}
 
+		class MockSpeechRecognition {
+			async start() {
+				await new Promise((resolve) => setTimeout(resolve, 1));
+				const answer = prompt();
+				const result = {
+					results: [
+						[
+							{ transcript: answer },
+						],
+					],
+				};
+				this.onresult(result);
+			}
+			stop() {}
+		}
+
 		function useCompareSpeech({ enabled, correctAnswer, onResult }) {
 			useEffect(() => {
 				if (!enabled) {
 					return;
 				}
 
-				const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+				const SpeechRecognition = location.search.includes('mock=1')
+					? MockSpeechRecognition
+					: (window.SpeechRecognition || window.webkitSpeechRecognition);
 
 				if (!SpeechRecognition) {
 					return;
@@ -328,7 +348,12 @@
 						.toLowerCase()
 						.replace(/ё/g, 'е')
 						.replace(/[^\p{L}\p{N}\s]/gu, ' ')
-						.replace(/\s+/g, ' ')
+						.replace(/\s\S\s/g, ' ')
+						.replace(/\s+/g, '')
+						.trim()
+						.split('')
+						.sort()
+						.join('')
 						.trim();
 				}
 
@@ -339,7 +364,8 @@
 
 					recognition.onresult = (event) => {
 						const answer = event.results[0][0].transcript;
-						const isCorrect = normalize(answer) === normalize(correctAnswer);
+						const distance = getStringDistance(normalize(answer), normalize(correctAnswer));
+						const isCorrect = distance <= MAX_STRING_DISTANCE;
 						resolve({ isCorrect, answer });
 					};
 
